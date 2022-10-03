@@ -71,7 +71,7 @@ def setup_hyperparameters():
         # amp_level='O1',
         gradient_clip_val=hparams.max_grad_norm,
         # checkpoint_callback=checkpoint_callback,
-         # run batch size scaling, result overrides hparams.batch_size
+         # batch_size の自動調整,  hparams.batch_size が上書きされる
         auto_scale_batch_size="binsearch" if hparams.batch_size <= 0 else None,
     )
     return hparams, train_params
