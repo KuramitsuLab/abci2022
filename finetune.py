@@ -116,7 +116,7 @@ def encode_t5(src, tgt, source_max_length=256, target_max_length=256):
 
 class T5FineTuner(pl.LightningModule):
     def __init__(self, hparams):
-        super().__init__()
+        super(T5FineTuner, self).__init__()
         self.save_hyperparameters(hparams)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(hparams.model_path)
         print('pretrained_model', self.model.config)
@@ -137,7 +137,7 @@ class T5FineTuner(pl.LightningModule):
         labels = batch["target_ids"]
         # All labels set to -100 are ignored (masked),
         # the loss is only computed for labels in [0, ..., config.vocab_size]
-        labels[labels[:, :] == self.tokenizer.pad_token_id] = -100
+        labels[labels[:, :] == tokenizer.pad_token_id] = -100
         outputs = self(
             input_ids=batch["source_ids"],
             attention_mask=batch["source_mask"],
@@ -243,7 +243,7 @@ def main_train(hparams, train_params):
     trainer.fit(model)
 
     # 最終エポックのモデルを保存 output_path に保存します
-    model.tokenizer.save_pretrained(hparams.output_path)
+    tokenizer.save_pretrained(hparams.output_path)
     model.model.save_pretrained(hparams.output_path)
 
 
