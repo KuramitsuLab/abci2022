@@ -63,6 +63,7 @@ def setup_hyperparameters():
         hparams.target_max_length = hparams.max_length
 
     # 訓練パラメータの設定
+    # https://torch.classcat.com/2021/02/22/pytorch-lightning-1-1-notebooks-05-trainer-flags-overview-2/
     train_params = dict(
         accumulate_grad_batches=hparams.gradient_accumulation_steps,
         gpus=hparams.n_gpus,
@@ -299,7 +300,7 @@ def main_test(hparams):
                                    clean_up_tokenization_spaces=False)
                   for ids in batch["target_ids"]])
     # JSONLに保存します。
-    with open(f'{hparams.output_dir}/result.jsonl', 'w') as w:
+    with open(f'{hparams.output_path}/result.jsonl', 'w') as w:
         for ins, out, pred in zip(inputs, outputs, preds):
             line = json.dumps({"in": ins, "out": out, "pred": pred})
             print(line, file=w)
