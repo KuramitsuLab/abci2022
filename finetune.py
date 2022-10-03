@@ -276,7 +276,7 @@ def main_test(hparams):
     outputs = []
     preds = []
     for batch in test_loader:
-        print(batch)
+        #print(batch)
         input_ids = batch['source_ids']
         input_mask = batch['source_mask']
         if USE_GPU:
