@@ -302,7 +302,7 @@ def main_test(hparams):
     # JSONLに保存します。
     with open(f'{hparams.output_path}/result.jsonl', 'w') as w:
         for ins, out, pred in zip(inputs, outputs, preds):
-            line = json.dumps({"in": ins, "out": out, "pred": pred})
+            line = json.dumps({"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
             print(line, file=w)
 
 
