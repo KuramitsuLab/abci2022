@@ -41,7 +41,7 @@ def setup_hyperparameters():
     parser.add_argument('--source_max_length', type=int, default=None)
     parser.add_argument('--target_max_length', type=int, default=None)
     parser.add_argument('--max_epochs', type=int, default=4)
-    parser.add_argument('--batch_size', type=int, default=4)
+    parser.add_argument('--batch_size', type=int, default=0) # 自動
     parser.add_argument('--num_workers', type=int, default=4)
     parser.add_argument('--gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('--learning_rate', type=float, default=3e-4)
@@ -71,6 +71,8 @@ def setup_hyperparameters():
         # amp_level='O1',
         gradient_clip_val=hparams.max_grad_norm,
         # checkpoint_callback=checkpoint_callback,
+         # run batch size scaling, result overrides hparams.batch_size
+        auto_scale_batch_size="binsearch" if hparams.batch_size <= 0 else None,
     )
     return hparams, train_params
 
@@ -240,11 +242,13 @@ def main_train(hparams, train_params):
     set_seed(hparams.seed) # 乱数を初期化
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
-    trainer.fit(model)
-
-    # 最終エポックのモデルを保存 output_path に保存します
-    tokenizer.save_pretrained(hparams.output_path)
-    model.model.save_pretrained(hparams.output_path)
+    if hparams.batch_size < 1:
+        trainer.tune(model)
+    if hparams.max_epochs > 0:
+        trainer.fit(model)
+        # 最終エポックのモデルを保存 output_path に保存します
+        tokenizer.save_pretrained(hparams.output_path)
+        model.model.save_pretrained(hparams.output_path)
 
 
 def main_test(hparams):
