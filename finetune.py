@@ -257,7 +257,7 @@ def main_train(hparams, train_params):
 
 def main_test(hparams):
     set_seed(hparams.seed)
-    test_dataset = JSONL(hparams, suffix='_test.')
+    test_dataset = JSONL(hparams, suffix='_test.', encode=encode_t5)
     if len(test_dataset) == 0:
         return
     test_loader = DataLoader(
@@ -275,6 +275,7 @@ def main_test(hparams):
     outputs = []
     preds = []
     for batch in test_loader:
+        print(batch)
         input_ids = batch['source_ids']
         input_mask = batch['source_mask']
         if USE_GPU:
