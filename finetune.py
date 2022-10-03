@@ -30,6 +30,8 @@ from jsonl import JSONL
 
 def setup_hyperparameters():
     USE_GPU = torch.cuda.is_available()
+    # ハイパーパラメータの読み込み  何も書かなければ、デフォルト値 default 
+    # python3 finetune.py --batch_size 64
     parser = argparse.ArgumentParser(description='train script')
     parser.add_argument('files', type=str, nargs='+', help='jsonl files')
     parser.add_argument('--model_path', default='google/mt5-small')
@@ -51,7 +53,8 @@ def setup_hyperparameters():
     parser.add_argument('--fp_16', type=bool, default=False)
     parser.add_argument('--n_gpus', type=int, default=1 if USE_GPU else 0)
 
-    hparams = parser.parse_args()
+    hparams = parser.parse_args()  # hparams になる
+    # デフォルトがNoneのときは
     if hparams.tokenizer_path is None:
         hparams.tokenizer_path = hparams.model_path
     if hparams.source_max_length is None:
@@ -59,6 +62,7 @@ def setup_hyperparameters():
     if hparams.target_max_length is None:
         hparams.target_max_length = hparams.max_length
 
+    # 訓練パラメータの設定
     train_params = dict(
         accumulate_grad_batches=hparams.gradient_accumulation_steps,
         gpus=hparams.n_gpus,
@@ -233,13 +237,12 @@ class T5FineTuner(pl.LightningModule):
 
 
 def main_train(hparams, train_params):
-    set_seed(hparams.seed)
-    # 転移学習の実行（GPUを利用すれば1エポック10分程度）
+    set_seed(hparams.seed) # 乱数を初期化
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
     trainer.fit(model)
 
-    # 最終エポックのモデルを保存
+    # 最終エポックのモデルを保存 output_path に保存します
     model.tokenizer.save_pretrained(hparams.output_path)
     model.model.save_pretrained(hparams.output_path)
 
@@ -249,7 +252,6 @@ def main_test(hparams):
     test_dataset = JSONL(hparams, suffix='_test.')
     if len(test_dataset) == 0:
         return
-
     test_loader = DataLoader(
         test_dataset,
         batch_size=hparams.batch_size,
@@ -260,9 +262,9 @@ def main_test(hparams):
     model.to(DEVICE)
     model.eval()
 
+    inputs = []
     outputs = []
-    targets = []
-
+    preds = []
     for batch in test_loader:
         input_ids = batch['source_ids'].to(DEVICE)
         input_mask = batch['source_mask'].to(DEVICE)
@@ -275,16 +277,24 @@ def main_test(hparams):
         dec = [tokenizer.decode(ids, skip_special_tokens=True,
                                 clean_up_tokenization_spaces=False)
                for ids in outs.sequences]
+        preds.extend(dec)
         # conf = [s.cpu().item() for s in torch.exp(outs.sequences_scores)]
-        target = [tokenizer.decode(ids, skip_special_tokens=True,
+        inputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
                                    clean_up_tokenization_spaces=False)
-                  for ids in batch["target_ids"]]
-        outputs.extend(dec)
-        targets.extend(target)
+                  for ids in batch["source_ids"]])
+        outputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
+                                   clean_up_tokenization_spaces=False)
+                  for ids in batch["target_ids"]])
+    # JSONLに保存します。
+    with open(f'{hparams.output_dir}/result.jsonl', 'w') as w:
+        for ins, out, pred in zip(inputs, outputs, preds):
+            line = json.dumps({"in": ins, "out": out, "pred": pred})
+            print(line, file=w)
+
 
 
 def main():
-    global tokenizer
+    global tokenizer # グローバル変数
     hparams, train_params = setup_hyperparameters()
     print('hparams:', hparams)
     print('train_params:', train_params)
@@ -295,5 +305,5 @@ def main():
     main_test(hparams)
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': # わかります
     main()
