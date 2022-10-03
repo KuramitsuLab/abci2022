@@ -156,24 +156,24 @@ class T5FineTuner(pl.LightningModule):
     def validation_step(self, batch, batch_idx):
         """バリデーションステップ処理"""
         loss = self._step(batch)
-        self.log("val_loss", loss)
+        self.log("val_loss", loss, prog_bar=False)
         return {"val_loss": loss}
 
-    # def validation_epoch_end(self, outputs):
-    #     """バリデーション完了処理"""
-    #     avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-    #     self.log("val_loss", avg_loss, prog_bar=True)
+    def validation_epoch_end(self, outputs):
+        """バリデーション完了処理"""
+        avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
+        self.log("val_loss", avg_loss, prog_bar=False)
 
     def test_step(self, batch, batch_idx):
         """テストステップ処理"""
         loss = self._step(batch)
-        self.log("test_loss", loss)
+        self.log("test_loss", loss, prog_bar=False)
         return {"test_loss": loss}
 
-    # def test_epoch_end(self, outputs):
-    #     """テスト完了処理"""
-    #     avg_loss = torch.stack([x["test_loss"] for x in outputs]).mean()
-    #     self.log("test_loss", avg_loss, prog_bar=True)
+    def test_epoch_end(self, outputs):
+        """テスト完了処理"""
+        avg_loss = torch.stack([x["test_loss"] for x in outputs]).mean()
+        self.log("test_loss", avg_loss, prog_bar=False)
 
     def configure_optimizers(self):
         """オプティマイザーとスケジューラーを作成する"""
