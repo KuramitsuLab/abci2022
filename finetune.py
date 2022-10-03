@@ -164,7 +164,9 @@ class T5FineTuner(pl.LightningModule):
     def validation_epoch_end(self, outputs):
         """バリデーション完了処理"""
         avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
+        val_ppl  = torch.exp(avg_loss)
         self.log("val_loss", avg_loss, prog_bar=False)
+        self.log("val_ppl", val_ppl, prog_bar=False)
 
     def test_step(self, batch, batch_idx):
         """テストステップ処理"""
@@ -175,7 +177,9 @@ class T5FineTuner(pl.LightningModule):
     def test_epoch_end(self, outputs):
         """テスト完了処理"""
         avg_loss = torch.stack([x["test_loss"] for x in outputs]).mean()
+        test_ppl  = torch.exp(avg_loss)
         self.log("test_loss", avg_loss, prog_bar=False)
+        self.log("test_ppl", test_ppl, prog_bar=False)
 
     def configure_optimizers(self):
         """オプティマイザーとスケジューラーを作成する"""
