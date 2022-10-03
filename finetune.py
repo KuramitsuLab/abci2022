@@ -262,7 +262,8 @@ def main_test(hparams):
         num_workers=hparams.num_workers)
     # 事前学習済みモデルの読み込み
     model = AutoModelForSeq2SeqLM.from_pretrained(hparams.output_path)
-    DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    USE_GPU = torch.cuda.is_available()
+    DEVICE = torch.device('cuda:0' if USE_GPU else 'cpu')
     model.to(DEVICE)
     model.eval()
 
@@ -270,8 +271,11 @@ def main_test(hparams):
     outputs = []
     preds = []
     for batch in test_loader:
-        input_ids = batch['source_ids'].to(DEVICE)
-        input_mask = batch['source_mask'].to(DEVICE)
+        input_ids = batch['source_ids']
+        input_mask = batch['source_mask']
+        if USE_GPU:
+            input_ids = input_ids.cuda()
+            input_mask = input_mask.cuda()
         outs = model.generate(
             input_ids=input_ids,
             attention_mask=input_mask,
