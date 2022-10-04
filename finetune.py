@@ -2,21 +2,18 @@ import argparse
 import random
 import json
 import numpy as np
-import logging
-from logging import INFO, DEBUG, NOTSET
-from logging import StreamHandler, FileHandler, Formatter
-import click
-import dataclasses
+# import logging
+# from logging import INFO, DEBUG, NOTSET
+# from logging import StreamHandler, FileHandler, Formatter
 
 import torch
-from torch.utils.data import Dataset
-import torch
+# from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from torch.optim import AdamW
 
 import pytorch_lightning as pl
-from pytorch_lightning.callbacks.early_stopping import EarlyStopping
-from pytorch_lightning.callbacks import ModelSummary
+# from pytorch_lightning.callbacks.early_stopping import EarlyStopping
+# from pytorch_lightning.callbacks import ModelSummary
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -30,18 +27,19 @@ from jsonl import JSONL
 
 def setup_hyperparameters():
     USE_GPU = torch.cuda.is_available()
-    # ハイパーパラメータの読み込み  何も書かなければ、デフォルト値 default 
+    # ハイパーパラメータの読み込み  何も書かなければ、デフォルト値 default
     # python3 finetune.py --batch_size 64
     parser = argparse.ArgumentParser(description='train script')
     parser.add_argument('files', type=str, nargs='+', help='jsonl files')
     parser.add_argument('--model_path', default='google/mt5-small')
     parser.add_argument('--tokenizer_path', default=None)
     parser.add_argument('--output_path', default='model')
+    parser.add_argument('--tested_file', default='tested.jsonl')
     parser.add_argument('--max_length', type=int, default=128)
     parser.add_argument('--source_max_length', type=int, default=None)
     parser.add_argument('--target_max_length', type=int, default=None)
     parser.add_argument('--max_epochs', type=int, default=4)
-    parser.add_argument('--batch_size', type=int, default=0) # 自動
+    parser.add_argument('--batch_size', type=int, default=32)  # 自動
     parser.add_argument('--num_workers', type=int, default=4)
     parser.add_argument('--gradient_accumulation_steps', type=int, default=1)
     parser.add_argument('--learning_rate', type=float, default=3e-4)
@@ -50,8 +48,11 @@ def setup_hyperparameters():
     parser.add_argument('--warmup_steps', type=int, default=1)
     parser.add_argument('--max_grad_norm', type=float, default=1.0)
     parser.add_argument('--seed', type=int, default=42)
-    parser.add_argument('--fp_16', type=bool, default=False)
+    parser.add_argument('--precision', type=int, default=32)
     parser.add_argument('--n_gpus', type=int, default=1 if USE_GPU else 0)
+    # https://note.nkmk.me/python-argparse-bool/
+    parser.add_argument('--auto_tune', action='store_true', default=False)
+    parser.add_argument('--fast_dev_run', action='store_true', default=False)
 
     hparams = parser.parse_args()  # hparams になる
     # デフォルトがNoneのときは
@@ -61,19 +62,22 @@ def setup_hyperparameters():
         hparams.source_max_length = hparams.max_length
     if hparams.target_max_length is None:
         hparams.target_max_length = hparams.max_length
+    hparams.test = sum(1 for file in hparams.files if '_test.' in file) > 0
 
     # 訓練パラメータの設定
     # https://torch.classcat.com/2021/02/22/pytorch-lightning-1-1-notebooks-05-trainer-flags-overview-2/
     train_params = dict(
-        accumulate_grad_batches=hparams.gradient_accumulation_steps,
+        fast_dev_run=hparams.fast_dev_run,
         gpus=hparams.n_gpus,
         max_epochs=hparams.max_epochs,
-        precision=16 if hparams.fp_16 else 32,
-        # amp_level='O1',
         gradient_clip_val=hparams.max_grad_norm,
         # checkpoint_callback=checkpoint_callback,
-         # batch_size の自動調整,  hparams.batch_size が上書きされる
-        auto_scale_batch_size="binsearch" if hparams.batch_size <= 0 else None,
+        # k バッチ毎に勾配を蓄積する batch_size * k になる
+        accumulate_grad_batches=hparams.gradient_accumulation_steps,
+        # batch_size の自動調整,  hparams.batch_size が上書きされる
+        auto_scale_batch_size="binsearch" if hparams.auto_tune else None,
+        precision=hparams.precision,
+        #        amp_level='O2' if hparams.precision == 16 else 'O0'
     )
     return hparams, train_params
 
@@ -108,6 +112,33 @@ def encode_t5(src, tgt, source_max_length=256, target_max_length=256):
     target_ids = targets["input_ids"].squeeze()
     target_mask = targets["attention_mask"].squeeze()
     return {
+        "source_ids": source_ids.to(dtype=torch.long),
+        "source_mask": source_mask.to(dtype=torch.long),
+        "target_ids": target_ids.to(dtype=torch.long),
+        "target_mask": target_mask.to(dtype=torch.long),
+    }
+
+
+def encode_t5_test(src, tgt, source_max_length=256, target_max_length=256):
+    inputs = tokenizer.batch_encode_plus(
+        [src],
+        max_length=source_max_length,
+        truncation=True,
+        pad_to_max_length=True,
+        padding="max_length", return_tensors="pt")
+    targets = tokenizer.batch_encode_plus(
+        [tgt],
+        max_length=target_max_length,
+        truncation=True,
+        pad_to_max_length=True,
+        padding="max_length", return_tensors="pt")
+    source_ids = inputs["input_ids"].squeeze()
+    source_mask = inputs["attention_mask"].squeeze()
+    target_ids = targets["input_ids"].squeeze()
+    target_mask = targets["attention_mask"].squeeze()
+    return {
+        "source": src,
+        "target": tgt,
         "source_ids": source_ids.to(dtype=torch.long),
         "source_mask": source_mask.to(dtype=torch.long),
         "target_ids": target_ids.to(dtype=torch.long),
@@ -165,22 +196,35 @@ class T5FineTuner(pl.LightningModule):
     def validation_epoch_end(self, outputs):
         """バリデーション完了処理"""
         avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-        val_ppl  = torch.exp(avg_loss)
+        val_ppl = torch.exp(avg_loss)
         self.log("val_loss", avg_loss, prog_bar=False)
         self.log("val_ppl", val_ppl, prog_bar=False)
 
     def test_step(self, batch, batch_idx):
         """テストステップ処理"""
-        loss = self._step(batch)
-        self.log("test_loss", loss, prog_bar=False)
-        return {"test_loss": loss}
+        # print('test batch', batch_idx, batch)
+        outputs = self.model.generate(
+            input_ids=batch['source_ids'],
+            attention_mask=batch['source_mask'],
+            max_length=self.hparams.target_max_length,
+            return_dict_in_generate=True,
+            output_scores=True)
+        decs = [tokenizer.decode(ids, skip_special_tokens=True,
+                                 clean_up_tokenization_spaces=False)
+                for ids in outputs.sequences]
+        tested = [(src, tgt, dec) for src, tgt, dec
+                  in zip(batch['source'], batch['target'], decs)]
+        #self.log("test_loss", loss, prog_bar=False)
+        return {"tested": tested}
 
     def test_epoch_end(self, outputs):
         """テスト完了処理"""
-        avg_loss = torch.stack([x["test_loss"] for x in outputs]).mean()
-        test_ppl  = torch.exp(avg_loss)
-        self.log("test_loss", avg_loss, prog_bar=False)
-        self.log("test_ppl", test_ppl, prog_bar=False)
+        with open(self.hparams.tested_file, 'w') as w:
+            for x in outputs:
+                for ins, out, pred in x["tested"]:
+                    line = json.dumps(
+                        {"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
+                    print(line, file=w)
 
     def configure_optimizers(self):
         """オプティマイザーとスケジューラーを作成する"""
@@ -201,9 +245,16 @@ class T5FineTuner(pl.LightningModule):
         optimizer = AdamW(optimizer_grouped_parameters,
                           lr=self.hparams.learning_rate,
                           eps=self.hparams.adam_epsilon)
-
+        self.t_total = (
+            (len(self.train_dataset) //
+                (self.hparams.batch_size * max(1, self.hparams.n_gpus)))
+            // self.hparams.gradient_accumulation_steps
+            * float(self.hparams.max_epochs)
+        )
+        print('t_total', self.t_total)
         scheduler = get_linear_schedule_with_warmup(
-            optimizer, num_warmup_steps=self.hparams.warmup_steps,
+            optimizer,
+            num_warmup_steps=self.hparams.warmup_steps,
             num_training_steps=self.t_total
         )
         return [optimizer], [{"scheduler": scheduler, "interval": "step", "frequency": 1}]
@@ -216,18 +267,14 @@ class T5FineTuner(pl.LightningModule):
                 self.hparams, suffix='_train.', encode=encode_t5)
             self.train_dataset = train_dataset
 
-            # devデータのパスを指定
+            # validデータのパスを指定
             val_dataset = JSONL(
                 self.hparams, suffix='_valid.', encode=encode_t5)
             self.val_dataset = val_dataset
 
-            self.t_total = (
-                (len(train_dataset) //
-                 (self.hparams.batch_size * max(1, self.hparams.n_gpus)))
-                // self.hparams.gradient_accumulation_steps
-                * float(self.hparams.max_epochs)
-            )
-            print('t_total', self.t_total)
+        if stage == 'test' or stage is None:
+            self.test_dataset = JSONL(
+                self.hparams, suffix='_test.', encode=encode_t5_test)
 
     def train_dataloader(self):
         """訓練データローダーを作成する"""
@@ -242,82 +289,89 @@ class T5FineTuner(pl.LightningModule):
                           batch_size=self.hparams.batch_size,
                           num_workers=self.hparams.num_workers)
 
+    def test_dataloader(self):
+        """バリデーションデータローダーを作成する"""
+        return DataLoader(self.test_dataset,
+                          batch_size=self.hparams.batch_size,
+                          num_workers=self.hparams.num_workers)
+
 
 def main_train(hparams, train_params):
-    set_seed(hparams.seed) # 乱数を初期化
+    set_seed(hparams.seed)  # 乱数を初期化
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
-    if hparams.batch_size < 1:
+    if hparams.auto_tune:
         trainer.tune(model)
     if hparams.max_epochs > 0:
         trainer.fit(model)
         # 最終エポックのモデルを保存 output_path に保存します
         tokenizer.save_pretrained(hparams.output_path)
         model.model.save_pretrained(hparams.output_path)
+    if hparams.test:
+        trainer.test(model)
 
 
-def main_test(hparams):
-    set_seed(hparams.seed)
-    test_dataset = JSONL(hparams, suffix='_test.', encode=encode_t5)
-    if len(test_dataset) == 0:
-        return
-    test_loader = DataLoader(
-        test_dataset,
-        batch_size=hparams.batch_size,
-        num_workers=hparams.num_workers)
-    # 事前学習済みモデルの読み込み
-    model = AutoModelForSeq2SeqLM.from_pretrained(hparams.output_path)
-    USE_GPU = torch.cuda.is_available()
-    DEVICE = torch.device('cuda:0' if USE_GPU else 'cpu')
-    model.to(DEVICE)
-    model.eval()
+# def main_test(hparams):
+#     set_seed(hparams.seed)
+#     test_dataset = JSONL(hparams, suffix='_test.', encode=encode_t5)
+#     if len(test_dataset) == 0:
+#         return
+#     test_loader = DataLoader(
+#         test_dataset,
+#         batch_size=hparams.batch_size,
+#         num_workers=hparams.num_workers)
+#     # 事前学習済みモデルの読み込み
+#     model = AutoModelForSeq2SeqLM.from_pretrained(hparams.output_path)
+#     USE_GPU = torch.cuda.is_available()
+#     DEVICE = torch.device('cuda:0' if USE_GPU else 'cpu')
+#     model.to(DEVICE)
+#     model.eval()
 
-    inputs = []
-    outputs = []
-    preds = []
-    for batch in test_loader:
-        #print(batch)
-        input_ids = batch['source_ids']
-        input_mask = batch['source_mask']
-        if USE_GPU:
-            input_ids = input_ids.cuda()
-            input_mask = input_mask.cuda()
-        outs = model.generate(
-            input_ids=input_ids,
-            attention_mask=input_mask,
-            max_length=hparams.target_max_length,
-            return_dict_in_generate=True,
-            output_scores=True)
-        dec = [tokenizer.decode(ids, skip_special_tokens=True,
-                                clean_up_tokenization_spaces=False)
-               for ids in outs.sequences]
-        preds.extend(dec)
-        # conf = [s.cpu().item() for s in torch.exp(outs.sequences_scores)]
-        inputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
-                                   clean_up_tokenization_spaces=False)
-                  for ids in batch["source_ids"]])
-        outputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
-                                   clean_up_tokenization_spaces=False)
-                  for ids in batch["target_ids"]])
-    # JSONLに保存します。
-    with open(f'{hparams.output_path}/result.jsonl', 'w') as w:
-        for ins, out, pred in zip(inputs, outputs, preds):
-            line = json.dumps({"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
-            print(line, file=w)
-
+#     inputs = []
+#     outputs = []
+#     preds = []
+#     for batch in test_loader:
+#         # print(batch)
+#         input_ids = batch['source_ids']
+#         input_mask = batch['source_mask']
+#         if USE_GPU:
+#             input_ids = input_ids.cuda()
+#             input_mask = input_mask.cuda()
+#         outs = model.generate(
+#             input_ids=input_ids,
+#             attention_mask=input_mask,
+#             max_length=hparams.target_max_length,
+#             return_dict_in_generate=True,
+#             output_scores=True)
+#         dec = [tokenizer.decode(ids, skip_special_tokens=True,
+#                                 clean_up_tokenization_spaces=False)
+#                for ids in outs.sequences]
+#         preds.extend(dec)
+#         # conf = [s.cpu().item() for s in torch.exp(outs.sequences_scores)]
+#         inputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
+#                                         clean_up_tokenization_spaces=False)
+#                        for ids in batch["source_ids"]])
+#         outputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
+#                                          clean_up_tokenization_spaces=False)
+#                         for ids in batch["target_ids"]])
+#     # JSONLに保存します。
+#     with open(f'{hparams.output_path}/result.jsonl', 'w') as w:
+#         for ins, out, pred in zip(inputs, outputs, preds):
+#             line = json.dumps(
+#                 {"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
+#             print(line, file=w)
 
 
 def main():
-    global tokenizer # グローバル変数
+    global tokenizer  # グローバル変数
     hparams, train_params = setup_hyperparameters()
     print('hparams:', hparams)
-    print('train_params:', train_params)
     tokenizer = AutoTokenizer.from_pretrained(
         hparams.tokenizer_path, use_fast=False)
     print('tokenizer:', tokenizer)
+    print('train_params:', train_params)
     main_train(hparams, train_params)
-    main_test(hparams)
 
 
-if __name__ == '__main__': # わかります
+if __name__ == '__main__':  # わかります
     main()

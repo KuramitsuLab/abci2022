@@ -1,12 +1,7 @@
 import json
-import numpy as np
 import logging
 
-import torch
 from torch.utils.data import Dataset
-import torch
-from torch.utils.data import DataLoader
-from torch.optim import AdamW
 
 
 def transform_nop(src, tgt):
@@ -38,14 +33,10 @@ def JSONL(hparams, suffix='_train',
         if suffix is None or suffix in file:
             logging.info(f'loading {file}..')
             with open(file) as f:
-                for c, line in enumerate(f.readlines()):
+                for line in f.readlines():
                     data = json.loads(line)
                     src, tgt = transform(data[source], data[target])
                     data = encode(src, tgt, hparams.source_max_length,
                                   hparams.target_max_length)
                     dataset.append(data)
     return JSONLDataset(dataset)
-
-
-# Tokenizer
-tokenizer = None
