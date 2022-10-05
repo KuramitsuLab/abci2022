@@ -30,5 +30,5 @@ python3 tokenizer_check.py music/music_train.jsonl
 tensorboard --logdir ./lightning_logs
 ```
 
-2. ```http://localhostXXXX```が返ってくるので、Chromeで開く
+2. ```http://localhostXXXX```が返ってくるので、Chromeで開きます
 3. 見える。終わり
