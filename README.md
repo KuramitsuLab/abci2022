@@ -23,7 +23,7 @@ python3 tokenizer_check.py music/music_train.jsonl
 * `--target_max_length=128`: 最大長を超える出力をダンプする
 
 
-## Tensolboardを起動して、学習ログの可視化
+## Tensolboardによる学習ログの可視化
 
 1. lightning_logsディレクトリがある階層で、ターミナルに以下のコードを打ちます
 ```
