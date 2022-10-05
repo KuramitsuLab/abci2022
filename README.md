@@ -32,4 +32,4 @@ tensorboard --logdir ./lightning_logs
 
 2. ```http://localhostXXXX```が返ってくるので、Chromeで開く
 
-3.　見える。終わり
+3.　 見える。終わり
