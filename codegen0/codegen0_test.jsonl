@@ -1,0 +1,1001 @@
+{"in": "マッピングをカウンタに変換する", "out": "collections.Counter(aDict)"}
+{"in": "ヒストグラムをダークゴールデンロッド色として描画する", "out": "plt.hist(データ列, color='darkgoldenrod')"}
+{"in": "文字列を最後の部分文字列で分けたときの残りの文字列", "out": "s.rpartition(sub)[-1]"}
+{"in": "入力から二つの整数値を読む", "out": "A, B = map(int, input().split())"}
+{"in": "大文字を全て見る", "out": "string.ascii_uppercase"}
+{"in": "option: フォントの色をオリーブに設定する", "out": "color = 'olive'"}
+{"in": "データフレームの欠損値を前の値に設定する", "out": "df.fillna(method='ffill')"}
+{"in": "データフレーム中のNaNをドロップしてみる", "out": "df.dropna()"}
+{"in": "option: 四角マーカーを用いる", "out": "marker = 's'"}
+{"in": "横棒グラフをミディアムパープル色を用いて描画する", "out": "plt.barh(データ列x, データ列y, color='mediumpurple')"}
+{"in": "データフレームの指定した列のSkewness", "out": "df['列A'].skew()"}
+{"in": "ミディアムバイオレットレッド色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='mediumvioletred')"}
+{"in": "データフレームを百の位で丸めて、整数にする", "out": "df.round(-2).astype(int)"}
+{"in": "option: ライトシアンを使う", "out": "color = 'lightcyan'"}
+{"in": "縦棒グラフの色をサドルブラウンにする", "out": "plt.bar(データ列x, データ列y, color='saddlebrown')"}
+{"in": "option: 色をスチールブルーに設定する", "out": "color = 'steelblue'"}
+{"in": "データ列の偏りを対数する", "out": "np.log(データ列)"}
+{"in": "散布図のバツ印の大きさを変更する", "out": "plt.scatter(データ列x, データ列y, marker='x', markersize=2.0)"}
+{"in": "nがn2未満もしくはn3以上か確認する", "out": "n < n2 or n >= n3"}
+{"in": "折れ線グラフをペルー色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='peru')"}
+{"in": "線グラフの色をスラグレーに設定する", "out": "plt.plot(データ列x, データ列y, color='slategray')"}
+{"in": "option: ヘッダを自動的な連番に変更する", "out": "header = None"}
+{"in": "列を累積する", "out": "itertools.accumulate(iterable, operator.mul)"}
+{"in": "変数を青色でプリントする", "out": "print(f'\\033[34m{value}\\033[0m')"}
+{"in": "option: ピーチパフ色を用いる", "out": "color = 'peachpuff'"}
+{"in": "ファイルを文字列の示すエンコーディングで開く]", "out": "open(filepath, encoding=s)"}
+{"in": "グレー色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='grey')"}
+{"in": "散布図のクロスマーカーの色を変更する", "out": "plt.scatter(データ列x, データ列y, marker='x', markerfacecolor='#800080')"}
+{"in": "ロバストな線形クラス分類を行う", "out": "model = sklearn.linear_model.HuberClassifier()"}
+{"in": "正規分布を判定する", "out": "scipy.stats.shapiro(df['列A'])"}
+{"in": "3つのデータフレームを縦に結合する", "out": "pd.concat([df, df2, df3], axis=0)"}
+{"in": "赤い左三角マーカーを散布図に使う", "out": "plt.plot(データ列x, データ列y, marker='<', c='r')"}
+{"in": "オブジェクトを文字列にする", "out": "str(obj)"}
+{"in": "横棒グラフをミスティローズ色として描画する", "out": "plt.barh(データ列x, データ列y, color='mistyrose')"}
+{"in": "散布図をrgbの下三角マーカーを使ってプロットする", "out": "plt.plot(データ列x, データ列y, marker='v', c=rgb)"}
+{"in": "値∉集合", "out": "element not in aSet"}
+{"in": "ファイルのディレクトリ名を使う", "out": "os.path.dirname(filepath)"}
+{"in": "オブジェクトはタプルに含まれるか調べる", "out": "element in aTuple"}
+{"in": "ファイルを書き込みできるようにUTF8でオープンする]", "out": "open(filepath, mode='w', encoding='utf-8')"}
+{"in": "ヒストグラムの色を小麦色に変更する", "out": "plt.hist(データ列, color='wheat')"}
+{"in": "カラムのエポック秒を日付データに変換する", "out": "pd.to_datetime(df['列A'], unit='s', utc=True)"}
+{"in": "配列と数列の散布図に赤いポイントマーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='.', c='r')"}
+{"in": "option: ライトグレーにグラフの色を指定する", "out": "color = 'lightgray'"}
+{"in": "日付時刻データの曜日を使う", "out": "aDatetime.weekday()"}
+{"in": "白色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='white')"}
+{"in": "数が負の数かどうか", "out": "x < 0"}
+{"in": "nがn2の倍数でないか確認する", "out": "n % n2 != 0"}
+{"in": "縦棒グラフの色をダークシアンにする", "out": "plt.bar(データ列x, データ列y, color='darkcyan')"}
+{"in": "プロットの見栄えをいい感じに指定する", "out": "sns.set()"}
+{"in": "グラフの縦軸のラベルをuntitledにする", "out": "plt.ylabel('y軸ラベル')"}
+{"in": "リストとリストの散布図に大バツマーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='X')"}
+{"in": "option: カンマをセパレータで用いる", "out": "sep = ','"}
+{"in": "散布図をオレンジレッド色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='orangered')"}
+{"in": "日付時刻データが月曜日かどうか調べる", "out": "aDatetime.weekday() == 0"}
+{"in": "JSON文字列をデータに変換する", "out": "json.loads(jsonString)"}
+{"in": "ブランチドアーモンド色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='blanchedalmond')"}
+{"in": "データフレームのカテゴリデータをダミー変数にする", "out": "pd.get_dummies(df)"}
+{"in": "option: 赤を使う", "out": "color = 'red'"}
+{"in": "option: グラフの色をライトイエローに指定する", "out": "color = 'lightyellow'"}
+{"in": "xが-9以上9以下か", "out": "-9 <= x <= 9"}
+{"in": "空の階層化辞書", "out": "collections.ChainMap()"}
+{"in": "データシリーズの中のNaNの合計を数える", "out": "ds.isna().sum()"}
+{"in": "三角マーカーでデータ列の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, marker='^')"}
+{"in": "ある列の中の欠損値の数を数える", "out": "df['列A'].isna().sum()"}
+{"in": "縦棒グラフの色をコーンズシルクにする", "out": "plt.bar(データ列x, データ列y, color='cornsilk')"}
+{"in": "option: オリベドラブ色を用いる", "out": "color = 'olivedrab'"}
+{"in": "散布図をフォレストグリーン色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='forestgreen')"}
+{"in": "プロットのカラーパレットを色差別なくする", "out": "sns.set(pallete='colorblind')"}
+{"in": "option: フォントの色をアンティークホワイトに設定する", "out": "color = 'antiquewhite'"}
+{"in": "文字列の中でパターンにマッチした全ての文字列をリストに変換する", "out": "re.findall(pattern, s)"}
+{"in": "数列とリストについてリストの値に応じて、散布図の色を変える", "out": "plt.scatter(データ列x, データ列y, c=aList, cmap='Blues')"}
+{"in": "自然対数の底", "out": "math.e"}
+{"in": "文字列を走査し、正規表現に大文字・小文字を無視してマッチするか確認する", "out": "re.search(pattern, s, flags=re.IGNORECASE)"}
+{"in": "日付時刻データとタイムスタンプデータの時間差を秒で求める", "out": "(aDatetime - aDatetime2).total_seconds()"}
+{"in": "nはn2と等しいかどうか調べる", "out": "n == n2"}
+{"in": "データフレームとしてJSONLファイルを読み込む", "out": "pd.read_json(filename, orient='records', lines=True)"}
+{"in": "rgbのバツマーカーを用いて散布図を描画する", "out": "plt.plot(データ列x, データ列y, marker='x', c=rgb)"}
+{"in": "折れ線グラフの色をライトスレイグレーにセットする", "out": "plt.plot(データ列x, データ列y, color='lightslategray')"}
+{"in": "黄緑にヒストグラムの色を設定する", "out": "plt.hist(データ列, color='chartreuse')"}
+{"in": "棒グラフをディムグレー色として描画する", "out": "plt.bar(データ列x, データ列y, color='dimgray')"}
+{"in": "クラス分類の予測精度をヒートマップで確認する", "out": "sns.heatmap(confusion_matrix(正解データ列, 予測データ列), annot=True, cmap='Reds')"}
+{"in": "ヒストグラムをライム色として描画する", "out": "plt.hist(データ列, color='lime')"}
+{"in": "ライトスチールブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='lightsteelblue')"}
+{"in": "散布図の色をブラウンにする", "out": "plt.scatter(データ列x, データ列y, color='brown')"}
+{"in": "赤い線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='r')"}
+{"in": "ミディアムシアグリーン色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='mediumseagreen')"}
+{"in": "回帰直線データフレームの各カテゴリごとの散布図にを加える", "out": "sns.regplot(x='列名', y='列名', hue='カテゴリ列', data=df)"}
+{"in": "nからn2の範囲を使う", "out": "range(n, n2)"}
+{"in": "丸印で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, marker='o')"}
+{"in": "nが無限に続く整数リスト", "out": "itertools.repeat(n)"}
+{"in": "散布図の左三角マーカーを赤色にする", "out": "plt.scatter(データ列x, データ列y, marker='<', markerfacecolor='r')"}
+{"in": "option: エンコーディングをEUCに変更する", "out": "encoding = 'euc_jp'"}
+{"in": "列を等量でn個にビン分割する", "out": "pd.qcut(ds, n)"}
+{"in": "ピアソンを使ってデータフレームの選択したカラムの相関行列を計算する", "out": "df[['列A', '列B']].corr(method='pearson')"}
+{"in": "文字列の先頭から空白やタブを取り除く", "out": "s.lstrip()"}
+{"in": "エクセルファイルをSJISで読み込む", "out": "pd.read_csv('file.csv', encoding='shift_jis')"}
+{"in": "option: グラフの色をブラックに変更する", "out": "color = 'black'"}
+{"in": "データフレームの選択したカラムの歪度を求める", "out": "df[['列A', '列B']].kurt()"}
+{"in": "リストとイテラブルの散布図に黒い下三角マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='v', c='k')"}
+{"in": "縦棒グラフをオレンジレッド色で描画する", "out": "plt.bar(データ列x, データ列y, color='orangered')"}
+{"in": "表示可能な列数の最大値をnに設定する", "out": "pd.set_option('display.max_columns', n)"}
+{"in": "散布図をミディアムスプリンググリーン色として描画する", "out": "plt.scatter(データ列x, データ列y, color='mediumspringgreen')"}
+{"in": "option: スノーを使う", "out": "color = 'snow'"}
+{"in": "折れ線グラフの色をグレーに指定する", "out": "plt.plot(データ列x, データ列y, color='grey')"}
+{"in": "分類モデルから目的変数を予測する", "out": "y_pred = model.predict(説明変数)"}
+{"in": "横棒グラフをパールゴールデンロッド色として描画する", "out": "plt.barh(データ列x, データ列y, color='palegoldenrod')"}
+{"in": "option: ダイアモンド印を描画する", "out": "marker = 'D'"}
+{"in": "赤いダイアモンドマーカーを散布図に描画する", "out": "plt.scatter(データ列x, データ列y, marker='D', markerfacecolor='r')"}
+{"in": "ヒストグラムの色をコーンフラワーブルーに指定する", "out": "plt.hist(データ列, color='cornflowerblue')"}
+{"in": "折れ線グラフの色をパレットトルコイズに指定する", "out": "plt.plot(データ列x, データ列y, color='paleturquoise')"}
+{"in": "スカイブルー色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='skyblue')"}
+{"in": "淡い茶色色の横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='tan')"}
+{"in": "文字列を右寄せする", "out": "s.rjust(文字列幅)"}
+{"in": "タン色でヒストグラムを描画する", "out": "plt.hist(データ列, color='tan')"}
+{"in": "ベクトル間の要素ごとの最大公約数", "out": "np.gcd(aArray, aArray2)"}
+{"in": "データフレームのあるカラムの日を求める", "out": "df['列A'].dt.day"}
+{"in": "黒いダイアモンドマーカーを用いて散布図を描く", "out": "plt.plot(データ列x, データ列y, marker='D', c='k')"}
+{"in": "切片なしの重回帰分析の準備をする", "out": "model = sklearn.linear_model.LinearRegression(fit_intercept=False)"}
+{"in": "option: フォントの色をスラグレーに指定する", "out": "color = 'slategray'"}
+{"in": "リストとリストの散布図に右三角マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='>')"}
+{"in": "二つの列からグループ化し合計を計算する", "out": "df.groupby(['列A', '列B'], as_index=False).sum()"}
+{"in": "データシリーズを10の位で丸めて、整数型にする", "out": "ds.round(-1).astype(int)"}
+{"in": "ダークシアグリーン色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkseagreen')"}
+{"in": "赤い下三角マーカーをイテラブルとリストについての散布図に描画する", "out": "plt.plot(データ列x, データ列y, marker='v', c='r')"}
+{"in": "実数がNaNかどうか調べる", "out": "math.isnan(x)"}
+{"in": "データフレームのカラムの幾何平均", "out": "scipy.stats.gmean(df['列A'])"}
+{"in": "データフレームの指定した列のNaNを直後の値に設定する", "out": "df['列A'].fillna(method='bfill')"}
+{"in": "タプルの項目名を要素に変更する", "out": "aDict[key] = element"}
+{"in": "ダークカーキ色で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkkhaki')"}
+{"in": "ベクトルの最大値", "out": "np.max(aArray)"}
+{"in": "折れ線グラフの左三角マーカーの色を変える", "out": "plt.plot(データ列x, データ列y, marker='<', markerfacecolor='#800080')"}
+{"in": "縦軸の目盛りの表示値を変更する", "out": "plt.yticks(目盛りの値リスト)"}
+{"in": "リストのn番目の要素を消す", "out": "del aList[n]"}
+{"in": "要素∈セット", "out": "element in aSet"}
+{"in": "棒グラフをライトグレー色として描画する", "out": "plt.bar(データ列x, データ列y, color='lightgrey')"}
+{"in": "折れ線グラフに黒い三角印を描画する", "out": "plt.plot(データ列x, データ列y, marker='^', markerfacecolor='k')"}
+{"in": "実数の床を算出する", "out": "math.floor(x)"}
+{"in": "ファイルをSJISで書き込みできるようにオープンする]", "out": "open(filepath, mode='w', encoding='shift_jis')"}
+{"in": "ファイルパスのセパレータ記号を調べる", "out": "os.sep"}
+{"in": "文字列の先頭でパターンに複数行対応としてマッチするか見る", "out": "re.match(pattern, s, flags=re.MULTILINE)"}
+{"in": "option: ダークグレーを使う", "out": "color = 'darkgrey'"}
+{"in": "線グラフの色をオーキッドに変更する", "out": "plt.plot(データ列x, データ列y, color='orchid')"}
+{"in": "データフレームのカラムを散布図で見る", "out": "sns.scatterplot(data=df, x='列名', y='列名')"}
+{"in": "ライトコーラル色として横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='lightcoral')"}
+{"in": "標準出力", "out": "sys.stdout"}
+{"in": "空の多重集合", "out": "collections.Counter()"}
+{"in": "新しい勾配ブースティング回帰木を作る", "out": "model = sklearn.ensemble.GradientBoostingRegressor()"}
+{"in": "エポック秒をタイムスタンプに変換する", "out": "datetime.datetime.fromtimestamp(timestamp)"}
+{"in": "線グラフをゴールド色で描画する", "out": "plt.plot(データ列x, データ列y, color='gold')"}
+{"in": "散布図の▲マーカーを青くする", "out": "plt.scatter(データ列x, データ列y, marker='^', markerfacecolor='b')"}
+{"in": "ロイヤルブルー色で散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='royalblue')"}
+{"in": "黒い右三角マーカーを使って散布図を描画する", "out": "plt.plot(データ列x, データ列y, marker='>', c='k')"}
+{"in": "横棒グラフの色をブラウンにする", "out": "plt.barh(データ列x, データ列y, color='brown')"}
+{"in": "option: グラフの色をプラムに指定する", "out": "color = 'plum'"}
+{"in": "データフレームのある列の中に文字列と文字列がある", "out": "df['列A'].isin([value, value2])"}
+{"in": "非数", "out": "math.nan"}
+{"in": "数値を変数について微分する", "out": "sympy.diff(e, z)"}
+{"in": "大バツ印を使い、散布図を描画する", "out": "plt.scatter(データ列x, データ列y, marker='X')"}
+{"in": "option: グラフの色をサーモンに指定する", "out": "color = 'salmon'"}
+{"in": "縦棒グラフの色をスラグレーにする", "out": "plt.bar(データ列x, データ列y, color='slategrey')"}
+{"in": "横軸の目盛を表示しない", "out": "plt.xticks([])"}
+{"in": "オブジェクトからプロパティを削除する", "out": "delattr(obj, プロパティ名)"}
+{"in": "カウンタの項目を、その出現回数だけ列挙する", "out": "aCounter.elements()"}
+{"in": "散布図の印を左三角にする", "out": "plt.scatter(データ列x, データ列y, marker='<')"}
+{"in": "データフレームの標準偏差を計算する", "out": "df.std()"}
+{"in": "nとn2の値を足してnとする", "out": "n += n2"}
+{"in": "option: グラフの色をフローラルホワイトに指定する", "out": "color = 'floralwhite'"}
+{"in": "文字列をカンマで区切り、、列挙する", "out": "s.split(',')"}
+{"in": "ファイルパスをバイナリ書き込みできるようにオープンする]", "out": "open(filepath, mode='wb')"}
+{"in": "プレゼンてション用にグラフを指定する", "out": "sns.set(context='talk')"}
+{"in": "逆正弦", "out": "math.asin(x)"}
+{"in": "ミディアムバイオレットレッド色として棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='mediumvioletred')"}
+{"in": "散布図の星印の色を変更する", "out": "plt.scatter(データ列x, データ列y, marker='*', markerfacecolor='#800080')"}
+{"in": "year年month月day日hour時minute分をタイムスタンプに変換する", "out": "datetime.datetime(year=year, month=month, day=day, hour=hour, minute=minute)"}
+{"in": "空白で文字列を区切って整数リストに変換する", "out": "map(int, s.split())"}
+{"in": "折れ線グラフの左三角印を青くする", "out": "plt.plot(データ列x, データ列y, marker='<', markerfacecolor='b')"}
+{"in": "浮動小数点数を二乗する", "out": "x ** 2"}
+{"in": "ファイルパスをバイナリできるようにオープンする]", "out": "open(filepath, mode='rb')"}
+{"in": "ヒストグラムをサドルブラウン色として描画する", "out": "plt.hist(データ列, color='saddlebrown')"}
+{"in": "整数nが組のどれかかテストする", "out": "n in aTuple"}
+{"in": "option: アクアにグラフの色を指定する", "out": "color = 'aqua'"}
+{"in": "ロージーブラウン色で散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='rosybrown')"}
+{"in": "ファイルパスを開いて]バイナリ書き込みストリームを使う", "out": "open(filepath, mode='wb')"}
+{"in": "ヒストグラムの色をダークゴールデンロッドに指定する", "out": "plt.hist(データ列, color='darkgoldenrod')"}
+{"in": "散布図をミディアムシアグリーン色として描画する", "out": "plt.scatter(データ列x, データ列y, color='mediumseagreen')"}
+{"in": "ヒストグラムをミディアムパープル色として描画する", "out": "plt.hist(データ列, color='mediumpurple')"}
+{"in": "日付時刻をインスタンス化する", "out": "datetime.datetime(年, 月, 日, 時, 分, 秒)"}
+{"in": "JSONファイルのファイルを辞書にする", "out": "json.load(fin)"}
+{"in": "折れ線グラフのバツ印の太さを設定する", "out": "plt.plot(データ列x, データ列y, marker='x', markeredgewidth=2.5)"}
+{"in": "selectorsでマスクしたイテラブルの要素を取り出す", "out": "itertools.compress(iterable, selectors=iterable2)"}
+{"in": "線グラフの色をマゼンタに設定する", "out": "plt.plot(データ列x, データ列y, color='magenta')"}
+{"in": "数列と配列についての散布図に赤い星マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='*', c='r')"}
+{"in": "乱数を生成する", "out": "random.random()"}
+{"in": "縦棒グラフの色をサンディーブラウンにする", "out": "plt.bar(データ列x, データ列y, color='sandybrown')"}
+{"in": "二つの浮動小数点数は近似値", "out": "math.isclose(x, x2)"}
+{"in": "データフレームのヒストグラムを縦横に並べて、グラフ化する", "out": "sns.displot(df, x='列名', col='カテゴリ名', row='カテゴリ名')"}
+{"in": "クリムゾン色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='crimson')"}
+{"in": "文字列を最後の部分文字列で分けたときの最初の文字列", "out": "s.rpartition(sub)[0]"}
+{"in": "行列のムーア・ペンローズの擬似逆行列を求める", "out": "np.linalg.pinv(aArray)"}
+{"in": "散布図をパパイヤウィップ色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='papayawhip')"}
+{"in": "スカイブルー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='skyblue')"}
+{"in": "option: 線種を破線に設定する", "out": "linestyle = 'dashed'"}
+{"in": "ローングリーン色で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='lawngreen')"}
+{"in": "棒グラフを黄色色として描画する", "out": "plt.bar(データ列x, データ列y, color='yellow')"}
+{"in": "折れ線グラフに▲マーカーを使う", "out": "plt.plot(データ列x, データ列y, marker='^')"}
+{"in": "散布図の星印の大きさを変える", "out": "plt.scatter(データ列x, データ列y, marker='*', markersize=2.0)"}
+{"in": "year年day月をタイムスタンプに変換する", "out": "datetime.datetime(year=year, month=month, day=1)"}
+{"in": "線グラフの色を淡い茶色に設定する", "out": "plt.plot(データ列x, データ列y, color='tan')"}
+{"in": "データ列と配列について散布図を描画して、文字列というデータラベル用のラベルを付ける", "out": "plt.scatter(データ列x, データ列y, label=s)"}
+{"in": "グラフを画面に設定する", "out": "sns.set(context='notebook')"}
+{"in": "ある列の文字列が正規表現文字列にマッチしないデータを抽出する", "out": "df[~df['列A'].str.match(正規表現)]"}
+{"in": "データフレームの重複した行", "out": "df[df.duplicated(keep=False)]"}
+{"in": "エクセルファイルのシートを読み込む", "out": "pd.read_excel('file.xlsx', sheet_name=シート名)"}
+{"in": "空の辞書を作る", "out": "{}"}
+{"in": "スラグレーにヒストグラムの色を変更する", "out": "plt.hist(データ列, color='slategrey')"}
+{"in": "データフレームが正規分布からどれだけ、尖っているか見る", "out": "df.skew()"}
+{"in": "モデルのバージョン", "out": "version = 'wcce2022-0.1'"}
+{"in": "プロットの凡例を表示する", "out": "plt.legend()"}
+{"in": "散布図をオリベドラブ色として描画する", "out": "plt.scatter(データ列x, データ列y, color='olivedrab')"}
+{"in": "配列の列ごとの合計値を求める", "out": "np.sum(aArray, axis=0)"}
+{"in": "データ列の変遷を色付きの点線で描画する", "out": "plt.plot(データ列x, データ列y, linestyle='dotted', color='#800080')"}
+{"in": "散布図の左三角マーカーの色を変える", "out": "plt.scatter(データ列x, データ列y, marker='<', markerfacecolor='#800080')"}
+{"in": "nxn2の二次元リスト", "out": "[[0] * n for _ in range(n2)]"}
+{"in": "本日をISO書式の文字列にする", "out": "datetime.datetime.today().isoformat()"}
+{"in": "パレットを全般的に淡くする", "out": "sns.set(pallete='muted')"}
+{"in": "データを最大最小で正規化する", "out": "sklearn.preprocessing.MinMaxScaler().fit_transform(データ)"}
+{"in": "小数点数のタンジェント", "out": "math.tan(x)"}
+{"in": "データフレームを整数に丸める", "out": "df.round()"}
+{"in": "正規化された度数分布図を描画する", "out": "plt.hist(データ列, density=True)"}
+{"in": "シルバー色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='silver')"}
+{"in": "option: パレットトルコイズ色を用いる", "out": "color = 'paleturquoise'"}
+{"in": "今日の年数", "out": "datetime.datetime.today().year"}
+{"in": "ブランチドアーモンド色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='blanchedalmond')"}
+{"in": "タイムスタンプデータの日数", "out": "aDatetime.day"}
+{"in": "縦軸を対数に変更する", "out": "plt.yscale('log')"}
+{"in": "縦棒グラフの色をグレーにする", "out": "plt.bar(データ列x, データ列y, color='grey')"}
+{"in": "ファイルを書き込みモードでオープンして]fとする", "out": "f = open(filepath, mode='w')"}
+{"in": "ヒストグラムを二つ並べて描く", "out": "plt.hist([データ列, データ列], color=['b', 'r'])"}
+{"in": "変数について数値の積分を求める", "out": "sympy.integrate(e, z)"}
+{"in": "実線の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, linestyle='solid')"}
+{"in": "区切りで文字列を分割して文字列リストにする", "out": "s.split(sep)"}
+{"in": "データフレームの中のカラムをリストを境界値としてビン分割する", "out": "pd.cut(df[col], aList)"}
+{"in": "データフレームの選択した列の欠損値をxで埋める", "out": "df[['列A', '列B']].fillna(x)"}
+{"in": "散布図をダークスレートブルー色を使って描画する", "out": "plt.scatter(データ列x, データ列y, color='darkslateblue')"}
+{"in": "横棒グラフをブラウン色で描画する", "out": "plt.barh(データ列x, データ列y, color='brown')"}
+{"in": "カウンタを列をカウントして、更新する", "out": "aCounter.update(iterable)"}
+{"in": "散布図の▲マーカーを赤くする", "out": "plt.scatter(データ列x, データ列y, marker='^', markerfacecolor='r')"}
+{"in": "行列を転置する", "out": "aArray.T"}
+{"in": "赤い点線としてデータ列の推移をプロットする", "out": "plt.plot(データ列x, データ列y, linestyle='dotted', color='r')"}
+{"in": "散布図の大バツマーカーを赤色にする", "out": "plt.scatter(データ列x, データ列y, marker='X', markerfacecolor='r')"}
+{"in": "線グラフの色をミディアムパープルに設定する", "out": "plt.plot(データ列x, データ列y, color='mediumpurple')"}
+{"in": "カラム名の一覧をデータ型でフィルタする", "out": "df.select_dtypes(型).columns"}
+{"in": "バリーウッド色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='burlywood')"}
+{"in": "二つのベクトルを縦方向に連結する", "out": "np.concatenate([aArray, aArray2], axis=0)"}
+{"in": "文字列を水色でプリントできる文字列に変換する", "out": "f'\\033[36m{value}\\033[0m'"}
+{"in": "ヒストグラムの色をチョコレートに変更する", "out": "plt.hist(データ列, color='chocolate')"}
+{"in": "数式の簡単化を行う", "out": "sympy.sympify(e)"}
+{"in": "散布図のマーカーを▲にする", "out": "plt.scatter(データ列x, データ列y, marker='^')"}
+{"in": "多次元尺度構成法で濃く次元に次元削減する", "out": "sklearn.manifold.MSD(n_components=二).fit_transform(多次元データ)"}
+{"in": "オブジェクトはあるクラスか調べる", "out": "isinstance(obj, クラス)"}
+{"in": "データシリーズの年を求める", "out": "ds.dt.year"}
+{"in": "リストとリストについての散布図にrgbの▽マーカーを描く", "out": "plt.plot(データ列x, データ列y, marker='v', c=rgb)"}
+{"in": "rgbの大バツマーカーを用いて散布図を描画する", "out": "plt.plot(データ列x, データ列y, marker='X', c=rgb)"}
+{"in": "処理中の例外を情報", "out": "sys.exc_info()"}
+{"in": "option: 先頭の行をカラムの名前に設定する", "out": "header = 0"}
+{"in": "リストの要素数だけ繰り返す", "out": "range(len(aList))"}
+{"in": "データシリーズの中にある文字列の数を数える", "out": "ds.isin([value]).sum()"}
+{"in": "文字列の開始位置番目と終了位置番目の間に部分文字列が含まれないか", "out": "s.find(sub, start, end) == -1"}
+{"in": "散布図の丸印を黒色にする", "out": "plt.scatter(データ列x, データ列y, marker='o', markerfacecolor='k')"}
+{"in": "数値の変数にnを代入する", "out": "e.subs(z, n)"}
+{"in": "線グラフの色をダークオーキッドにする", "out": "plt.plot(データ列x, データ列y, color='darkorchid')"}
+{"in": "横棒グラフを暗い赤色として描画する", "out": "plt.barh(データ列x, データ列y, color='darkred')"}
+{"in": "黄緑色の棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='chartreuse')"}
+{"in": "ヒストグラムの色をミスティローズに指定する", "out": "plt.hist(データ列, color='mistyrose')"}
+{"in": "データフレームを表示するとき、ヘッダー行を左寄せに変更する", "out": "pd.set_option('colheader_justify', 'left')"}
+{"in": "データフレームの選択したカラムのNaNを平均で補う", "out": "df[['列A', '列B']].fillna(df[['列A', '列B']].mean())"}
+{"in": "ダークスレートブルー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkslateblue')"}
+{"in": "ダークマゼンタ色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='darkmagenta')"}
+{"in": "ヒストグラムをコーンフラワーブルー色として描画する", "out": "plt.hist(データ列, color='cornflowerblue')"}
+{"in": "option: グラフの色を白に変更する", "out": "color = 'white'"}
+{"in": "実数を実数で除算して、切り捨てる", "out": "x // y"}
+{"in": "ふたつの集合が集合と互いに素か確認する", "out": "aSet.isdisjoint(aSet2)"}
+{"in": "日付データを文字列を用いてフォーマットする", "out": "aDate.strftime(\"%d/%m/%y\")"}
+{"in": "データフレームのNaNを中央値に設定する", "out": "df.fillna(df.median())"}
+{"in": "option: グラフの色をゲインズボロに変更する", "out": "color = 'gainsboro'"}
+{"in": "グレー色として棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='gray')"}
+{"in": "プロットのグリッドを白くする", "out": "sns.set(style='whitegrid')"}
+{"in": "文字列をユニコード列に変換する", "out": "[ord(ch) for ch in s]"}
+{"in": "整数nの十六進数文字列を使う", "out": "hex(n)[2:]"}
+{"in": "データフレームをソートして新しいインデックスを加える", "out": "df.sort_values('キーとなる列').reset_index()"}
+{"in": "線グラフを貝殻色で描画する", "out": "plt.plot(データ列x, データ列y, color='seashell')"}
+{"in": "xが一桁の数か", "out": "-9 <= x <= 9"}
+{"in": "珊瑚色の棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='coral')"}
+{"in": "ライトグレー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='lightgrey')"}
+{"in": "線形回帰分析を行う", "out": "model = sklearn.linear_model.LinearRegression()"}
+{"in": "ガウス過程としてクラス分類を行う", "out": "model = sklearn.gaussian_process.GaussianProcessClassifier()"}
+{"in": "ヒストグラムをゲインズボロ色として描画する", "out": "plt.hist(データ列, color='gainsboro')"}
+{"in": "横軸の目盛を整数化する", "out": "plt.xticks(np.arange(最小値, 最大値, 間隔))"}
+{"in": "option: グラフの色をミディアムターコイズに指定する", "out": "color = 'mediumturquoise'"}
+{"in": "線グラフをパールバイオレットレッド色で描画する", "out": "plt.plot(データ列x, データ列y, color='palevioletred')"}
+{"in": "グラフの大きさをセットする", "out": "plt.figure(figsize=(横幅, 高さ))"}
+{"in": "散布図のマーカーを▽印にする", "out": "plt.scatter(データ列x, データ列y, marker='v')"}
+{"in": "option: 色をアクアマリンに設定する", "out": "color = 'aquamarine'"}
+{"in": "ヒストグラムを３つ並べて描画する", "out": "plt.hist([データ列, データ列, データ列], color=['b', 'r', 'g'])"}
+{"in": "CSVファイルのn行目を行として読み込む", "out": "pd.read_csv('file.csv', index_col=n)"}
+{"in": "大きい順に指定した列によってデータフレームをソートする", "out": "df.sort_values(by='列A', ascending=False)"}
+{"in": "カラムの標本標準偏差", "out": "df['列A'].std(ddof=1)"}
+{"in": "タイタニックのデータセットをロードする", "out": "df = sns.load_dataset('titanic')"}
+{"in": "小数点数の双曲線正接", "out": "math.tanh(x)"}
+{"in": "ブースティングで回帰分析をする", "out": "model = sklearn.ensemble.AdaBoostRegressor(random_state=0, n_estimators=100)"}
+{"in": "タイムスタンプ型のデータシリーズをデータフレームのインデックスにする", "out": "df.index = pd.DatetimeIndex(ds)"}
+{"in": "ベクトルのスカラー倍", "out": "aArray * n"}
+{"in": "ある列の文字列に部分文字列が含まれない行を取り出す", "out": "df[~df['列A'].str.contains(部分文字列)]"}
+{"in": "option: ターコイズ色を用いる", "out": "color = 'turquoise'"}
+{"in": "文字列の中で大文字・小文字を無視して正規表現にマッチした全文字列をリストにする", "out": "re.findall(pattern, s, flags=re.IGNORECASE)"}
+{"in": "データフレームをある列によってグループ化し、、グループ名を列挙する", "out": "[name for name, _ in df.groupby('列A')]"}
+{"in": "半透明の破線を用いて折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, linestyle='dashed', alpha=0.5)"}
+{"in": "小数点以下3桁までデータフレームを保存する", "out": "df.to_csv('file.csv', float_format='%.3f')"}
+{"in": "リストとデータ列についての散布図にrgbのポイントマーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='.', c=rgb)"}
+{"in": "折れ線グラフを青い点線でプロットする", "out": "plt.plot(データ列x, データ列y, linestyle='dotted', color='b')"}
+{"in": "option: ダークマゼンタにグラフの色をセットする", "out": "color = 'darkmagenta'"}
+{"in": "ヒストグラムの色をゴールデンロッドに変更する", "out": "plt.hist(データ列, color='goldenrod')"}
+{"in": "2を底とする小数点数の対数", "out": "math.log2(x)"}
+{"in": "スチールブルー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='steelblue')"}
+{"in": "グラフの描画で暗くカラーパレットを用いる", "out": "sns.set(pallete='dark')"}
+{"in": "バイトオーダを調べる", "out": "sys.byteorder"}
+{"in": "半透明の破線でリストの推移をプロットする", "out": "plt.plot(データ列x, データ列y, linestyle='dashed', alpha=0.5)"}
+{"in": "文字列を最初の部分文字列で二分し、前半の文字列を使う", "out": "s.partition(sub)[0]"}
+{"in": "縦棒グラフの色をバリーウッドにする", "out": "plt.bar(データ列x, データ列y, color='burlywood')"}
+{"in": "散布図をライトスチールブルー色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='lightsteelblue')"}
+{"in": "ダークスレートブルー色として線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkslateblue')"}
+{"in": "指定したカラムをキーにしてデータフレームを小さい順にソートする", "out": "df.sort_values(by='列A', ascending=True)"}
+{"in": "キーがマッピング上で未定義かどうか調べる", "out": "key not in aDict"}
+{"in": "無限大を使う", "out": "math.inf"}
+{"in": "SDGで回帰分析を行う", "out": "model = sklearn.linear_model.SGDRegressor()"}
+{"in": "縦棒グラフをディープスカイブルー色を用いて描画する", "out": "plt.bar(データ列x, データ列y, color='deepskyblue')"}
+{"in": "option: 紺碧色を用いる", "out": "color = 'azure'"}
+{"in": "リストとリストについての散布図にrgbの三角マーカーを描く", "out": "plt.plot(データ列x, データ列y, marker='^', c=rgb)"}
+{"in": "データフレームの選択したカラムの欠損値を直前の値に変更する", "out": "df[['列A', '列B']].fillna(method='ffill')"}
+{"in": "スカイブルー色で横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='skyblue')"}
+{"in": "折れ線プロットにラベルを付ける", "out": "plt.plot(データ列x, データ列y, label='ラベル')"}
+{"in": "線グラフをスチールブルー色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='steelblue')"}
+{"in": "ホワイトスモーク色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='whitesmoke')"}
+{"in": "指定したカラムのカテゴリで集計し、それぞれの標準偏差を求める", "out": "df.groupby('列A').std()"}
+{"in": "折れ線グラフをドジャーブルー色を使って描画する", "out": "plt.plot(データ列x, データ列y, color='dodgerblue')"}
+{"in": "カデットブルー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='cadetblue')"}
+{"in": "凡例の場所を(x,y)に設定する", "out": "plt.legend(loc=(x, y))"}
+{"in": "ファイルパスの絶対ファイルパスを使う", "out": "os.path.abspath(filepath)"}
+{"in": "option: 文字コードをUTF8に設定する", "out": "encoding = 'utf-8'"}
+{"in": "日付データからn日を減算する", "out": "aDate - datetime.timedelta(days=n)"}
+{"in": "配列の歪みを求める", "out": "scipy.stats.skew(配列, bias=False)"}
+{"in": "折り返しをオフに増やす", "out": "pd.set_option('expand_frame_repr', False)"}
+{"in": "文字列がリストの要素か", "out": "element in aList"}
+{"in": "線グラフをシエナ色で描画する", "out": "plt.plot(データ列x, データ列y, color='sienna')"}
+{"in": "ヒストグラムの色をダークブルーに設定する", "out": "plt.hist(データ列, color='darkblue')"}
+{"in": "棒グラフをダークグリーン色として描画する", "out": "plt.bar(データ列x, データ列y, color='darkgreen')"}
+{"in": "option: フォントの色をスプリンググリーンにする", "out": "color = 'springgreen'"}
+{"in": "線グラフをミントクリーム色で描画する", "out": "plt.plot(データ列x, データ列y, color='mintcream')"}
+{"in": "ある列によって昇順に破壊的にデータフレームを並べる", "out": "df.sort_values(by='列A', ascending=True, inplace=True)"}
+{"in": "タイムスタンプデータとタイムスタンプデータの時間差は何秒か知る", "out": "(aDatetime - aDatetime2).total_seconds()"}
+{"in": "棒グラフをコーラル色を用いて描画する", "out": "plt.bar(データ列x, データ列y, color='coral')"}
+{"in": "データ列の折れ線グラフをポイントマーカーで描画する", "out": "plt.plot(データ列x, データ列y, marker='.')"}
+{"in": "複数の列からグループ化し、最大値を求める", "out": "df.groupby(['列A', '列B'], as_index=False).max()"}
+{"in": "０で全要素を初期化した複素数型の行列を作る", "out": "np.zeros(行数, 列数, dtype=bool)"}
+{"in": "文字列の中の大文字・小文字を無視して正規表現による全てのマッチを求める", "out": "re.findall(pattern, s, flags=re.IGNORECASE)"}
+{"in": "データフレームの選択したカラムのNaNを最頻値で補う", "out": "df[['列A', '列B']].fillna(df[['列A', '列B']].mode().iloc[0])"}
+{"in": "ヒストグラムをフクシア色を用いて描画する", "out": "plt.hist(データ列, color='fuchsia')"}
+{"in": "折れ線グラフのポイントマーカーの大きさを指定する", "out": "plt.plot(データ列x, データ列y, marker='.', markersize=2.0)"}
+{"in": "散布図の菱形印の大きさを設定する", "out": "plt.scatter(データ列x, データ列y, marker='D', markersize=2.0)"}
+{"in": "リストとリストについての散布図に菱形マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='D')"}
+{"in": "option: アリスブルーを使う", "out": "color = 'aliceblue'"}
+{"in": "右三角マーカーを用いてデータ列の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, marker='>')"}
+{"in": "ある列の文字列に部分文字列が存在する行を抽出する", "out": "df[df['列A'].str.contains(部分文字列)]"}
+{"in": "ダークマゼンタ色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='darkmagenta')"}
+{"in": "データ列を全て日付データにする", "out": "pd.to_datetime(ds)"}
+{"in": "データフレームを指定した列の値によってグループ化して、列挙する", "out": "[(name, group_df) for name, group_df in df.groupby('列A')]"}
+{"in": "データフレームのあるカラムをベクトルにする", "out": "pd.get_dummies(df['列A'])"}
+{"in": "散布図を黒い丸マーカーでプロットする", "out": "plt.plot(データ列x, データ列y, marker='o', c='k')"}
+{"in": "折れ線グラフの色をダークサーモンに指定する", "out": "plt.plot(データ列x, データ列y, color='darksalmon')"}
+{"in": "リストから文字列と等しい最初の要素を取り除く", "out": "aList.remove(element)"}
+{"in": "列名を指定してデータフレームを左ジョインする", "out": "pd.merge(df, df2, on='列A', how='left')"}
+{"in": "データフレームのあるカラムを日付インデックスにする", "out": "df.index = pd.DatetimeIndex(pd.to_datetime(df['列A']))"}
+{"in": "スタック中の要素の位置を使う", "out": "deq.index(element)"}
+{"in": "option: グラフの色をペルーに指定する", "out": "color = 'peru'"}
+{"in": "線グラフの色をライトグレーに指定する", "out": "plt.plot(データ列x, データ列y, color='lightgrey')"}
+{"in": "ミッドナイトブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='midnightblue')"}
+{"in": "散布図に青い左三角印を描画する", "out": "plt.scatter(データ列x, データ列y, marker='<', markerfacecolor='b')"}
+{"in": "小文字を見る", "out": "string.ascii_lowercase"}
+{"in": "未入力値がある行を破壊的にドロップする", "out": "df.dropna(inplace=True)"}
+{"in": "データフレームの欠損値を数値で埋める", "out": "df.fillna(x)"}
+{"in": "option: 32ビット整数型を使う", "out": "dtype = np.int16"}
+{"in": "日付時刻データが日付時刻データより後ろか", "out": "aDatetime > aDatetime2"}
+{"in": "option: グラフの色を青緑に設定する", "out": "color = 'turquoise'"}
+{"in": "option: 欠損値を含めない", "out": "dropna = True"}
+{"in": "散布図を青緑色で描画する", "out": "plt.scatter(データ列x, データ列y, color='turquoise')"}
+{"in": "黒い左三角マーカーをリストとリストの散布図に描画する", "out": "plt.plot(データ列x, データ列y, marker='<', c='k')"}
+{"in": "折れ線グラフの色をホワイトスモークにセットする", "out": "plt.plot(データ列x, データ列y, color='whitesmoke')"}
+{"in": "リストを黒色で出力する", "out": "print(f'\\033[30m{value}\\033[0m')"}
+{"in": "円グラフとしてデータ列の割合を描画する", "out": "plt.pie(データ列, startangle=90)"}
+{"in": "グラフの描画で淡く色を使う", "out": "sns.set(pallete='muted')"}
+{"in": "表データの選択した列の相関行列を求める", "out": "df[['列A', '列B']].corr()"}
+{"in": "ベクトルの次元数", "out": "aArray.ndim"}
+{"in": "整数nを十六進文字列にする", "out": "hex(n)[2:]"}
+{"in": "データフレームの指定したカラムの平均など", "out": "df['列A'].describe()"}
+{"in": "２つ並べて箱ひげ図を描く", "out": "plt.boxplot([データ列, データ列])"}
+{"in": "ロジスティック回帰データフレームの散布図にを加える", "out": "sns.regplot(x='列名', y='列名', data=df, logistic=True)"}
+{"in": "プログラムを強制的に終了する", "out": "sys.exit()"}
+{"in": "ヒストグラムをダークグレー色を用いて描画する", "out": "plt.hist(データ列, color='darkgrey')"}
+{"in": "n番目の列をインデックスとしてCSVファイルを読み込む", "out": "pd.read_csv('file.csv', index_col=n)"}
+{"in": "option: ライトサーモンを使用する", "out": "color = 'lightsalmon'"}
+{"in": "行列のユニークな要素とその個数", "out": "u, counts = np.unique(aArray, return_counts=True)"}
+{"in": "やわらかい青色の横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='cornflowerblue')"}
+{"in": "データフレームの中にいくつ欠損値が含まれるか数える", "out": "df.isna().sum()"}
+{"in": "折れ線グラフに四角マーカーを用いる", "out": "plt.plot(データ列x, データ列y, marker='s')"}
+{"in": "タプルの最後からn番目以前の要素を取り出す", "out": "aTuple[:-n]"}
+{"in": "データフレームのあるカラムは何秒か見る", "out": "df['列A'].dt.second"}
+{"in": "パウダーブルー色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='powderblue')"}
+{"in": "ファイルからバイナリストリームをオープンして]fとする", "out": "f = open(filepath, mode='rb')"}
+{"in": "文字列をシンボルにしてパラメータにする", "out": "z = sympy.Symbol(s)"}
+{"in": "カラムの基本統計量を求める", "out": "df['列A'].describe()"}
+{"in": "配列とイテラブルについての散布図に黒い△マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='^', c='k')"}
+{"in": "リストをヒストグラムにする", "out": "plt.hist(データ列)"}
+{"in": "数列の推移を半透明の実線でプロットする", "out": "plt.plot(データ列x, データ列y, linestyle='solid', alpha=0.5)"}
+{"in": "データフレームの最後のカラム以外を全て説明変数にする", "out": "説明変数 = df[df.columns[:-1]]"}
+{"in": "折れ線グラフの色をカラーコードで変更する", "out": "plt.plot(データ列x, データ列y, color='#800080')"}
+{"in": "ゼロ埋めされた８ビット整数型の配列を作る", "out": "np.zeros(要素数, dtype=np.int8)"}
+{"in": "列をフォーマットで日付データに変換する", "out": "pd.to_datetime(df['列A'], format='%Y-%m-%d')"}
+{"in": "折れ線グラフの下三角印を赤くする", "out": "plt.plot(データ列x, データ列y, marker='v', markerfacecolor='r')"}
+{"in": "縦棒グラフの色をレベッカパープルにする", "out": "plt.bar(データ列x, データ列y, color='rebeccapurple')"}
+{"in": "グラフの見た目を綺麗にする", "out": "import seaborn as sns"}
+{"in": "散布図をダークオーキッド色として描画する", "out": "plt.scatter(データ列x, データ列y, color='darkorchid')"}
+{"in": "リストとリストの散布図をプロットしてマーカーを大バツに設定する", "out": "plt.plot(データ列x, データ列y, marker='X')"}
+{"in": "文字列を空白で分割する", "out": "s.split()"}
+{"in": "棒グラフをダークシアグリーン色として描画する", "out": "plt.bar(データ列x, データ列y, color='darkseagreen')"}
+{"in": "ダイアモンド印で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, marker='D')"}
+{"in": "文字列を緑色で表示できる文字列に変換する", "out": "f'\\033[32m{value}\\033[0m'"}
+{"in": "双方向キューは空か調べる", "out": "len(deq) == 0"}
+{"in": "リストを下線付きで表示できる文字列に変換する", "out": "f'\\033[4m{value}\\033[0m'"}
+{"in": "文字列がn回繰り返す列", "out": "itertools.repeat(element, n)"}
+{"in": "データフレームのstart行目からend行目まで取り出す", "out": "df[start:end]"}
+{"in": "名前付きタプルを使う", "out": "import collections"}
+{"in": "折れ線グラフをグレー色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='gray')"}
+{"in": "現在の日数", "out": "datetime.datetime.today().day"}
+{"in": "カウンタをイテラブルを用いて更新する", "out": "aCounter.update(iterable)"}
+{"in": "外れ値を除いた配列の分散を算出する", "out": "scipy.stats.tvar(配列, limits=(下限, 上限), inclusive=(True, True))"}
+{"in": "ライトブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='lightblue')"}
+{"in": "回帰木をグラフ化する", "out": "sklearn.tree.plot_tree(model, feature_names=X.columns, filled=True)"}
+{"in": "作画の背景色を暗くする", "out": "sns.set(style='darkgrid')"}
+{"in": "折れ線グラフをダークグリーン色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='darkgreen')"}
+{"in": "データフレームの中にいくつ文字列が含まれるかカウントする", "out": "df.isin([value]).sum()"}
+{"in": "折れ線グラフの△マーカーの大きさを指定する", "out": "plt.plot(データ列x, データ列y, marker='^', markersize=2.0)"}
+{"in": "データフレームの中であるカラムに重複があれば、消す", "out": "df.drop_duplicates(subset='列A', inplace=True)"}
+{"in": "ファイルを文字コードtextで書き込み用に開く]", "out": "open(filepath, mode='w', encoding=text)"}
+{"in": "折れ線グラフの右三角印を黒色にする", "out": "plt.plot(データ列x, データ列y, marker='>', markerfacecolor='k')"}
+{"in": "文字列内にひとつでも小文字があるか調べる", "out": "any(c.islower() for c in s)"}
+{"in": "ボックスチャートでデータ列を描画する", "out": "plt.boxplot(データ列)"}
+{"in": "棒グラフをアクア色として描画する", "out": "plt.bar(データ列x, データ列y, color='aqua')"}
+{"in": "ファイルからnバイト、読み込む", "out": "f.read(n)"}
+{"in": "データフレームの中の列をn個に等間隔でビン分割してnamesのラベルをつける", "out": "pd.cut(df[col], n, labels=names)"}
+{"in": "線グラフをシスル色で描画する", "out": "plt.plot(データ列x, データ列y, color='thistle')"}
+{"in": "ある列の値ごとの標準偏差", "out": "df.groupby('列A').std()"}
+{"in": "nを十六進表現にする", "out": "hex(n)"}
+{"in": "クラス分類をヒストグラムと勾配ブースティングでする", "out": "model = sklearn.ensemble.HistGradientBoostingClassifier()"}
+{"in": "ダークグレー色を用いて棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='darkgray')"}
+{"in": "オプションで、標準出力を出力先にする", "out": "file = sys.stdout"}
+{"in": "ヒストグラムを青緑色で描画する", "out": "plt.hist(データ列, color='turquoise')"}
+{"in": "プロットにx=0の点線を付ける", "out": "plt.axvline(x=0, linestyle='dotted')"}
+{"in": "集合から別の集合との共通要素を全て除く", "out": "aSet.symmetric_difference_update(aSet2)"}
+{"in": "横棒グラフをペールグリーン色として描画する", "out": "plt.barh(データ列x, データ列y, color='palegreen')"}
+{"in": "線グラフの色をピンクに設定する", "out": "plt.plot(データ列x, データ列y, color='pink')"}
+{"in": "ヒストグラムをフローラルホワイト色を用いて描画する", "out": "plt.hist(データ列, color='floralwhite')"}
+{"in": "2つのマッピングをネスト化する", "out": "collections.ChainMap(aDict, aDict2)"}
+{"in": "データフレームの中にあるの数を数える", "out": "df.isin([value]).sum()"}
+{"in": "option: グラフの色をマゼンタに指定する", "out": "color = 'magenta'"}
+{"in": "ヒストグラムを黄色色を用いて描画する", "out": "plt.hist(データ列, color='yellow')"}
+{"in": "折れ線グラフにクロスマーカーを加える", "out": "plt.plot(データ列x, データ列y, marker='x')"}
+{"in": "折れ線グラフの色をシエナに変更する", "out": "plt.plot(データ列x, データ列y, color='sienna')"}
+{"in": "オプションで、ファイルを使用する", "out": "file = sys.open(filename, 'w')"}
+{"in": "グラフにx=0の破線をつける", "out": "plt.axvline(x=0, linestyle='dashed')"}
+{"in": "データフレームの中の列を等しい量になるようにn個にビン分割する", "out": "pd.qcut(df[col], n)"}
+{"in": "データフレームのカラムの尖度を計算する", "out": "scipy.stats.kurtosis(df['列A'], bias=False)"}
+{"in": "データフレームの一部の列の文字列を未入力値に変換する", "out": "df[['列A', '列B']].replace(値, np.nan)"}
+{"in": "データフレームの複数のカラムをドロップする", "out": "df.drop(['列A', '列B'], axis=1, inplace=True)"}
+{"in": "データフレームの選択した列の分散", "out": "df[['列A', '列B']].var()"}
+{"in": "option: 文字列の示す文字コードを使う", "out": "encoding = s"}
+{"in": "線グラフの色をペールグリーンに設定する", "out": "plt.plot(データ列x, データ列y, color='palegreen')"}
+{"in": "柱状図でリストを可視化する", "out": "plt.hist(データ列)"}
+{"in": "目盛り線", "out": "plt.grid(linewidth=3.0)"}
+{"in": "凡例の位置を指定する", "out": "plt.legend(loc=(x, y))"}
+{"in": "データシリーズの代表値", "out": "ds.describe()"}
+{"in": "ヒストグラムの色をダークスラテグレーに変更する", "out": "plt.hist(データ列, color='darkslategray')"}
+{"in": "ベージュ色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='beige')"}
+{"in": "t-SNEの準備をする", "out": "model = sklearn.manifold.TSNE(n_components=n)"}
+{"in": "option: EUCを使用する", "out": "encoding = 'euc_jp'"}
+{"in": "散布図をアリスブルー色として描画する", "out": "plt.scatter(データ列x, データ列y, color='aliceblue')"}
+{"in": "濃いシアン色の横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='darkcyan')"}
+{"in": "散布図の大バツマーカーを黒色にする", "out": "plt.scatter(データ列x, データ列y, marker='X', markerfacecolor='k')"}
+{"in": "横棒グラフをロージーブラウン色を用いて描画する", "out": "plt.barh(データ列x, データ列y, color='rosybrown')"}
+{"in": "散布図のマーカーを青色にする", "out": "plt.scatter(データ列x, データ列y, markerfacecolor='b')"}
+{"in": "散布図の丸マーカーの太さを変更する", "out": "plt.scatter(データ列x, データ列y, marker='o', markeredgewidth=2.5)"}
+{"in": "ある列の文字列が部分文字列で終わらないデータを選ぶ", "out": "df[~ df['列A'].str.endswith(部分文字列)]"}
+{"in": "文字列をエンコーディングでバイト列にする", "out": "s.encode(encoding=encoding)"}
+{"in": "データフレームの選択した列の空文字をドロップする", "out": "df[['列A', '列B']].replace('', np.nan).dropna()"}
+{"in": "データフレームの列を度数分布図にする", "out": "plt.hist(df[column])"}
+{"in": "▼印としてデータ列の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, marker='v')"}
+{"in": "散布図の下三角マーカーの太さを変更する", "out": "plt.scatter(データ列x, データ列y, marker='v', markeredgewidth=2.5)"}
+{"in": "標準出力のバッファを強制表示する", "out": "sys.stdout.flush()"}
+{"in": "データ列の変遷を色付きの破線で描画する", "out": "plt.plot(データ列x, データ列y, linestyle='dashed', color='#800080')"}
+{"in": "折れ線グラフを一点鎖線で描く", "out": "plt.plot(データ列x, データ列y, linestyle='dashbot')"}
+{"in": "配列とデータ列についての散布図に星マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='*')"}
+{"in": "浮動小数点数を三乗する", "out": "x ** 3"}
+{"in": "パープル色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='purple')"}
+{"in": "ピンク色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='pink')"}
+{"in": "ファイルパスを追加モードでオープンする]", "out": "open(filepath, mode='a')"}
+{"in": "標準入力から1行読む", "out": "sys.stdin.readline()"}
+{"in": "線グラフをラベンダー色として描画する", "out": "plt.plot(データ列x, データ列y, color='lavender')"}
+{"in": "リストとデータ列の散布図を描いて、星マーカーの色をrgbに設定する", "out": "plt.plot(データ列x, データ列y, marker='*', c=rgb)"}
+{"in": "文字列を空白で末尾から区切る", "out": "s.rsplit()"}
+{"in": "折れ線グラフをビスク色として描画する", "out": "plt.plot(データ列x, データ列y, color='bisque')"}
+{"in": "JSONファイルのファイルを読み込んで、dataとする", "out": "data = json.load(fin)"}
+{"in": "データフレームの選択したカラムの中に存在する文字列の合計をカウントする", "out": "df[['列A', '列B']].isin([value]).sum()"}
+{"in": "ベクトルと同じ大きさの空ベクトルを作る", "out": "np.empty_like(aArray)"}
+{"in": "文字列は印字できるか確認する", "out": "s.isprintable()"}
+{"in": "ふたつの集合は集合と交わりを持たないか調べる", "out": "aSet.isdisjoint(aSet2)"}
+{"in": "縦棒グラフの色をダークターコイズにする", "out": "plt.bar(データ列x, データ列y, color='darkturquoise')"}
+{"in": "データ列を中央値で分割する", "out": "pd.qcut(ds, 2)"}
+{"in": "ホワイトスモーク色で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='whitesmoke')"}
+{"in": "option: エクセルファイルシートの名前を変更する", "out": "sheet_name = ['A', 'B']"}
+{"in": "スプリンググリーン色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='springgreen')"}
+{"in": "オブジェクトが数値か調べる", "out": "isinstance(obj, (int,float))"}
+{"in": "グラフの縦横の比率を等しくする", "out": "plt.axis('equals')"}
+{"in": "ヒストグラムの色をフォレストグリーンに変更する", "out": "plt.hist(データ列, color='forestgreen')"}
+{"in": "データ列をy座標、リストをx軸として、大きさnの散布図を描画する", "out": "plt.scatter(データ列x, データ列y, s=n)"}
+{"in": "リストとリストの散布図を描画して、ダイアモンドマーカーの色をrgbに指定する", "out": "plt.plot(データ列x, データ列y, marker='D', c=rgb)"}
+{"in": "最大長nの両端キューを作成する", "out": "collections.deque(maxlen=n)"}
+{"in": "文字列の右側から改行を消す", "out": "s.rstrip('\\n')"}
+{"in": "プロットの用途をスライドに設定する", "out": "sns.set(context='talk')"}
+{"in": "ファイルをBOM付きで開く]", "out": "open(filepath, encoding='utf_8_sig')"}
+{"in": "データフレーム全体をインデックスによって降順でソートする", "out": "df.sort_index(ascending=False)"}
+{"in": "マッピングのキーを列挙する", "out": "aDict.keys()"}
+{"in": "積み上げ棒グラフをプロットする", "out": "plt.bar(ラベル列, データ列, bottom=データ列y, color='#800080')"}
+{"in": "日付データからn時間を減算する", "out": "aDate - datetime.timedelta(hours=n)"}
+{"in": "カウンタの文字列一覧", "out": "aCounter.keys()"}
+{"in": "データフレームの一部のカラムの文字列を未入力値にする", "out": "df[['列A', '列B']].replace(値, np.nan)"}
+{"in": "ヒストグラムをロージーブラウン色として描画する", "out": "plt.hist(データ列, color='rosybrown')"}
+{"in": "折れ線グラフを実線としてプロットする", "out": "plt.plot(データ列x, データ列y, linestyle='solid')"}
+{"in": "リストとリストについて散布図を描画し、、マーカーをダイアモンドに設定する", "out": "plt.plot(データ列x, データ列y, marker='D')"}
+{"in": "整数個のものからk個取り出した時の並べ方の総数", "out": "math.perm(n, k)"}
+{"in": "データフレームの欠損値を直後の値に増やす", "out": "df.fillna(method='bfill')"}
+{"in": "nが3の倍数", "out": "n % 3 == 0"}
+{"in": "ヒストグラムの色を紺碧に指定する", "out": "plt.hist(データ列, color='azure')"}
+{"in": "オリベドラブ色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='olivedrab')"}
+{"in": "割合付きの円プロットを描画する", "out": "plt.pie(データ列, startangle=90, autopct='%.2f%%')"}
+{"in": "option: 線の幅を変更する", "out": "linewidth = 3.0"}
+{"in": "nが一桁の数", "out": "-9 <= n <= 9"}
+{"in": "折れ線グラフの色をホットピンクに指定する", "out": "plt.plot(データ列x, データ列y, color='hotpink')"}
+{"in": "ベクトルにはいくつ要素があるか調べる", "out": "aArray.size"}
+{"in": "option: ローングリーンにグラフの色を設定する", "out": "color = 'lawngreen'"}
+{"in": "データフレームから重複を除く", "out": "df.drop_duplicates(inplace=True)"}
+{"in": "数が整数か調べる", "out": "x.is_integer()"}
+{"in": "横棒グラフをオリベドラブ色として描画する", "out": "plt.barh(データ列x, データ列y, color='olivedrab')"}
+{"in": "散布図をrgbの三角マーカーでプロットする", "out": "plt.plot(データ列x, データ列y, marker='^', c=rgb)"}
+{"in": "棒グラフをミディアムパープル色として描画する", "out": "plt.bar(データ列x, データ列y, color='mediumpurple')"}
+{"in": "オーキッド色で散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='orchid')"}
+{"in": "ヒストグラムをダークマゼンタ色を使って描画する", "out": "plt.hist(データ列, color='darkmagenta')"}
+{"in": "キーがマッピング上で定義済みか調べる", "out": "key in aDict"}
+{"in": "日付時刻データの分", "out": "aDatetime.minute"}
+{"in": "ヒストグラムの上限下限を設定する", "out": "plt.hist(データ列, range=(start, end))"}
+{"in": "文字列から日付時刻にする", "out": "datetime.datetime.fromisoformat(日付の書かれた文字列)"}
+{"in": "リストをリストを境界値としてビニングする", "out": "pd.cut(aList, aList)"}
+{"in": "追加用にファイルをオープンして]fとする", "out": "f = open(filepath, mode='a')"}
+{"in": "ハニーデュー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='honeydew')"}
+{"in": "ゼロ埋めされた３２ビット整数型の行列", "out": "np.zeros(要素数, dtype=np.int16)"}
+{"in": "グリーンイエロー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='greenyellow')"}
+{"in": "赤い大バツマーカーを散布図に使う", "out": "plt.plot(データ列x, データ列y, marker='X', c='r')"}
+{"in": "浮動小数点数の小数部", "out": "math.modf(x)[0]"}
+{"in": "リストを引数として展開してプリントする", "out": "print(*aList)"}
+{"in": "線グラフの色をダークカーキに設定する", "out": "plt.plot(データ列x, データ列y, color='darkkhaki')"}
+{"in": "データフレームを二つの列でソートしてNaNを先頭にする", "out": "df.sort_values(by=['列A', '列B'], na_position='first')"}
+{"in": "nが1、もしくは2もしくは3に等しい", "out": "n == 1 or n == 2 or n == 3"}
+{"in": "数列の推移を点線として描く", "out": "plt.plot(データ列x, データ列y, linestyle='dotted')"}
+{"in": "縦棒グラフの色をダークオーキッドにする", "out": "plt.bar(データ列x, データ列y, color='darkorchid')"}
+{"in": "双曲線余弦の逆数", "out": "math.acosh(x)"}
+{"in": "リストをn回、加える", "out": "aList * n"}
+{"in": "棒グラフをミディアムスレートブルー色として描画する", "out": "plt.bar(データ列x, データ列y, color='mediumslateblue')"}
+{"in": "本日が日曜日かどうか判定する", "out": "datetime.datetime.today().weekday() == 6"}
+{"in": "英字の小文字列", "out": "string.ascii_lowercase"}
+{"in": "xが1、もしくは2、もしくは3に等しい", "out": "x == 1 or x == 2 or x == 3"}
+{"in": "オレンジレッド色を用いて横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='orangered')"}
+{"in": "n進数文字列をバイト列に変換する", "out": "int(s, n).to_bytes(length=bytesize, byteorder='big')"}
+{"in": "option: ポイント印を描画する", "out": "marker = '.'"}
+{"in": "データフレームの全列の相関を可視化する", "out": "sns.pairplot(df)"}
+{"in": "縦軸の目盛を整数化する", "out": "plt.yticks(np.arange(最小値, 最大値, 間隔))"}
+{"in": "option: グラフの色をインディアンレッドに変更する", "out": "color = 'indianred'"}
+{"in": "列のそれぞれを関数でフィルタする", "out": "map(func, iterable)"}
+{"in": "n個にリストをビン分割して、namesのラベルをつける", "out": "pd.cut(aList, n, labels=names)"}
+{"in": "N未満までの配列", "out": "np.arange(N)"}
+{"in": "データフレームをある列で集計し、、グループ名で取り出す", "out": "df.groupby('列A').get_group(グループ名)"}
+{"in": "リストとリストについて散布図をプロットして、マーカーを丸に設定する", "out": "plt.plot(データ列x, データ列y, marker='o')"}
+{"in": "カテゴリ列で色分けして、データフレームの全カラムの散布図を見る", "out": "sns.pairplot(df, hue='カテゴリ列')"}
+{"in": "ヒストグラムをグリーン色として描画する", "out": "plt.hist(データ列, color='green')"}
+{"in": "実数は無限大か確認する", "out": "math.isinf(x)"}
+{"in": "逆順のデック", "out": "reversed(deq)"}
+{"in": "データフレームをインポートする", "out": "import pandas as pd"}
+{"in": "option: グラフの色をピンクに指定する", "out": "color = 'pink'"}
+{"in": "ポイントマーカーで散布図をプロットする", "out": "plt.plot(データ列x, データ列y, marker='.')"}
+{"in": "option: パウダーブルーを用いる", "out": "color = 'powderblue'"}
+{"in": "最初のコマンド引数を知る", "out": "sys.argv[1]"}
+{"in": "横棒グラフをミディアムターコイズ色として描画する", "out": "plt.barh(データ列x, データ列y, color='mediumturquoise')"}
+{"in": "エラーなくマッピングからキーの値を得る", "out": "aDict.get(key, None)"}
+{"in": "散布図の上三角マーカーの大きさを設定する", "out": "plt.scatter(データ列x, データ列y, marker='^', markersize=2.0)"}
+{"in": "xを文字列にする", "out": "str(x)"}
+{"in": "ファイルパスを読み込みできるようにオープンする]", "out": "open(filepath, mode='r')"}
+{"in": "文字列の中で複数行対応としてパターンにマッチした文字列をリストに変換する", "out": "re.findall(pattern, s, flags=re.MULTILINE)"}
+{"in": "配列をリストを境界値として分割する", "out": "pd.cut(aArray, aList)"}
+{"in": "正則化付き線形回帰モデルを準備する", "out": "model = sklearn.linear_model.ElasticNet()"}
+{"in": "データフレームの中にと文字列がいくつあるか数える", "out": "df.isin([value, value2]).sum()"}
+{"in": "カラムのn次モーメントを求める", "out": "scipy.stats.moment(df['列A'], moment=n)"}
+{"in": "文字列中にひとつでも非小文字があるか調べる", "out": "any(not c.islower() for c in s)"}
+{"in": "option: ラインを細くする", "out": "linewidth = 3.0"}
+{"in": "データフレームのあるカラムをインデックスに増やす", "out": "df.set_index('列A')"}
+{"in": "データ列を二つ並べて箱髭図にする", "out": "plt.boxplot([データ列, データ列])"}
+{"in": "0からnの範囲で", "out": "range(n)"}
+{"in": "線グラフの色をバリーウッドに設定する", "out": "plt.plot(データ列x, データ列y, color='burlywood')"}
+{"in": "option: 大バツ印を用いる", "out": "marker = 'X'"}
+{"in": "ヒストグラムをライトグレー色として描画する", "out": "plt.hist(データ列, color='lightgrey')"}
+{"in": "ダークグレー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkgrey')"}
+{"in": "折れ線グラフのマーカーをバツ印にする", "out": "plt.plot(データ列x, データ列y, marker='x')"}
+{"in": "リストとリストについて散布図をプロットして、マーカーを三角に変更する", "out": "plt.plot(データ列x, データ列y, marker='^')"}
+{"in": "二つのデータフレームを横方向につなぐ", "out": "pd.concat([df, df2], axis=1)"}
+{"in": "ヒストグラムをパパイヤウィップ色を使って描画する", "out": "plt.hist(データ列, color='papayawhip')"}
+{"in": "青紫色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='violet')"}
+{"in": "UTF8を用いて既存のファイルを追加できるようにオープンする]", "out": "open(filepath, mode='a', encoding='utf-8')"}
+{"in": "折れ線グラフの色をインディゴに指定する", "out": "plt.plot(データ列x, データ列y, color='indigo')"}
+{"in": "リストから集合", "out": "set(iterable)"}
+{"in": "今日が金曜日か", "out": "datetime.datetime.today().weekday() == 4"}
+{"in": "散布図の丸印を赤くする", "out": "plt.scatter(データ列x, データ列y, marker='o', markerfacecolor='r')"}
+{"in": "nがリストのどれか", "out": "n in aList"}
+{"in": "データフレームの一部のカラムを百の位で丸める", "out": "df[['列A', '列B']].round(-2)"}
+{"in": "線グラフの色をアンティークホワイトに変更する", "out": "plt.plot(データ列x, データ列y, color='antiquewhite')"}
+{"in": "n行をランダムにデータフレームから重複ありでサンプリングする", "out": "df.sample(n, replace=True)"}
+{"in": "両端キューは空でないか調べる", "out": "len(deq) != 0"}
+{"in": "オブジェクトがリストに含まれるかテストする", "out": "element in aList"}
+{"in": "カウンタの和集合演算する", "out": "aCounter | aCounter2"}
+{"in": "リストの末尾からn番目以前の部分を抽出する", "out": "aList[:-n]"}
+{"in": "option: グリーン色を用いる", "out": "color = 'green'"}
+{"in": "データフレームの選択したカラムを千の位で四捨五入して、整数にする", "out": "df[['列A', '列B']].round(-3).astype(int)"}
+{"in": "数式の部分分数化する", "out": "sympy.apart(e)"}
+{"in": "既存の配列をベースにして全要素が0の配列", "out": "np.zeros_like(aArray)"}
+{"in": "散布図の星マーカーの太さを設定する", "out": "plt.scatter(データ列x, データ列y, marker='*', markeredgewidth=2.5)"}
+{"in": "データフレームの歪みを求める", "out": "df.kurt()"}
+{"in": "データフレームの相関行列をとして算出する", "out": "df.corr(method='kendall')"}
+{"in": "日付データにn日分、足す", "out": "aDate + datetime.timedelta(days=n)"}
+{"in": "列に列を続けたイテラブル", "out": "itertools.chain(iterable, iterable2)"}
+{"in": "データフレーム全体をインデックスによって昇順にソートする", "out": "df.sort_index(ascending=True)"}
+{"in": "データフレーム中のNaNを除く", "out": "df.dropna(inplace=True)"}
+{"in": "ひとつでも非アルファベットが文字列中に含まれるか調べる", "out": "any(not c.isalpha() for c in s)"}
+{"in": "データフレームのメディアン", "out": "df.median()"}
+{"in": "データフレームを指定したカラムによってソートする", "out": "df.sort_values(by='列A')"}
+{"in": "文字列を評価する", "out": "eval(s)"}
+{"in": "ピンク色で散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='pink')"}
+{"in": "線グラフの色をライトコーラルに設定する", "out": "plt.plot(データ列x, データ列y, color='lightcoral')"}
+{"in": "データフレームの指定したカラムを十の位で四捨五入する", "out": "df['列A'].round(-1)"}
+{"in": "ベクトル演算を行う", "out": "import numpy as np"}
+{"in": "ヒストグラムの色をライトグレーに指定する", "out": "plt.hist(データ列, color='lightgray')"}
+{"in": "ゲインズボロにヒストグラムの色を設定する", "out": "plt.hist(データ列, color='gainsboro')"}
+{"in": "配列の各要素に加算する", "out": "aArray + aArray2"}
+{"in": "ゼロ埋めされた符号なし８ビット整数型のベクトル", "out": "np.zeros(要素数, dtype=np.uint8)"}
+{"in": "回帰分析をロバスト推定として行う", "out": "model = sklearn.linear_model.RANSACRegressor(random_state=0)"}
+{"in": "データシリーズのタイムゾーンを東京に設定する", "out": "ds.tz_convert('Asia/Tokyo')"}
+{"in": "両端キューのstart番目からend番目までの部分要素を見る", "out": "collections.deque(itertools.islice(deq, start, end))"}
+{"in": "散布図をバイオレット色として描画する", "out": "plt.scatter(データ列x, データ列y, color='violet')"}
+{"in": "sepを区切りにして文字列リストをひとつの文字列にする", "out": "sep.join(aStringList)"}
+{"in": "横棒グラフをゴールド色を用いて描画する", "out": "plt.barh(データ列x, データ列y, color='gold')"}
+{"in": "黒い四角マーカーで散布図を描く", "out": "plt.plot(データ列x, データ列y, marker='s', c='k')"}
+{"in": "縦棒グラフの色をミディアムターコイズにする", "out": "plt.bar(データ列x, データ列y, color='mediumturquoise')"}
+{"in": "赤色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='red')"}
+{"in": "縦棒グラフの色をコーラルにする", "out": "plt.bar(データ列x, データ列y, color='coral')"}
+{"in": "レモンシフォン色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='lemonchiffon')"}
+{"in": "ファイルを読み込みモードでオープンして]fとする", "out": "f = open(filepath, mode='r')"}
+{"in": "データフレームを二つの列の値によってグループ化して列挙する", "out": "[(name, group_df) for name, group_df in df.groupby(['列A', '列B'])]"}
+{"in": "データフレームの列の値を正規表現patternでまとめてreplに置換する", "out": "df['列A'].replace(pattern, repl, regex=True)"}
+{"in": "変数をマゼンタでプリントできる文字列に変換する", "out": "f'\\033[35m{value}\\033[0m'"}
+{"in": "option: n番目のカラムをインデックスに減らす", "out": "index_col = n"}
+{"in": "文字列はタイトル大文字小文字か判定する", "out": "s.istitle()"}
+{"in": "option: 色をレモンシフォンに変更する", "out": "color = 'lemonchiffon'"}
+{"in": "アリスブルー色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='aliceblue')"}
+{"in": "option: 読み込まないフッタをnに変更する", "out": "skipfooter = n"}
+{"in": "JSONLファイルからデータフレームをロードする", "out": "pd.read_json(filename, orient='records', lines=True)"}
+{"in": "配列とリストについて散布図を描画して、丸マーカーの色をrgbに設定する", "out": "plt.plot(データ列x, データ列y, marker='o', c=rgb)"}
+{"in": "数値を部分分数に展開する", "out": "sympy.apart(e)"}
+{"in": "ふたつの集合の共通部分", "out": "aSet.intersection(aSet2)"}
+{"in": "16進文字列をバイト列にする", "out": "int(s, 16).to_bytes(length=bytesize, byteorder='big')"}
+{"in": "タイムスタンプデータをエポック秒に変換する", "out": "aDatetime.timestamp()"}
+{"in": "散布図を赤い丸マーカーとして描画する", "out": "plt.plot(データ列x, データ列y, marker='o', c='r')"}
+{"in": "データフレームの指定したカラムを万の位で四捨五入する", "out": "df['列A'].round(-4)"}
+{"in": "カウンタの要素のカウント", "out": "aCounter[element]"}
+{"in": "散布図をダークバイオレット色を使って描画する", "out": "plt.scatter(データ列x, データ列y, color='darkviolet')"}
+{"in": "文字列を変数にする", "out": "sympy.Symbol(s)"}
+{"in": "縦棒プロットを積み上げにする", "out": "plt.bar(ラベル列, データ列, bottom=データ列y, color='#800080')"}
+{"in": "文字のユニコードを見る", "out": "ord(ch)"}
+{"in": "スピアマン順位相関係数としてデータフレームの選択した列の相関行列を求める", "out": "df[['列A', '列B']].corr(method='spearman')"}
+{"in": "データ列とデータ列についての散布図に赤い上三角マーカーを描く", "out": "plt.plot(データ列x, データ列y, marker='^', c='r')"}
+{"in": "偽陽性を避けたい指標を使用する", "out": "sklearn.metrics.precision_score(正解データ列, 予測データ列)"}
+{"in": "茶色にヒストグラムの色を変更する", "out": "plt.hist(データ列, color='brown')"}
+{"in": "集合から全ての要素を除去する", "out": "aSet.clear()"}
+{"in": "ヒストグラムをダークオリーブグリーン色を用いて描画する", "out": "plt.hist(データ列, color='darkolivegreen')"}
+{"in": "データシリーズの欠損値を最頻値に変更する", "out": "ds.fillna(ds.mode().iloc[0])"}
+{"in": "線グラフをライトブルー色で描画する", "out": "plt.plot(データ列x, データ列y, color='lightblue')"}
+{"in": "マッピングをソートしてJSON形式の文字列に変換する", "out": "json.dumps(aDict, ensure_ascii=False, sort_keys=True)"}
+{"in": "混同行列をヒートマップを用いて確認する", "out": "sns.heatmap(混同行列, annot=True, cmap='Reds')"}
+{"in": "折れ線グラフの印をポイントにする", "out": "plt.plot(データ列x, データ列y, marker='.')"}
+{"in": "行列のデータ型", "out": "aArray.dtype()"}
+{"in": "バイオレット色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='violet')"}
+{"in": "線グラフの色をイエローグリーンに設定する", "out": "plt.plot(データ列x, データ列y, color='yellowgreen')"}
+{"in": "折れ線グラフを点線に変更する", "out": "plt.plot(データ列x, データ列y, linestyle='dotted')"}
+{"in": "データフレームのカラムのピアソンの積立相関係数を求める", "out": "scipy.stats.pearsonr(df['列A'], df['列B'])"}
+{"in": "option: マーカーの色をやわらかい青にする", "out": "markerfacecolor = 'cornflowerblue'"}
+{"in": "year年をタイムスタンプにする", "out": "datetime.datetime(year=year, month=1, day=1)"}
+{"in": "データフレームのある列の値がxより少ない行を抽出する", "out": "df[df['列A'] < x]"}
+{"in": "暗い赤色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='darkred')"}
+{"in": "実数のタンジェントの逆数", "out": "math.atan(x)"}
+{"in": "整数nを8進表現に変換する", "out": "oct(n)"}
+{"in": "ファイルを改行なしで一行ずつ読み込む", "out": "f.readline()"}
+{"in": "棒プロットの幅を調整する", "out": "plt.bar(ラベル列, データ列, width=0.5)"}
+{"in": "日付時刻データは何時か知る", "out": "aDatetime.hour"}
+{"in": "標準出力がパイプ", "out": "not sys.stdout.isatty()"}
+{"in": "プロットをプロットする準備をする", "out": "import matplotlib.pyplot as plt"}
+{"in": "データ列を箱髭図にする", "out": "plt.boxplot(データ列)"}
+{"in": "ヒストグラムの色をピーチパフに変更する", "out": "plt.hist(データ列, color='peachpuff')"}
+{"in": "option: イエローグリーンを使う", "out": "color = 'yellowgreen'"}
+{"in": "ミディアムオーキッド色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='mediumorchid')"}
+{"in": "カラーパレットをパステル調にする", "out": "sns.set(pallete='pastel')"}
+{"in": "パーセプトロンを用いて回帰分析を行う", "out": "model = sklearn.neural_network.MLPRegressor(hidden_layer_sizes=(10, 10))"}
+{"in": "データフレームの指定したカラムを千の位で丸めて、整数にする", "out": "df['列A'].round(-3).astype(int)"}
+{"in": "折れ線グラフの色をドジャーブルーに変更する", "out": "plt.plot(データ列x, データ列y, color='dodgerblue')"}
+{"in": "日付時刻データの年数を使う", "out": "aDatetime.year"}
+{"in": "折れ線グラフの色をダークレッドに指定する", "out": "plt.plot(データ列x, データ列y, color='darkred')"}
+{"in": "散布図の上三角マーカーを黒くする", "out": "plt.scatter(データ列x, データ列y, marker='^', markerfacecolor='k')"}
+{"in": "ピアソンの相関係数を求める", "out": "scipy.stats.pearsonr(数列, 数列2)"}
+{"in": "データフレームを二つの列によって集約してグループ名を列挙する", "out": "[name for name, _ in df.groupby(['列A', '列B'])]"}
+{"in": "文字列をマゼンタで表示する", "out": "print(f'\\033[35m{value}\\033[0m')"}
+{"in": "二つの値をスラッシュで区切ってプリントする", "out": "print(value, value2, sep='/')"}
+{"in": "リネン色として縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='linen')"}
+{"in": "データフレームのカラムをにバイオリン図で可視化する", "out": "sns.violinplot(x='カテゴリ列', y='列', data=df)"}
+{"in": "リストを三つ並べてヒストグラムにする", "out": "plt.hist([データ列, データ列, データ列], color=['b', 'r', 'g'])"}
+{"in": "第一引数のファイルの名前", "out": "sys.argv[1]"}
+{"in": "option: ゴールデンロッドにグラフの色を設定する", "out": "color = 'goldenrod'"}
+{"in": "棒グラフをライトスカイブルー色として描画する", "out": "plt.bar(データ列x, データ列y, color='lightskyblue')"}
+{"in": "今日が何月か知る", "out": "datetime.datetime.today().month"}
+{"in": "option: ネイビーにグラフの色を設定する", "out": "color = 'navy'"}
+{"in": "option: マーカーの色を指定する", "out": "markerfacecolor = '#800080'"}
+{"in": "散布図の丸印の大きさを設定する", "out": "plt.scatter(データ列x, データ列y, marker='o', markersize=2.0)"}
+{"in": "あるカラムの文字列を欠損値に変換する", "out": "df['列A'].replace(値, np.nan)"}
+{"in": "データフレームの選択したカラムの欠損値を直後の値に指定する", "out": "df[['列A', '列B']].fillna(method='bfill')"}
+{"in": "散布図の星マーカーを黒色にする", "out": "plt.scatter(データ列x, データ列y, marker='*', markerfacecolor='k')"}
+{"in": "option: ミスティローズ色を用いる", "out": "color = 'mistyrose'"}
+{"in": "リストから重複を取り除く", "out": "sorted(set(aList), key=aList.index)"}
+{"in": "安全に文字列の左側から部分文字列を除去する", "out": "s.removeprefix(sub)"}
+{"in": "折れ線グラフをコーンズシルク色として描画する", "out": "plt.plot(データ列x, データ列y, color='cornsilk')"}
+{"in": "浮動小数点数の整数部を計算する", "out": "math.modf(x)[1]"}
+{"in": "データフレームの選択したカラムの中に文字列と文字列がいくつ存在するか数える", "out": "df[['列A', '列B']].isin([value, value2]).sum()"}
+{"in": "あらかじめ複数行対応として正規表現をコンパイルする", "out": "re.compile(pattern, flag=re.MULTILINE)"}
+{"in": "列をビン分割する", "out": "pd.cut(ds, aList)"}
+{"in": "option: コーンズシルクを使用する", "out": "color = 'cornsilk'"}
+{"in": "ヒストグラムをダークスラテグレー色として描画する", "out": "plt.hist(データ列, color='darkslategray')"}
+{"in": "単回帰モデルを用意する", "out": "model = sklearn.linear_model.LinearRegression()"}
+{"in": "データフレームの複数のカラムを並べて箱ひげ図で描画する", "out": "plt.boxplot([df['カラム'], df['カラム']])"}
+{"in": "year年month月の日付をオブジェクト化する", "out": "datetime.date(year=year, month=month, day=1)"}
+{"in": "インディアンレッド色でヒストグラムを描画する", "out": "plt.hist(データ列, color='indianred')"}
+{"in": "データフレームを散布図でプロット化して、カテゴリごとにマーカーを変える", "out": "sns.scatterplot(data=df, x='列名', y='列名', style='カテゴリ列')"}
+{"in": "横棒プロットを描画して中央寄せする", "out": "plt.barh(ラベル列, データ列, align='center')"}
+{"in": "イテラブルを行列に変換する", "out": "np.array(iterable)"}
+{"in": "データフレームの選択した列の中に文字列があるか調べる", "out": "df[['列A', '列B']].isin([value])"}
+{"in": "ふたつの関係が真上位集合か", "out": "aSet > aSet2"}
+{"in": "アヤメのデータセットをデータフレームとしてロードする", "out": "df = sns.load_dataset('iris')"}
+{"in": "列の重複コンビネーションを得る", "out": "itertools.combinations_with_replacement(iterable, n)"}
+{"in": "データフレームの平均を求める", "out": "df.mean()"}
+{"in": "縦棒グラフをミディアムブルー色で描画する", "out": "plt.bar(データ列x, データ列y, color='mediumblue')"}
+{"in": "シーグリーン色の折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='seagreen')"}
+{"in": "書式をマッピングで文字列整形する", "out": "formatText.format_map(aDict)"}
+{"in": "マッピングの項目名の一覧", "out": "aDict.keys()"}
+{"in": "データフレームの選択した列を丸めて、整数型にする", "out": "df[['列A', '列B']].round().astype(int)"}
+{"in": "タイムスタンプデータの時間を見る", "out": "aDatetime.time()"}
+{"in": "データシリーズの空文字を欠損値に変換しドロップする", "out": "ds.replace('', np.nan).dropna()"}
+{"in": "空のロジスティック回帰モデルを作る", "out": "model = sklearn.linear_model.LogisticRegression()"}
+{"in": "ヒストグラムと勾配ブースティングとして回帰分析を行う", "out": "model = sklearn.ensemble.HistGradientBoostingRegressor()"}
+{"in": "横棒グラフをライトスカイブルー色を用いて描画する", "out": "plt.barh(データ列x, データ列y, color='lightskyblue')"}
+{"in": "折れ線グラフの色をミディアムブルーに指定する", "out": "plt.plot(データ列x, データ列y, color='mediumblue')"}
+{"in": "回帰モデルの予測値と実測値を比較する", "out": "pd.DataFrame({'実測': 目的変数, '予測': model.predict(説明変数)})"}
+{"in": "option: ダークスラテグレー色を用いる", "out": "color = 'darkslategray'"}
+{"in": "データフレームをソートし、下位n件を取り出す", "out": "df.sort_values('キーとなる列').tail(n)"}
+{"in": "文字列中の部分文字列を文字列に全部置き換える", "out": "s.replace(sub, newsub)"}
+{"in": "キーがタプルに存在しないとき、要素を追加する", "out": "aDict.setdefault(key, element)"}
+{"in": "データフレームの列においてどの値が頻出か見る", "out": "df['列A'].mode()"}
+{"in": "option: パレットトルコイズにグラフの色を設定する", "out": "color = 'paleturquoise'"}
+{"in": "上位集合かどうか調べる", "out": "aSet.issuperset(aSet2)"}
+{"in": "option: フォントの色をドジャーブルーに指定する", "out": "color = 'dodgerblue'"}
+{"in": "カウンタのユニークな項目をリストとして得る", "out": "list(aCounter)"}
+{"in": "ヒストグラムをオリーブ色を用いて描画する", "out": "plt.hist(データ列, color='olive')"}
+{"in": "ミディアムシアグリーン色で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='mediumseagreen')"}
+{"in": "データフレームのある列を千の位で四捨五入する", "out": "df['列A'].round(-3)"}
+{"in": "データフレームから5行ランダムサンプリングする", "out": "df.sample(5)"}
+{"in": "option: デピンク色を用いる", "out": "color = 'deeppink'"}
+{"in": "ヒストグラムの色を白に変更する", "out": "plt.hist(データ列, color='white')"}
+{"in": "リストの各要素を関数に適用した結果で並べ変える", "out": "sorted(aList, key=func)"}
+{"in": "棒グラフをダークスラテグレー色を用いて描画する", "out": "plt.bar(データ列x, データ列y, color='darkslategray')"}
+{"in": "データフレームの指定したカラムの歪度を求める", "out": "df['列A'].kurt()"}
+{"in": "データフレームの欠損値が含まれる箇所を", "out": "df.style.highlight_null()"}
+{"in": "折れ線グラフのバツマーカーの色を指定する", "out": "plt.plot(データ列x, データ列y, marker='x', markerfacecolor='#800080')"}
+{"in": "文字列全体をケースを無視して正規表現にマッチさせる", "out": "re.fullmatch(pattern, s, flags=re.IGNORECASE)"}
+{"in": "折れ線グラフの色をブラックにする", "out": "plt.plot(データ列x, データ列y, color='black')"}
+{"in": "縦棒グラフをグリーンイエロー色で描画する", "out": "plt.bar(データ列x, データ列y, color='greenyellow')"}
+{"in": "縦棒グラフの色をミスティローズにする", "out": "plt.bar(データ列x, データ列y, color='mistyrose')"}
+{"in": "データフレームのあるカラムが何曜日か知る", "out": "df['列A'].dt.weekday_name"}
+{"in": "option: ミディアムスプリンググリーン色を用いる", "out": "color = 'mediumspringgreen'"}
+{"in": "三つのデータフレームを縦方向に一つにする", "out": "pd.concat([df, df2, df3], axis=1)"}
+{"in": "option: 色をミントクリームに変更する", "out": "color = 'mintcream'"}
+{"in": "縦横比を等しくする", "out": "plt.axis('equals')"}
+{"in": "ホットピンク色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='hotpink')"}
+{"in": "標準出力", "out": "sys.stdout"}
+{"in": "平均値と標準偏差から疑似乱数を生成する", "out": "random.normalvariate(mu=0.5, sigma=0.2)"}
+{"in": "本日の日付時刻を算出する", "out": "datetime.datetime.now()"}
+{"in": "最大値・最小値の範囲として一様な疑似乱数を得る", "out": "random.uniform(最小値, 最大値)"}
+{"in": "ヒストグラムをマゼンタ色として描画する", "out": "plt.hist(データ列, color='magenta')"}
+{"in": "組の文字列が最初に見つかるインデックス", "out": "aTuple.index(element)"}
+{"in": "スカイブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='skyblue')"}
+{"in": "赤い三角マーカーを折れ線グラフに描画する", "out": "plt.plot(データ列x, データ列y, marker='^', markerfacecolor='r')"}
+{"in": "折れ線グラフをペールグリーン色として描画する", "out": "plt.plot(データ列x, データ列y, color='palegreen')"}
+{"in": "チップのデータセットをデータフレームとしてロードする", "out": "df = sns.load_dataset('tips')"}
+{"in": "タプルにイテラブルを続ける", "out": "itertools.chain(iterable, iterable2)"}
+{"in": "データフレームの一部の列を千の位で丸める", "out": "df[['列A', '列B']].round(-3)"}
+{"in": "白い縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='w')"}
+{"in": "スレートブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='slateblue')"}
+{"in": "横棒グラフをオリーブ色として描画する", "out": "plt.barh(データ列x, データ列y, color='olive')"}
+{"in": "全要素を０で初期化した整数型の行列を作る", "out": "np.zeros(行数, 列数, dtype=np.int)"}
+{"in": "黒いダイアモンドマーカーをリストと配列についての散布図にプロットする", "out": "plt.plot(データ列x, データ列y, marker='D', c='k')"}
+{"in": "貝殻色でヒストグラムを描画する", "out": "plt.hist(データ列, color='seashell')"}
+{"in": "実行時の標準出力の出力先がターミナル", "out": "os.isatty(sys.stdin.fileno())"}
+{"in": "bとn2から成るペアを作る", "out": "(n, n2)"}
+{"in": "パパイヤウィップ色として横棒グラフを描画する", "out": "plt.barh(データ列x, データ列y, color='papayawhip')"}
+{"in": "縦棒グラフをシアン色として描画する", "out": "plt.bar(データ列x, データ列y, color='cyan')"}
+{"in": "オブジェクトにプロパティが存在するかどうか", "out": "hasattr(obj, プロパティ名)"}
+{"in": "横軸だけ目盛線", "out": "plt.grid(axis='x')"}
+{"in": "option: 小麦色色を使用する", "out": "color = 'wheat'"}
+{"in": "全要素を０で初期化した三二ビット整数型の行列を作る", "out": "np.zeros(行数, 列数, dtype=np.int16)"}
+{"in": "横棒グラフをグレー色として描画する", "out": "plt.barh(データ列x, データ列y, color='grey')"}
+{"in": "option: ボックスチャートを水平方向にする", "out": "vert = False"}
+{"in": "データフレームの一部のカラムを百の位で丸めて、整数型にする", "out": "df[['列A', '列B']].round(-2).astype(int)"}
+{"in": "グラフの中の日本語表示を利用可能にする", "out": "sns.set(font='IPAexGothic')"}
+{"in": "深紅色の棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='crimson')"}
+{"in": "option: ▼マーカーを描画する", "out": "marker = 'v'"}
+{"in": "option: グレーを用いる", "out": "color = 'gray'"}
+{"in": "option: フォントの色をディムグレーに設定する", "out": "color = 'dimgray'"}
+{"in": "集合の変更不能版", "out": "frozenset(aSet)"}
+{"in": "データフレームの形状", "out": "df.shape"}
+{"in": "連続したベクトルの自動作成する", "out": "np.arange(開始値, 終了値, 等差)"}
+{"in": "nの無限数列を求める", "out": "itertools.repeat(n)"}
+{"in": "説明変数と目的変数で分類モデルを学習する", "out": "model.fit(説明変数, 目的変数)"}
+{"in": "折れ線グラフをアクア色を使って描画する", "out": "plt.plot(データ列x, データ列y, color='aqua')"}
+{"in": "nが2で割り切れない", "out": "n % 2 == 1"}
+{"in": "行列の行ごとの合計値", "out": "np.sum(aArray, axis=1)"}
+{"in": "棒グラフをダークサーモン色として描画する", "out": "plt.bar(データ列x, データ列y, color='darksalmon')"}
+{"in": "横棒グラフを小麦色色として描画する", "out": "plt.barh(データ列x, データ列y, color='wheat')"}
+{"in": "キューの末尾に値を付け加える", "out": "deq.append(element)"}
+{"in": "リストの先頭を除く", "out": "aList[1:]"}
+{"in": "散布図の印を丸にする", "out": "plt.scatter(データ列x, データ列y, marker='o')"}
+{"in": "右三角マーカーで散布図をプロットする", "out": "plt.plot(データ列x, データ列y, marker='>')"}
+{"in": "多次元データを主成分分析としてパステル調に次元に次元削減する", "out": "sklearn.decomposition.PCA(n_components=N).fit_transform(多次元データ)"}
+{"in": "線グラフをサドルブラウン色で描画する", "out": "plt.plot(データ列x, データ列y, color='saddlebrown')"}
+{"in": "2つのデータフレームをつなぐ", "out": "pd.concat([df, df2])"}
+{"in": "タプルの要素を小さい方から並べる", "out": "sorted(aTuple, reverse=False)"}
+{"in": "配列を中央値でビニングする", "out": "pd.qcut(aArray, 2)"}
+{"in": "折れ線グラフをトマト色として描画する", "out": "plt.plot(データ列x, データ列y, color='tomato')"}
+{"in": "日付データからn分減算する", "out": "aDate - datetime.timedelta(minutes=n)"}
+{"in": "散布図の色を黄緑にする", "out": "plt.scatter(データ列x, データ列y, color='chartreuse')"}
+{"in": "線グラフの色をフクシアに設定する", "out": "plt.plot(データ列x, データ列y, color='fuchsia')"}
+{"in": "配列の標準誤差を使う", "out": "scipy.stats.sem(配列)"}
+{"in": "横棒グラフの色をダークブルーにする", "out": "plt.barh(データ列x, データ列y, color='darkblue')"}
+{"in": "データフレームの指定したカラムの欠損値を最頻値で補う", "out": "df['列A'].fillna(df['列A'].mode().iloc[0])"}
+{"in": "リストのn番目からn2番目までの部分を得る", "out": "aList[n:n2]"}
+{"in": "ビン数nで等量でリストをビン分割する", "out": "pd.qcut(aList, n)"}
+{"in": "アルファベットを全て使う", "out": "string.ascii_letters"}
+{"in": "折れ線グラフの印を丸にする", "out": "plt.plot(データ列x, データ列y, marker='o')"}
+{"in": "指定した列のカテゴリで集計し、平均値を求める", "out": "df.groupby('列A').mean()"}
+{"in": "要素がセットに含まれないか調べる", "out": "element not in aSet"}
+{"in": "オールドレース色で棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='oldlace')"}
+{"in": "数を整数で割った余り", "out": "x % y"}
+{"in": "option: コーンフラワーブルー色を使用する", "out": "color = 'cornflowerblue'"}
+{"in": "線グラフの色をライトシアンにする", "out": "plt.plot(データ列x, データ列y, color='lightcyan')"}
+{"in": "非数値データ列をベクトル化する", "out": "sklearn.preprocessing.OneHotEncoder(sparse=False).fit_transform(データ列)"}
+{"in": "文字列の中のパターンによる全てのマッチを見る", "out": "re.findall(pattern, s)"}
+{"in": "丸印を使って散布図を描画する", "out": "plt.scatter(データ列x, データ列y, marker='o')"}
+{"in": "option: 行列のデータ型を指定する", "out": "dtype = np.int16"}
+{"in": "新しいリッジ回帰モデルを用意する", "out": "model = sklearn.linear_model.Ridge(alpha=正則化項)"}
+{"in": "option: グリーンイエローにグラフの色を設定する", "out": "color = 'greenyellow'"}
+{"in": "option: チョコレート色を用いる", "out": "color = 'chocolate'"}
+{"in": "折れ線グラフをスノー色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='snow')"}
+{"in": "縦棒グラフをダークオリーブグリーン色で描画する", "out": "plt.bar(データ列x, データ列y, color='darkolivegreen')"}
+{"in": "散布図を紺碧色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='azure')"}
+{"in": "出力ストリームに文字列を書き込む", "out": "f.write(s)"}
+{"in": "散布図を暗い赤色として描画する", "out": "plt.scatter(データ列x, データ列y, color='darkred')"}
+{"in": "散布図のバツ印を赤くする", "out": "plt.scatter(データ列x, データ列y, marker='x', markerfacecolor='r')"}
+{"in": "option: △マーカーを加える", "out": "marker = '^'"}
+{"in": "リストとリストについての散布図に黒い大バツマーカーをプロットする", "out": "plt.plot(データ列x, データ列y, marker='X', c='k')"}
+{"in": "ライトスカイブルー色でヒストグラムを描画する", "out": "plt.hist(データ列, color='lightskyblue')"}
+{"in": "xの小数点以下'2'桁までを表示する", "out": "print(':.2f'.format(x))"}
+{"in": "データシリーズを正規表現patternで全部置き換える", "out": "ds.replace(pattern, repl, regex=True)"}
+{"in": "データシリーズの文字列をNaNに変換する", "out": "ds.replace(値, np.nan)"}
+{"in": "データフレームのあるカラムのタイムゾーンを日本に指定する", "out": "df['列A'].tz_convert('Asia/Tokyo')"}
+{"in": "データ列とリストについての散布図に黒いポイントマーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='.', c='k')"}
+{"in": "文字列が数字か調べる", "out": "s.isdigit()"}
+{"in": "option: グレー色を用いる", "out": "color = 'grey'"}
+{"in": "ヒストグラムの色をクリムゾンに指定する", "out": "plt.hist(データ列, color='crimson')"}
+{"in": "データフレームの選択したカラムを正規表現patternで一度にreplに置き換える", "out": "df[['列A', '列B']].replace(pattern, repl, regex=True)"}
+{"in": "データ列のエポック秒をdatetime64型に変換する", "out": "pd.to_datetime(ds, unit='s', utc=True)"}
+{"in": "辞書にタプルの項目を加えて、更新する", "out": "aDict.update(aDict2)"}
+{"in": "指定した列のカテゴリで集計し、各合計を算出する", "out": "df.groupby('列A').sum()"}
+{"in": "文字列リストをつなげるひとつの文字列にする", "out": "''.join(aStringList)"}
+{"in": "線グラフの色をシルバーに設定する", "out": "plt.plot(データ列x, データ列y, color='silver')"}
+{"in": "データフレームを表示するとき、列の最大幅をnに増やす", "out": "pd.set_option('max_colwidth', n)"}
+{"in": "散布図にrgbの▲マーカーを使う", "out": "plt.plot(データ列x, データ列y, marker='^', c=rgb)"}
+{"in": "データフレームをある列の値によってグループ化し要約統計量を計算する", "out": "df.groupby('列A').describe()"}
+{"in": "横棒グラフをブルーバイオレット色を用いて描画する", "out": "plt.barh(データ列x, データ列y, color='blueviolet')"}
+{"in": "ある列の最大値", "out": "df.groupby('列A').max()"}
+{"in": "option: スレートブルー色を使用する", "out": "color = 'slateblue'"}
+{"in": "実数の天井を求める", "out": "math.ceil(x)"}
+{"in": "データフレームを表示するとき、小数点以下の表示精度を減らす", "out": "pd.set_option('precision', n)"}
+{"in": "横棒プロットを描画して、ラベルを下寄せする", "out": "plt.barh(ラベル列, データ列, align='edge')"}
+{"in": "配列のケンドールの相関係数", "out": "scipy.stats.kendalltau(配列, 配列2)"}
+{"in": "線グラフをダークゴールデンロッド色で描画する", "out": "plt.plot(データ列x, データ列y, color='darkgoldenrod')"}
+{"in": "二つの辞書をネストする", "out": "collections.ChainMap(aDict, aDict2)"}
+{"in": "プロットを全般的に濃くする", "out": "sns.set(pallete='deep')"}
+{"in": "あるカラムの値がxに等しく、かつ別の列の値がyに等しい行を抽出する", "out": "df[(df['列A'] == x) & (df['列B'] == y)]"}
+{"in": "データシリーズの中に日付データと文字列がある", "out": "ds.isin([value, value2])"}
+{"in": "折れ線グラフのバツ印を黒くする", "out": "plt.plot(データ列x, データ列y, marker='x', markerfacecolor='k')"}
+{"in": "散布図のダイアモンドマーカーの線幅を指定する", "out": "plt.scatter(データ列x, データ列y, marker='D', markeredgewidth=2.5)"}
+{"in": "カウンタをイテラブルから作成する", "out": "collections.Counter(iterable)"}
+{"in": "色付きの破線で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, linestyle='dashed', color='#800080')"}
+{"in": "データフレームの選択したカラムの75パーセンタイル", "out": "df[['列A', '列B']].quantile(0.75)"}
+{"in": "n＋n2", "out": "n + n2"}
+{"in": "カーキ色で線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='khaki')"}
+{"in": "option: ダークオレンジを使う", "out": "color = 'darkorange'"}
+{"in": "散布図にrgbの菱形マーカーを使う", "out": "plt.plot(データ列x, データ列y, marker='D', c=rgb)"}
+{"in": "K-S検定を行う", "out": "scipy.stats.kstest(配列, 'norm')"}
+{"in": "線グラフの色をサーモンに変更する", "out": "plt.plot(データ列x, データ列y, color='salmon')"}
+{"in": "棒グラフをビスク色として描画する", "out": "plt.bar(データ列x, データ列y, color='bisque')"}
+{"in": "あるカラムの下位25％", "out": "df['列A'].quantile(0.75)"}
+{"in": "ダークグレー色として散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='darkgray')"}
+{"in": "折れ線グラフの大バツ印の色を変更する", "out": "plt.plot(データ列x, データ列y, marker='X', markerfacecolor='#800080')"}
+{"in": "ヒストグラムの色をナバホホワイトに変更する", "out": "plt.hist(データ列, color='navajowhite')"}
+{"in": "整数nの2進文字列", "out": "bin(n)[2:]"}
+{"in": "ロバスト推定としてクラス分類を行う", "out": "model = sklearn.linear_model.RANSACClassifier(random_state=0)"}
+{"in": "数式の微分を算出する", "out": "sympy.diff(e)"}
+{"in": "現在の再帰の最大回数を知る", "out": "sys.getrecursionlimit()"}
+{"in": "棒グラフをゴールド色として描画する", "out": "plt.bar(データ列x, データ列y, color='gold')"}
+{"in": "リストと配列についての散布図に左三角マーカーを描画する", "out": "plt.plot(データ列x, データ列y, marker='<')"}
+{"in": "ライトグリーン色で折れ線グラフを描画する", "out": "plt.plot(データ列x, データ列y, color='lightgreen')"}
+{"in": "論文にグラフを指定する", "out": "sns.set(context='paper')"}
+{"in": "文字列を最初の部分文字列によって二分する", "out": "s.partition(sub)"}
+{"in": "右三角マーカーを散布図に使用する", "out": "plt.plot(データ列x, データ列y, marker='>')"}
+{"in": "線グラフをディムグレー色として描画する", "out": "plt.plot(データ列x, データ列y, color='dimgrey')"}
+{"in": "散布図にrgbの下三角マーカーを用いる", "out": "plt.plot(データ列x, データ列y, marker='v', c=rgb)"}
+{"in": "レベッカパープル色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='rebeccapurple')"}
+{"in": "折れ線グラフをゲインズボロ色を用いて描画する", "out": "plt.plot(データ列x, データ列y, color='gainsboro')"}
+{"in": "NULLに等しい値", "out": "None"}
+{"in": "データフレームを2つの列によって昇順にソートして、更新する", "out": "df.sort_values(by=['列A', '列B'], ascending=True, inplace=True)"}
+{"in": "ヒストグラムの色をアリスブルーに変更する", "out": "plt.hist(データ列, color='aliceblue')"}
+{"in": "数値を簡単化する", "out": "sympy.sympify(e)"}
+{"in": "y座標の目盛りに文字列をつける", "out": "plt.yticks([0, 60, 90], ['不可', '可', '秀'])"}
+{"in": "option: グラフを一点鎖線に設定する", "out": "linestyle = 'dashbot'"}
+{"in": "アクアマリン色で散布図を描画する", "out": "plt.scatter(データ列x, データ列y, color='aquamarine')"}
+{"in": "文字列の末尾から部分文字列を取り除く", "out": "s.removesuffix(sub)"}
+{"in": "option: 珊瑚色を使用する", "out": "color = 'coral'"}
+{"in": "配列の尖度を使う", "out": "scipy.stats.kurtosis(配列, bias=False)"}
+{"in": "リストと配列について散布図を描画して、マーカーを左三角に変更する", "out": "plt.plot(データ列x, データ列y, marker='<')"}
+{"in": "ヒストグラムをシスル色として描画する", "out": "plt.hist(データ列, color='thistle')"}
+{"in": "rgbの星マーカーとして散布図を描画する", "out": "plt.plot(データ列x, データ列y, marker='*', c=rgb)"}
+{"in": "データフレームをグループ化し、あるカラムに対し分散を求める", "out": "df.groupby('列A')['列B'].var()"}
+{"in": "散布図の下三角マーカーを黒色にする", "out": "plt.scatter(データ列x, データ列y, marker='v', markerfacecolor='k')"}
+{"in": "辞書のの一覧", "out": "aDict.values()"}
+{"in": "ロイヤルブルー色の縦棒グラフを描画する", "out": "plt.bar(データ列x, データ列y, color='royalblue')"}
+{"in": "2つの変数を文字列で区切って表示する", "out": "print(value, value2, sep=s)"}
+{"in": "散布図に星マーカーを加える", "out": "plt.scatter(データ列x, データ列y, marker='*')"}
+{"in": "線グラフの色をゴールドに設定する", "out": "plt.plot(データ列x, データ列y, color='gold')"}
+{"in": "データフレームの指定したカラムの不偏分散を求める", "out": "df['列A'].var(ddof=1)"}
+{"in": "データフレームから10行、ランダムサンプリングする", "out": "df.sample(10)"}
+{"in": "散布図の右三角マーカーの太さを設定する", "out": "plt.scatter(データ列x, データ列y, marker='>', markeredgewidth=2.5)"}
+{"in": "文字列の開始位置から終了位置までの範囲で部分文字列の出現", "out": "s.count(sub, start, end)"}
+{"in": "混同行列を算出する", "out": "混同行列 = sklearn.metrics.confusion_matrix(正解データ列, 予測データ列)"}
+{"in": "ヒストグラムの色をグレーに変更する", "out": "plt.hist(データ列, color='gray')"}
+{"in": "カデットブルー色としてヒストグラムを描画する", "out": "plt.hist(データ列, color='cadetblue')"}
+{"in": "散布図の大バツ印の大きさを変更する", "out": "plt.scatter(データ列x, データ列y, marker='X', markersize=2.0)"}
+{"in": "文字列の最初", "out": "s[0]"}
+{"in": "指定したカラムの中にとがいくつあるか求める", "out": "df['列A'].isin([value, value2]).sum()"}
+{"in": "散布図をライトグリーン色を用いて描画する", "out": "plt.scatter(データ列x, データ列y, color='lightgreen')"}
+{"in": "赤い四角マーカーを散布図に用いる", "out": "plt.plot(データ列x, データ列y, marker='s', c='r')"}
+{"in": "線グラフをミディアムパープル色として描画する", "out": "plt.plot(データ列x, データ列y, color='mediumpurple')"}
+{"in": "リストの値を消す", "out": "aList.clear()"}
+{"in": "辞書から項目名で指定された値をポップする", "out": "aDict.pop(key)"}
+{"in": "黒い星印を折れ線グラフに描画する", "out": "plt.plot(データ列x, データ列y, marker='*', markerfacecolor='k')"}
