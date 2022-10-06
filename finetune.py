@@ -1,3 +1,4 @@
+import glob
 import argparse
 import random
 import json
@@ -12,8 +13,8 @@ from torch.utils.data import DataLoader
 from torch.optim import AdamW
 
 import pytorch_lightning as pl
-# from pytorch_lightning.callbacks.early_stopping import EarlyStopping
-# from pytorch_lightning.callbacks import ModelSummary
+from pytorch_lightning.callbacks.early_stopping import EarlyStopping
+from pytorch_lightning.callbacks import ModelSummary
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -25,6 +26,14 @@ from jsonl import JSONL
 # global hyperparameter
 
 
+def find_latest_checkpoints(checkpoint_dir):
+    ckpts = sorted(glob.glob(checkpoint_dir+"/*.ckpt"))
+    if len(ckpts) == 0:
+        return None
+    else:
+        return ckpts[-1]
+
+
 def setup_hyperparameters():
     USE_GPU = torch.cuda.is_available()
     # ハイパーパラメータの読み込み  何も書かなければ、デフォルト値 default
@@ -33,12 +42,14 @@ def setup_hyperparameters():
     parser.add_argument('files', type=str, nargs='+', help='jsonl files')
     parser.add_argument('--model_path', default='google/mt5-small')
     parser.add_argument('--tokenizer_path', default=None)
+    parser.add_argument('--checkpoint_path', default=None)
     parser.add_argument('--output_path', default='model')
     parser.add_argument('--tested_file', default='tested.jsonl')
     parser.add_argument('--max_length', type=int, default=128)
     parser.add_argument('--source_max_length', type=int, default=None)
     parser.add_argument('--target_max_length', type=int, default=None)
     parser.add_argument('--max_epochs', type=int, default=4)
+    parser.add_argument('--max_time', type=str, default=None)
     parser.add_argument('--batch_size', type=int, default=32)  # 自動
     parser.add_argument('--num_workers', type=int, default=4)
     parser.add_argument('--gradient_accumulation_steps', type=int, default=1)
@@ -51,7 +62,10 @@ def setup_hyperparameters():
     parser.add_argument('--precision', type=int, default=32)
     parser.add_argument('--n_gpus', type=int, default=1 if USE_GPU else 0)
     # https://note.nkmk.me/python-argparse-bool/
-    parser.add_argument('--auto_tune', action='store_true', default=False)
+    parser.add_argument('--auto_batch_size',
+                        action='store_true', default=False)
+    parser.add_argument('--early_stopping', action='store_true', default=False)
+    parser.add_argument('--progress_bar', action='store_true', default=False)
     parser.add_argument('--fast_dev_run', action='store_true', default=False)
 
     hparams = parser.parse_args()  # hparams になる
@@ -67,18 +81,41 @@ def setup_hyperparameters():
     # 訓練パラメータの設定
     # https://torch.classcat.com/2021/02/22/pytorch-lightning-1-1-notebooks-05-trainer-flags-overview-2/
     train_params = dict(
+        enable_progress_bar=hparams.progress_bar,
         fast_dev_run=hparams.fast_dev_run,
         gpus=hparams.n_gpus,
         max_epochs=hparams.max_epochs,
+        max_time=hparams.max_time,  # "00:00:15:00"
         gradient_clip_val=hparams.max_grad_norm,
-        # checkpoint_callback=checkpoint_callback,
         # k バッチ毎に勾配を蓄積する batch_size * k になる
         accumulate_grad_batches=hparams.gradient_accumulation_steps,
         # batch_size の自動調整,  hparams.batch_size が上書きされる
-        auto_scale_batch_size="binsearch" if hparams.auto_tune else None,
+        auto_scale_batch_size="binsearch" if hparams.auto_batch_size else None,
         precision=hparams.precision,
         #        amp_level='O2' if hparams.precision == 16 else 'O0'
     )
+    # EarlyStopping
+    callbacks = []
+    if hparams.early_stopping:
+        early_stop_callback = EarlyStopping(
+            monitor="val_loss", patience=3,
+            verbose=True,
+            mode="min"
+        )
+        callbacks.append(early_stop_callback)
+    if hparams.checkpoint_path:
+        # https://blog.shikoan.com/pytorch-lightning-max-time/
+        checkpoint_callback = pl.callbacks.ModelCheckpoint(
+            monitor="val_loss",
+            dirpath=hparams.checkpoint_path,
+            filename="epoch{epoch:02d}-{val_loss:.5f}",
+            save_top_k=3,
+            mode="max"
+        )
+        callbacks.append(checkpoint_callback)
+        resume_ckpt = find_latest_checkpoints(hparams.checkpoint_path)
+    if len(callbacks) > 0:
+        train_params['callbacks'] = callbacks
     return hparams, train_params
 
 
@@ -187,6 +224,16 @@ class T5FineTuner(pl.LightningModule):
         self.log("train_loss", loss)
         return {"loss": loss}
 
+    def training_epoch_end(self, outputs):
+        """バリデーション完了処理"""
+        avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
+        ppl = torch.exp(avg_loss)
+        self.log("train_loss", avg_loss, prog_bar=True)
+        self.log("train_ppl", ppl, prog_bar=False)
+        if not self.hparams.progress_bar:
+            print(
+                f'Epoch {self.current_epoch+1} train_loss {avg_loss} PPL {ppl}')
+
     def validation_step(self, batch, batch_idx):
         """バリデーションステップ処理"""
         loss = self._step(batch)
@@ -196,9 +243,12 @@ class T5FineTuner(pl.LightningModule):
     def validation_epoch_end(self, outputs):
         """バリデーション完了処理"""
         avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-        val_ppl = torch.exp(avg_loss)
-        self.log("val_loss", avg_loss, prog_bar=False)
-        self.log("val_ppl", val_ppl, prog_bar=False)
+        ppl = torch.exp(avg_loss)
+        self.log("val_loss", avg_loss, prog_bar=True)
+        self.log("val_ppl", ppl, prog_bar=False)
+        if not self.hparams.progress_bar:
+            print(
+                f'Epoch {self.current_epoch+1} val_loss {avg_loss} PPL {ppl}')
 
     def test_step(self, batch, batch_idx):
         """テストステップ処理"""
@@ -251,7 +301,6 @@ class T5FineTuner(pl.LightningModule):
             // self.hparams.gradient_accumulation_steps
             * float(self.hparams.max_epochs)
         )
-        print('t_total', self.t_total)
         scheduler = get_linear_schedule_with_warmup(
             optimizer,
             num_warmup_steps=self.hparams.warmup_steps,
@@ -266,15 +315,18 @@ class T5FineTuner(pl.LightningModule):
             train_dataset = JSONL(
                 self.hparams, suffix='_train.', encode=encode_t5)
             self.train_dataset = train_dataset
+            print('train_dataset:', len(self.train_dataset))
 
             # validデータのパスを指定
             val_dataset = JSONL(
                 self.hparams, suffix='_valid.', encode=encode_t5)
             self.val_dataset = val_dataset
+            print('val_dataset:', len(self.val_dataset))
 
         if stage == 'test' or stage is None:
             self.test_dataset = JSONL(
                 self.hparams, suffix='_test.', encode=encode_t5_test)
+            print('test_dataset:', len(self.test_dataset))
 
     def train_dataloader(self):
         """訓練データローダーを作成する"""
@@ -300,8 +352,9 @@ def main_train(hparams, train_params):
     set_seed(hparams.seed)  # 乱数を初期化
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
-    if hparams.auto_tune:
+    if hparams.auto_batch_size:
         trainer.tune(model)
+        print('auto_scale_batch_size', model.hparams.batch_size)
     if hparams.max_epochs > 0:
         trainer.fit(model)
         # 最終エポックのモデルを保存 output_path に保存します
@@ -309,57 +362,6 @@ def main_train(hparams, train_params):
         model.model.save_pretrained(hparams.output_path)
     if hparams.test:
         trainer.test(model)
-
-
-# def main_test(hparams):
-#     set_seed(hparams.seed)
-#     test_dataset = JSONL(hparams, suffix='_test.', encode=encode_t5)
-#     if len(test_dataset) == 0:
-#         return
-#     test_loader = DataLoader(
-#         test_dataset,
-#         batch_size=hparams.batch_size,
-#         num_workers=hparams.num_workers)
-#     # 事前学習済みモデルの読み込み
-#     model = AutoModelForSeq2SeqLM.from_pretrained(hparams.output_path)
-#     USE_GPU = torch.cuda.is_available()
-#     DEVICE = torch.device('cuda:0' if USE_GPU else 'cpu')
-#     model.to(DEVICE)
-#     model.eval()
-
-#     inputs = []
-#     outputs = []
-#     preds = []
-#     for batch in test_loader:
-#         # print(batch)
-#         input_ids = batch['source_ids']
-#         input_mask = batch['source_mask']
-#         if USE_GPU:
-#             input_ids = input_ids.cuda()
-#             input_mask = input_mask.cuda()
-#         outs = model.generate(
-#             input_ids=input_ids,
-#             attention_mask=input_mask,
-#             max_length=hparams.target_max_length,
-#             return_dict_in_generate=True,
-#             output_scores=True)
-#         dec = [tokenizer.decode(ids, skip_special_tokens=True,
-#                                 clean_up_tokenization_spaces=False)
-#                for ids in outs.sequences]
-#         preds.extend(dec)
-#         # conf = [s.cpu().item() for s in torch.exp(outs.sequences_scores)]
-#         inputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
-#                                         clean_up_tokenization_spaces=False)
-#                        for ids in batch["source_ids"]])
-#         outputs.extend([tokenizer.decode(ids, skip_special_tokens=True,
-#                                          clean_up_tokenization_spaces=False)
-#                         for ids in batch["target_ids"]])
-#     # JSONLに保存します。
-#     with open(f'{hparams.output_path}/result.jsonl', 'w') as w:
-#         for ins, out, pred in zip(inputs, outputs, preds):
-#             line = json.dumps(
-#                 {"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
-#             print(line, file=w)
 
 
 def main():
@@ -373,5 +375,5 @@ def main():
     main_train(hparams, train_params)
 
 
-if __name__ == '__main__':  # わかります
+if __name__ == '__main__':
     main()
