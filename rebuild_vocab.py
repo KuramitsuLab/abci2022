@@ -12,16 +12,23 @@ def setup():
     return hparams
 
 
-def read_new_vocab(files):
+def read_new_vocab(files, vocab_map):
     new_vocab = {}
     for file in files:
         with open(file) as f:
             for line in f.readlines():
-                line = line.rstrip()
-                if line == '':
+                if '\t' in line or ' ' in line:
+                    line = line.split()[0]
+                else:
+                    line = line.strip()
+                if line == '' or line in vocab_map:
                     continue
                 if line not in new_vocab:
                     new_vocab[line] = line
+                if line.startswith('_') and line.endswith('_'):
+                    line = line.replace('_', '')
+                    if line not in vocab_map:
+                        new_vocab[line] = line
     print('新しい語彙数', len(new_vocab))
     return list(new_vocab.keys())
 
@@ -52,10 +59,22 @@ def remove_unused(vocab_map, new_vocab=set()):
     return removed
 
 
+def test_vocab(tokenizer_path, new_vocab):
+    tokenizer = AutoTokenizer.from_pretrained(
+        tokenizer_path, use_fast=False)
+    for v in new_vocab():
+        print(v, tokenizer.encode(v))
+
+
+NUM = set(f'{i}' for i in range(10, 512))
+_NUM = set(f'▁{i}' for i in range(10, 512))
+
+
 def replace_vocab(files, tokenizer_path):
     tokenizer = AutoTokenizer.from_pretrained(
         tokenizer_path, use_fast=False)
     new_model = f'tokenizer-only'
+    tokenizer.special_tokens_map_file = "special_tokens_map.json"
     tokenizer.save_pretrained(new_model)
     print('新しいモデル', new_model)
     m = model.ModelProto()
@@ -64,9 +83,18 @@ def replace_vocab(files, tokenizer_path):
     vocab_map = {}
     for id, piece in enumerate(m.pieces):
         if piece.type == 1:
-            vocab_map[piece.piece] = id
-    print('語彙数', len(vocab_map))
-    new_vocab = read_new_vocab(files)
+            token = piece.piece
+            # if token.endswith('>'):
+            #     print(token)
+            # if token in NUM:
+            #     token = f'<{token}>'
+            #     m.pieces[id].piece = token
+            # if token in _NUM:
+            #     token = f'▁<{token[1:]}>'
+            #     m.pieces[id].piece = token
+            vocab_map[token] = id
+    print('全語彙数', len(vocab_map))
+    new_vocab = read_new_vocab(files, vocab_map)
     removed = remove_unused(vocab_map, set(new_vocab))
     removed = list(sorted(removed, reverse=True))
     with open(f'{new_model}/removed.txt', 'w') as w:
@@ -81,6 +109,16 @@ def replace_vocab(files, tokenizer_path):
             piece.piece = piece.piece[1:]
     with open(f"{new_model}/spiece.model", 'wb') as f:
         f.write(m.SerializeToString())
+    test_vocab(new_model, new_vocab)
+
+
+def test_vocab(tokenizer_path, new_vocab):
+    tokenizer = AutoTokenizer.from_pretrained(
+        tokenizer_path, use_fast=False)
+    for v in new_vocab:
+        print(v, tokenizer.encode(v))
+    for v in ['<nl><nl>', '<123> <100> <1>']:
+        print(v, tokenizer.encode(v))
 
 
 def main():
