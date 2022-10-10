@@ -1,0 +1,147 @@
+{"in":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif:<nl><tab>A==C<nl><tab>print(B)<nl>else:<nl><tab>print(A)","out":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"A=str(input())<nl>B=str(input())<nl>A,B=map(str,input().split)<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>if 50<=B and B<=A and A<=300:","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>if 50<=B and B<=A and A<=300:<nl><tab>print(C)"}
+{"in":"N=int(input())<nl><nl><nl>for i in range(31):<nl><tab>if 100*(n-1)<100*i:<nl><tab>print(i)<nl><tab>break","out":"N=int(input())<nl><nl><nl>for i in range(31):<nl><tab>if 100*(N-1)<100*i:<nl><tab><tab>print(i)<nl><tab><tab>break"}
+{"in":"A=map(int,input().split())<nl>B=map(int,input().split())<nl><nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl><nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"A,B=map(int,input(),split())","out":"A,B=map(int,input().split())"}
+{"in":"A=input(int())<nl>B=input(int())<nl>C=((A-B)\/3)+B print(C)","out":"A,B=map(int,input().split())<nl>C=((A-B)\/3)+B print(C)"}
+{"in":"X=int(input())<nl>if X=100 or X=200 or X=300 or X=400 or X=500 or X=600 or X=700 or X=800 or X=900 or X=1000:<nl><tab>print(Yes)<nl>else:<nl><tab>print(No)","out":"X=int(input())<nl>if X==100 or X==200 or X==300 or X==400 or X==500 or X==600 or X==700 or X==800 or X==900 or X==1000:<nl><tab>print(\"Yes\")<nl>else:<nl><tab>print(\"No\")"}
+{"in":"A,B=map(str,input().split())<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A,B=(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"A=input(int())<nl>B=input(int())<nl>C=((A-B)\/3)+B print(C)","out":"A,B=map(int,input().split())<nl>C=((A-B)\/3)+B print(C)"}
+{"in":"d=int(input())<nl>print(d\/10","out":"d=int(input())<nl>print(d\/10)"}
+{"in":"C=(A-B)\/3+B A=input(int(130))<nl>B=input(int(100))<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"X=int(input())<nl>if X>0<nl>X%100==0:<nl><tab>print(\"Yes\")<nl><tab>else:<nl><tab><tab>print(\"No\")<nl>elif X=0:<nl><tab>print(\"No\")","out":"X=int(input())<nl>if X>0 and X%100==0:<nl><tab>print(\"Yes\")<nl>else:<nl><tab>print(\"No\")"}
+{"in":"import math<nl>N=int(input())<nl>print(math.ceil())","out":"import math<nl>N=int(input())<nl>print(math.ceil(N))"}
+{"in":"D=int(input(1000))<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"N=int(input())<nl>n=int((N+99)\/100)<nl>print(math.mod(N\/100))<nl>print(N\/100)","out":"import math<nl>N=int(input())<nl>n=int((N+99)\/100)<nl>print(math.mod(N\/100))<nl>print(N\/100)"}
+{"in":"A,B=list(map(int,input()\/split))<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"D=input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"C=(A-B)\/3+B A=input(int())<nl>B=input(int())<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"A,B=int,input().split()<nl>D=A－B<nl>print(32**D)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print(32**D)"}
+{"in":"A,B=map(int,input.sprit())","out":"A,B=map(int,input().split())"}
+{"in":"X=int(input())<nl>if X>0<nl>X%100==0:<nl><tab>print(\"Yes\")<nl><tab>else:<nl><tab><tab>print(\"No\")<nl>elif X=0:<nl><tab>print(\"No\")","out":"X=int(input())<nl>if X>0 and X%100==0:<nl><tab>print(\"Yes\")<nl>else:<nl><tab>print(\"No\")"}
+{"in":"d=int(input())<nl>print(d\/10","out":"d=int(input())<nl>print(d\/10)"}
+{"in":"'N'='list(map(int,input().split()))'<nl>print(N)","out":"N=list(map(int,input().split()))<nl>print(N)"}
+{"in":"A=input(int())<nl>B=input(int())<nl>C=(A-B)\/3+B print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"A,B=list(map(int,input()\/split))<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"a,b=map(int,input().split())<nl>c,d=map(int,input(),split()))","out":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())"}
+{"in":"D=input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif:<nl><tab>A==C<nl><tab>print(B)<nl>else:<nl><tab>print(A)","out":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"N=(map(int,input().split()))<nl>print(N-1)\/100+1","out":"N=int(input())<nl>print(N-1)\/100+1"}
+{"in":"N=int(input())<nl>N=N\/\/100<nl>N=N-<nl>print(N)","out":"N=int(input())<nl>N=N\/\/100<nl>print(N)"}
+{"in":"x=(int,input().split())<nl>D=1-x","out":"x=int(input())<nl>D=1-x"}
+{"in":"A,B=map(int,input.split())","out":"A,B=map(int,input().split())"}
+{"in":"N=int(input())<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B=map(int,input().split())<nl>A,B=map(int,input().split())<nl>C=(A-B)\/3+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl><tab>break<nl>else if A==C:<nl><tab>print(B)<nl><tab>break<nl>els:<nl><tab>print(A)<nl><tab>break","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"A,B=map(int,input().split())<nl>C=(A−B)\/3+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"N=<nl>ist(map(int,input().split()))<nl>print(N)","out":"N=list(map(int,input().split()))<nl>print(N)"}
+{"in":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else<nl>print(A)","out":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"N=int(input())<nl>print(mod(N\/100))<nl>print(N\/100)","out":"N=int(input())<nl>print(N%100)<nl>print(N\/100)"}
+{"in":"A,B=map(int,input(),split())<nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"x=(int,input().split())<nl>print(1-x)","out":"x=int(input())<nl>print(1-x)"}
+{"in":"x=map(int,input().split())<nl>print(1-x)","out":"x=int(input())<nl>print(1-x)"}
+{"in":"A,B=(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"S,T=map(str,input().split())<nl>S=act<nl>T=order<nl>print(\"T\",\"S\")","out":"S,T=map(str,input().split())<nl>print(\"T\",\"S\")"}
+{"in":"A,B=(int,input()split<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"950<nl>1X=int(input())<nl>if 9>=X\/\/100>=1:<nl><tab>print('Yes')<nl>else:<nl><tab>print('No')","out":"X=int(input())<nl>if 9>=X\/\/100>=1:<nl><tab>print('Yes')<nl>else:<nl><tab>print('No')"}
+{"in":"A,B=map(int,input().split)<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A=map(int,input().split())<nl><nl>ans=((A*0.01)+1)","out":"A=int(input().split())<nl><nl>ans=((A*0.01)+1)"}
+{"in":"A,B,(map(int,input().splist())<nl><nl>if A==B:<nl>print(C)<nl>elif A==C:<nl>print(B)<nl>else:<nl>print(A)","out":"A,B,C=map(int,input().split())<nl><nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"x=map(int,input())<nl>print(1-x)","out":"x=int(input())<nl>print(1-x)"}
+{"in":"A,B,(map(int,input().splist())<nl>if A==B:<nl>print(C)<nl>elif A==C:<nl>print(B)<nl>else:<nl>print(A)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"A,B=map(int,input(),split())<nl><nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl><nl>print((D\/A)*100)"}
+{"in":"A,B=map(int,input().split())<nl>print C=(((A-3)\/3)+B)","out":"A,B=map(int,input().split())<nl>C=(((A-3)\/3)+B)<nl>print(C)"}
+{"in":"C=(A-B)\/3+B A=input(int())<nl>B=input(int())<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"d=int(input())<nl>while d>9:<nl><tab>D=list(map(int,str(d)))<nl><tab>d=sum(D)<nl><tab>print(d)<nl><tab>return d","out":"d=int(input())<nl>while d>9:<nl><tab>D=list(map(int,str(d)))<nl><tab>d=sum(D)<nl><tab>print(d)"}
+{"in":"A,B=map())(int,input().split)<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A=input(int())<nl>B=input(int())<nl>C=((A-B)\/3)+B print(C)","out":"A,B=map(int,input().split())<nl>C=((A-B)\/3)+B print(C)"}
+{"in":"N=int(input())<nl>inport math<nl>print(math.ceil())","out":"import math<nl>N=int(input())<nl>print(math.ceil(N))"}
+{"in":"A,B,map(int,input().split())<nl>if A==B:<nl>print(C)<nl>elif A==C:<nl>print(B)<nl>else:<nl>print(A)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"N=int(input())<nl>n=int((N+99)\/100)<nl>print(math.mod(N\/100))<nl>print(N\/100)","out":"import math<nl>N=int(input())<nl>n=int((N+99)\/100)<nl>print(math.mod(N\/100))<nl>print(N\/100)"}
+{"in":"D=int(input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B=map(int,input().split())<nl><nl>ans=((A-B)\/3+B)<nl>print(ans))","out":"A,B=map(int,input().split())<nl><nl>ans=((A-B)\/3+B)<nl>print(ans)"}
+{"in":"x=(int,input().split())<nl>print(1-x)","out":"x=int(input())<nl>print(1-x)"}
+{"in":"A,B,C=map(int,input().split())<nl>print(((A-3)\/3)+B)","out":"A,B=map(int,input().split())<nl>print(((A-3)\/3)+B)"}
+{"in":"N=int(input())<nl><nl><nl>for i in range(31):<nl><tab>if 100*(n-1)<100*i:<nl><tab>print(i)<nl><tab>break","out":"N=int(input())<nl><nl><nl>for i in range(31):<nl><tab>if 100*(N-1)<100*i:<nl><tab><tab>print(i)<nl><tab><tab>break"}
+{"in":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>if 50<=B and B<=A and A<=300:","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>if 50<=B and B<=A and A<=300:<nl><tab>print(C)"}
+{"in":"x=int(map(int,input().split()))<nl>D=1-x","out":"x=int(input())<nl>D=1-x"}
+{"in":"A=str(input())<nl>B=str(input())<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A,B=map(int,input().split())<nl>C=(A−B)\/3+B<nl>​<nl>+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"a,b=map(int,input().split())<nl>D=a-b<nl>if D==1:<nl><tab>print(1)<nl>else:<nl>print(D*32)","out":"a,b=map(int,input().split())<nl>D=a-b<nl>if D==1:<nl><tab>print(1)<nl>else:<nl><tab>print(D*32)"}
+{"in":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>print(a*d-b*c)<nl>print(ans)","out":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>ans=a*d-b*c<nl>print(ans)"}
+{"in":"A,B=map(int,input(),split())<nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl><nl>if A==C:<nl><tab>print(B)<nl><nl><tab>else<nl><tab>print(A)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl><nl>if A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"A,B=map(int,input().split)<nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"A,B=map(int,input().split())<nl>A,B=map(int,input().split())<nl>C=(A-B)\/3+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"X,Y=map(int,input().split())<nl>while n=(Y-X)\/10:<nl><tab>if X+(10*n)>=Y:<nl><tab><tab>break<nl><tab>print(n)","out":"X,Y=map(int,input().split())<nl>while True:<nl><tab>n=(Y-X)\/10<nl><tab>if X+(10*n)>=Y:<nl><tab><tab>break<nl><tab>print(n)"}
+{"in":"A,B=map(int,input.sprit())","out":"A,B=map(int,input().split())"}
+{"in":"A,B=(int,input()split<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"A,B,C=map(int,input().split())<nl>printmax(A+B or B+C or A+C)","out":"A,B,C=map(int,input().split())<nl>print(max(A+B,B+C,A+C))"}
+{"in":"C=(A-B)\/3+B A=input(int(130))<nl>B=input(int(100))<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"x=int(input())<nl>if x==1:<nl><tab>print(0)<nl><tab>else:<nl><tab><tab>print(1)<nl>s=0","out":"x=int(input())<nl>if x==1:<nl><tab>print(0)<nl>else:<nl><tab>print(1)<nl>s=0"}
+{"in":"N=int(input())<nl>print(mod(N\/100))<nl>print(N\/100)","out":"N=int(input())<nl>print(N%100)<nl>print(N\/100)"}
+{"in":"d=str(input())<nl>s=0<nl>D=list(d)<nl>for j in range(1000):<nl><tab>for i in range(len(D)):<nl><tab><tab>s+=int(D[i])<nl><tab>if s<=9:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>elif d==11 or d==22 or d==33 or d==44:<nl><tab><tab>:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>else:<nl><tab><tab>d=str(s)<nl><tab><tab>s=0<nl><tab><tab>D=list(d)","out":"d=str(input())<nl>s=0<nl>D=list(d)<nl>for j in range(1000):<nl><tab>for i in range(len(D)):<nl><tab><tab>s+=int(D[i])<nl><tab>if s<=9:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>elif d==11 or d==22 or d==33 or d==44:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>else:<nl><tab><tab>d=str(s)<nl><tab><tab>s=0<nl><tab><tab>D=list(d)"}
+{"in":"x=map(int,input().split())<nl>D=1-int(x)","out":"x=int(input())<nl>D=1-int(x)"}
+{"in":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif B==c:<nl><tab>print(A)<nl>elif C==A:<nl><tab>print(B)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif B==C:<nl><tab>print(A)<nl>elif C==A:<nl><tab>print(B)"}
+{"in":"kogi https:\/\/atcoder.jp\/contests\/abc192\/tasks\/abc192_a<nl><nl><nl>X=int(input())<nl><nl>p=100-(X%100)<nl>print(p)","out":"X=int(input())<nl><nl>p=100-(X%100)<nl>print(p)"}
+{"in":"A,B=map(int,input().split()<nl>print(((A-B)\/A)*100)","out":"A,B=map(int,input().split())<nl>print(((A-B)\/A)*100)"}
+{"in":"kogi https:\/\/atcoder.jp\/contests\/abc192\/tasks\/abc192_a<nl><nl><nl>X=int(input())<nl><nl>p=100-(X%100)<nl>print(p)","out":"X=int(input())<nl><nl>p=100-(X%100)<nl>print(p)"}
+{"in":"A,B=(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"d=int(input())<nl>while d>9:<nl><tab>D=list(map(int,str(d)))<nl><tab>d=sum(D)<nl><tab>print(d)<nl><tab>return d","out":"d=int(input())<nl>while d>9:<nl><tab>D=list(map(int,str(d)))<nl><tab>d=sum(D)<nl><tab>print(d)"}
+{"in":"x=int(input())<nl>if x==1:<nl><tab>print(0)<nl><tab>else:<nl><tab><tab>print(1)<nl>s=0","out":"x=int(input())<nl>if x==1:<nl><tab>print(0)<nl>else:<nl><tab>print(1)<nl>s=0"}
+{"in":"A,B=map(int,input.split())","out":"A,B=map(int,input().split())"}
+{"in":"A,B=map(int,input.split())","out":"A,B=map(int,input().split())"}
+{"in":"A,B=map(int,input(),split())<nl>D=A-B<nl>print(D\/A*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print(D\/A*100)"}
+{"in":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>print(a*d-b*c)<nl>print(ans)","out":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>ans=a*d-b*c<nl>print(ans)"}
+{"in":"D=input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A=str(input())<nl>B=str(input())<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl><nl>print(((A-B)\/3)+B)"}
+{"in":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>print(ad-bc)","out":"a,b=map(int,input().split())<nl>c,d=map(int,input().split())<nl>print(a*d-b*c)"}
+{"in":"C=(A-B)\/3+B A,B=input(int())<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B print(C)"}
+{"in":"N=<nl>ist(map(int,input().split()))<nl>print(N)","out":"N=list(map(int,input().split()))<nl>print(N)"}
+{"in":"A,B=map(int,input(),split())<nl><nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl><nl>print((B\/A)*100)"}
+{"in":"A,B=map(int,input().split()<nl>print(A,B)<nl>print(((A-B)\/A)*100)","out":"A,B=map(int,input().split())<nl>print(A,B)<nl>print(((A-B)\/A)*100)"}
+{"in":"A,B=map())(int,input().split)<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A,B=map(int,input().split())<nl><nl>ans=((A-B)\/3+B)<nl>print(ans))","out":"A,B=map(int,input().split())<nl><nl>ans=((A-B)\/3+B)<nl>print(ans)"}
+{"in":"N=int(input())<nl>print(N\/100)math.ceil()","out":"import math<nl>N=int(input())<nl>print(math.ceil(N\/100))"}
+{"in":"A,B=map(int,input().splist())<nl><nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl><nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"A,B=map(int,input(),split())","out":"A,B=map(int,input().split())"}
+{"in":"A,B=(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B<nl>print(C)"}
+{"in":"d=input()<nl>print(d\/10)","out":"d=int(input())<nl>print(d\/10)"}
+{"in":"A,B=map(int,input(.sprit()))<nl>print(A,B)","out":"A,B=map(int,input().sprit())<nl>print(A,B)"}
+{"in":"N=int(input())<nl>S=N\/100<nl>for S in rsnge(31)","out":"N=int(input())<nl>S=N\/100<nl>for S in range(31):<nl><tab>print(S)"}
+{"in":"X=int(input())<nl>for n in range(100,1000,10)","out":"X=int(input())<nl>for n in range(100,1000,10):<nl><tab>pass"}
+{"in":"'N'='list(map(int,input().split()))'<nl>print(N)","out":"N=list(map(int,input().split()))<nl>print(N)"}
+{"in":"A,B=int,input().split()<nl>D=A−B<nl>print(32**D)","out":"A,B=int,input().split()<nl>D=A-B<nl>print(32**D)"}
+{"in":"N=int(input())<nl>print(N\/100)math.ceil()","out":"import math<nl>N=int(input())<nl>print(math.ceil(N\/100))"}
+{"in":"X=int(input())<nl>X=a*100<nl>if a*100<=X:<nl><tab>print('Yes')<nl>else a*100>X:<nl><tab>print('No')","out":"X=int(input())<nl>X=a*100<nl>if a*100<=X:<nl><tab>print('Yes')<nl>elif a*100>X:<nl><tab>print('No')"}
+{"in":"D=int(input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B=map(int,input().split())<nl>C=(A−B)\/3+B<nl>​<nl>+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"x=int(input())<nl>if X==0:<nl><tab>print(1)<nl>if x==1:<nl><tab>print(0)","out":"x=int(input())<nl>if x==0:<nl><tab>print(1)<nl>if x==1:<nl><tab>print(0)"}
+{"in":"D=int(input()()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"D=int(input()()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B=map(int,input().split())D＝A-B<nl>print(D)","out":"A,B=map(int,input().split())D=A-B<nl>print(D)"}
+{"in":"2 x=int(input)<nl>if x==1:<nl><tab>print(0)<nl>else:<nl><tab>print(1)","out":"x=int(input)<nl>if x==1:<nl><tab>print(0)<nl>else:<nl><tab>print(1)"}
+{"in":"A,B,C=map(int,input().split())<nl><nl>C=((A-B)\/3+B)<nl>print(C)","out":"A,B=map(int,input().split())<nl><nl>C=((A-B)\/3+B)<nl>print(C)"}
+{"in":"A,B=map(str,input().split())<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"A,B=map(int,input.split())","out":"A,B=map(int,input().split())"}
+{"in":"X,Y=map(int,input().split())<nl>while n=(Y-X)\/10:<nl><tab>if X+(10*n)>=Y:<nl><tab><tab>break<nl><tab>print(n)","out":"X,Y=map(int,input().split())<nl>while True:<nl><tab>n=(Y-X)\/10<nl><tab>if X+(10*n)>=Y:<nl><tab><tab>break<nl><tab>print(n)"}
+{"in":"A=map(int,input().split())<nl><nl>ans=((A*0.01)+1)","out":"A=int(input().split())<nl><nl>ans=((A*0.01)+1)"}
+{"in":"A,B=map(int,input().split)<nl><nl>print(((A-B)\/3)+B)","out":"A,B=map(int,input().split())<nl><nl>print(((A-B)\/3)+B)"}
+{"in":"x=int(map(int,input().split()))<nl>D=1-x","out":"x=int(input())<nl>D=1-x"}
+{"in":"A,B=int,input().split()<nl>D=A-B<nl>print(32**D)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print(32**D)"}
+{"in":"A=input(int())<nl>B=input(int())<nl>C=((A*B)\/3)+B print(C)","out":"A,B=map(int,input().split())<nl>C=((A*B)\/3)+B print(C)"}
+{"in":"A,B=map(int,input().split)<nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"A,B=map(int,input().split())<nl>print C=(((A-3)\/3)+B)","out":"A,B=map(int,input().split())<nl>C=(((A-3)\/3)+B)<nl>print(C)"}
+{"in":"A,B=map(int,input().split())<nl><nl>ans=((A*0.01)+1)","out":"A=int(input())<nl><nl>ans=((A*0.01)+1)"}
+{"in":"A,B=map(int,input().split())<nl>C=(A−B)\/3+B","out":"A,B=map(int,input().split())<nl>C=(A-B)\/3+B"}
+{"in":"x=map(int,input().split())<nl>D=1-int(x)","out":"x=int(input())<nl>D=1-int(x)"}
+{"in":"A,B,C=map(int,input()split())<nl>if A==B:<nl><tab>print(C)<nl><nl>if A==C:<nl><tab>print(B)<nl><nl><tab>else<nl><tab>print(A)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>if A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"D=input()<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B=map(int,input(),split())<nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl>D=A-B<nl>print((D\/A)*100)"}
+{"in":"A,B,C=map(int,input().split())<nl>if A==B:<nl>print(C)<nl><nl>elif A==C:<nl>print(B)<nl><nl>else:<nl>print(A)","out":"A,B,C=map(int,input().split())<nl>if A==B:<nl><tab>print(C)<nl>elif A==C:<nl><tab>print(B)<nl>else:<nl><tab>print(A)"}
+{"in":"d=str(input())<nl>s=0<nl>D=list(d)<nl>for j in range(1000):<nl><tab>for i in range(len(D)):<nl><tab><tab>s+=int(D[i])<nl><tab>if s<=9:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>elif d==11 or d==22 or d==33 or d==44:<nl><tab><tab>:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>else:<nl><tab><tab>d=str(s)<nl><tab><tab>s=0<nl><tab><tab>D=list(d)","out":"d=str(input())<nl>s=0<nl>D=list(d)<nl>for j in range(1000):<nl><tab>for i in range(len(D)):<nl><tab><tab>s+=int(D[i])<nl><tab>if s<=9:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>elif d==11 or d==22 or d==33 or d==44:<nl><tab><tab>print(s)<nl><tab><tab>break<nl><tab>else:<nl><tab><tab>d=str(s)<nl><tab><tab>s=0<nl><tab><tab>D=list(d)"}
+{"in":"D=int(input(1000))<nl>print(D\/100)","out":"D=int(input())<nl>print(D\/100)"}
+{"in":"A,B,(map(int,input().splist())","out":"A,B=map(int,input().split())"}
+{"in":"A,B=map(int,input().splist())<nl><nl>D=A-B<nl>print((D\/A)*100)","out":"A,B=map(int,input().split())<nl><nl>D=A-B<nl>print((D\/A)*100)"}
