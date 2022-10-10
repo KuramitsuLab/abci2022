@@ -221,14 +221,15 @@ class T5FineTuner(pl.LightningModule):
     def training_step(self, batch, batch_idx):
         """訓練ステップ処理"""
         loss = self._step(batch)
-        self.log("train_loss", loss)
+        self.log("loss", loss)
         return {"loss": loss}
 
     def training_epoch_end(self, outputs):
         """バリデーション完了処理"""
-        avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
+        # print("アウトプットの確認", outputs)
+        avg_loss = torch.stack([x["loss"] for x in outputs]).mean()
         ppl = torch.exp(avg_loss)
-        self.log("train_loss", avg_loss, prog_bar=True)
+        self.log("avg_loss", avg_loss, prog_bar=True)
         self.log("train_ppl", ppl, prog_bar=False)
         if not self.hparams.progress_bar:
             print(
