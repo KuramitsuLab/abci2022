@@ -83,7 +83,7 @@ def white_tokenize(text: str) -> list:
 
 def white_pack(source_or_tokens, token_map={}):
     if isinstance(source_or_tokens, str):
-        tokens = white_tokenize(tokens)
+        tokens = white_tokenize(source_or_tokens)
     else:
         tokens = source_or_tokens
     prev = '@'
