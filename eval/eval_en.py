@@ -13,9 +13,9 @@ warnings.filterwarnings('ignore')
 #前処理
 def pretreatment(ref, pred):
     try:
-        #空白削除
-        new_ref = ref.replace(" ","")
-        new_pred = pred.replace(" ","")
+        #置換
+        new_ref = ref.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
+        new_pred = pred.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
         return ((new_ref, new_pred))
     except:
         return ((ref, pred))

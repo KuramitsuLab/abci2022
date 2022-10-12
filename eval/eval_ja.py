@@ -18,9 +18,9 @@ def pretreatment(ref, pred):
         #全角→半角
         new_ref = mojimoji.zen_to_han(ref)
         new_pred = mojimoji.zen_to_han(pred)
-        #空白削除
-        new_ref = new_ref.replace(" ","")
-        new_pred = new_pred.replace(" ","")
+        #置換
+        new_ref = new_ref.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
+        new_pred = new_pred.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
         return ((new_ref, new_pred))
     except:
         return ((ref, pred))
