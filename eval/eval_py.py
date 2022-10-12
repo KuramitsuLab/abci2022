@@ -20,7 +20,7 @@ def pretreatment(ref, pred):
     try:
         #置換
         new_ref = ref.replace('<nl>','\n').replace('<tab>','    ')
-        new_pred = ref.replace('<nl>','\n').replace('<tab>','    ')
+        new_pred = pred.replace('<nl>','\n').replace('<tab>','    ')
 
         #black
         new_ref = black.format_str(new_ref,mode=black.Mode())[:-1]
