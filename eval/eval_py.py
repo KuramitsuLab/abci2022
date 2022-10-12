@@ -82,7 +82,7 @@ def BLEU(dataset,results):
 def  CONALA_BLEU(dataset, results):
     smoother = SmoothingFunction()
     sum_b2 = 0
-    sum_b5 = 0
+    sum_b4 = 0
 
     def tokenize_for_bleu_eval(code):
         code = re.sub(r'([^A-Za-z0-9_])', r' \1 ', code)
