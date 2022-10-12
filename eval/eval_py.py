@@ -23,8 +23,8 @@ def pretreatment(ref, pred):
         new_pred = ref.replace('<nl>','\n').replace('<tab>','    ')
 
         #black
-        new_ref = black.format_str(ref,mode=black.Mode())[:-1]
-        new_pred = black.format_str(pred,mode=black.Mode())[:-1]
+        new_ref = black.format_str(new_ref,mode=black.Mode())[:-1]
+        new_pred = black.format_str(new_pred,mode=black.Mode())[:-1]
         return ((new_ref, new_pred))
     except:
         global result_black_ng
