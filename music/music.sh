@@ -1,6 +1,6 @@
 #!/bin/bash
 #$ -l rt_G.small=1
-#$ -l h_rt=02:00:00
+#$ -l h_rt=01:30:00
 #$-j y
 #$-m b
 #$-m a
@@ -18,4 +18,4 @@ export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/l
 python3 finetune.py\
     --batch_size=16\
     --output_path='testfile'\
-    music_test.jsonl music_train.jsonl
+    music_test.jsonl music_train.jsonl music_valid.jsonl
