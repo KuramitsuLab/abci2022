@@ -74,7 +74,7 @@ def Levenstein(dataset,results):
 
 def main():
     results = {'日時':'','ファイル名':'','BLACK_NG件数':'','構文パス率':'',
-    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth5':'','ROUGE-L':'','Leven':''}
+    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth4':'','ROUGE-L':'','Leven':''}
 
     #日付
     datetime_now = datetime.datetime.now()
