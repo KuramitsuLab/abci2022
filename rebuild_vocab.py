@@ -25,6 +25,8 @@ def read_new_vocab(files, vocab_map):
                     continue
                 if line not in new_vocab:
                     new_vocab[line] = line
+                else:
+                    print('登録済み', line)
                 if line.startswith('_') and line.endswith('_'):
                     line = line.replace('_', '')
                     if line not in vocab_map:
