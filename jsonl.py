@@ -34,9 +34,12 @@ def JSONL(hparams, suffix='_train',
             logging.info(f'loading {file}..')
             with open(file) as f:
                 for line in f.readlines():
-                    data = json.loads(line)
-                    src, tgt = transform(data[source], data[target])
-                    data = encode(src, tgt, hparams.source_max_length,
-                                  hparams.target_max_length)
-                    dataset.append(data)
+                    try:
+                        data = json.loads(line)
+                        src, tgt = transform(data[source], data[target])
+                        data = encode(src, tgt, hparams.source_max_length,
+                                    hparams.target_max_length)
+                        dataset.append(data)
+                    except :
+                        print('ERR', line)
     return JSONLDataset(dataset)

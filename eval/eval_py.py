@@ -18,9 +18,13 @@ warnings.filterwarnings('ignore')
 #前処理
 def pretreatment(ref, pred):
     try:
+        #置換
+        new_ref = ref.replace('<nl>','\n').replace('<tab>','    ')
+        new_pred = pred.replace('<nl>','\n').replace('<tab>','    ')
+
         #black
-        new_ref = black.format_str(ref,mode=black.Mode())[:-1]
-        new_pred = black.format_str(pred,mode=black.Mode())[:-1]
+        new_ref = black.format_str(new_ref,mode=black.Mode())[:-1]
+        new_pred = black.format_str(new_pred,mode=black.Mode())[:-1]
         return ((new_ref, new_pred))
     except:
         global result_black_ng
@@ -78,7 +82,7 @@ def BLEU(dataset,results):
 def  CONALA_BLEU(dataset, results):
     smoother = SmoothingFunction()
     sum_b2 = 0
-    sum_b5 = 0
+    sum_b4 = 0
 
     def tokenize_for_bleu_eval(code):
         code = re.sub(r'([^A-Za-z0-9_])', r' \1 ', code)
@@ -95,11 +99,11 @@ def  CONALA_BLEU(dataset, results):
         py = [tokenize_for_bleu_eval(py)]
         pred = tokenize_for_bleu_eval(pred)
         sum_b2 += bleu_score.sentence_bleu(py, pred, smoothing_function=smoother.method2)
-        sum_b5 += bleu_score.sentence_bleu(py, pred, smoothing_function=smoother.method5)
+        sum_b4 += bleu_score.sentence_bleu(py, pred, smoothing_function=smoother.method4)
     bleu2 = sum_b2 / len(dataset)*100
-    bleu5 = sum_b5 / len(dataset)*100
+    bleu4 = sum_b4 / len(dataset)*100
     results['-smooth2'] = round(bleu2,3)
-    results['-smooth5'] = round(bleu5,3)
+    results['-smooth4'] = round(bleu4,3)
 
 def ROUGE_L(dataset,results):
     rouge = RougeCalculator(lang='ja')
@@ -122,7 +126,7 @@ def Levenstein(dataset,results):
 
 def main():
     results = {'日時':'','ファイル名':'','BLACK_NG件数':'','構文パス率':'',
-    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth5':'','ROUGE-L':'','Leven':''}
+    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth4':'','ROUGE-L':'','Leven':''}
 
     #日付
     datetime_now = datetime.datetime.now()

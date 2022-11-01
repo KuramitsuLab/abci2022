@@ -13,9 +13,9 @@ warnings.filterwarnings('ignore')
 #前処理
 def pretreatment(ref, pred):
     try:
-        #空白削除
-        new_ref = ref.replace(" ","")
-        new_pred = pred.replace(" ","")
+        #置換
+        new_ref = ref.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
+        new_pred = pred.replace(" ","").replace('<nl>','\n').replace('<tab>','    ')
         return ((new_ref, new_pred))
     except:
         return ((ref, pred))
@@ -74,7 +74,7 @@ def Levenstein(dataset,results):
 
 def main():
     results = {'日時':'','ファイル名':'','BLACK_NG件数':'','構文パス率':'',
-    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth5':'','ROUGE-L':'','Leven':''}
+    '全体件数':'','正答件数':'','誤答件数':'','正答率':'','BLEU':'','-smooth2':'','-smooth4':'','ROUGE-L':'','Leven':''}
 
     #日付
     datetime_now = datetime.datetime.now()
