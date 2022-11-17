@@ -48,7 +48,7 @@ def setup_hyperparameters():
     parser.add_argument('--max_length', type=int, default=128)
     parser.add_argument('--source_max_length', type=int, default=None)
     parser.add_argument('--target_max_length', type=int, default=None)
-    parser.add_argument('--max_epochs', type=int, default=10)
+    parser.add_argument('--max_epochs', type=int, default=4)
     parser.add_argument('--max_time', type=str, default=None)
     parser.add_argument('--batch_size', type=int, default=32)  # 自動
     parser.add_argument('--num_workers', type=int, default=4)
@@ -62,7 +62,8 @@ def setup_hyperparameters():
     parser.add_argument('--precision', type=int, default=32)
     parser.add_argument('--n_gpus', type=int, default=1 if USE_GPU else 0)
     # https://note.nkmk.me/python-argparse-bool/
-    parser.add_argument('--auto_batch_size', action='store_true', default=False)
+    parser.add_argument('--auto_batch_size',
+                        action='store_true', default=False)
     parser.add_argument('--early_stopping', action='store_true', default=False)
     parser.add_argument('--progress_bar', action='store_true', default=False)
     parser.add_argument('--fast_dev_run', action='store_true', default=False)
@@ -130,29 +131,29 @@ def set_seed(seed):  # 乱数シードの設定
 tokenizer = None
 
 
-def encode_t5(src, tgt, source_max_length=256, target_max_length=256, data=None):
-    inputs = tokenizer.batch_encode_plus(
-        [src],
-        max_length=source_max_length,
-        truncation=True,
-        pad_to_max_length=True,
-        padding="max_length", return_tensors="pt")
-    targets = tokenizer.batch_encode_plus(
-        [tgt],
-        max_length=target_max_length,
-        truncation=True,
-        pad_to_max_length=True,
-        padding="max_length", return_tensors="pt")
-    source_ids = inputs["input_ids"].squeeze()
-    source_mask = inputs["attention_mask"].squeeze()
-    target_ids = targets["input_ids"].squeeze()
-    target_mask = targets["attention_mask"].squeeze()
-    return {
-        "source_ids": source_ids.to(dtype=torch.long),
-        "source_mask": source_mask.to(dtype=torch.long),
-        "target_ids": target_ids.to(dtype=torch.long),
-        "target_mask": target_mask.to(dtype=torch.long),
-    }
+# def encode_t5(src, tgt, source_max_length=256, target_max_length=256):
+#     inputs = tokenizer.batch_encode_plus(
+#         [src],
+#         max_length=source_max_length,
+#         truncation=True,
+#         pad_to_max_length=True,
+#         padding="max_length", return_tensors="pt")
+#     targets = tokenizer.batch_encode_plus(
+#         [tgt],
+#         max_length=target_max_length,
+#         truncation=True,
+#         pad_to_max_length=True,
+#         padding="max_length", return_tensors="pt")
+#     source_ids = inputs["input_ids"].squeeze()
+#     source_mask = inputs["attention_mask"].squeeze()
+#     target_ids = targets["input_ids"].squeeze()
+#     target_mask = targets["attention_mask"].squeeze()
+#     return {
+#         "source_ids": source_ids.to(dtype=torch.long),
+#         "source_mask": source_mask.to(dtype=torch.long),
+#         "target_ids": target_ids.to(dtype=torch.long),
+#         "target_mask": target_mask.to(dtype=torch.long),
+#     }
 
 
 def encode_t5_test(src, tgt, source_max_length=256, target_max_length=256, data=None):
@@ -173,6 +174,7 @@ def encode_t5_test(src, tgt, source_max_length=256, target_max_length=256, data=
     target_ids = targets["input_ids"].squeeze()
     target_mask = targets["attention_mask"].squeeze()
     return {
+        "key": data['key'],
         "source": src,
         "target": tgt,
         "source_ids": source_ids.to(dtype=torch.long),
@@ -217,38 +219,38 @@ class T5FineTuner(pl.LightningModule):
         loss = outputs[0]
         return loss
 
-    def training_step(self, batch, batch_idx):
-        """訓練ステップ処理"""
-        loss = self._step(batch)
-        self.log("loss", loss)
-        return {"loss": loss}
+    # def training_step(self, batch, batch_idx):
+    #     """訓練ステップ処理"""
+    #     loss = self._step(batch)
+    #     self.log("loss", loss)
+    #     return {"loss": loss}
 
-    def training_epoch_end(self, outputs):
-        """バリデーション完了処理"""
-        # print("アウトプットの確認", outputs)
-        avg_loss = torch.stack([x["loss"] for x in outputs]).mean()
-        ppl = torch.exp(avg_loss)
-        self.log("avg_loss", avg_loss, prog_bar=True)
-        self.log("train_ppl", ppl, prog_bar=False)
-        if not self.hparams.progress_bar:
-            print(
-                f'Epoch {self.current_epoch+1} train_loss {avg_loss} PPL {ppl}')
+    # def training_epoch_end(self, outputs):
+    #     """バリデーション完了処理"""
+    #     # print("アウトプットの確認", outputs)
+    #     avg_loss = torch.stack([x["loss"] for x in outputs]).mean()
+    #     ppl = torch.exp(avg_loss)
+    #     self.log("avg_loss", avg_loss, prog_bar=True)
+    #     self.log("train_ppl", ppl, prog_bar=False)
+    #     if not self.hparams.progress_bar:
+    #         print(
+    #             f'Epoch {self.current_epoch+1} train_loss {avg_loss} PPL {ppl}')
 
-    def validation_step(self, batch, batch_idx):
-        """バリデーションステップ処理"""
-        loss = self._step(batch)
-        self.log("val_loss", loss, prog_bar=False)
-        return {"val_loss": loss}
+    # def validation_step(self, batch, batch_idx):
+    #     """バリデーションステップ処理"""
+    #     loss = self._step(batch)
+    #     self.log("val_loss", loss, prog_bar=False)
+    #     return {"val_loss": loss}
 
-    def validation_epoch_end(self, outputs):
-        """バリデーション完了処理"""
-        avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
-        ppl = torch.exp(avg_loss)
-        self.log("val_loss", avg_loss, prog_bar=True)
-        self.log("val_ppl", ppl, prog_bar=False)
-        if not self.hparams.progress_bar:
-            print(
-                f'Epoch {self.current_epoch+1} val_loss {avg_loss} PPL {ppl}')
+    # def validation_epoch_end(self, outputs):
+    #     """バリデーション完了処理"""
+    #     avg_loss = torch.stack([x["val_loss"] for x in outputs]).mean()
+    #     ppl = torch.exp(avg_loss)
+    #     self.log("val_loss", avg_loss, prog_bar=True)
+    #     self.log("val_ppl", ppl, prog_bar=False)
+    #     if not self.hparams.progress_bar:
+    #         print(
+    #             f'Epoch {self.current_epoch+1} val_loss {avg_loss} PPL {ppl}')
 
     def test_step(self, batch, batch_idx):
         """テストステップ処理"""
@@ -262,8 +264,8 @@ class T5FineTuner(pl.LightningModule):
         decs = [tokenizer.decode(ids, skip_special_tokens=True,
                                  clean_up_tokenization_spaces=False)
                 for ids in outputs.sequences]
-        tested = [(src, tgt, dec) for src, tgt, dec
-                  in zip(batch['source'], batch['target'], decs)]
+        tested = [(key, src, tgt, dec) for key, src, tgt, dec
+                  in zip(batch['key'], batch['source'], batch['target'], decs)]
         #self.log("test_loss", loss, prog_bar=False)
         return {"tested": tested}
 
@@ -271,9 +273,9 @@ class T5FineTuner(pl.LightningModule):
         """テスト完了処理"""
         with open(self.hparams.tested_file, 'w') as w:
             for x in outputs:
-                for ins, out, pred in x["tested"]:
+                for key, ins, out, pred in x["tested"]:
                     line = json.dumps(
-                        {"in": ins, "out": out, "pred": pred}, ensure_ascii=False)
+                        {"key": key, "in": ins, "out": out, "pred": pred}, ensure_ascii=False)
                     print(line, file=w)
 
     def configure_optimizers(self):
@@ -310,36 +312,36 @@ class T5FineTuner(pl.LightningModule):
 
     def setup(self, stage=None):
         """初期設定（データセットの読み込み）"""
-        if stage == 'fit' or stage is None:
-            # trainデータのパスを指定
-            train_dataset = JSONL(
-                self.hparams, suffix='_train.', encode=encode_t5)
-            self.train_dataset = train_dataset
-            print('train_dataset:', len(self.train_dataset))
+        # if stage == 'fit' or stage is None:
+        #     # trainデータのパスを指定
+        #     train_dataset = JSONL(
+        #         self.hparams, suffix='_train.', encode=encode_t5)
+        #     self.train_dataset = train_dataset
+        #     print('train_dataset:', len(self.train_dataset))
 
-            # validデータのパスを指定
-            val_dataset = JSONL(
-                self.hparams, suffix='_valid.', encode=encode_t5)
-            self.val_dataset = val_dataset
-            print('val_dataset:', len(self.val_dataset))
+        #     # validデータのパスを指定
+        #     val_dataset = JSONL(
+        #         self.hparams, suffix='_valid.', encode=encode_t5)
+        #     self.val_dataset = val_dataset
+        #     print('val_dataset:', len(self.val_dataset))
 
         if stage == 'test' or stage is None:
             self.test_dataset = JSONL(
-                self.hparams, suffix='_test.', encode=encode_t5_test)
+                self.hparams, suffix='_xai.', encode=encode_t5_test)
             print('test_dataset:', len(self.test_dataset))
 
-    def train_dataloader(self):
-        """訓練データローダーを作成する"""
-        return DataLoader(self.train_dataset,
-                          batch_size=self.hparams.batch_size,
-                          drop_last=True, shuffle=True,
-                          num_workers=self.hparams.num_workers)
+    # def train_dataloader(self):
+    #     """訓練データローダーを作成する"""
+    #     return DataLoader(self.train_dataset,
+    #                       batch_size=self.hparams.batch_size,
+    #                       drop_last=True, shuffle=True,
+    #                       num_workers=self.hparams.num_workers)
 
-    def val_dataloader(self):
-        """バリデーションデータローダーを作成する"""
-        return DataLoader(self.val_dataset,
-                          batch_size=self.hparams.batch_size,
-                          num_workers=self.hparams.num_workers)
+    # def val_dataloader(self):
+    #     """バリデーションデータローダーを作成する"""
+    #     return DataLoader(self.val_dataset,
+    #                       batch_size=self.hparams.batch_size,
+    #                       num_workers=self.hparams.num_workers)
 
     def test_dataloader(self):
         """バリデーションデータローダーを作成する"""
@@ -353,24 +355,23 @@ def main_train(hparams, train_params):
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
     if hparams.auto_batch_size:
-        print('BEFORE: batch_size', model.hparams.batch_size)
+        print('BEFORE auto_scale_batch_size', model.batch_size, model.hparams.batch_size)
         trainer.tune(model)
-        print('AFTER: batch_size', model.hparams.batch_size)
-    if hparams.max_epochs > 0:
-        trainer.fit(model)
-        # 最終エポックのモデルを保存 output_path に保存します
-        tokenizer.save_pretrained(hparams.output_path)
-        model.model.save_pretrained(hparams.output_path)
-    if hparams.test:
-        trainer.test(model)
+        print('AFTER  auto_scale_batch_size', model.batch_size, model.hparams.batch_size)
+    # if hparams.max_epochs > 0:
+    #     trainer.fit(model)
+    #     # 最終エポックのモデルを保存 output_path に保存します
+    #     tokenizer.save_pretrained(hparams.output_path)
+    #     model.model.save_pretrained(hparams.output_path)
+    # if hparams.test:
+    trainer.test(model)
 
 
 def main():
     global tokenizer  # グローバル変数
     hparams, train_params = setup_hyperparameters()
     print('hparams:', hparams)
-    tokenizer = AutoTokenizer.from_pretrained(
-        hparams.tokenizer_path, use_fast=False)
+    tokenizer = AutoTokenizer.from_pretrained(hparams.tokenizer_path, use_fast=False)
     print('tokenizer:', tokenizer)
     print('train_params:', train_params)
     main_train(hparams, train_params)
