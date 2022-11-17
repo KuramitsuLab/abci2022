@@ -48,7 +48,7 @@ def setup_hyperparameters():
     parser.add_argument('--max_length', type=int, default=128)
     parser.add_argument('--source_max_length', type=int, default=None)
     parser.add_argument('--target_max_length', type=int, default=None)
-    parser.add_argument('--max_epochs', type=int, default=4)
+    parser.add_argument('--max_epochs', type=int, default=10)
     parser.add_argument('--max_time', type=str, default=None)
     parser.add_argument('--batch_size', type=int, default=32)  # 自動
     parser.add_argument('--num_workers', type=int, default=4)
@@ -62,8 +62,7 @@ def setup_hyperparameters():
     parser.add_argument('--precision', type=int, default=32)
     parser.add_argument('--n_gpus', type=int, default=1 if USE_GPU else 0)
     # https://note.nkmk.me/python-argparse-bool/
-    parser.add_argument('--auto_batch_size',
-                        action='store_true', default=False)
+    parser.add_argument('--auto_batch_size', action='store_true', default=False)
     parser.add_argument('--early_stopping', action='store_true', default=False)
     parser.add_argument('--progress_bar', action='store_true', default=False)
     parser.add_argument('--fast_dev_run', action='store_true', default=False)
@@ -131,7 +130,7 @@ def set_seed(seed):  # 乱数シードの設定
 tokenizer = None
 
 
-def encode_t5(src, tgt, source_max_length=256, target_max_length=256):
+def encode_t5(src, tgt, source_max_length=256, target_max_length=256, data=None):
     inputs = tokenizer.batch_encode_plus(
         [src],
         max_length=source_max_length,
@@ -156,7 +155,7 @@ def encode_t5(src, tgt, source_max_length=256, target_max_length=256):
     }
 
 
-def encode_t5_test(src, tgt, source_max_length=256, target_max_length=256):
+def encode_t5_test(src, tgt, source_max_length=256, target_max_length=256, data=None):
     inputs = tokenizer.batch_encode_plus(
         [src],
         max_length=source_max_length,
@@ -354,8 +353,9 @@ def main_train(hparams, train_params):
     model = T5FineTuner(hparams)
     trainer = pl.Trainer(**train_params)
     if hparams.auto_batch_size:
+        print('BEFORE: batch_size', model.hparams.batch_size)
         trainer.tune(model)
-        print('auto_scale_batch_size', model.hparams.batch_size)
+        print('AFTER: batch_size', model.hparams.batch_size)
     if hparams.max_epochs > 0:
         trainer.fit(model)
         # 最終エポックのモデルを保存 output_path に保存します

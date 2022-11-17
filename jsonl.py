@@ -38,7 +38,7 @@ def JSONL(hparams, suffix='_train',
                         data = json.loads(line)
                         src, tgt = transform(data[source], data[target])
                         data = encode(src, tgt, hparams.source_max_length,
-                                    hparams.target_max_length)
+                                    hparams.target_max_length, data)
                         dataset.append(data)
                     except :
                         print('ERR', line)
