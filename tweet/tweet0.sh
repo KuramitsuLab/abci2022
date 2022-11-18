@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/lib
 
-me=`echo "$0" | sed 's/.sh/\n/g' | head -1`
+me=`basename "$0" | sed 's/.sh/\n/g' | head -1`
 
 python3 finetune.py\
     --model_path='google/mt5-small'\
