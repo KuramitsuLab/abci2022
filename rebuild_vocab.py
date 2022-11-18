@@ -175,7 +175,9 @@ def test_vocab(tokenizer_path, new_vocab):
     tokenizer = AutoTokenizer.from_pretrained(
         tokenizer_path, use_fast=False)
     for v in new_vocab:
-        print(v, tokenizer.encode(v))
+        tt = tokenizer.encode(v)
+        if len(tt) > 3:
+            print(v, tt)
     for v in ['<nl><nl>', '<123> <100> <1>']:
         print(v, tokenizer.encode(v))
 

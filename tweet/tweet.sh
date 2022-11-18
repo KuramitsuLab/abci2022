@@ -10,8 +10,8 @@
 source /etc/profile.d/modules.sh
 module load gcc/9.3.0 python/3.8 cuda/11.2 cudnn/8.1
 
-#pip3 install --user --upgrade pip
-#pip3 install -r requirements.txt
+pip3 install --user --upgrade pip
+pip3 install -r requirements.txt
 
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/lib
 
@@ -22,5 +22,5 @@ python3 finetune.py\
     --tokenizer_path='google/mt5-small'\
     --batch_size=16\
     --output_path="model_$me"\
-    --tested_file="model_$me/tested.jsonl"\
+    --tested_file="tweet/$me_tested.jsonl"\
     tweet/tweet_test.jsonl tweet/tweet_train.jsonl tweet/tweet_valid.jsonl
