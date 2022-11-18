@@ -27,7 +27,7 @@ python3 finetune.py\
 
 cp "kagi2021/$me_tested.jsonl" "model_$me/tested.jsonl"
 
-python3 make_xai.py\
+python3 test_xai.py\
     --model_path="model_$me"\
     --batch_size=16\
     --tested_file="kagi2021/$me_xai_tested.jsonl"\
