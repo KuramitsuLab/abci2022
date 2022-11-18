@@ -1,6 +1,6 @@
 #!/bin/bash
-#$ -l rt_G.small=1
-#$ -l h_rt=01:30:00
+#$ -l rt_AG.small=1
+#$ -l h_rt=03:10:00
 #$-j y
 #$-m b
 #$-m a
@@ -16,6 +16,7 @@ pip3 install -r requirements.txt
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/lib
 
 me=`basename "$0" | sed 's/.sh/\n/g' | head -1`
+echo "$me"
 
 START="megagonlabs/t5-base-japanese-web"
 
@@ -24,6 +25,8 @@ python3 rebuild_vocab.py --tokenizer_path="$START" vocab/special_var.txt vocab/p
 python3 finetune.py\
     --model_path='$START'\
     --tokenizer_path="local"\
+    --max_epochs=5\
+    --max_time='00:03:00:00'\
     --batch_size=16\
     --auto_batch_size\
     --output_path="pretrained_$me"\
