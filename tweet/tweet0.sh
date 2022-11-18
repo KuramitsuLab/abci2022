@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:/apps/centos7/python/3.8.7/lib
 
-me=`basename "$0" .sh`
+me=`echo "$0" | sed 's/.sh/\n/g' | head -1`
 
 python3 finetune.py\
     --model_path='google/mt5-small'\
@@ -23,4 +23,12 @@ python3 finetune.py\
     --batch_size=16\
     --output_path="model_$me"\
     --tested_file="tweet/$me_tested.jsonl"\
-    tweet/tweet_test.jsonl tweet/tweet_train.jsonl tweet/tweet_valid.jsonl
+    tweet/NTCIR-13_MedWeb_test.jsonl tweet/NTCIR-13_MedWeb_train.jsonl tweet/NTCIR-13_MedWeb_valid.jsonl
+
+cp "tweet/$me_tested.jsonl" "model_$me/tested.jsonl"
+
+python3 make_xai.py\
+    --model_path="model_$me"\
+    --batch_size=16\
+    --tested_file="tweet/$me_xai_tested.jsonl"\
+    tweet/tweet/NTCIR-13_MedWeb_test_xai.jsonl
