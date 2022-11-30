@@ -69,7 +69,7 @@ def BLEU(dataset,results):
     results['BLEU'] = round(result_bleu,3)
 
 def ROUGE_L(dataset,results):
-    rouge = RougeCalculator()
+    rouge = RougeCalculator(lang='ja')
     sum_rouge_score=0
     for line in dataset:
         ref = line[0]
