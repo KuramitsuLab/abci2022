@@ -1,16 +1,16 @@
 {"in":"風邪を引くと全身がだるくなる。","out":"Cold"}
-{"in":"花粉症の症状が出てきたのは久し振りだ。","out":"HayfeverRunnynose"}
-{"in":"花粉症のせいでずっと微熱でぼーっとしてる。眠い。","out":"HayfeverFeverRunnynose"}
+{"in":"花粉症の症状が出てきたのは久し振りだ。","out":"Hayfever Runnynose"}
+{"in":"花粉症のせいでずっと微熱でぼーっとしてる。眠い。","out":"Hayfever Fever Runnynose"}
 {"in":"薬飲んだけど鼻水おさまる気配なし","out":"Runnynose"}
 {"in":"ネパールに旅行に行った際に下痢になって大変だったよ。","out":"Nothing"}
 {"in":"咳くらいで休むのはゆとりだけだろ。どんなときでも仕事にでるのは大事だ。","out":"Cough"}
 {"in":"鼻づまりで今日は休むわー","out":"Runnynose"}
-{"in":"まさか花粉症になるとは。","out":"HayfeverRunnynose"}
-{"in":"熱は出てるけどお腹に来る風邪じゃなさそう。","out":"FeverCold"}
+{"in":"まさか花粉症になるとは。","out":"Hayfever Runnynose"}
+{"in":"熱は出てるけどお腹に来る風邪じゃなさそう。","out":"Fever Cold"}
 {"in":"痰に血が混じってきもい","out":"Cough"}
 {"in":"来春は花粉が少ないとか言われても、秋の花粉症のほうが重症な私には関係ない。","out":"Nothing"}
-{"in":"あかん。咳込みすぎて頭まで痛くなってきた","out":"CoughHeadache"}
-{"in":"微熱が出たから風邪かなって思ったら花粉症だった、花粉症でも熱出るって知らんかった","out":"HayfeverFeverRunnynoseCold"}
+{"in":"あかん。咳込みすぎて頭まで痛くなってきた","out":"Cough Headache"}
+{"in":"微熱が出たから風邪かなって思ったら花粉症だった、花粉症でも熱出るって知らんかった","out":"Hayfever Fever Runnynose Cold"}
 {"in":"インフルエンザのワクチン打ちに行ってきた。","out":"Nothing"}
 {"in":"頭痛がやばいから帰宅して寝るー","out":"Headache"}
 {"in":"風邪もりっぱな病気の１つ。","out":"Nothing"}
@@ -19,33 +19,33 @@
 {"in":"最悪だー風邪ひいたー。頭がぼーっとする。","out":"Cold"}
 {"in":"犬のブログを通じて知り合った人が鼻づまりで息ができず苦しいらしい。たかが鼻水だけの鼻風邪と侮れない。","out":"Nothing"}
 {"in":"風邪だから薬を飲んでいるけど、副作用のせいで眠い。休めるなら休めばよかった・・・","out":"Cold"}
-{"in":"痰が出てるから熱計ってみたら、高熱だった。","out":"CoughFever"}
-{"in":"花粉症だと思っていたのにまさかの微熱。風邪かもしれない。","out":"HayfeverFeverRunnynoseCold"}
+{"in":"痰が出てるから熱計ってみたら、高熱だった。","out":"Cough Fever"}
+{"in":"花粉症だと思っていたのにまさかの微熱。風邪かもしれない。","out":"Hayfever Fever Runnynose Cold"}
 {"in":"朝から頭痛がやばい。昨日飲みすぎたのかな。","out":"Headache"}
 {"in":"スペイン風邪ってのが昔流行った。","out":"Nothing"}
-{"in":"風邪と頭痛で頭がぼーっとする。","out":"HeadacheCold"}
-{"in":"今年二回目のインフルになったんだけど、これって原発事故による放射能で体力落ちちゃったのが原因じゃねぇの？","out":"InfluenzaFever"}
+{"in":"風邪と頭痛で頭がぼーっとする。","out":"Headache Cold"}
+{"in":"今年二回目のインフルになったんだけど、これって原発事故による放射能で体力落ちちゃったのが原因じゃねぇの？","out":"Influenza Fever"}
 {"in":"下痢ひどすぎで笑うわ","out":"Diarrhea"}
 {"in":"きつい頭痛が襲っている僕は今どこにいるんだろう？","out":"Headache"}
 {"in":"この契約が上手くいかないのは頭痛の種でしかない。","out":"Nothing"}
-{"in":"まさかインフルにかかると思わなかったぜ。ワクチン打ったのになー","out":"InfluenzaFever"}
-{"in":"頭痛ひどいし鼻水止まんないし今日は休むことにする。","out":"HeadacheRunnynose"}
+{"in":"まさかインフルにかかると思わなかったぜ。ワクチン打ったのになー","out":"Influenza Fever"}
+{"in":"頭痛ひどいし鼻水止まんないし今日は休むことにする。","out":"Headache Runnynose"}
 {"in":"熱が出なくてもリンパが腫れることがよくある。","out":"Nothing"}
 {"in":"大人になってかかるおたふく風邪つらすぎ","out":"Nothing"}
 {"in":"風呂に入ったら頭痛が大分良くなったなー。","out":"Headache"}
 {"in":"熱があるんでまだ仕事に復帰できねえ","out":"Fever"}
 {"in":"今年の風邪は熱が出るってニュースでやってたー。","out":"Nothing"}
-{"in":"風邪による熱だと思って強い解熱剤を飲んでいたのに違う病気だったらしい。","out":"FeverCold"}
+{"in":"風邪による熱だと思って強い解熱剤を飲んでいたのに違う病気だったらしい。","out":"Fever Cold"}
 {"in":"インフル対策に外出時は、マスクをしてるよ。","out":"Nothing"}
 {"in":"いつの間にかインフルエンザの季節になったわ。","out":"Nothing"}
-{"in":"妻が花粉症で微熱が出て水も飲めなくなってしまった・・・","out":"HayfeverFeverRunnynose"}
+{"in":"妻が花粉症で微熱が出て水も飲めなくなってしまった・・・","out":"Hayfever Fever Runnynose"}
 {"in":"人の前で咳をするなんてわざとらしいと思わない？","out":"Cough"}
 {"in":"本格的に風邪を引いたらしく、だるいし頭がぼーっとする。","out":"Cold"}
-{"in":"アトピーと花粉症が重なってつらい","out":"HayfeverRunnynose"}
+{"in":"アトピーと花粉症が重なってつらい","out":"Hayfever Runnynose"}
 {"in":"さっさと鼻づまりを解消したいよー。","out":"Runnynose"}
 {"in":"お腹の具合が悪くて最近ずっと下痢してるわ。","out":"Diarrhea"}
 {"in":"風邪の時は免疫力を頼って、出来るだけ解熱剤を使わないようにするんだよね。","out":"Cold"}
-{"in":"花粉症に処方するめっちゃきく薬誰かつくってー！","out":"HayfeverRunnynose"}
+{"in":"花粉症に処方するめっちゃきく薬誰かつくってー！","out":"Hayfever Runnynose"}
 {"in":"咳エチケット守らねえやつは電車乗んな。","out":"Cough"}
 {"in":"風邪くらいで休めると思うなよ","out":"Cold"}
 {"in":"花粉症対策に使う時間がもったいない","out":"Nothing"}
@@ -58,9 +58,9 @@
 {"in":"熱があって出かけられなかったから、ずっとテレビ見てた。","out":"Fever"}
 {"in":"家に帰ると、頭痛がする","out":"Headache"}
 {"in":"鼻づまりなんてもう無理だ。","out":"Runnynose"}
-{"in":"高熱が出て仕事中、鼻水が止まらなくて焦った。","out":"FeverRunnynose"}
+{"in":"高熱が出て仕事中、鼻水が止まらなくて焦った。","out":"Fever Runnynose"}
 {"in":"頭痛の時は寄り道せずにすぐ帰宅するべき。","out":"Headache"}
-{"in":"風邪薬飲んだけど咳止まらない。腹筋が痛い。","out":"CoughCold"}
+{"in":"風邪薬飲んだけど咳止まらない。腹筋が痛い。","out":"Cough Cold"}
 {"in":"早くも花粉症の季節がやってきた。","out":"Nothing"}
 {"in":"やっぱり女性のエチケットとして咳をする時は口を抑えるべき！","out":"Cough"}
 {"in":"今日インフルの手術じゃないただの注射なのにビビる","out":"Nothing"}
@@ -69,26 +69,26 @@
 {"in":"熱があるので涼しいとこ行っていいよね？","out":"Fever"}
 {"in":"こんな激しい頭痛は久し振りだ。もう帰宅します。","out":"Headache"}
 {"in":"うーん、このタイミングで風邪とか最悪だ。","out":"Cold"}
-{"in":"担任がインフルという危機的な状況。","out":"InfluenzaFever"}
+{"in":"担任がインフルという危機的な状況。","out":"Influenza Fever"}
 {"in":"だるいと思ったけど、頭痛がしてきた","out":"Headache"}
 {"in":"指数関数的に風邪患者が増えているらしい。","out":"Nothing"}
 {"in":"朝起きて、いきなり頭痛はやばいだろ。","out":"Headache"}
 {"in":"今回風邪ひいたのは家族の中で私が最初だった。","out":"Cold"}
-{"in":"鼻風邪がつらかったから、柔らかいティッシュが嬉しい。","out":"RunnynoseCold"}
+{"in":"鼻風邪がつらかったから、柔らかいティッシュが嬉しい。","out":"Runnynose Cold"}
 {"in":"激しい頭痛だけど、医者に断られた","out":"Headache"}
 {"in":"最近ちょっとお腹痛い、下痢気味です。","out":"Diarrhea"}
 {"in":"犬も鼻づまりになるんだ。","out":"Nothing"}
 {"in":"痰を抑える食べ物って何？教えてくれー！","out":"Cough"}
 {"in":"スペイン風邪という病気があるらしいぜ","out":"Nothing"}
-{"in":"インフルで部活休むー","out":"InfluenzaFever"}
+{"in":"インフルで部活休むー","out":"Influenza Fever"}
 {"in":"朝から下痢とかやばい。","out":"Diarrhea"}
 {"in":"ニュースで熱が高い人は病気知らずと言っていた","out":"Nothing"}
-{"in":"耳鼻科に行ったら副鼻腔炎だって。鼻風邪って副鼻腔炎？よくわからないけど薬の量がやばい。","out":"RunnynoseCold"}
+{"in":"耳鼻科に行ったら副鼻腔炎だって。鼻風邪って副鼻腔炎？よくわからないけど薬の量がやばい。","out":"Runnynose Cold"}
 {"in":"鳥インフルの季節だってのに国内での検査の体制が整ってなくて全く御粗末だな。","out":"Nothing"}
 {"in":"弁当を買ったら容器の熱が凄くてほっかほかにもほどがある。","out":"Nothing"}
-{"in":"寝すぎて背中痛い。インフルまじ勘弁","out":"InfluenzaFever"}
+{"in":"寝すぎて背中痛い。インフルまじ勘弁","out":"Influenza Fever"}
 {"in":"携帯の熱を冷ますには涼しい場所に置くのがいいらしい。","out":"Nothing"}
-{"in":"風邪のせいで鼻づまりがひどすぎる。","out":"RunnynoseCold"}
+{"in":"風邪のせいで鼻づまりがひどすぎる。","out":"Runnynose Cold"}
 {"in":"昨日から急に涼しくなったせいか、今少し熱あるかもも。季節の変わり目は体調崩しやすいよね。","out":"Fever"}
 {"in":"久しぶりに朝から激しい頭痛がするから学校に行くのだるい。","out":"Headache"}
 {"in":"この時期、アイドルの握手会で、インフルエンザ対策とかどうしてるんだろうな。集団感染の温床だろ、あれ。","out":"Nothing"}
@@ -96,23 +96,23 @@
 {"in":"鼻水も体液の一部なのか。","out":"Runnynose"}
 {"in":"家に帰ると、娘が熱を出していたよ。リンパも腫れてるし。明日病院に行こう。","out":"Fever"}
 {"in":"また腹が痛くなってきて下痢になった悪夢を思い出すよ。","out":"Diarrhea"}
-{"in":"花粉症なると微熱も出るし疲れるぜ","out":"HayfeverFeverRunnynose"}
+{"in":"花粉症なると微熱も出るし疲れるぜ","out":"Hayfever Fever Runnynose"}
 {"in":"頭痛がすると一日苦痛だよ。","out":"Headache"}
 {"in":"この季節、咳や痰には悩まされるよね。手洗い、うがいは大事だよ。","out":"Cough"}
-{"in":"花粉症で頭がぼんやりして疲れる。","out":"HayfeverRunnynose"}
+{"in":"花粉症で頭がぼんやりして疲れる。","out":"Hayfever Runnynose"}
 {"in":"契約のことを考えると頭痛がしてくる。","out":"Nothing"}
-{"in":"風邪、高熱、痰で死にそうだよ。助けて","out":"CoughFeverCold"}
+{"in":"風邪、高熱、痰で死にそうだよ。助けて","out":"Cough Fever Cold"}
 {"in":"朝、頭痛がしてだるいのはやばい。","out":"Headache"}
-{"in":"鼻づまりは風邪なのか鼻炎なのかわからない。","out":"RunnynoseCold"}
+{"in":"鼻づまりは風邪なのか鼻炎なのかわからない。","out":"Runnynose Cold"}
 {"in":"相手のブログを見たら風邪とか病気とかで大変そうだ・・・","out":"Nothing"}
-{"in":"遂に花粉症になったっぽい。","out":"HayfeverRunnynose"}
+{"in":"遂に花粉症になったっぽい。","out":"Hayfever Runnynose"}
 {"in":"おたふく風邪って、感染力強い？","out":"Nothing"}
 {"in":"頭痛対策にコーヒーが効くらしい。","out":"Headache"}
 {"in":"赤ちゃんと戯れてたら鼻水つけられた。","out":"Runnynose"}
 {"in":"パソコンの使いすぎで頭痛が起きたから対策メガネを装着して見た。ましになるといいな","out":"Nothing"}
 {"in":"頭痛のときに大きな音を聞くのは苦痛でしかない。","out":"Headache"}
 {"in":"寒気があり風邪だと確信したんだ。","out":"Cold"}
-{"in":"インフル危機やばし！","out":"InfluenzaFever"}
+{"in":"インフル危機やばし！","out":"Influenza Fever"}
 {"in":"痰に血が混じるのはやばいんだっけ？","out":"Cough"}
 {"in":"咳のしすぎで腹筋が割れた。","out":"Cough"}
 {"in":"鼻水がたえず垂れてきてやばいよ。","out":"Runnynose"}
@@ -127,12 +127,12 @@
 {"in":"女性の咳っていろんなパターンあるよね。","out":"Cough"}
 {"in":"やっと兄がインフルエンザから回復！","out":"Nothing"}
 {"in":"朝起きた頭痛がひどい。会社休もうかな。","out":"Headache"}
-{"in":"花粉症からのアトピー。なんか効果のあるものありますか？","out":"HayfeverRunnynose"}
+{"in":"花粉症からのアトピー。なんか効果のあるものありますか？","out":"Hayfever Runnynose"}
 {"in":"犬は大好きなのに触るとすぐ鼻づまり。","out":"Runnynose"}
 {"in":"頭痛の時って、お風呂入ってもいいのかな？","out":"Headache"}
 {"in":"朝から頭痛が激しくやばい","out":"Headache"}
-{"in":"花粉症に効果あるコスパいい薬ありませんか？","out":"HayfeverRunnynose"}
-{"in":"風邪で鼻づまりがやばい。","out":"RunnynoseCold"}
+{"in":"花粉症に効果あるコスパいい薬ありませんか？","out":"Hayfever Runnynose"}
+{"in":"風邪で鼻づまりがやばい。","out":"Runnynose Cold"}
 {"in":"咳で腹筋つりそう、、","out":"Cough"}
 {"in":"頭がぼーっとするし、だるい。風邪かなぁ。","out":"Cold"}
 {"in":"中国に行くと万年花粉症のような症状が出る","out":"Nothing"}
@@ -145,21 +145,21 @@
 {"in":"ネパールのニュース見てたら旅行で行ったときひどい下痢になったことを思い出した。","out":"Nothing"}
 {"in":"鳥インフルエンザやばいよー。","out":"Nothing"}
 {"in":"スペイン風邪調べたけどやばいな","out":"Nothing"}
-{"in":"花粉症で鼻水とまんないとか久し振りだ。","out":"HayfeverRunnynose"}
+{"in":"花粉症で鼻水とまんないとか久し振りだ。","out":"Hayfever Runnynose"}
 {"in":"風邪薬飲んでから眠い","out":"Cold"}
 {"in":"やばい、頭痛がひどいから速攻寝る。","out":"Headache"}
 {"in":"頭痛のときもお風呂に入っていいんだっけ？","out":"Headache"}
-{"in":"やばい。鼻風邪、からの頭痛。薬飲んで学校休んでる。","out":"HeadacheRunnynoseCold"}
+{"in":"やばい。鼻風邪、からの頭痛。薬飲んで学校休んでる。","out":"Headache Runnynose Cold"}
 {"in":"鼻づまりが解消できてすごく嬉しい。","out":"Nothing"}
 {"in":"この季節は風っぴきも熱出す子も多いね","out":"Nothing"}
-{"in":"花粉症数年ぶりに再発だー。","out":"HayfeverRunnynose"}
-{"in":"手術控えてるのにインフルになった、どうしよう","out":"InfluenzaFever"}
+{"in":"花粉症数年ぶりに再発だー。","out":"Hayfever Runnynose"}
+{"in":"手術控えてるのにインフルになった、どうしよう","out":"Influenza Fever"}
 {"in":"熱あるけど休むわけにはいかない。最近仕事忙しいしな。","out":"Fever"}
 {"in":"熱が出て、リンパがめっちゃ腫れてる・・・。","out":"Fever"}
 {"in":"花粉症、今年は万全の対策する。","out":"Nothing"}
 {"in":"下痢って英語でなんていうかわからない。知りたくもない。","out":"Nothing"}
 {"in":"こんなに激しい頭痛は久し振りだしだるいしかなりやばい。","out":"Headache"}
-{"in":"まさかの花粉症に、自分でも驚いてます。","out":"HayfeverRunnynose"}
+{"in":"まさかの花粉症に、自分でも驚いてます。","out":"Hayfever Runnynose"}
 {"in":"花粉症、まさかの突然回復","out":"Nothing"}
 {"in":"花粉症は蜂もなるのかな","out":"Nothing"}
 {"in":"熱あるしリンパ腺めちゃ腫れてるけど、今日は休む訳にいかない、がんばれ俺","out":"Fever"}
@@ -171,23 +171,23 @@
 {"in":"朝起きたら、マジ下痢でやばい。","out":"Diarrhea"}
 {"in":"また中国で鳥インフルだってさ","out":"Nothing"}
 {"in":"嫁さんが熱をだした。早く帰ろう。","out":"Fever"}
-{"in":"早くも花粉症の症状に疲れる。","out":"HayfeverRunnynose"}
-{"in":"やばい、今日鼻水と頭痛が酷いから風邪かもしれない。","out":"HeadacheRunnynoseCold"}
+{"in":"早くも花粉症の症状に疲れる。","out":"Hayfever Runnynose"}
+{"in":"やばい、今日鼻水と頭痛が酷いから風邪かもしれない。","out":"Headache Runnynose Cold"}
 {"in":"今一パフォーマンスが微妙になってしまっている。おれさまが風邪に参ってなんかいられない。","out":"Cold"}
 {"in":"鼻風邪が治って犬と戯れることが出来たからホント嬉しい！写真撮ってブログにアップしたから読んでね！","out":"Nothing"}
 {"in":"感染して熱が出るケースは少なくないらしい。","out":"Nothing"}
-{"in":"風邪で寒気と頭痛がする、最悪だ","out":"HeadacheCold"}
+{"in":"風邪で寒気と頭痛がする、最悪だ","out":"Headache Cold"}
 {"in":"無理だ、鼻水が止まらん。","out":"Runnynose"}
-{"in":"早くも花粉症になったのは私です。","out":"HayfeverRunnynose"}
+{"in":"早くも花粉症になったのは私です。","out":"Hayfever Runnynose"}
 {"in":"痰に血が混じるのってヤバくない？","out":"Cough"}
 {"in":"風邪っていう名前の病気は無いらしいね","out":"Nothing"}
-{"in":"ひどい咳は出て疲れる。痰が絡まってるし頭も痛い。","out":"CoughHeadache"}
+{"in":"ひどい咳は出て疲れる。痰が絡まってるし頭も痛い。","out":"Cough Headache"}
 {"in":"外出するときはインフルエンザの予防を兼ねてマスクをしています。","out":"Nothing"}
-{"in":"花粉症に早くも悩まされている。","out":"HayfeverRunnynose"}
+{"in":"花粉症に早くも悩まされている。","out":"Hayfever Runnynose"}
 {"in":"熱が出てるけど、テレビで見たインフルエンザかもね。","out":"Fever"}
-{"in":"風で花粉が飛んでるから、花粉症が再発したわ。","out":"HayfeverRunnynose"}
+{"in":"風で花粉が飛んでるから、花粉症が再発したわ。","out":"Hayfever Runnynose"}
 {"in":"熱が出て仕事明日も休むかも。","out":"Fever"}
-{"in":"咳も痰もひどいし、熱っぽいし、体調も微妙だ。","out":"CoughFever"}
+{"in":"咳も痰もひどいし、熱っぽいし、体調も微妙だ。","out":"Cough Fever"}
 {"in":"水疱瘡って感染しても熱が出ないケースもあるらしい。","out":"Nothing"}
 {"in":"一日中咳をしてたらすごく疲れた。","out":"Cough"}
 {"in":"痰が混じるから医者にいってくる。","out":"Cough"}
@@ -198,9 +198,9 @@
 {"in":"インフルにかかる前にワクチン受けにいかないとな。","out":"Nothing"}
 {"in":"風邪でだるいし頭ぼーっとする。これで明日学校休めるわ。","out":"Cold"}
 {"in":"頭痛対策誰か教えて！","out":"Headache"}
-{"in":"最近急に東京涼しくなったからか、風邪ひいて熱。","out":"FeverCold"}
+{"in":"最近急に東京涼しくなったからか、風邪ひいて熱。","out":"Fever Cold"}
 {"in":"大人になってからのおたふく風邪ってやばいらしいよ。","out":"Nothing"}
-{"in":"花粉症は時間が解決してくれるよね","out":"HayfeverRunnynose"}
+{"in":"花粉症は時間が解決してくれるよね","out":"Hayfever Runnynose"}
 {"in":"ブログに咳についてのエチケット記事を書いた。","out":"Nothing"}
 {"in":"ようやく鼻づまり解消したぞ！","out":"Nothing"}
 {"in":"熱でリンパが腫れててつらいよ","out":"Fever"}
@@ -208,16 +208,16 @@
 {"in":"サッカー見てたら、マジ下痢ピーきた。","out":"Diarrhea"}
 {"in":"頭痛がきついときの対策がわからない。","out":"Headache"}
 {"in":"来春を見通して花粉症対策のアイテムを買った。","out":"Nothing"}
-{"in":"微熱が続いてたけど、原因がまさか花粉症だとは思ってなかったよ。","out":"HayfeverFeverRunnynose"}
-{"in":"昨日から熱が出て、のども腫れている。いくらでも眠れる。明日も仕事は休むことにする。","out":"CoughFever"}
+{"in":"微熱が続いてたけど、原因がまさか花粉症だとは思ってなかったよ。","out":"Hayfever Fever Runnynose"}
+{"in":"昨日から熱が出て、のども腫れている。いくらでも眠れる。明日も仕事は休むことにする。","out":"Cough Fever"}
 {"in":"ブログに書くことが鼻水がひどいことくらいしかない。","out":"Runnynose"}
-{"in":"薬のんだけど熱が下がらず咳も止まらない。早く治まってくれー","out":"CoughFever"}
+{"in":"薬のんだけど熱が下がらず咳も止まらない。早く治まってくれー","out":"Cough Fever"}
 {"in":"こんなに激しい頭痛は久しぶりだ。やばい。","out":"Headache"}
-{"in":"まさか、花粉症が再発？やだな。","out":"HayfeverRunnynose"}
+{"in":"まさか、花粉症が再発？やだな。","out":"Hayfever Runnynose"}
 {"in":"下痢って英語で何て言うのかな。","out":"Nothing"}
 {"in":"最近寒いし、具合が悪いことが続いてます。今日は下痢。","out":"Diarrhea"}
 {"in":"しらす丼を食べて下痢になったことを思い出すよ。","out":"Nothing"}
-{"in":"鼻風邪、やばい。早く薬のんで休む。","out":"RunnynoseCold"}
+{"in":"鼻風邪、やばい。早く薬のんで休む。","out":"Runnynose Cold"}
 {"in":"うちで働いてる女性が、高熱で休むとわざとらしい咳をしながら電話してきたんだけどブログで遊園地に行ってるって書いてて笑った。","out":"Nothing"}
 {"in":"風邪をひかないようにする薬とか開発しないかな","out":"Nothing"}
 {"in":"咳込み過ぎてブログが書けない・・・","out":"Cough"}
@@ -228,7 +228,7 @@
 {"in":"東京では自動車やエアコンから排出される熱が暑さを助長している。","out":"Nothing"}
 {"in":"ネパール料理を食べた後にしっかり手を洗わないと下痢になるらしいね。","out":"Nothing"}
 {"in":"風邪っぽいけど、仕事休めるかなー。今日休んだら明日以降辛いのは分かってるけど。。。","out":"Cold"}
-{"in":"兄がインフルになったから家でもマスク生活しなきゃ。","out":"InfluenzaFever"}
+{"in":"兄がインフルになったから家でもマスク生活しなきゃ。","out":"Influenza Fever"}
 {"in":"鼻水がやばいったらない。薬飲めば止まるかな。","out":"Runnynose"}
 {"in":"テレビのニュースで携帯が熱もってるとやばいって見た。","out":"Nothing"}
 {"in":"その咳、めっちゃわざとらしいぜ","out":"Cough"}
@@ -237,7 +237,7 @@
 {"in":"スペイン風邪って病気が日本でも大流行したんだって。","out":"Nothing"}
 {"in":"最悪だ、明日出かけるのにここに来て風邪か？","out":"Cold"}
 {"in":"来春は花粉症の人が増えるみたい。","out":"Nothing"}
-{"in":"３月になってから喉が痛む。花粉症で今まで喉は痛まなかったけど、これ絶対花粉症の症状だよな。","out":"HayfeverCoughRunnynose"}
+{"in":"３月になってから喉が痛む。花粉症で今まで喉は痛まなかったけど、これ絶対花粉症の症状だよな。","out":"Hayfever Cough Runnynose"}
 {"in":"だるいし頭痛がひどいしで早めに帰宅中。","out":"Headache"}
 {"in":"咳がひどい。手洗いうがいが大事だなあ。","out":"Cough"}
 {"in":"熱が明日までに下がって仕事に行けるか危ない","out":"Fever"}
@@ -249,42 +249,42 @@
 {"in":"インフルエンザで死亡の話を聞くと危機感を覚えるな。","out":"Nothing"}
 {"in":"痰が出なくなってきたから治ったっぽいぞ！","out":"Cough"}
 {"in":"風邪からなる病気もあるらしいから気を付けよう。","out":"Cold"}
-{"in":"花粉症つらい。檜なんて絶滅すればいいのに・・・","out":"HayfeverRunnynose"}
+{"in":"花粉症つらい。檜なんて絶滅すればいいのに・・・","out":"Hayfever Runnynose"}
 {"in":"朝から頭痛がするし、だるいから、早退して今帰宅した。","out":"Headache"}
 {"in":"風邪ひどいぼーっとしてきた。","out":"Cold"}
 {"in":"謎の発熱。他は元気なんだけどな〜。病院いっといたほうがいいのかな。","out":"Fever"}
-{"in":"花粉症の薬処方してきた","out":"HayfeverRunnynose"}
+{"in":"花粉症の薬処方してきた","out":"Hayfever Runnynose"}
 {"in":"こどもが小さいからインフルエンザのワクチンを打ちに行こう。","out":"Nothing"}
 {"in":"インフルエンザのワクチンを受けに行かなくちゃ。","out":"Nothing"}
-{"in":"東京の実家から送られてきた写真には愛犬の姿があった。鼻風邪をひいてすっきりしなかったけど、なんか元気をもらって嬉しかった。","out":"RunnynoseCold"}
+{"in":"東京の実家から送られてきた写真には愛犬の姿があった。鼻風邪をひいてすっきりしなかったけど、なんか元気をもらって嬉しかった。","out":"Runnynose Cold"}
 {"in":"花粉症には、トマトを食べる療法があるって本当かな。","out":"Nothing"}
-{"in":"季節外れのインフルエンザに感染していま高熱出てます。","out":"InfluenzaFever"}
+{"in":"季節外れのインフルエンザに感染していま高熱出てます。","out":"Influenza Fever"}
 {"in":"激しい頭痛がする。こんなの久し振りだ。","out":"Headache"}
-{"in":"のどの痛み、鼻水、熱、せき、でも仕事休めない。","out":"CoughFeverRunnynose"}
+{"in":"のどの痛み、鼻水、熱、せき、でも仕事休めない。","out":"Cough Fever Runnynose"}
 {"in":"科学の進歩で薬品は世の中にたくさんあるけど、風邪のウイルスは種類がたくさんあるから個々のウイルスの特効薬の研究や開発はあまり進んでいないんだって。","out":"Nothing"}
 {"in":"咳が治まるよう薬を飲んだよー、治ればいいな。","out":"Cough"}
 {"in":"咳や痰に赤っぽいものが混じるのは本当にまずいと思うよ？","out":"Cough"}
 {"in":"熱が出やすい季節になったな。","out":"Nothing"}
-{"in":"頭痛以外にも関節が痛いし、熱もあるし、とりあえず色々と苦痛。","out":"HeadacheFever"}
+{"in":"頭痛以外にも関節が痛いし、熱もあるし、とりあえず色々と苦痛。","out":"Headache Fever"}
 {"in":"高齢者が風邪にかかると重症化するときもあるから大変だよね。","out":"Nothing"}
 {"in":"痰抑える薬がまずくて小一時間格闘してる・・・","out":"Cough"}
-{"in":"わざとらしく咳してたら頭まで痛くなってきた","out":"CoughHeadache"}
+{"in":"わざとらしく咳してたら頭まで痛くなってきた","out":"Cough Headache"}
 {"in":"このタイミングで風邪とか最悪だろ","out":"Cold"}
 {"in":"宇宙について考えると頭痛がする","out":"Nothing"}
 {"in":"インフルのワクチンを打ちに行ったよ！","out":"Nothing"}
 {"in":"下痢が止まらなかったあの日を思い出す","out":"Nothing"}
 {"in":"この時期は鼻水に悩まされることがないから大好きだ。","out":"Nothing"}
 {"in":"鳥インフルエンザはずさんな管理でなるわけじゃないみたいだ。","out":"Nothing"}
-{"in":"風邪ひいて鼻づまりやばい","out":"RunnynoseCold"}
+{"in":"風邪ひいて鼻づまりやばい","out":"Runnynose Cold"}
 {"in":"頭痛が治らないのは苦痛でしかない。原因が分からないから対策もできなくて辛い。","out":"Headache"}
 {"in":"今日の朝から鼻水止まらん","out":"Runnynose"}
-{"in":"犬と戯れると、鼻風邪になる。何でだ？","out":"RunnynoseCold"}
-{"in":"鼻づまりで頭痛までしてきた感じだ","out":"HeadacheRunnynose"}
-{"in":"インフルエンザだし、部活休むわ。","out":"InfluenzaFever"}
-{"in":"鼻風邪の薬飲んだらめっちゃ喉乾く。","out":"RunnynoseCold"}
+{"in":"犬と戯れると、鼻風邪になる。何でだ？","out":"Runnynose Cold"}
+{"in":"鼻づまりで頭痛までしてきた感じだ","out":"Headache Runnynose"}
+{"in":"インフルエンザだし、部活休むわ。","out":"Influenza Fever"}
+{"in":"鼻風邪の薬飲んだらめっちゃ喉乾く。","out":"Runnynose Cold"}
 {"in":"本格的な風邪のせいで、いつもは完璧だと言われる仕事が今一だと言われる始末で最悪だよ。","out":"Cold"}
 {"in":"風邪薬飲んだら眠くなってきた。","out":"Cold"}
-{"in":"まさか妻が花粉症になるなんて！","out":"HayfeverRunnynose"}
+{"in":"まさか妻が花粉症になるなんて！","out":"Hayfever Runnynose"}
 {"in":"鼻水がやばい。やばすぎる。","out":"Runnynose"}
 {"in":"やばい、今日テストなのに下痢になった。","out":"Diarrhea"}
 {"in":"花粉症で微熱が続くのもあるようだ。","out":"Nothing"}
@@ -293,31 +293,31 @@
 {"in":"鼻水出すぎ。どれだけ体液あるんだ。","out":"Runnynose"}
 {"in":"英語で下痢だと伝えられず困った","out":"Nothing"}
 {"in":"中国で、鳥から新型のインフルエンザに感染して死んだ人が出てた筈だけれど、日本では検査キットとかちゃんとあるんだろうか？ニュースやってる割に管理の体制どうなってんのか全然わかんない。","out":"Nothing"}
-{"in":"鼻水止まる風邪薬はどれ？","out":"RunnynoseCold"}
-{"in":"頭も痛いし痰もひどい。完全に風邪だ。","out":"CoughHeadacheCold"}
-{"in":"高熱が出て咳とまらない。だれか家事やって。家政婦が必要だー。","out":"CoughFever"}
+{"in":"鼻水止まる風邪薬はどれ？","out":"Runnynose Cold"}
+{"in":"頭も痛いし痰もひどい。完全に風邪だ。","out":"Cough Headache Cold"}
+{"in":"高熱が出て咳とまらない。だれか家事やって。家政婦が必要だー。","out":"Cough Fever"}
 {"in":"リンパマッサージ行ったら熱出てきた","out":"Fever"}
 {"in":"寒くて毎日下痢だー。","out":"Diarrhea"}
 {"in":"子供の頃の写真でてきたんだけど俺ほとんどの写真で鼻水たらしてる。どうなってんだ。","out":"Nothing"}
 {"in":"喉の痛みが治まったけど、痰がまだ続く","out":"Cough"}
 {"in":"翻訳業務頼まれたけど全然わからない、頭痛してきた。","out":"Nothing"}
-{"in":"鼻風邪を引いてしまった。","out":"RunnynoseCold"}
+{"in":"鼻風邪を引いてしまった。","out":"Runnynose Cold"}
 {"in":"契約して欲しいけど、相手に対して聴く以外に対策が無さすぎて頭痛がひどい。","out":"Nothing"}
 {"in":"ところで頭痛はまだきついですか、私さん？","out":"Headache"}
-{"in":"部活のあと熱が出て慌てて病院行ったらインフルだった。つらい。","out":"InfluenzaFever"}
-{"in":"咳と同時に頭が痛い。","out":"CoughHeadache"}
+{"in":"部活のあと熱が出て慌てて病院行ったらインフルだった。つらい。","out":"Influenza Fever"}
+{"in":"咳と同時に頭が痛い。","out":"Cough Headache"}
 {"in":"下痢って英語でなんて言うんだろ。","out":"Nothing"}
-{"in":"秋の花粉症のつらい。対策に時間が取られる","out":"HayfeverRunnynose"}
+{"in":"秋の花粉症のつらい。対策に時間が取られる","out":"Hayfever Runnynose"}
 {"in":"携帯の熱がハンパない！","out":"Nothing"}
 {"in":"お腹を壊したが食べるの大好きな私はまだ今日の弁当への愛と熱は冷める事を知らない。","out":"Diarrhea"}
 {"in":"鳥インフルエンザが中国で猛威を奮っている。","out":"Nothing"}
 {"in":"生姜湯を飲んでいれば咳が止まるっぽい。","out":"Nothing"}
-{"in":"まさか、自分が花粉症になるなんてびっくり。","out":"HayfeverRunnynose"}
+{"in":"まさか、自分が花粉症になるなんてびっくり。","out":"Hayfever Runnynose"}
 {"in":"来春のスギ花粉は量が多いらしい。花粉症なので先が思いやられる〜。","out":"Nothing"}
 {"in":"女性が痰の症状を抑える。","out":"Nothing"}
-{"in":"兄がインフルエンザなのでうつらないか不安だよ。","out":"InfluenzaFever"}
-{"in":"風邪っぽい。頭が痛いし、咳が止まらない。","out":"CoughHeadacheCold"}
-{"in":"久しぶりに東京に行って遊びすぎた。楽しかったけど鼻風邪ひいた。","out":"RunnynoseCold"}
+{"in":"兄がインフルエンザなのでうつらないか不安だよ。","out":"Influenza Fever"}
+{"in":"風邪っぽい。頭が痛いし、咳が止まらない。","out":"Cough Headache Cold"}
+{"in":"久しぶりに東京に行って遊びすぎた。楽しかったけど鼻風邪ひいた。","out":"Runnynose Cold"}
 {"in":"そろそろ朝だし軽い頭痛もあるから風呂入って寝る。","out":"Headache"}
 {"in":"まだ熱。もちろん、今日も休む！","out":"Fever"}
 {"in":"薬飲んで、やっと鼻水がひいてきた。","out":"Runnynose"}
@@ -326,7 +326,7 @@
 {"in":"下痢だと集中できないから仕事にならん。","out":"Diarrhea"}
 {"in":"これ誰の携帯？熱が熱すぎてやばそう。","out":"Nothing"}
 {"in":"花粉症に効果がある薬なんてあるのかねぇ","out":"Nothing"}
-{"in":"まさかこの年に花粉症になるなんて","out":"HayfeverRunnynose"}
+{"in":"まさかこの年に花粉症になるなんて","out":"Hayfever Runnynose"}
 {"in":"来春こそ花粉症に効果がある療法を見つけたいよ。","out":"Nothing"}
 {"in":"頭痛対策、何かご存知でしたら教えて頂けないでしょうか。","out":"Headache"}
 {"in":"今日の鼻水やばい止まる気配ない","out":"Runnynose"}
@@ -342,9 +342,9 @@
 {"in":"熱が下がらないから、今日行けるか微妙だ。","out":"Fever"}
 {"in":"犬と戯れると鼻水が止まらなくなる。","out":"Runnynose"}
 {"in":"最近寒いからお腹冷えたかな〜。昨日から下痢やばい。","out":"Diarrhea"}
-{"in":"昨晩からインフルエンザにかかったみたい。","out":"InfluenzaFever"}
-{"in":"最近お店の仕事が忙しくて疲れる毎日だ。疲れると花粉症の症状もひどくなる。そして遂に妻も花粉症が発症した。","out":"HayfeverRunnynose"}
-{"in":"本格的に風邪引いた、頭痛いしだるいし寒気するし最悪だよ・・・","out":"HeadacheCold"}
+{"in":"昨晩からインフルエンザにかかったみたい。","out":"Influenza Fever"}
+{"in":"最近お店の仕事が忙しくて疲れる毎日だ。疲れると花粉症の症状もひどくなる。そして遂に妻も花粉症が発症した。","out":"Hayfever Runnynose"}
+{"in":"本格的に風邪引いた、頭痛いしだるいし寒気するし最悪だよ・・・","out":"Headache Cold"}
 {"in":"咳止め飲んだけど全然治まりそうになくって、痰も混ざってきてる。","out":"Cough"}
 {"in":"下痢って英語で何ていうんだっけ","out":"Nothing"}
 {"in":"来春の花粉症は軽いといいなぁ。","out":"Nothing"}
@@ -354,18 +354,18 @@
 {"in":"風邪の方はどうぞお休みください。","out":"Nothing"}
 {"in":"早く下痢直したいけど出さなきゃ毒素でねえしなあ","out":"Diarrhea"}
 {"in":"インフルエンザにかからないために自分を管理をしっかりするべし。","out":"Nothing"}
-{"in":"鼻風邪やばいから今日休む。","out":"RunnynoseCold"}
-{"in":"完治したと思ったらまさかの花粉症再発。久し振りに鼻水との戦いが始まる。","out":"HayfeverRunnynose"}
+{"in":"鼻風邪やばいから今日休む。","out":"Runnynose Cold"}
+{"in":"完治したと思ったらまさかの花粉症再発。久し振りに鼻水との戦いが始まる。","out":"Hayfever Runnynose"}
 {"in":"いつも読んでるブログの子が風邪らしくて大変だ。","out":"Nothing"}
-{"in":"兄が久々に帰ってきたらインフルかかってた。笑えない。","out":"InfluenzaFever"}
-{"in":"微熱もあるし花粉症もひどいし、もう疲れた。","out":"HayfeverFeverRunnynose"}
-{"in":"昨晩からインフルで発熱してるよ、喉が乾く。","out":"InfluenzaFever"}
+{"in":"兄が久々に帰ってきたらインフルかかってた。笑えない。","out":"Influenza Fever"}
+{"in":"微熱もあるし花粉症もひどいし、もう疲れた。","out":"Hayfever Fever Runnynose"}
+{"in":"昨晩からインフルで発熱してるよ、喉が乾く。","out":"Influenza Fever"}
 {"in":"ヨーグルトが花粉症に効果あるっていう話、ほんとなのかな。","out":"Nothing"}
-{"in":"インフルにかかったら兄ちゃん来てくれた！","out":"InfluenzaFever"}
+{"in":"インフルにかかったら兄ちゃん来てくれた！","out":"Influenza Fever"}
 {"in":"誰かこの熱から助けてくれ。","out":"Fever"}
 {"in":"インフルエンザのワクチンを打ってきました。","out":"Nothing"}
-{"in":"リンパ腫れてるし、熱もあるし完璧風邪ひいた。","out":"FeverCold"}
-{"in":"鼻風邪で頭もやばくなってきた。今日は休む予定だったんだが、なんか惰性で出社してしまった。","out":"HeadacheRunnynoseCold"}
+{"in":"リンパ腫れてるし、熱もあるし完璧風邪ひいた。","out":"Fever Cold"}
+{"in":"鼻風邪で頭もやばくなってきた。今日は休む予定だったんだが、なんか惰性で出社してしまった。","out":"Headache Runnynose Cold"}
 {"in":"下痢だけど仕事には行かないといけない。","out":"Diarrhea"}
 {"in":"咳ぐらいで済んでるうちに対処するのが大事だよね","out":"Cough"}
 {"in":"ひどい頭痛には対策が必要だ。","out":"Headache"}
@@ -379,26 +379,26 @@
 {"in":"今日は薬のおかげで、なんか鼻づまりも止まる気配がする。","out":"Runnynose"}
 {"in":"風邪で頭がぼーっとしてきた。","out":"Cold"}
 {"in":"本格的に風邪引いたかも知れない","out":"Cold"}
-{"in":"軽く鼻風邪ひいてるけど東京行きは決行！","out":"RunnynoseCold"}
+{"in":"軽く鼻風邪ひいてるけど東京行きは決行！","out":"Runnynose Cold"}
 {"in":"熱は引いたけど鼻水だらだら・・・今日は家でゆっくり休もう","out":"Runnynose"}
-{"in":"まさかこの歳で花粉症発症するとは。","out":"HayfeverRunnynose"}
+{"in":"まさかこの歳で花粉症発症するとは。","out":"Hayfever Runnynose"}
 {"in":"今年の風邪は熱が上がるってニュースで言ってた。気をつけよ。","out":"Nothing"}
 {"in":"最近お腹が痛いことが多くて、下痢にもよくなるようになった。ちょっとやばいかもしれない。","out":"Diarrhea"}
 {"in":"下痢止まらなくて笑う","out":"Diarrhea"}
-{"in":"娘の熱と鼻水がひどい","out":"FeverRunnynose"}
+{"in":"娘の熱と鼻水がひどい","out":"Fever Runnynose"}
 {"in":"アトピーだと花粉症も重症になるのかも。","out":"Nothing"}
-{"in":"花粉症対策に薬を飲もう。","out":"HayfeverRunnynose"}
-{"in":"妻が花粉症で毎年春は大変だなあと思って見ています。","out":"HayfeverRunnynose"}
-{"in":"インフルエンザにかかってしまったので外出すらできない。","out":"InfluenzaFever"}
+{"in":"花粉症対策に薬を飲もう。","out":"Hayfever Runnynose"}
+{"in":"妻が花粉症で毎年春は大変だなあと思って見ています。","out":"Hayfever Runnynose"}
+{"in":"インフルエンザにかかってしまったので外出すらできない。","out":"Influenza Fever"}
 {"in":"あの人さ、痰が絡んだときわざとらしく咳払いするの本当にやめてほしいんだけど","out":"Cough"}
 {"in":"こんな季節に熱が出た、だるい。","out":"Fever"}
 {"in":"頭痛でだるいからもうやだよー。","out":"Headache"}
-{"in":"この微熱も花粉症由来かなあ","out":"HayfeverFeverRunnynose"}
+{"in":"この微熱も花粉症由来かなあ","out":"Hayfever Fever Runnynose"}
 {"in":"痰がからんでひど過ぎるプレゼンしたから、単位微妙だ。","out":"Cough"}
 {"in":"鼻水が今日やばいので休むかもしれません。","out":"Runnynose"}
-{"in":"インフルエンザのかかりやすさって性によってちがうのかな。うちでは女性陣だけ罹患した。","out":"InfluenzaFever"}
+{"in":"インフルエンザのかかりやすさって性によってちがうのかな。うちでは女性陣だけ罹患した。","out":"Influenza Fever"}
 {"in":"インフルエンザのワクチンを打ってきた。","out":"Nothing"}
-{"in":"風邪なのか何なのか、今日の頭痛はやばい","out":"HeadacheCold"}
+{"in":"風邪なのか何なのか、今日の頭痛はやばい","out":"Headache Cold"}
 {"in":"頭痛に効く特効薬が必要だわ。","out":"Headache"}
 {"in":"ゆとりは口を抑えて咳も出来ないのかよ。","out":"Cough"}
 {"in":"やばい！超下痢なんだけど！","out":"Diarrhea"}
@@ -413,38 +413,38 @@
 {"in":"ところで頭痛はおさまったの？","out":"Headache"}
 {"in":"せっかくのスペインなのに風邪ひいた・・・。","out":"Cold"}
 {"in":"契約を取れないと頭痛が・・・","out":"Nothing"}
-{"in":"鼻水出るし、お腹くだるし、仕事無理して行ったら熱まで出てきた。","out":"DiarrheaFeverRunnynose"}
+{"in":"鼻水出るし、お腹くだるし、仕事無理して行ったら熱まで出てきた。","out":"Diarrhea Fever Runnynose"}
 {"in":"友達で一生懸命巫女のバイトしたら熱出した子いるんだけど、何か素質あるかもしれない","out":"Nothing"}
 {"in":"寒いし下痢だし仕事がはかどらないでござる。","out":"Diarrhea"}
-{"in":"花粉症が再発してつらいよ","out":"HayfeverRunnynose"}
+{"in":"花粉症が再発してつらいよ","out":"Hayfever Runnynose"}
 {"in":"鼻づまりがひどいから今日は練習は無理だ。","out":"Runnynose"}
 {"in":"朝から軽い頭痛。ソロソロ帰って風呂入って寝たいけどまだ頑張ってみる。","out":"Headache"}
 {"in":"宇宙の話を聞いていたら難しくて、頭痛がしてきた。","out":"Nothing"}
 {"in":"下痢でお腹の調子が悪い。","out":"Diarrhea"}
-{"in":"咳がひどいから、薬を飲んだ。頭痛いなあ。","out":"CoughHeadache"}
+{"in":"咳がひどいから、薬を飲んだ。頭痛いなあ。","out":"Cough Headache"}
 {"in":"祖母が下痢気味のようで何度もトイレにかけこんでいて爆笑してしまった。ごめん。笑","out":"Diarrhea"}
 {"in":"咳が酷いからすごく疲れる。","out":"Cough"}
-{"in":"なんか風邪引いたかも。頭痛いし鼻水止まらない。","out":"HeadacheRunnynoseCold"}
+{"in":"なんか風邪引いたかも。頭痛いし鼻水止まらない。","out":"Headache Runnynose Cold"}
 {"in":"季節の変わり目は風邪を引きやすいとは言うけど、自分も漏れなく体調を崩す。絶対熱があるよなこれ。","out":"Fever"}
 {"in":"来春こそ花粉症にかかるまいと毎日ヨーグルトたべてるけど、どうかなぁ？","out":"Nothing"}
-{"in":"沢山の人がインフルになっている。部活の先生もかかったみたい。","out":"InfluenzaFever"}
+{"in":"沢山の人がインフルになっている。部活の先生もかかったみたい。","out":"Influenza Fever"}
 {"in":"東京で熱風邪が流行っているらしい。","out":"Nothing"}
 {"in":"人前では咳のエチケットを守ろう","out":"Cough"}
-{"in":"外出先で握手をした人がインフルエンザにかかってたらしいんだけど、どうしよう。","out":"InfluenzaFever"}
+{"in":"外出先で握手をした人がインフルエンザにかかってたらしいんだけど、どうしよう。","out":"Influenza Fever"}
 {"in":"今日下痢で何度もトイレ行ったよ","out":"Diarrhea"}
-{"in":"季節の変わり目で風邪ひいて熱出たー。","out":"FeverCold"}
+{"in":"季節の変わり目で風邪ひいて熱出たー。","out":"Fever Cold"}
 {"in":"舞台で使うウィッグを被るためにネットを装着したら、想像以上にきつい。頭痛がする。","out":"Nothing"}
-{"in":"娘が風邪を引いて、熱を出したから学校を休んだようだ。リンパも腫れていて、嫁が休む暇もなくつきっきりで看病している。","out":"FeverCold"}
+{"in":"娘が風邪を引いて、熱を出したから学校を休んだようだ。リンパも腫れていて、嫁が休む暇もなくつきっきりで看病している。","out":"Fever Cold"}
 {"in":"インフルエンザだよ、いやな季節だね","out":"Nothing"}
 {"in":"大変だ！風邪をひいてしまった！","out":"Cold"}
-{"in":"高熱が出て咳が止まらない","out":"CoughFever"}
-{"in":"花粉が少なくて花粉症が楽だわー","out":"HayfeverRunnynose"}
+{"in":"高熱が出て咳が止まらない","out":"Cough Fever"}
+{"in":"花粉が少なくて花粉症が楽だわー","out":"Hayfever Runnynose"}
 {"in":"下痢になったから薬使うか・・・","out":"Diarrhea"}
 {"in":"この季節、熱出やすいのよね","out":"Fever"}
 {"in":"毒でも入っていたのか。下痢と嘔吐がとまりません。","out":"Diarrhea"}
 {"in":"朝から下痢ってしんどすぎる。","out":"Diarrhea"}
 {"in":"起きたらお腹痛くてやばいなって思ってたら、下痢だった。","out":"Diarrhea"}
-{"in":"妻の花粉症をどうにかしてあげたいな、、","out":"HayfeverRunnynose"}
+{"in":"妻の花粉症をどうにかしてあげたいな、、","out":"Hayfever Runnynose"}
 {"in":"おたふく風邪にかかったっぽい","out":"Nothing"}
 {"in":"中国でインフルが流行ってるみたい。","out":"Nothing"}
 {"in":"毎年インフルの予防ワクチンの接種受ける気がしない","out":"Nothing"}
@@ -452,53 +452,53 @@
 {"in":"ぼーっとするなーっと思ってたら、どうやら風邪っぽい。言われてみればだるいし本格的に参ってくる前に休もう。","out":"Cold"}
 {"in":"同僚め。わざとらしく咳しやがって。","out":"Cough"}
 {"in":"頭痛の苦痛で休みが楽しめない。","out":"Headache"}
-{"in":"兄に風邪をうつされたと思ったら、インフルだった。最悪だ。","out":"InfluenzaFever"}
+{"in":"兄に風邪をうつされたと思ったら、インフルだった。最悪だ。","out":"Influenza Fever"}
 {"in":"宇宙科学の翻訳してたから頭痛するわ。","out":"Nothing"}
 {"in":"明日テストだし頭痛だしやばい。","out":"Headache"}
 {"in":"インフルが流行ってるみたいだから外出から戻ってきたらうがい手洗い忘れずに！","out":"Nothing"}
 {"in":"下手な奴の歌聴くと耳が曲がるわ。きつくて頭痛がするっつーの。","out":"Nothing"}
 {"in":"兄ちゃん、インフルになっちゃったみたい","out":"Nothing"}
 {"in":"犬の鼻水の写真をブログに載せていた。","out":"Nothing"}
-{"in":"兄がインフルになった。","out":"InfluenzaFever"}
+{"in":"兄がインフルになった。","out":"Influenza Fever"}
 {"in":"鼻水が止まるとき休みが終わる","out":"Runnynose"}
 {"in":"ちょっと君、すごく風邪ですって顔してるよ、って相手をいたわりたい気持ちだ。","out":"Cold"}
-{"in":"兄がインフルかかった、気をつけなきゃー。","out":"InfluenzaFever"}
+{"in":"兄がインフルかかった、気をつけなきゃー。","out":"Influenza Fever"}
 {"in":"患者は総じて花粉症も併発しているようだ。","out":"Nothing"}
 {"in":"電車の中でマスクをしないでわざとらしい咳をする人って最悪。エチケットって大事だよ。","out":"Cough"}
 {"in":"頭痛ひどいしソロソロ帰ろうかな。","out":"Headache"}
 {"in":"下痢なんで、今日は早く起きる。","out":"Diarrhea"}
 {"in":"わざとらしい咳ってイライラする。","out":"Cough"}
-{"in":"インフルエンザのせいで昨晩大分苦しかった、今日は回復したけどね。","out":"InfluenzaFever"}
+{"in":"インフルエンザのせいで昨晩大分苦しかった、今日は回復したけどね。","out":"Influenza Fever"}
 {"in":"鳥インフルエンザ流行ってるよね。怖い。","out":"Nothing"}
 {"in":"契約の話聞いたら頭痛が止まらない","out":"Nothing"}
 {"in":"こんなひどい頭痛は久し振りだー。","out":"Headache"}
-{"in":"インフルになってから背中が痛いよ。","out":"InfluenzaFever"}
-{"in":"まさか自分が花粉症にかかるとは思わなかった","out":"HayfeverRunnynose"}
+{"in":"インフルになってから背中が痛いよ。","out":"Influenza Fever"}
+{"in":"まさか自分が花粉症にかかるとは思わなかった","out":"Hayfever Runnynose"}
 {"in":"鼻水垂らしている赤ちゃんの写真は可愛い。","out":"Nothing"}
 {"in":"朝起きると下痢がひどくて会社休んだ。","out":"Diarrhea"}
 {"in":"頭痛対策には何がいいんだろう。","out":"Headache"}
 {"in":"熱が高いから何かに感染したかなぁ","out":"Fever"}
 {"in":"どんなに科学が発達しても風邪や病気はなくならないだろう。","out":"Nothing"}
 {"in":"インフルエンザの季節か。ワクチン打たねば。","out":"Nothing"}
-{"in":"インフルなんで外出禁止。","out":"InfluenzaFever"}
+{"in":"インフルなんで外出禁止。","out":"Influenza Fever"}
 {"in":"咳をしすぎて腹筋が筋肉痛。疲れるし膿状の痰は出るし最悪すぎる。","out":"Cough"}
 {"in":"お腹が痛いと思ったら下痢だった。","out":"Diarrhea"}
-{"in":"花粉症対策しなければ！","out":"HayfeverRunnynose"}
+{"in":"花粉症対策しなければ！","out":"Hayfever Runnynose"}
 {"in":"ずーっときついヘッドホン装着させられてて、ひどい頭痛だよ。","out":"Nothing"}
 {"in":"仕事中に下痢になっちゃって、ちょっと、もう、早退したいで御座る。","out":"Diarrhea"}
-{"in":"今年は早くも花粉症の症状が出始める。","out":"HayfeverRunnynose"}
+{"in":"今年は早くも花粉症の症状が出始める。","out":"Hayfever Runnynose"}
 {"in":"咳するだけでも疲れる体力のなさ","out":"Cough"}
 {"in":"熱出て、リンパ腫れる状態だけど、眠れるよ。","out":"Fever"}
 {"in":"頭痛に悩まされて途中で帰宅した。","out":"Headache"}
 {"in":"秋にも花粉症ってあるんだ。","out":"Nothing"}
 {"in":"スペイン風邪って何？","out":"Nothing"}
-{"in":"花粉症が治ったと思っていたが再発した。","out":"HayfeverRunnynose"}
-{"in":"告白しようと決めた日に、大好きだと叫びたい気持ち満点のこの時にまさかの鼻風邪とは。","out":"RunnynoseCold"}
+{"in":"花粉症が治ったと思っていたが再発した。","out":"Hayfever Runnynose"}
+{"in":"告白しようと決めた日に、大好きだと叫びたい気持ち満点のこの時にまさかの鼻風邪とは。","out":"Runnynose Cold"}
 {"in":"咳がひどいと腹筋が痛くなるし疲れる。","out":"Cough"}
 {"in":"鼻水が止まらずやばいわ","out":"Runnynose"}
 {"in":"咳がでると腹筋マジ痛いし。","out":"Cough"}
-{"in":"まさか私も花粉症になっちゃった！？","out":"HayfeverRunnynose"}
-{"in":"花粉症再発で最悪、疲れがどっと来てます。","out":"HayfeverRunnynose"}
+{"in":"まさか私も花粉症になっちゃった！？","out":"Hayfever Runnynose"}
+{"in":"花粉症再発で最悪、疲れがどっと来てます。","out":"Hayfever Runnynose"}
 {"in":"鼻風邪を引いたとかで久し振りに東京の娘から着信があったのが嬉しい。","out":"Nothing"}
 {"in":"この翻訳の量はきつすぎて頭痛の種だ。","out":"Nothing"}
 {"in":"スペイン風邪の恐ろしさを知らない。","out":"Nothing"}
@@ -509,17 +509,17 @@
 {"in":"頭痛ひどすぎて帰りたい","out":"Headache"}
 {"in":"鼻水が止まるかもと思ったのだ。","out":"Runnynose"}
 {"in":"外出先から帰ったらインフル予防のため手洗いは欠かさなかったので今年はインフルエンザに感染することなく過ごせた。","out":"Nothing"}
-{"in":"今年は早くも花粉症なんだが。どうした俺","out":"HayfeverRunnynose"}
+{"in":"今年は早くも花粉症なんだが。どうした俺","out":"Hayfever Runnynose"}
 {"in":"今日も寒いな、こんな日はよく下痢になるんだよな","out":"Nothing"}
-{"in":"鼻水、鼻づまりがやばい。薬を飲んでるのに鼻風邪には効かないらしく今日は休むことにした。","out":"RunnynoseCold"}
+{"in":"鼻水、鼻づまりがやばい。薬を飲んでるのに鼻風邪には効かないらしく今日は休むことにした。","out":"Runnynose Cold"}
 {"in":"お腹が痛くて起きたら、下痢になっていた・・・。","out":"Diarrhea"}
 {"in":"檜の花粉症なめるなよ！","out":"Nothing"}
 {"in":"仕事する相手が風邪だと大変だ。","out":"Nothing"}
-{"in":"水みたいな鼻水が出る。まるで花粉症。","out":"HayfeverRunnynose"}
+{"in":"水みたいな鼻水が出る。まるで花粉症。","out":"Hayfever Runnynose"}
 {"in":"今月中に契約を取らなきゃいけない。ほんと頭痛の種だ。","out":"Nothing"}
 {"in":"頭痛がひどいとき、宇宙と交信できる気がする。","out":"Headache"}
 {"in":"起きると、ちょっと下痢","out":"Diarrhea"}
-{"in":"部活のほとんどの生徒がインフルエンザにかかった。","out":"InfluenzaFever"}
+{"in":"部活のほとんどの生徒がインフルエンザにかかった。","out":"Influenza Fever"}
 {"in":"咳を手でおさえるくらいのエチケットもないのかよ","out":"Cough"}
 {"in":"保育園での集団生活。今は下痢が流行中。","out":"Diarrhea"}
 {"in":"また今年も鳥インフルエンザの季節がやってきたなぁ。","out":"Nothing"}
@@ -538,17 +538,17 @@
 {"in":"リンパが腫れ上がって熱が出た。","out":"Fever"}
 {"in":"鼻づまり解消には我が家の犬と戯れるといいよ。","out":"Runnynose"}
 {"in":"頭痛は、とにかくきついんで勘弁してください。","out":"Headache"}
-{"in":"兄がインフルエンザにかかった！みんなも気を付けて！","out":"InfluenzaFever"}
+{"in":"兄がインフルエンザにかかった！みんなも気を付けて！","out":"Influenza Fever"}
 {"in":"危機！鳥インフルこわい。","out":"Nothing"}
 {"in":"携帯見てたんだけど、東京の神社では巫女さんのアルバイトを募集してるね。去年より少ないけど。熱が出ると応募できないから養生しなきゃね。","out":"Nothing"}
 {"in":"仕事のストレスのおかげで何時も下痢で御座る。","out":"Diarrhea"}
 {"in":"鳥インフルエンザ、マジ危機だ。","out":"Nothing"}
 {"in":"サッカーの決勝戦前に下痢になったとか笑うしかない","out":"Diarrhea"}
-{"in":"まさか自分が花粉症になるなんて・・・！","out":"HayfeverRunnynose"}
+{"in":"まさか自分が花粉症になるなんて・・・！","out":"Hayfever Runnynose"}
 {"in":"鳥インフルエンザ怖いわ。","out":"Nothing"}
 {"in":"スペイン風邪ってなんだっけ？","out":"Nothing"}
-{"in":"ところで花粉症の画期的な対策ってないの？毎年つらすぎるよ。","out":"HayfeverRunnynose"}
-{"in":"鼻風邪で自分の体液が浪費されていく","out":"RunnynoseCold"}
+{"in":"ところで花粉症の画期的な対策ってないの？毎年つらすぎるよ。","out":"Hayfever Runnynose"}
+{"in":"鼻風邪で自分の体液が浪費されていく","out":"Runnynose Cold"}
 {"in":"先週兄がインフルエンザにかかったが、今は元気に回復している。","out":"Nothing"}
 {"in":"咳でコンサート行けるかどうか微妙。早く治まってほしい。","out":"Cough"}
 {"in":"来春の飛散量はすごいので、花粉症の俺には大変だ。","out":"Nothing"}
@@ -562,32 +562,32 @@
 {"in":"わざとらしい咳がうるさい","out":"Cough"}
 {"in":"下痢で小学生の頃を思い出す","out":"Diarrhea"}
 {"in":"さっき帰ってから頭痛が。風呂に入るのもだるい。","out":"Headache"}
-{"in":"頭痛に鼻水、これって風邪？","out":"HeadacheRunnynoseCold"}
+{"in":"頭痛に鼻水、これって風邪？","out":"Headache Runnynose Cold"}
 {"in":"お腹がちょっと痛いなと思っていたら、下痢した。","out":"Diarrhea"}
-{"in":"軽い頭痛がする。風邪かもしれないから今日はもう寝る。","out":"HeadacheCold"}
+{"in":"軽い頭痛がする。風邪かもしれないから今日はもう寝る。","out":"Headache Cold"}
 {"in":"熱出てるって言って保健室で携帯見てる","out":"Fever"}
 {"in":"おならをしようと力を入れたら下痢を漏らして爆笑された。","out":"Diarrhea"}
 {"in":"多少熱があっても仕事は休めないしな","out":"Fever"}
 {"in":"花粉症対策にはヨーグルトがいいみたいだよー。","out":"Nothing"}
-{"in":"兄がインフルエンザを発症してしまったのだが","out":"InfluenzaFever"}
+{"in":"兄がインフルエンザを発症してしまったのだが","out":"Influenza Fever"}
 {"in":"熱が出た。何かに感染したのか。","out":"Fever"}
 {"in":"犬が大好きなんだけど、アレルギーで鼻水出ちゃうのよね。犬預かるの、嬉しいけど無理だー。","out":"Runnynose"}
-{"in":"遂に花粉症になってしまった。","out":"HayfeverRunnynose"}
+{"in":"遂に花粉症になってしまった。","out":"Hayfever Runnynose"}
 {"in":"頭痛は久しぶりだ。さっさと帰る。","out":"Headache"}
 {"in":"娘が熱をだしたので仕事を休むことにした。","out":"Fever"}
 {"in":"部活で、インフル流行ってるから気をつけようなって言った翌日にインフル発症して爆笑だった。","out":"Nothing"}
-{"in":"人生初のインフルエンザ、ようやく回復してきた！","out":"InfluenzaFever"}
+{"in":"人生初のインフルエンザ、ようやく回復してきた！","out":"Influenza Fever"}
 {"in":"来春花粉症ひどいそうだが毎年言ってるよね","out":"Nothing"}
 {"in":"今日は朝から頭痛くて、もうさっさと風呂入って寝ようと思ってたのに電車遅れてまだ帰宅できてなーい。","out":"Headache"}
-{"in":"鼻水と熱が。お腹も痛いし首のリンパも腫れている。","out":"DiarrheaFeverRunnynose"}
+{"in":"鼻水と熱が。お腹も痛いし首のリンパも腫れている。","out":"Diarrhea Fever Runnynose"}
 {"in":"昨晩兄が高熱を出した。来週は部活の大事な大会があるからインフルじゃないことを祈る。","out":"Fever"}
 {"in":"鼻水止まらなくて、そのうち頭から脳みそ流出するんじゃないかな。","out":"Runnynose"}
 {"in":"また世間で鳥インフル流行ってるらしい。","out":"Nothing"}
-{"in":"兄と同じ部活が一緒の人が昨晩からインフルになってしまったらしい。","out":"InfluenzaFever"}
+{"in":"兄と同じ部活が一緒の人が昨晩からインフルになってしまったらしい。","out":"Influenza Fever"}
 {"in":"朝起きるとやばいくらい頭痛がした。","out":"Headache"}
 {"in":"インフルエンザワクチンは毎年予想株で作られる。","out":"Nothing"}
 {"in":"風邪っぽいんだけどライブ行くのどうしよう。","out":"Cold"}
-{"in":"鼻風邪かな。今日は帰って早く休むに限る。","out":"RunnynoseCold"}
+{"in":"鼻風邪かな。今日は帰って早く休むに限る。","out":"Runnynose Cold"}
 {"in":"激しい頭痛のため早退して帰るわ。","out":"Headache"}
 {"in":"風邪でだるいけど仕事を休めるか微妙だ。","out":"Cold"}
 {"in":"２週間くらい咳が止まらない。なにこれ死ぬの？","out":"Cough"}
@@ -599,11 +599,11 @@
 {"in":"集団で下痢になってしまうのが社会問題になっているらしい。","out":"Nothing"}
 {"in":"最近何時も起きるとお腹が痛くて、トイレに行くと下痢なんだ。","out":"Diarrhea"}
 {"in":"携帯が熱もってめっちゃ熱い","out":"Nothing"}
-{"in":"咳止め薬の副作用で頭が痛い。","out":"CoughHeadache"}
-{"in":"熱に鼻水に頭痛に誰か助けてー","out":"HeadacheFeverRunnynose"}
+{"in":"咳止め薬の副作用で頭が痛い。","out":"Cough Headache"}
+{"in":"熱に鼻水に頭痛に誰か助けてー","out":"Headache Fever Runnynose"}
 {"in":"咳をしすぎて腹筋が痛い。","out":"Cough"}
 {"in":"空港から搬送された例の患者、デング熱に感染してたらしいよ。今朝、東京に帰って来たんだって。厚労省が発表してたの、テレビのニュースで見た！","out":"Nothing"}
-{"in":"咳と高熱で辛いと言ってくるけど、正直わざとらしい","out":"CoughFever"}
+{"in":"咳と高熱で辛いと言ってくるけど、正直わざとらしい","out":"Cough Fever"}
 {"in":"そろそろ起きる時間だ。寒いから布団から出たくないし下痢とか最悪。","out":"Diarrhea"}
 {"in":"アトピー患者って花粉症になりやすいの？","out":"Nothing"}
 {"in":"咳き込んだときのエチケットがちゃんとできてない人って多いよね。","out":"Cough"}
@@ -616,7 +616,7 @@
 {"in":"風邪の症状として、だるい、寒気がするとかあるけど、それインフルもじゃね。","out":"Cold"}
 {"in":"頭痛がするのは宇宙からの電波を受信している証拠だよ。","out":"Headache"}
 {"in":"熱下がらんのだけど休むべきだろうか。","out":"Fever"}
-{"in":"まさか自分が花粉症になるとは。","out":"HayfeverRunnynose"}
+{"in":"まさか自分が花粉症になるとは。","out":"Hayfever Runnynose"}
 {"in":"昔、ひどい下痢になった事を思い出した","out":"Nothing"}
 {"in":"誰でも熱はつらいものです。","out":"Fever"}
 {"in":"娘の熱が下がりません。","out":"Fever"}
@@ -631,10 +631,10 @@
 {"in":"テレビで今年のインフルは熱があまり出ないって言ってるけど本当？","out":"Nothing"}
 {"in":"英語っぽい発音で下痢って言ったら、友達が爆笑した。","out":"Nothing"}
 {"in":"くしゃみした瞬間、花粉症かと間違えるところだった。","out":"Runnynose"}
-{"in":"なんか今日は風邪引いたのか、鼻づまりがすごい。","out":"RunnynoseCold"}
-{"in":"頭痛、鼻水、咳とか風邪オールスターかよ","out":"CoughHeadacheRunnynoseCold"}
-{"in":"インフルエンザのせいか、喉が渇く","out":"InfluenzaFever"}
-{"in":"咳のひどすぎて腹筋が鍛えられそう。頭は微妙","out":"CoughHeadache"}
+{"in":"なんか今日は風邪引いたのか、鼻づまりがすごい。","out":"Runnynose Cold"}
+{"in":"頭痛、鼻水、咳とか風邪オールスターかよ","out":"Cough Headache Runnynose Cold"}
+{"in":"インフルエンザのせいか、喉が渇く","out":"Influenza Fever"}
+{"in":"咳のひどすぎて腹筋が鍛えられそう。頭は微妙","out":"Cough Headache"}
 {"in":"やっと鼻水止まって嬉しい。","out":"Nothing"}
 {"in":"まだ熱がある。困った。","out":"Fever"}
 {"in":"鼻づまりが止まるまで寝苦しいよ。","out":"Runnynose"}
@@ -645,60 +645,60 @@
 {"in":"最近お腹の調子が悪くて下痢気味なんだよねー。","out":"Diarrhea"}
 {"in":"下痢って英語でなんて言うんだろう","out":"Nothing"}
 {"in":"頭痛が三日ぐらい続いてるのでそろそろ医師に診てもらったほうがいいかもしれない。","out":"Headache"}
-{"in":"これはまさか・・・花粉症というやつでは・・・","out":"HayfeverRunnynose"}
-{"in":"兄がインフルエンザの症状から回復した矢先に今度は私がインフルに感染してしまった。","out":"InfluenzaFever"}
+{"in":"これはまさか・・・花粉症というやつでは・・・","out":"Hayfever Runnynose"}
+{"in":"兄がインフルエンザの症状から回復した矢先に今度は私がインフルに感染してしまった。","out":"Influenza Fever"}
 {"in":"え、鳥インフルエンザまじ怖い","out":"Nothing"}
 {"in":"昨日食った丼にあたったぽいわ。下痢〜","out":"Diarrhea"}
 {"in":"中国で鳥インフルエンザが大流行してるらしい！","out":"Nothing"}
-{"in":"今日は風が強くて、目が充血して痛むようになった。まさかの微熱も出てきた。こんなにひどい花粉症の症状は久し振りだ。","out":"HayfeverFeverRunnynose"}
+{"in":"今日は風が強くて、目が充血して痛むようになった。まさかの微熱も出てきた。こんなにひどい花粉症の症状は久し振りだ。","out":"Hayfever Fever Runnynose"}
 {"in":"インフルエンザのときは外出をひかえなくちゃね。","out":"Nothing"}
 {"in":"携帯電話のバッテリーがすごい熱持ってるんだけどやばくない？","out":"Nothing"}
-{"in":"咳っぽいし頭痛いし、まじ最悪なんだけど。","out":"CoughHeadache"}
+{"in":"咳っぽいし頭痛いし、まじ最悪なんだけど。","out":"Cough Headache"}
 {"in":"東京で感染が広がってるってニュースがやってたけど、とうとう僕も熱が出ちゃった。","out":"Fever"}
 {"in":"こんなにひどい頭痛は、久し振りだ・・・。","out":"Headache"}
 {"in":"やばい。いま仕事中なのに下痢で漏れそう。","out":"Diarrhea"}
-{"in":"花粉症で微熱がでた。怖いわ","out":"HayfeverFeverRunnynose"}
-{"in":"お医者さんで、花粉症に効果のある薬を処方していただきました。","out":"HayfeverRunnynose"}
+{"in":"花粉症で微熱がでた。怖いわ","out":"Hayfever Fever Runnynose"}
+{"in":"お医者さんで、花粉症に効果のある薬を処方していただきました。","out":"Hayfever Runnynose"}
 {"in":"痰飲むの汚すぎでしょ。","out":"Cough"}
 {"in":"犬と戯れると鼻水が出るから無理だ。アレルギーかな？","out":"Runnynose"}
-{"in":"まさか花粉症になった？つらい","out":"HayfeverRunnynose"}
+{"in":"まさか花粉症になった？つらい","out":"Hayfever Runnynose"}
 {"in":"テレビでやってたけど、感染してしばらく時間が経ってから熱が出るらしい。","out":"Nothing"}
 {"in":"嫁も娘も熱で倒れる。俺、大丈夫か！","out":"Fever"}
 {"in":"鳥インフルエンザ怖すぎ","out":"Nothing"}
 {"in":"風邪で頭ぼーっとする。","out":"Cold"}
 {"in":"ひどい咳がずっと止まらなくて、昨日あたりから腹筋が痛い。","out":"Cough"}
 {"in":"インフルエンザワクチンを安くすませたいけど、いろいろと調べるのはめんどうくさい。","out":"Nothing"}
-{"in":"花粉症のためか鼻が痛む。","out":"HayfeverRunnynose"}
+{"in":"花粉症のためか鼻が痛む。","out":"Hayfever Runnynose"}
 {"in":"君の風邪は科学的に説明できない。","out":"Cold"}
-{"in":"今日はインフルで休んでいる子が沢山いる。","out":"InfluenzaFever"}
+{"in":"今日はインフルで休んでいる子が沢山いる。","out":"Influenza Fever"}
 {"in":"頭痛対策として好きな音楽を聴くこともある。","out":"Headache"}
 {"in":"頭痛は、根源から抹殺が必要だ","out":"Headache"}
-{"in":"昨日から嫁が熱でダウン。いま横で鼻水たらしながらおかゆ食べてる。","out":"FeverRunnynose"}
+{"in":"昨日から嫁が熱でダウン。いま横で鼻水たらしながらおかゆ食べてる。","out":"Fever Runnynose"}
 {"in":"普通は咳するとき口を手で抑えるだろ？","out":"Cough"}
-{"in":"季節柄ぜんぜん風邪が治らない。まだ熱が３９度もあるや。","out":"FeverCold"}
+{"in":"季節柄ぜんぜん風邪が治らない。まだ熱が３９度もあるや。","out":"Fever Cold"}
 {"in":"来春も花粉症で辛いと思うと憂鬱だ","out":"Nothing"}
-{"in":"頭痛に鼻風邪でだるい","out":"HeadacheRunnynoseCold"}
+{"in":"頭痛に鼻風邪でだるい","out":"Headache Runnynose Cold"}
 {"in":"昨夜あんなにはしゃいでいた兄がインフルエンザを発症したらしく、爆笑している。","out":"Nothing"}
-{"in":"まさか花粉症になるとは、信じたくないわ","out":"HayfeverRunnynose"}
+{"in":"まさか花粉症になるとは、信じたくないわ","out":"Hayfever Runnynose"}
 {"in":"ネパールのサッカー選手が下痢になったんだって。","out":"Nothing"}
 {"in":"熱を素早く下げる方法、朝のニュースでやってた！","out":"Fever"}
 {"in":"問題は熱っぽいってことだ","out":"Fever"}
-{"in":"兄がインフルにかかった！家に受験生いるのにありえないんだけど！","out":"InfluenzaFever"}
+{"in":"兄がインフルにかかった！家に受験生いるのにありえないんだけど！","out":"Influenza Fever"}
 {"in":"頭痛がするからお風呂で半身浴する。","out":"Headache"}
-{"in":"妻に加えてついに自分も花粉症の仲間入りとなってしまった。","out":"HayfeverRunnynose"}
-{"in":"兄がインフルエンザにかかって無能だと思う。","out":"InfluenzaFever"}
+{"in":"妻に加えてついに自分も花粉症の仲間入りとなってしまった。","out":"Hayfever Runnynose"}
+{"in":"兄がインフルエンザにかかって無能だと思う。","out":"Influenza Fever"}
 {"in":"今日、下痢で仕事にならない。","out":"Diarrhea"}
 {"in":"何日経っても咳がなかなか治まらない。","out":"Cough"}
 {"in":"頭痛の症状ソロソロ治らないかな・・。","out":"Headache"}
 {"in":"天気頭痛がきた。こんなにきついとは思わなかったな","out":"Headache"}
 {"in":"最近、下痢ばっかで辛い。","out":"Diarrhea"}
 {"in":"鳥インフルエンザのニュースを見た。感染した疑いがあるアヒルやニワトリ３２万羽を処分したとのこと。危機管理しっかりしているよね。","out":"Nothing"}
-{"in":"兄がインフルになったらしい。","out":"InfluenzaFever"}
+{"in":"兄がインフルになったらしい。","out":"Influenza Fever"}
 {"in":"頼むー。今日中に鼻づまり止んでくれー","out":"Runnynose"}
 {"in":"ネパールに旅行行ったら下痢になっちまったー","out":"Diarrhea"}
 {"in":"一日中頭痛でさっき会社から帰ってきたよ","out":"Headache"}
 {"in":"アトピー患者に花粉症の人が多い。","out":"Nothing"}
-{"in":"部活でインフルエンザが流行って部活停止らしい。","out":"InfluenzaFever"}
+{"in":"部活でインフルエンザが流行って部活停止らしい。","out":"Influenza Fever"}
 {"in":"頭痛対策には音楽を聴くとか宇宙に思いを馳せて天体観測をするなどのリラックスも必要だと思うんだ。","out":"Headache"}
 {"in":"インフルエンザから回復しました！","out":"Nothing"}
 {"in":"寒気がしたら風邪かもしれないから、ホットレモンでも飲んで休みましょ。","out":"Cold"}
@@ -706,17 +706,17 @@
 {"in":"おたふく風邪っぽい症状が出てるんですけど・・・・・・","out":"Nothing"}
 {"in":"起朝ごはん食べてからお腹の具合がやばい。下痢かも","out":"Diarrhea"}
 {"in":"周りに咳してる人が多いときはいつも以上に手洗いを徹底しないと。","out":"Nothing"}
-{"in":"まさか花粉症？鼻水がまるで水のように流れている。","out":"HayfeverRunnynose"}
-{"in":"誰でもいいから花粉症の療法を発明してくれー","out":"HayfeverRunnynose"}
+{"in":"まさか花粉症？鼻水がまるで水のように流れている。","out":"Hayfever Runnynose"}
+{"in":"誰でもいいから花粉症の療法を発明してくれー","out":"Hayfever Runnynose"}
 {"in":"花粉症に効果があると噂の眼鏡を買ったぞ","out":"Hayfever"}
 {"in":"風邪くらいでは休めないと思って出社するからみんなにうつるんだ。","out":"Cold"}
 {"in":"インフルに感染したっぽい、熱下がらない","out":"Fever"}
-{"in":"今年は花粉症の症状が少ないな。","out":"HayfeverRunnynose"}
+{"in":"今年は花粉症の症状が少ないな。","out":"Hayfever Runnynose"}
 {"in":"本格的に風邪をひいたらしく、完璧に参ってしまった。","out":"Cold"}
-{"in":"水みたいなものが鼻からノンストップ状態で出てるけどまさか花粉症？","out":"HayfeverRunnynose"}
+{"in":"水みたいなものが鼻からノンストップ状態で出てるけどまさか花粉症？","out":"Hayfever Runnynose"}
 {"in":"花粉症の患者はどんどん増えているらしい。","out":"Nothing"}
 {"in":"鼻水の解消なんてどこ吹く風とばかりに、外で犬と戯れるのが大好きだ。","out":"Runnynose"}
-{"in":"まさか花粉症になるとは・・・","out":"HayfeverRunnynose"}
+{"in":"まさか花粉症になるとは・・・","out":"Hayfever Runnynose"}
 {"in":"下痢という言葉は私の辞書の用語にはない。","out":"Nothing"}
 {"in":"頭痛だから今日はお風呂やめとこう。","out":"Headache"}
 {"in":"英語の翻訳やりすぎて頭痛がするわ。","out":"Nothing"}
@@ -725,21 +725,21 @@
 {"in":"弟はまだ熱があるらしく、仕事を休むらしい。","out":"Fever"}
 {"in":"スペインにいる友達は風邪だと思ってたらおたふくだったそうで。ブログで知りました。","out":"Nothing"}
 {"in":"咳をするときにはエチケットとしてちゃんと口をおさえてほしいよね","out":"Cough"}
-{"in":"妻も遂に花粉症になってしまった。","out":"HayfeverRunnynose"}
-{"in":"お腹痛い、熱がしんどい、今日は休む","out":"DiarrheaFever"}
+{"in":"妻も遂に花粉症になってしまった。","out":"Hayfever Runnynose"}
+{"in":"お腹痛い、熱がしんどい、今日は休む","out":"Diarrhea Fever"}
 {"in":"俺の頭痛の苦痛を宇宙人に翻訳して伝えてやりたい。","out":"Nothing"}
 {"in":"頭痛って地味にきつい","out":"Headache"}
 {"in":"痰吐きすぎて胸の奥がひきつってるっぽい","out":"Cough"}
-{"in":"花粉症と風邪を観察しないと間違えるな。","out":"HayfeverRunnynoseCold"}
+{"in":"花粉症と風邪を観察しないと間違えるな。","out":"Hayfever Runnynose Cold"}
 {"in":"下痢で腹が痛いので助けて","out":"Diarrhea"}
 {"in":"朝から頭痛とかやばいよね？","out":"Headache"}
 {"in":"頭痛やばいからまだ寝る","out":"Headache"}
 {"in":"痰に血が混じるんけど、大丈夫かな。","out":"Cough"}
-{"in":"微熱だから風邪だと思ったのに花粉症かよ！","out":"HayfeverFeverRunnynose"}
+{"in":"微熱だから風邪だと思ったのに花粉症かよ！","out":"Hayfever Fever Runnynose"}
 {"in":"インフルの流行る季節だ。うがい手洗い忘れないようにしよう。","out":"Nothing"}
 {"in":"頭痛がやばいのでそろそろ帰宅","out":"Headache"}
 {"in":"集団で下痢になった。笑う","out":"Diarrhea"}
-{"in":"熱があってまだお腹が腫れる。","out":"DiarrheaFever"}
+{"in":"熱があってまだお腹が腫れる。","out":"Diarrhea Fever"}
 {"in":"思い出すだけであの時下痢をこらえられなかったら今頃どうなってたころやらと不安になるな、、、","out":"Nothing"}
 {"in":"娘がずっと鼻水出してる。熱はないんだけどなー。","out":"Runnynose"}
 {"in":"風邪なので解熱剤を下から入れるも、ひとりではなかなかできない。","out":"Cold"}
@@ -750,42 +750,42 @@
 {"in":"激しい運動をしたからか、頭痛もあるし体もだるいし、今日はお風呂入らないで寝る。","out":"Headache"}
 {"in":"鼻づまり解消のハウツー本を読んだけど、どれも胡散臭い。ネットのブログとかにも眉唾ものの民間療法がわんさかあるし、病院行ってちゃんと医師の診断を受けようかな？","out":"Runnynose"}
 {"in":"下痢だったの思い出してサッカー休むことにした。","out":"Diarrhea"}
-{"in":"インフルかかったから部活はもちろん休むよ。","out":"InfluenzaFever"}
+{"in":"インフルかかったから部活はもちろん休むよ。","out":"Influenza Fever"}
 {"in":"インフルエンザの原因の動物を殺すだけなんて政府の対応は御粗末だな","out":"Nothing"}
 {"in":"最悪、風邪ひいたっぽい。","out":"Cold"}
 {"in":"鼻づまりが解消できるなら、１万円くらいなら余裕で払う、マジで。","out":"Runnynose"}
 {"in":"いとこがおたふく風邪にかかったらしけど大丈夫かな・・・","out":"Nothing"}
-{"in":"まさか自分が花粉症になるとは思わなかった。","out":"HayfeverRunnynose"}
+{"in":"まさか自分が花粉症になるとは思わなかった。","out":"Hayfever Runnynose"}
 {"in":"インフルエンザにならないようにワクチンを打たなくちゃ。","out":"Nothing"}
 {"in":"契約書をすべて変更すると聞いて頭痛がしてきた。","out":"Nothing"}
-{"in":"花粉症の薬処方されたけど副作用で眠くて仕方ない。","out":"HayfeverRunnynose"}
+{"in":"花粉症の薬処方されたけど副作用で眠くて仕方ない。","out":"Hayfever Runnynose"}
 {"in":"咳にはマスクがエチケット。","out":"Cough"}
 {"in":"咳をしすぎて腹筋の痛みがひどいんですが","out":"Cough"}
-{"in":"インフルにかかったけど回復してきた。水分沢山取らなくちゃ。","out":"InfluenzaFever"}
-{"in":"風邪治りかけだからまだ今一だな。頭痛もするし辛い。","out":"HeadacheCold"}
+{"in":"インフルにかかったけど回復してきた。水分沢山取らなくちゃ。","out":"Influenza Fever"}
+{"in":"風邪治りかけだからまだ今一だな。頭痛もするし辛い。","out":"Headache Cold"}
 {"in":"インフルエンザにかかると背中が痛くなるって本当？","out":"Nothing"}
 {"in":"熱でリンパ腺が腫れてすごく痛いんだ。","out":"Fever"}
 {"in":"頭痛が苦痛、無痛はいつ？","out":"Headache"}
 {"in":"咳がひどいなと思っていたら、週末高熱を出して寝込んでしまった。","out":"Nothing"}
-{"in":"鼻風邪のため今日もまた休む。","out":"RunnynoseCold"}
-{"in":"絶賛インフル中だが、役所行くために外出中。世田谷区のみなさん、すみません","out":"InfluenzaFever"}
-{"in":"鼻風邪に効く薬を教えてください。","out":"RunnynoseCold"}
+{"in":"鼻風邪のため今日もまた休む。","out":"Runnynose Cold"}
+{"in":"絶賛インフル中だが、役所行くために外出中。世田谷区のみなさん、すみません","out":"Influenza Fever"}
+{"in":"鼻風邪に効く薬を教えてください。","out":"Runnynose Cold"}
 {"in":"下痢って英語でなんて言うんだ？","out":"Nothing"}
-{"in":"弟が熱があって、鼻水が出て、お腹が痛くてリンパが腫れる謎の病気で休む事が多くなったんだ。","out":"DiarrheaFeverRunnynose"}
+{"in":"弟が熱があって、鼻水が出て、お腹が痛くてリンパが腫れる謎の病気で休む事が多くなったんだ。","out":"Diarrhea Fever Runnynose"}
 {"in":"翻訳の授業がきつくて頭痛してきた","out":"Nothing"}
-{"in":"風邪引いて体温も結構高いから学校休める、完璧だわ、でも体だるいし参るな・・・","out":"FeverCold"}
-{"in":"兄がインフルエンザ、爆笑","out":"InfluenzaFever"}
+{"in":"風邪引いて体温も結構高いから学校休める、完璧だわ、でも体だるいし参るな・・・","out":"Fever Cold"}
+{"in":"兄がインフルエンザ、爆笑","out":"Influenza Fever"}
 {"in":"痰に血が混じるってやばいかな？","out":"Cough"}
 {"in":"鼻水は止まったけど、会社を休む。","out":"Nothing"}
-{"in":"鼻水がとまらないんだけど、まさか花粉症？","out":"HayfeverRunnynose"}
+{"in":"鼻水がとまらないんだけど、まさか花粉症？","out":"Hayfever Runnynose"}
 {"in":"わざとらしい咳をされてイラっときた。","out":"Cough"}
 {"in":"ところで音楽を聴くと頭痛がひどくなる。","out":"Headache"}
 {"in":"最近色んな花粉症の治療法が出てきているが、本当に効果があるのだろうか。","out":"Nothing"}
 {"in":"本格的な風邪をひいたみたい。最悪だ。","out":"Cold"}
 {"in":"下痢のときは毒を体から出すと楽になる気がする。","out":"Diarrhea"}
 {"in":"お腹痛い、下痢ピーやばし！","out":"Diarrhea"}
-{"in":"鼻風邪かなと思ってたけど、頭痛もしてきたから今日は休むことにしよう。","out":"HeadacheRunnynoseCold"}
-{"in":"今日の満さん、鼻風邪やばくてつらそうだったね。あんな時くらい、休めばいいのに。","out":"RunnynoseCold"}
+{"in":"鼻風邪かなと思ってたけど、頭痛もしてきたから今日は休むことにしよう。","out":"Headache Runnynose Cold"}
+{"in":"今日の満さん、鼻風邪やばくてつらそうだったね。あんな時くらい、休めばいいのに。","out":"Runnynose Cold"}
 {"in":"軽い頭痛にイライラするわ","out":"Headache"}
 {"in":"娘はおたふくで私は風邪で大変だ・・・一瞬で治る薬を早く開発してほしい","out":"Cold"}
 {"in":"テレビのニュース見たら、東京に感染者いるって。熱でるわ。","out":"Nothing"}
@@ -793,36 +793,36 @@
 {"in":"下痢で仕事休んだら怒られますかね？","out":"Diarrhea"}
 {"in":"咳は治まったけどまだ微妙っぽい","out":"Cough"}
 {"in":"風邪は病気ではないんだってね。","out":"Nothing"}
-{"in":"咳だけでなく、高熱も出てきた。薬が必要だよ！","out":"CoughFever"}
+{"in":"咳だけでなく、高熱も出てきた。薬が必要だよ！","out":"Cough Fever"}
 {"in":"バカ弟。熱出てるから部屋にこもれや","out":"Fever"}
 {"in":"朝からちょっと下痢になっている。","out":"Diarrhea"}
 {"in":"初詣の巫女さんは寒い中あんな格好で熱を出さないのだろうか？","out":"Nothing"}
 {"in":"下痢で朝から起きれない。ちょっとやばし","out":"Diarrhea"}
 {"in":"去年の冬に下痢できつかったの思い出した。","out":"Nothing"}
 {"in":"まさか中国で花粉症になるなんて・・・","out":"Nothing"}
-{"in":"昨晩インフルエンザのやつと握手しちゃった、握手でも移るのかな","out":"InfluenzaFever"}
+{"in":"昨晩インフルエンザのやつと握手しちゃった、握手でも移るのかな","out":"Influenza Fever"}
 {"in":"相手もおたふく風邪だから大変だ。","out":"Nothing"}
-{"in":"鼻風邪をひいて体調悪かったけど、皆が優しく気遣ってくれて嬉しい","out":"RunnynoseCold"}
+{"in":"鼻風邪をひいて体調悪かったけど、皆が優しく気遣ってくれて嬉しい","out":"Runnynose Cold"}
 {"in":"おたふく風邪にかかったときは本当に辛かった。","out":"Nothing"}
 {"in":"頭痛以外はきついところはない。","out":"Headache"}
 {"in":"朝起きたら具合悪くて下痢でお腹もやばい。","out":"Diarrhea"}
-{"in":"インフルが部活内で大流行中。","out":"InfluenzaFever"}
+{"in":"インフルが部活内で大流行中。","out":"Influenza Fever"}
 {"in":"最近下痢の日が続いている。","out":"Diarrhea"}
 {"in":"咳が止まることがなくて悲しくなってきた。病院行こうかな。","out":"Cough"}
-{"in":"鼻水、鼻詰まりを含む典型的な鼻風邪になったので今日の面接は無理だ。","out":"RunnynoseCold"}
+{"in":"鼻水、鼻詰まりを含む典型的な鼻風邪になったので今日の面接は無理だ。","out":"Runnynose Cold"}
 {"in":"今年のインフルエンザの流行はワクチン接種の時期より前に始まってしまったようだ。","out":"Nothing"}
 {"in":"嫁が熱を出したので、今日は久しぶりに夕食を作った。美味しそうに食べてくれたよかったー。","out":"Fever"}
 {"in":"来春は花粉症対策が例年よりさらに必要ですよ。","out":"Nothing"}
 {"in":"鼻水が止まらない、今日の写真撮影は無理だ。","out":"Runnynose"}
 {"in":"咳をしすぎて腹筋が痛い。まったく治まる気配がないからそろそろ病院に行かないとやばいかも。","out":"Cough"}
 {"in":"鳥インフルが流行ってるみたい。","out":"Nothing"}
-{"in":"花粉症で病院行く時間なくてつらい。去年処方してもらった薬使ったら効果あったんだよねー。","out":"HayfeverRunnynose"}
+{"in":"花粉症で病院行く時間なくてつらい。去年処方してもらった薬使ったら効果あったんだよねー。","out":"Hayfever Runnynose"}
 {"in":"鼻づまりがひどいけど、私は頑張ってブログを書くよ。","out":"Runnynose"}
-{"in":"これ本当に花粉症に効果あんのかな。","out":"HayfeverRunnynose"}
-{"in":"インフルなので外出できません！","out":"InfluenzaFever"}
-{"in":"体調悪くて病院で検査したら、インフルだった。","out":"InfluenzaFever"}
+{"in":"これ本当に花粉症に効果あんのかな。","out":"Hayfever Runnynose"}
+{"in":"インフルなので外出できません！","out":"Influenza Fever"}
+{"in":"体調悪くて病院で検査したら、インフルだった。","out":"Influenza Fever"}
 {"in":"下痢って、英語でなんていうんだっけ？","out":"Nothing"}
-{"in":"旦那が外出先からインフルもらってきた。なんてとんでもないお土産だ","out":"InfluenzaFever"}
+{"in":"旦那が外出先からインフルもらってきた。なんてとんでもないお土産だ","out":"Influenza Fever"}
 {"in":"ただの風邪かと思ったらおたふく風邪だった・・・","out":"Nothing"}
 {"in":"熱が出てて携帯いじるのも辛い。","out":"Fever"}
 {"in":"鼻水止まらなくてやばい","out":"Runnynose"}
@@ -830,59 +830,59 @@
 {"in":"音楽聴いてたら頭痛治るってマジ？","out":"Headache"}
 {"in":"朝起きるなり頭痛やだ。ソロソロやばい。","out":"Headache"}
 {"in":"咳・痰を抑える薬って何があるか知ってる？","out":"Cough"}
-{"in":"兄がインフルエンザになったから外出できなくなっちゃった。","out":"InfluenzaFever"}
+{"in":"兄がインフルエンザになったから外出できなくなっちゃった。","out":"Influenza Fever"}
 {"in":"やばい。こんなにひどい頭痛は久しぶりだ。お風呂にはいっちゃいけないタイプだったかも。余計に激しくなった。","out":"Headache"}
 {"in":"鼻づまり解消法教えてもらえたら嬉しいです。","out":"Runnynose"}
 {"in":"熱だけどまあ問題ないよ。","out":"Fever"}
 {"in":"テレビで見たけどこの熱なんかやばそう","out":"Fever"}
 {"in":"朝からずっと頭痛である。","out":"Headache"}
-{"in":"娘が熱出して鼻水ズルズルだったから学校を休ませた、本人は謎の歌を歌っていて元気そう","out":"FeverRunnynose"}
+{"in":"娘が熱出して鼻水ズルズルだったから学校を休ませた、本人は謎の歌を歌っていて元気そう","out":"Fever Runnynose"}
 {"in":"おたふく風邪って子供だけの病気だと思ってたんだけど、大人でも掛かるみたいだよ。","out":"Nothing"}
-{"in":"まさか私が花粉症になるとは思ってもなかったわ。","out":"HayfeverRunnynose"}
+{"in":"まさか私が花粉症になるとは思ってもなかったわ。","out":"Hayfever Runnynose"}
 {"in":"リンパがはれて熱が出でてきたよ、やばい病気かも。","out":"Fever"}
-{"in":"インフルで絶賛寝込み中","out":"InfluenzaFever"}
-{"in":"まさか・・・いやまさか、花粉症なわけ・・・","out":"HayfeverRunnynose"}
-{"in":"インフル治りかけだからまだ外出できないな。","out":"InfluenzaFever"}
-{"in":"風邪のせいで一週間以上鼻水が止まらないし、今日こそは薬飲んで早く休もうと思うんだけど、課題が寝かせてくれない。","out":"RunnynoseCold"}
+{"in":"インフルで絶賛寝込み中","out":"Influenza Fever"}
+{"in":"まさか・・・いやまさか、花粉症なわけ・・・","out":"Hayfever Runnynose"}
+{"in":"インフル治りかけだからまだ外出できないな。","out":"Influenza Fever"}
+{"in":"風邪のせいで一週間以上鼻水が止まらないし、今日こそは薬飲んで早く休もうと思うんだけど、課題が寝かせてくれない。","out":"Runnynose Cold"}
 {"in":"鼻づまりに利く薬ありますか？","out":"Runnynose"}
 {"in":"熱があるので仕事は休む、絶対行かない","out":"Fever"}
-{"in":"花粉症の症状が出てきたからそろそろ対策取らなきゃね。","out":"HayfeverRunnynose"}
+{"in":"花粉症の症状が出てきたからそろそろ対策取らなきゃね。","out":"Hayfever Runnynose"}
 {"in":"咳しすぎて腹筋痛いし、ちょい血痰が混じるようになったしそろそろ俺やばい。","out":"Cough"}
 {"in":"うちの犬が鼻風邪ひいたのか、クシュンクシュン言ってる","out":"Nothing"}
-{"in":"鼻風邪で東京行くのは無理だー！","out":"RunnynoseCold"}
+{"in":"鼻風邪で東京行くのは無理だー！","out":"Runnynose Cold"}
 {"in":"海外だとすぐ下痢するから、日本のありがたさが身にしみる。","out":"Nothing"}
 {"in":"娘が熱出したから今日は仕事早く切り上げて帰らないと。","out":"Fever"}
 {"in":"やばい、下痢かもしれん","out":"Diarrhea"}
-{"in":"兄がインフルにかかったんだけど、部活の人たちにも移したらしくて爆笑した。","out":"InfluenzaFever"}
+{"in":"兄がインフルにかかったんだけど、部活の人たちにも移したらしくて爆笑した。","out":"Influenza Fever"}
 {"in":"朝から頭痛がひどかったけど、午後になったら急に治ったわ。","out":"Headache"}
 {"in":"わざとらしい咳は、最悪だ。","out":"Cough"}
-{"in":"鼻風邪をひいて鼻づまりがひどい。普段は犬と戯れることが大好きだが、今日は無理。ごめんよチャック。","out":"RunnynoseCold"}
+{"in":"鼻風邪をひいて鼻づまりがひどい。普段は犬と戯れることが大好きだが、今日は無理。ごめんよチャック。","out":"Runnynose Cold"}
 {"in":"インフルエンザが回復した。","out":"Nothing"}
-{"in":"遂に、妻も花粉症になりました。","out":"HayfeverRunnynose"}
+{"in":"遂に、妻も花粉症になりました。","out":"Hayfever Runnynose"}
 {"in":"翻訳作業の進捗聞かれると頭痛がしてくる。相手は知ったこっちゃないだろうけど。","out":"Nothing"}
 {"in":"下痢というと去年のネパール旅行思い出す。日本だとまず下痢なんてしないのに。","out":"Nothing"}
-{"in":"咳と痰、そして高熱、どうやら風邪のようだ。","out":"CoughFeverCold"}
+{"in":"咳と痰、そして高熱、どうやら風邪のようだ。","out":"Cough Fever Cold"}
 {"in":"風邪は科学の力では治せないらしいから、強い体を作っておくのが大事だよ。","out":"Nothing"}
 {"in":"娘がまだ熱が下がらないので、会社休みます。","out":"Fever"}
 {"in":"熱はどの季節がいちばんつらい？","out":"Nothing"}
-{"in":"受験生の兄がインフルエンザにかかってしまったらしい。","out":"InfluenzaFever"}
+{"in":"受験生の兄がインフルエンザにかかってしまったらしい。","out":"Influenza Fever"}
 {"in":"今日は特に鼻水がやばい。","out":"Runnynose"}
 {"in":"翻訳作業が苦痛だぁ。頭痛がしてきた。","out":"Nothing"}
 {"in":"熱が出たけど鼻水は垂れてないよ。","out":"Fever"}
 {"in":"ブログ更新しました！風邪の予防にはアレが一番！","out":"Nothing"}
 {"in":"下痢がやばくてお腹が超痛い。","out":"Diarrhea"}
 {"in":"ヘッドセットを装着すると、頭痛がする。","out":"Nothing"}
-{"in":"インフルで寝てたから背中が痛くてたまらん。だれかマッサージして。","out":"InfluenzaFever"}
+{"in":"インフルで寝てたから背中が痛くてたまらん。だれかマッサージして。","out":"Influenza Fever"}
 {"in":"インフルエンザワクチンの注射を打ったよ","out":"Nothing"}
 {"in":"おたふく風邪がブームになるらしい？","out":"Nothing"}
-{"in":"花粉症からまさかの微熱。","out":"HayfeverFeverRunnynose"}
+{"in":"花粉症からまさかの微熱。","out":"Hayfever Fever Runnynose"}
 {"in":"秋にも花粉症ってあるのかな？","out":"Nothing"}
-{"in":"インフルエンザにかかっている人、職場にも多い。体調管理しっかりしなければ。","out":"InfluenzaFever"}
-{"in":"東京遊びに来たけど鼻風邪ひいてしんどい","out":"RunnynoseCold"}
-{"in":"鼻水出るけど風邪なのかアレルギーなのか。","out":"RunnynoseCold"}
+{"in":"インフルエンザにかかっている人、職場にも多い。体調管理しっかりしなければ。","out":"Influenza Fever"}
+{"in":"東京遊びに来たけど鼻風邪ひいてしんどい","out":"Runnynose Cold"}
+{"in":"鼻水出るけど風邪なのかアレルギーなのか。","out":"Runnynose Cold"}
 {"in":"花粉症患者喜べ、来春は花粉は少ないらしい！","out":"Nothing"}
 {"in":"咳しすぎて、腹筋バキバキ。","out":"Cough"}
-{"in":"嫁が熱で休んでいるんですが、鼻水が詰まって眠れないと言い出しまして。","out":"FeverRunnynose"}
+{"in":"嫁が熱で休んでいるんですが、鼻水が詰まって眠れないと言い出しまして。","out":"Fever Runnynose"}
 {"in":"早めに頭痛薬を飲むことが必要だ。タイミングを逸すると苦痛が続く。","out":"Headache"}
 {"in":"熱が出たので一日中ベッドの上でテレビを見て過ごした。","out":"Fever"}
 {"in":"痰は人前ではかないのがエチケット！","out":"Cough"}
@@ -892,8 +892,8 @@
 {"in":"おたふく風邪ってみんな小さい時にやっているのかな？俺はなっていないから大人になってかかったら大変だと聞いた。","out":"Nothing"}
 {"in":"朝やばい頭痛に襲われてから体がだるくてしょうがない","out":"Headache"}
 {"in":"風邪最悪だけど、休める訳もない。","out":"Cold"}
-{"in":"季節外れの熱風邪中。","out":"FeverCold"}
-{"in":"インフルの熱で兄の背中が真っ赤になっていた。","out":"InfluenzaFever"}
+{"in":"季節外れの熱風邪中。","out":"Fever Cold"}
+{"in":"インフルの熱で兄の背中が真っ赤になっていた。","out":"Influenza Fever"}
 {"in":"風邪でぼーっとする。今日は今一だ。本格的にだるい。","out":"Cold"}
 {"in":"娘が熱をだしたと聞いて急いで帰ってきた。","out":"Fever"}
 {"in":"インフルっぽいのは昨晩外出したのが原因かも。","out":"Nothing"}
@@ -914,7 +914,7 @@
 {"in":"リンパ腫れて熱出てきた。明日仕事行けるか微妙だな。","out":"Fever"}
 {"in":"風邪で寒気が止まらない。","out":"Cold"}
 {"in":"今日こそ鼻水が止まってほしい。","out":"Runnynose"}
-{"in":"最近微熱続きなんだけど、これも花粉症のせい？","out":"HayfeverFeverRunnynose"}
+{"in":"最近微熱続きなんだけど、これも花粉症のせい？","out":"Hayfever Fever Runnynose"}
 {"in":"下痢って英語でなんて言うんだ","out":"Nothing"}
 {"in":"インフルエンザって鳥にもかかるんだね。","out":"Nothing"}
 {"in":"リンパが腫れると熱が出るんだっけ？","out":"Nothing"}
@@ -922,14 +922,14 @@
 {"in":"鼻づまりがやばいからなんか今日行くのやめた。","out":"Runnynose"}
 {"in":"だから咳するときは手で覆うのがエチケットだって何度言わせんの・・・","out":"Cough"}
 {"in":"長風呂したら頭痛なおった！リラックス大事だな〜","out":"Nothing"}
-{"in":"花粉症の療法が発達してだいぶ楽になったよねー。","out":"HayfeverRunnynose"}
+{"in":"花粉症の療法が発達してだいぶ楽になったよねー。","out":"Hayfever Runnynose"}
 {"in":"咳が出る人はマスクするのがエチケットだよな。","out":"Cough"}
 {"in":"最悪だ・・・。絶対コレ風邪だ。","out":"Cold"}
 {"in":"最悪だ。これから大切な会議なのに、風邪引いて頭がぼーっとする。","out":"Cold"}
 {"in":"鼻水がひどくて寝るの無理だ。","out":"Runnynose"}
 {"in":"こんなに激しい頭痛久し振りだぜ","out":"Headache"}
 {"in":"インフルで検査。混んでる","out":"Nothing"}
-{"in":"眠くてだるくて参った。風邪だ、最悪だ。頭痛っぽい。","out":"HeadacheCold"}
+{"in":"眠くてだるくて参った。風邪だ、最悪だ。頭痛っぽい。","out":"Headache Cold"}
 {"in":"頭痛きつい、病院で処方された薬が必要だ。","out":"Headache"}
 {"in":"朝からこんなに頭痛がするのは久し振りだ。","out":"Headache"}
 {"in":"咳止まらないのにマスクをしない奴はエチケットがなっていない","out":"Cough"}
@@ -937,34 +937,34 @@
 {"in":"海鮮丼食べたら下痢になった・・・","out":"Diarrhea"}
 {"in":"頭痛のときって痛くならないようにソロソロ動く。","out":"Headache"}
 {"in":"どうも熱がある気がする、季節の変わり目だし、早く帰って寝よう。","out":"Fever"}
-{"in":"インフルエンザにかかってご飯作ることができない。","out":"InfluenzaFever"}
+{"in":"インフルエンザにかかってご飯作ることができない。","out":"Influenza Fever"}
 {"in":"風邪が治らないので、明日のブログの更新は延期します。すみません！","out":"Cold"}
 {"in":"寒気とだるさと頭ぼーっとする。風邪かなこりゃ・・・。","out":"Cold"}
-{"in":"熱だし鼻水だし。いきなりビックリして怖いわ","out":"FeverRunnynose"}
+{"in":"熱だし鼻水だし。いきなりビックリして怖いわ","out":"Fever Runnynose"}
 {"in":"スペイン風邪とおたふく風邪の違いを教えてくれ","out":"Nothing"}
 {"in":"今日朝から何も食べてないのに下痢。やばい。","out":"Diarrhea"}
 {"in":"スペイン行ってから、風邪気味だ。","out":"Cold"}
 {"in":"兄がやっとインフルから回復した。","out":"Nothing"}
-{"in":"部活内でインフルが流行している。","out":"InfluenzaFever"}
+{"in":"部活内でインフルが流行している。","out":"Influenza Fever"}
 {"in":"風邪対策は完璧だと思ってたのに、眠いからって炬燵でうたた寝してから調子が微妙だ。","out":"Cold"}
-{"in":"インフルの奴って沢山居るよな","out":"InfluenzaFever"}
+{"in":"インフルの奴って沢山居るよな","out":"Influenza Fever"}
 {"in":"やばい、お腹痛い。下痢とまらん。","out":"Diarrhea"}
 {"in":"昨晩のテレビのインフル特集見たら、マスク買いに行きたくなったわー","out":"Nothing"}
 {"in":"風邪のせいで体調が微妙だ","out":"Cold"}
 {"in":"中国で鳥インフルエンザが流行ってるって本当かな？","out":"Nothing"}
-{"in":"アトピーだと花粉症もつらいんだよー","out":"HayfeverRunnynose"}
+{"in":"アトピーだと花粉症もつらいんだよー","out":"Hayfever Runnynose"}
 {"in":"咳が止まらないから腹筋も痛くなってきたし、さっき飲んだ薬も効いてこない。","out":"Cough"}
 {"in":"嬉しい！フォロワーさんの優しさに鼻水噴くわ〜〜","out":"Nothing"}
 {"in":"今日も下痢が続いてるなー","out":"Diarrhea"}
 {"in":"今朝の通勤電車で咳エチケットができていない女性がいてすごく嫌な気持ちになった","out":"Cough"}
 {"in":"頭痛の症状がどんなかを相手に伝えるのって難しい。","out":"Headache"}
 {"in":"この前、近くのサッカーチームで集団で食中毒起きてみんな下痢になっちゃったらしい。昔なってキツかったの思い出したわ。","out":"Nothing"}
-{"in":"花粉症の予防注射打ったんだけど効果なし。","out":"HayfeverRunnynose"}
+{"in":"花粉症の予防注射打ったんだけど効果なし。","out":"Hayfever Runnynose"}
 {"in":"咳をし過ぎると腹筋痛くなるし頭まで痛くなるでしょう？","out":"Cough"}
 {"in":"今日デートなのに風邪とか最悪だ・・・","out":"Cold"}
-{"in":"花粉症だと思ってたら、微熱が出てきて風邪だと判明！間違えることもあるんですね。","out":"HayfeverFeverRunnynoseCold"}
+{"in":"花粉症だと思ってたら、微熱が出てきて風邪だと判明！間違えることもあるんですね。","out":"Hayfever Fever Runnynose Cold"}
 {"in":"ひどい頭痛が続く。休息が必要だ。","out":"Headache"}
-{"in":"ようやくインフルエンザから回復してきたけどまだ本調子じゃない。","out":"InfluenzaFever"}
+{"in":"ようやくインフルエンザから回復してきたけどまだ本調子じゃない。","out":"Influenza Fever"}
 {"in":"朝下痢止まらなくて仕事行けないかと思った","out":"Diarrhea"}
 {"in":"デング熱の感染についてテレビニュースで報道があった。","out":"Nothing"}
 {"in":"インフルのワクチン朝から接種してきたからなんだか体がだるおもいな。","out":"Nothing"}
@@ -975,10 +975,10 @@
 {"in":"寒いせいか朝から下痢がやばい！","out":"Diarrhea"}
 {"in":"日本に帰ってきてから下痢がとまらん。","out":"Diarrhea"}
 {"in":"宇宙のことを考え始めたら止まらなくなって頭痛。","out":"Nothing"}
-{"in":"鼻風邪と頭痛がやばい。","out":"HeadacheRunnynoseCold"}
+{"in":"鼻風邪と頭痛がやばい。","out":"Headache Runnynose Cold"}
 {"in":"科学が発達しても風邪は中々なくならないねぇ。","out":"Nothing"}
 {"in":"寒気がする。しかもぼーっとする。これは風邪かも。","out":"Cold"}
-{"in":"妻の憂鬱そうなマスク姿。早くも花粉症の季節が来たらしい。","out":"HayfeverRunnynose"}
+{"in":"妻の憂鬱そうなマスク姿。早くも花粉症の季節が来たらしい。","out":"Hayfever Runnynose"}
 {"in":"インフルエンザから回復したので外出した。","out":"Nothing"}
 {"in":"外で痰を吐く人には叱ることが必要だと思うけど","out":"Cough"}
 {"in":"風邪をひいたらしく寒気がするしだるい。","out":"Cold"}
@@ -988,31 +988,31 @@
 {"in":"今日は風邪で寒気がしてだるいし、眠いし、ぼーっとしてるし、外出するかも微妙だな。","out":"Cold"}
 {"in":"粗熱をとってから涼しいところに置く。","out":"Nothing"}
 {"in":"痰がでるときは特に手洗いとうがいをしようよ。","out":"Cough"}
-{"in":"インフル蔓延してて部活中止になった","out":"InfluenzaFever"}
+{"in":"インフル蔓延してて部活中止になった","out":"Influenza Fever"}
 {"in":"朝目が覚めた途端に頭痛がくるとか、最悪ですわ","out":"Headache"}
 {"in":"ブログには高熱が出て痰も出ると書いていた。","out":"Nothing"}
 {"in":"頭痛なんて苦痛以外の何物でもない。","out":"Headache"}
-{"in":"微熱があるんだけど花粉症の症状じゃないよね？","out":"HayfeverFeverRunnynose"}
+{"in":"微熱があるんだけど花粉症の症状じゃないよね？","out":"Hayfever Fever Runnynose"}
 {"in":"秋でも花粉症の患者さんはいるみたいだし","out":"Nothing"}
 {"in":"最近ちょっと腹が痛いといつも下痢だ。","out":"Diarrhea"}
 {"in":"風邪と言えばスペイン、おたふく、どっちが強い？","out":"Nothing"}
 {"in":"朝から猛烈に腹が痛かったけど、案の定下痢だった。","out":"Diarrhea"}
 {"in":"こんなにつらい頭痛久し振りだわ","out":"Headache"}
 {"in":"スペイン風邪って大変みたい、誰かのブログで読んだ。","out":"Nothing"}
-{"in":"インフルエンザになって外出できません！","out":"InfluenzaFever"}
+{"in":"インフルエンザになって外出できません！","out":"Influenza Fever"}
 {"in":"インフルエンザにならないように体調管理しなきゃな。","out":"Nothing"}
-{"in":"インフル流行で部活中止","out":"InfluenzaFever"}
-{"in":"絶賛インフルエンザ中！","out":"InfluenzaFever"}
-{"in":"咳をしすぎて腹筋が痛い。疲れるし頭も痛くなってきたし最悪だわ。","out":"CoughHeadache"}
+{"in":"インフル流行で部活中止","out":"Influenza Fever"}
+{"in":"絶賛インフルエンザ中！","out":"Influenza Fever"}
+{"in":"咳をしすぎて腹筋が痛い。疲れるし頭も痛くなってきたし最悪だわ。","out":"Cough Headache"}
 {"in":"寒気もするしぼーっとしてるって言われたんだけど風邪でもひいたかな・・・？","out":"Cold"}
-{"in":"インフルエンザで昨晩は死ぬほど辛い思いをした。","out":"InfluenzaFever"}
-{"in":"この時期はアトピーと花粉症のコンボでめちゃくちゃ辛いんだなこれが。はやく秋になーれ。","out":"HayfeverRunnynose"}
-{"in":"兄と外出する予定だったけどインフルエンザで現在高熱格闘中","out":"InfluenzaFever"}
+{"in":"インフルエンザで昨晩は死ぬほど辛い思いをした。","out":"Influenza Fever"}
+{"in":"この時期はアトピーと花粉症のコンボでめちゃくちゃ辛いんだなこれが。はやく秋になーれ。","out":"Hayfever Runnynose"}
+{"in":"兄と外出する予定だったけどインフルエンザで現在高熱格闘中","out":"Influenza Fever"}
 {"in":"なんか鼻水が止まらない。薬を飲まないとやばいかも。","out":"Runnynose"}
 {"in":"いつもと違う食べ物を食べたら、下痢になった。","out":"Diarrhea"}
 {"in":"花粉症の人ってアトピーの人も多くなる？","out":"Nothing"}
 {"in":"風呂上がりに髪乾かさなかったからか、軽く頭痛がする","out":"Headache"}
-{"in":"花粉症で目と喉が痛む","out":"HayfeverCoughRunnynose"}
+{"in":"花粉症で目と喉が痛む","out":"Hayfever Cough Runnynose"}
 {"in":"インフルにかかったときの鼻粘液をとる検査がつらい。","out":"Nothing"}
 {"in":"お腹痛くて下痢で仕事遅刻","out":"Diarrhea"}
 {"in":"風邪の季節じゃないのに熱がでてすごいつらい・・・","out":"Fever"}
@@ -1023,11 +1023,11 @@
 {"in":"朝寒いからかなあ、やばい、下痢した。","out":"Diarrhea"}
 {"in":"朝から激しい頭痛が止まらない。","out":"Headache"}
 {"in":"おたふく風邪で顔がぱんぱん","out":"Nothing"}
-{"in":"鼻水に頭痛。今日は会社休むよ。","out":"HeadacheRunnynose"}
+{"in":"鼻水に頭痛。今日は会社休むよ。","out":"Headache Runnynose"}
 {"in":"咳で腹筋が痛いってさ。相手するの疲れるわ","out":"Cough"}
 {"in":"痰を飲むにもコツがいる。","out":"Cough"}
 {"in":"咳が寝ても一向に止まることはないー。","out":"Cough"}
-{"in":"昨晩ついにインフル発症してしまった。","out":"InfluenzaFever"}
+{"in":"昨晩ついにインフル発症してしまった。","out":"Influenza Fever"}
 {"in":"鼻づまりの声で本を読む。","out":"Runnynose"}
 {"in":"集団で下痢は最悪だわ","out":"Nothing"}
 {"in":"咳をするときは手を押さえろよー。それくらい社会人としてのエチケットだろ！","out":"Cough"}
@@ -1038,19 +1038,19 @@
 {"in":"犬が大好きだが、アレルギーのせいで近寄ると鼻水がすごく出てしまう。","out":"Runnynose"}
 {"in":"頭痛で頭が曲がりそう","out":"Headache"}
 {"in":"携帯が熱を持ってて、やばい、誰か助けて","out":"Nothing"}
-{"in":"花粉症に効果のあるお茶もらったよ。","out":"HayfeverRunnynose"}
-{"in":"娘の鼻水と熱が治まらない","out":"FeverRunnynose"}
+{"in":"花粉症に効果のあるお茶もらったよ。","out":"Hayfever Runnynose"}
+{"in":"娘の鼻水と熱が治まらない","out":"Fever Runnynose"}
 {"in":"痰は止まったし、熱も下がった。そろそろ腹筋再開しようかな。","out":"Nothing"}
 {"in":"咳をするときは手で押さえるのがエチケットだろうが。","out":"Cough"}
-{"in":"インフルエンザで寝込んでたんだけれど、一晩寝たら大分回復してよかった。","out":"InfluenzaFever"}
+{"in":"インフルエンザで寝込んでたんだけれど、一晩寝たら大分回復してよかった。","out":"Influenza Fever"}
 {"in":"風邪で頭がぼーっとする。参ったなー、明日からのテスト本格的にやばいかも","out":"Cold"}
-{"in":"微妙に風邪で頭痛があるし最悪だー！","out":"HeadacheCold"}
-{"in":"医者が間違えて花粉症だって診断しやがった。","out":"HayfeverRunnynoseCold"}
+{"in":"微妙に風邪で頭痛があるし最悪だー！","out":"Headache Cold"}
+{"in":"医者が間違えて花粉症だって診断しやがった。","out":"Hayfever Runnynose Cold"}
 {"in":"熱はないから問題ないよ。","out":"Nothing"}
 {"in":"頭がぼーっとする、風邪っぽいかも。","out":"Cold"}
 {"in":"祖母の下痢が続いてて心配。","out":"Diarrhea"}
-{"in":"腹痛で熱が出るケースってあるのかな？","out":"DiarrheaFever"}
-{"in":"わざとらしい咳ならまだしも、高熱が出ているなら休むのは回りの人のためのエチケットとして必要では？","out":"CoughFever"}
+{"in":"腹痛で熱が出るケースってあるのかな？","out":"Diarrhea Fever"}
+{"in":"わざとらしい咳ならまだしも、高熱が出ているなら休むのは回りの人のためのエチケットとして必要では？","out":"Cough Fever"}
 {"in":"俺の彼女、鼻水出てるけど、大好きだ！","out":"Runnynose"}
 {"in":"強引に鼻水を薬で止まると念じて格闘中。","out":"Runnynose"}
 {"in":"本格的に風邪をひいてしまったらしい","out":"Cold"}
@@ -1061,42 +1061,42 @@
 {"in":"痰を道端に吐いていく人は悪人だと思ってる。","out":"Cough"}
 {"in":"寒気するわ、風邪じゃないかな","out":"Cold"}
 {"in":"鼻水止まらない！やばい！","out":"Runnynose"}
-{"in":"インフルで熱が出て喉が渇いてしょうがない。","out":"InfluenzaFever"}
+{"in":"インフルで熱が出て喉が渇いてしょうがない。","out":"Influenza Fever"}
 {"in":"朝から下痢だー。泣きそう","out":"Diarrhea"}
 {"in":"さっきニュースで携帯が熱持ちやすい問題についてやってたよ。","out":"Nothing"}
 {"in":"嫁が熱出したんで、今日はコンビニ弁当","out":"Fever"}
 {"in":"風邪が本格化してきて参っている。","out":"Cold"}
 {"in":"帰宅したときから頭痛がやばい・・・","out":"Headache"}
-{"in":"インフルのせいで引きこもり３日目。外出したい！","out":"InfluenzaFever"}
-{"in":"花粉症対策にメガネ買った。","out":"HayfeverRunnynose"}
+{"in":"インフルのせいで引きこもり３日目。外出したい！","out":"Influenza Fever"}
+{"in":"花粉症対策にメガネ買った。","out":"Hayfever Runnynose"}
 {"in":"風邪だと頭がぼーっとして寒気もしない？","out":"Cold"}
 {"in":"咳がひどいときはマスクをするのがエチケットだと思う。","out":"Cough"}
 {"in":"風邪で本格的にだるい、眠い","out":"Cold"}
 {"in":"インフルエンザのワクチンまだ余ってるかな？","out":"Nothing"}
 {"in":"ニュースで誰かが、東京では感染症で熱高い人が多いって言ってた。","out":"Nothing"}
-{"in":"まさかの初の花粉症でつらし。","out":"HayfeverRunnynose"}
+{"in":"まさかの初の花粉症でつらし。","out":"Hayfever Runnynose"}
 {"in":"咳がひどいから腹筋痛い！","out":"Cough"}
 {"in":"痰っぽいものが目から溢れ出す","out":"Nothing"}
 {"in":"インフルエンザって、かかっても手術とかすることはないよね？","out":"Nothing"}
 {"in":"熱があるし、リンパ腺もはれている。","out":"Fever"}
 {"in":"熱が出たんだけど風邪引くにしては季節も遅いし、暖かくなってきたからってエアコンで涼しくしすぎたかな。","out":"Fever"}
 {"in":"契約のことを考えると頭痛がする。","out":"Nothing"}
-{"in":"娘か嫁から風邪移されて熱で今日は休んでます。","out":"FeverCold"}
-{"in":"風邪引いて鼻水止まらない。","out":"RunnynoseCold"}
-{"in":"微熱があるのでまさか花粉症だとは思わなかった。","out":"HayfeverFeverRunnynose"}
-{"in":"熱は下がったけど、咳は相変わらずひどい・・・","out":"CoughFever"}
-{"in":"熱は下がったけど、咳はまだ微妙だな。","out":"CoughFever"}
+{"in":"娘か嫁から風邪移されて熱で今日は休んでます。","out":"Fever Cold"}
+{"in":"風邪引いて鼻水止まらない。","out":"Runnynose Cold"}
+{"in":"微熱があるのでまさか花粉症だとは思わなかった。","out":"Hayfever Fever Runnynose"}
+{"in":"熱は下がったけど、咳は相変わらずひどい・・・","out":"Cough Fever"}
+{"in":"熱は下がったけど、咳はまだ微妙だな。","out":"Cough Fever"}
 {"in":"契約が必要と聞いて頭痛がしてきた","out":"Nothing"}
 {"in":"風邪でぼーっとするし、家事できない。参った。","out":"Cold"}
 {"in":"朝起きたら頭痛がしたので今日は会社休みます。","out":"Headache"}
-{"in":"熱っぽいし、だるい。完璧風邪だな。","out":"FeverCold"}
+{"in":"熱っぽいし、だるい。完璧風邪だな。","out":"Fever Cold"}
 {"in":"弟が熱を出したようで心配だ。","out":"Fever"}
 {"in":"なにこの頭痛、わたし頭曲がるの？","out":"Headache"}
 {"in":"頭痛がするからお風呂に入るのもだるい。","out":"Headache"}
-{"in":"妻の鼻水がひどかったから風邪かと思って病院に行かせたら、花粉症だったらしい。","out":"HayfeverFeverRunnynose"}
+{"in":"妻の鼻水がひどかったから風邪かと思って病院に行かせたら、花粉症だったらしい。","out":"Hayfever Fever Runnynose"}
 {"in":"朝起きたら昨日よりも頭痛がひどくなってた。","out":"Headache"}
 {"in":"最近ストレスが溜まっているので下痢と便秘を繰り返しているのでなんとかならないかな。","out":"Diarrhea"}
-{"in":"兄がインフルになったらしい","out":"InfluenzaFever"}
+{"in":"兄がインフルになったらしい","out":"Influenza Fever"}
 {"in":"朝は頭痛だったけどソロソロ出勤しましょうかね。","out":"Headache"}
 {"in":"痰と血が混じっていて、もうダメかもしれない","out":"Cough"}
 {"in":"わざとらしい咳が得意である。","out":"Nothing"}
@@ -1105,22 +1105,22 @@
 {"in":"ここまでひどい頭痛は久し振りだなぁ。","out":"Headache"}
 {"in":"朝寒いからちょっとお腹がやばい感じ。仕事に行く前に食うと下痢しそうだから止めてるよ。","out":"Diarrhea"}
 {"in":"朝になったら頭痛消えないとやばいんだけど。","out":"Headache"}
-{"in":"この微熱が続いて疲れる感じ、まさかの花粉症か？","out":"HayfeverFeverRunnynose"}
+{"in":"この微熱が続いて疲れる感じ、まさかの花粉症か？","out":"Hayfever Fever Runnynose"}
 {"in":"契約しに喫茶店に行こうとしてんのに頭痛に悩まされていますよ。","out":"Headache"}
 {"in":"犬と遊んでたら鼻づまり治った！","out":"Nothing"}
 {"in":"ネパールの旅行中に生水を飲んだら下痢をした。","out":"Nothing"}
 {"in":"頭痛が激しいので早退した","out":"Headache"}
-{"in":"やっとインフルから回復してきた・・・","out":"InfluenzaFever"}
-{"in":"土産にインフル置いていくとか勘弁して。","out":"InfluenzaFever"}
+{"in":"やっとインフルから回復してきた・・・","out":"Influenza Fever"}
+{"in":"土産にインフル置いていくとか勘弁して。","out":"Influenza Fever"}
 {"in":"痰が出るから薬飲む。","out":"Cough"}
-{"in":"弟がお腹にくるタイプの風邪を引いてて、熱もあるしお弁当も食べれないっぽくて心配・・・","out":"DiarrheaFeverCold"}
+{"in":"弟がお腹にくるタイプの風邪を引いてて、熱もあるしお弁当も食べれないっぽくて心配・・・","out":"Diarrhea Fever Cold"}
 {"in":"ゆう君が風邪で大変だ","out":"Cold"}
-{"in":"花粉症治ったかと思ってたけど今年から再発したみたい","out":"HayfeverRunnynose"}
+{"in":"花粉症治ったかと思ってたけど今年から再発したみたい","out":"Hayfever Runnynose"}
 {"in":"集団の食中毒で下痢になったー。爆笑。","out":"Diarrhea"}
 {"in":"単なる風邪程度で解熱のための強い薬を使わない方がよい","out":"Cold"}
 {"in":"ずっと会いたかった友達と久しぶりに会えて嬉しい。勢い余って鼻水と涙出てきた。","out":"Nothing"}
 {"in":"鼻づまりがひどいから解消法教えて！","out":"Runnynose"}
-{"in":"早くも花粉症が再発です。","out":"HayfeverRunnynose"}
+{"in":"早くも花粉症が再発です。","out":"Hayfever Runnynose"}
 {"in":"下痢気味でお腹が痛い。","out":"Diarrhea"}
 {"in":"だいぶ咳は治まってきた。","out":"Cough"}
 {"in":"頭痛がひどすぎる。この苦痛から解放されたい。","out":"Headache"}
@@ -1128,22 +1128,22 @@
 {"in":"下痢に負けずサッカーをした。","out":"Diarrhea"}
 {"in":"咳のし過ぎで腹筋がすごく痛い。","out":"Cough"}
 {"in":"下痢してる。お腹めっちゃ痛い。","out":"Diarrhea"}
-{"in":"花粉症で微熱が続くのは久し振りだ。","out":"HayfeverFeverRunnynose"}
+{"in":"花粉症で微熱が続くのは久し振りだ。","out":"Hayfever Fever Runnynose"}
 {"in":"携帯が熱をもっている。熱いよ。","out":"Nothing"}
 {"in":"頭痛やばくて頭かち割れそう","out":"Headache"}
 {"in":"仕事中に下痢になるのだけは勘弁。","out":"Diarrhea"}
 {"in":"娘が熱出したので早退。","out":"Fever"}
-{"in":"彼が高熱でうなされて寝言と咳がすごい・・・","out":"CoughFever"}
-{"in":"多分鼻風邪を引いたんだけど、薬を忘れてしまった・・・","out":"RunnynoseCold"}
+{"in":"彼が高熱でうなされて寝言と咳がすごい・・・","out":"Cough Fever"}
+{"in":"多分鼻風邪を引いたんだけど、薬を忘れてしまった・・・","out":"Runnynose Cold"}
 {"in":"誰でもいいから風邪を一瞬で治す薬を開発しておくれ。","out":"Cold"}
 {"in":"昨日、親子丼食べてから下痢になった・・・。","out":"Diarrhea"}
-{"in":"なんかこれって風邪？鼻水と鼻づまりがやばいくらい止まらないんですけど。","out":"RunnynoseCold"}
+{"in":"なんかこれって風邪？鼻水と鼻づまりがやばいくらい止まらないんですけど。","out":"Runnynose Cold"}
 {"in":"咳をするときにはハンカチで押さえるのがエチケットだと思う。","out":"Cough"}
 {"in":"インフルが怖いから、ワクチン注射しに行く。","out":"Nothing"}
 {"in":"風邪は病気と思わない方がよいよ。","out":"Cold"}
 {"in":"仕事も失敗続きで、嫁ともケンカばかり。おまけに謎の熱がとまらない。","out":"Fever"}
 {"in":"インフルエンザの季節だね","out":"Nothing"}
-{"in":"まさか俺が花粉症になっちまうとは","out":"HayfeverRunnynose"}
+{"in":"まさか俺が花粉症になっちまうとは","out":"Hayfever Runnynose"}
 {"in":"英語を使うプレゼンの直前で緊張がピークに達したと思ったら急激な腹痛が来てまさかの下痢。","out":"Diarrhea"}
 {"in":"おたふく風邪なったことないんだけどそんなつらいの？","out":"Nothing"}
 {"in":"咳が出はじめたら、のど飴が必要だ。","out":"Cough"}
@@ -1152,40 +1152,40 @@
 {"in":"インフルの検査痛かった〜。","out":"Nothing"}
 {"in":"風邪だと思ってたんだけどずっと治らないしなんか病気なのかもしれん。","out":"Cold"}
 {"in":"英語で下痢ってなんていうの？","out":"Nothing"}
-{"in":"頭がガンガンするし、鼻水もだらだらでる。明日は学校休む。","out":"HeadacheRunnynose"}
-{"in":"兄がインフルにかかって家で寝込んでいる。","out":"InfluenzaFever"}
-{"in":"風邪で最悪だよ。頭も微妙だ。怖いわ","out":"HeadacheCold"}
+{"in":"頭がガンガンするし、鼻水もだらだらでる。明日は学校休む。","out":"Headache Runnynose"}
+{"in":"兄がインフルにかかって家で寝込んでいる。","out":"Influenza Fever"}
+{"in":"風邪で最悪だよ。頭も微妙だ。怖いわ","out":"Headache Cold"}
 {"in":"こんなひどい頭痛は久し振りだ！","out":"Headache"}
-{"in":"だるくて頭痛がするから熱はかった。４０度もあった。風邪だな。","out":"HeadacheFeverCold"}
+{"in":"だるくて頭痛がするから熱はかった。４０度もあった。風邪だな。","out":"Headache Fever Cold"}
 {"in":"現代科学の叡智を結集しても未だに風邪を治す薬が開発できないのは納得がいかない！","out":"Nothing"}
-{"in":"風邪をひいて、鼻づまりがひどいから今日は休む。","out":"RunnynoseCold"}
+{"in":"風邪をひいて、鼻づまりがひどいから今日は休む。","out":"Runnynose Cold"}
 {"in":"朝から下痢気味。今日は大事な仕事があるのにこれはやばいで御座る。","out":"Diarrhea"}
 {"in":"朝からずっと頭痛、だるい。","out":"Headache"}
-{"in":"鼻づまりをただの鼻風邪だと思ってたら頭も痛いし風邪を引いたっぽい。","out":"HeadacheRunnynoseCold"}
-{"in":"アトピーにも花粉症にも効果あるらしいんで試してみよう。","out":"HayfeverRunnynose"}
+{"in":"鼻づまりをただの鼻風邪だと思ってたら頭も痛いし風邪を引いたっぽい。","out":"Headache Runnynose Cold"}
+{"in":"アトピーにも花粉症にも効果あるらしいんで試してみよう。","out":"Hayfever Runnynose"}
 {"in":"もうインフルが流行る季節か","out":"Nothing"}
 {"in":"蜂の密が花粉症に良いっていうのは本当だろうか。","out":"Nothing"}
 {"in":"翻訳が必要だと言われて今その真っ最中なんだけど、きつい作業で頭痛がする。","out":"Nothing"}
-{"in":"鼻水出るけど熱は微妙だなぁ","out":"FeverRunnynose"}
-{"in":"風邪のせいか頭痛するし身体がだるい。早く帰りたいわ。","out":"HeadacheCold"}
+{"in":"鼻水出るけど熱は微妙だなぁ","out":"Fever Runnynose"}
+{"in":"風邪のせいか頭痛するし身体がだるい。早く帰りたいわ。","out":"Headache Cold"}
 {"in":"鼻づまりのせいで、着信に出たのに間違い電話だと思われたんだけど。","out":"Runnynose"}
 {"in":"風邪が一発で治る新薬を開発してほしい。病気がちな私には有難いんだけど。","out":"Nothing"}
 {"in":"最近下痢気味で困る。","out":"Diarrhea"}
 {"in":"初期の風邪で強い解熱剤使うと逆にやばいよ？","out":"Cold"}
 {"in":"インフルエンザを予防するには体調管理が大切だ。","out":"Nothing"}
-{"in":"鼻づまりがひどくて頭痛もしてきた","out":"HeadacheRunnynose"}
-{"in":"数日前から高熱に咳もでて死にそう。","out":"CoughFever"}
+{"in":"鼻づまりがひどくて頭痛もしてきた","out":"Headache Runnynose"}
+{"in":"数日前から高熱に咳もでて死にそう。","out":"Cough Fever"}
 {"in":"風邪で体がだるくてぼーっとする。","out":"Cold"}
-{"in":"俺って昔から花粉症やらアトピーやら色々弱点多すぎる。処方される薬も山のようだし。","out":"HayfeverRunnynose"}
+{"in":"俺って昔から花粉症やらアトピーやら色々弱点多すぎる。処方される薬も山のようだし。","out":"Hayfever Runnynose"}
 {"in":"熱が最近頻繁に出てるけど、感染してるんかな。","out":"Fever"}
 {"in":"巫女さんのバイトやったら熱でちゃったし","out":"Fever"}
 {"in":"ぼーっとしています。だるくしています。寒気がしています。これって風邪？","out":"Cold"}
-{"in":"季節の変わり目に急に涼しくなったから、風邪をひいて熱を出してしまった。","out":"FeverCold"}
+{"in":"季節の変わり目に急に涼しくなったから、風邪をひいて熱を出してしまった。","out":"Fever Cold"}
 {"in":"また契約書類が追加で必要だってことで、頭痛が止まらないぜ。","out":"Nothing"}
 {"in":"爆笑したら危うく下痢が出るところだった。危なかった。","out":"Diarrhea"}
 {"in":"おたふく風邪に大人になってはじめてひいたけど、これたしかやばいやつなんだよねぇ！","out":"Nothing"}
 {"in":"咳は治まってきたけど腹筋が痛いし疲れた・・・","out":"Cough"}
-{"in":"秋の花粉症は少ないからあんまりわかってもらえなくてつらい。","out":"HayfeverRunnynose"}
+{"in":"秋の花粉症は少ないからあんまりわかってもらえなくてつらい。","out":"Hayfever Runnynose"}
 {"in":"頭痛には風呂がいいんだってほんとかな？","out":"Headache"}
 {"in":"今夜カラオケ行くんだけど鼻づまり解消する良い方法知りませんかね？","out":"Runnynose"}
 {"in":"弟が熱を出しちゃったから看病してる","out":"Fever"}
@@ -1194,22 +1194,22 @@
 {"in":"頭痛の苦痛を薬で直そうとするのはやめようよ。","out":"Headache"}
 {"in":"この時期に風邪にかかるなんて最悪だ","out":"Cold"}
 {"in":"センター試験直前なのに、学校内で風邪が流行るなんて大変だなぁ。","out":"Cold"}
-{"in":"頭痛で、頭がぼーっとする。体のだるさと寒気も。完全に風邪だ。","out":"HeadacheCold"}
-{"in":"まさか花粉症で微熱まで出るとは","out":"HayfeverFeverRunnynose"}
+{"in":"頭痛で、頭がぼーっとする。体のだるさと寒気も。完全に風邪だ。","out":"Headache Cold"}
+{"in":"まさか花粉症で微熱まで出るとは","out":"Hayfever Fever Runnynose"}
 {"in":"風邪から復活！体調完璧だ！","out":"Nothing"}
 {"in":"わざとらしい咳をするなよ","out":"Cough"}
 {"in":"昨日から痰が出てテンションが下がる。","out":"Cough"}
 {"in":"インフルエンザの季節になりました。フォロワーの皆さんはワクチンを打つのを忘れないように！","out":"Nothing"}
 {"in":"インフルエンザのワクチンは打ったほうが良いのかな？","out":"Nothing"}
 {"in":"痰がひどくて胸にからまる・・・","out":"Cough"}
-{"in":"やばい今日風邪引いたかも、鼻水止まらない。","out":"RunnynoseCold"}
-{"in":"誰かー、花粉症の良い療法知りませんかー？","out":"HayfeverRunnynose"}
+{"in":"やばい今日風邪引いたかも、鼻水止まらない。","out":"Runnynose Cold"}
+{"in":"誰かー、花粉症の良い療法知りませんかー？","out":"Hayfever Runnynose"}
 {"in":"寒気するし朝から眠いし風邪っぽい","out":"Cold"}
-{"in":"インフルエンザに友達がかかったから、私も検査しにいかなくちゃ。","out":"InfluenzaFever"}
+{"in":"インフルエンザに友達がかかったから、私も検査しにいかなくちゃ。","out":"Influenza Fever"}
 {"in":"春に風が強く吹くと、花粉症もちの自分としてはなんか嫌な感じがする。","out":"Nothing"}
 {"in":"熱が流行ってるってテレビでやってたね","out":"Nothing"}
 {"in":"東京には熱がこもりやすいから節電しちゃだめ！","out":"Nothing"}
-{"in":"花粉症に苦しんでるから、毎年対策を練りに練ってるんだけど今年も負け戦みたい。","out":"HayfeverRunnynose"}
+{"in":"花粉症に苦しんでるから、毎年対策を練りに練ってるんだけど今年も負け戦みたい。","out":"Hayfever Runnynose"}
 {"in":"最近朝起きた時の頭痛が辛い。","out":"Headache"}
 {"in":"昨日寒いところにずっといたせいか今日は朝から下痢でつらい。","out":"Diarrhea"}
 {"in":"頭痛だが強力な薬を飲みマスクもきつく装着完了し俺はデート行きます。","out":"Headache"}
@@ -1228,10 +1228,10 @@
 {"in":"いい翻訳ができないことが頭痛の種だ。","out":"Nothing"}
 {"in":"涼しいところに移動して熱を冷まそうよ。","out":"Nothing"}
 {"in":"ブログで風邪を引いたことを報告したら、たくさんのコメントを貰えてうれしいです！","out":"Cold"}
-{"in":"花粉症が再発したっぽい。","out":"HayfeverRunnynose"}
-{"in":"昨晩から、インフルエンザで高熱です。","out":"InfluenzaFever"}
+{"in":"花粉症が再発したっぽい。","out":"Hayfever Runnynose"}
+{"in":"昨晩から、インフルエンザで高熱です。","out":"Influenza Fever"}
 {"in":"下痢を思い出すだけでもう嫌だ。","out":"Nothing"}
-{"in":"鼻水が止まらない！頭も痛い！学校休みたいよ！","out":"HeadacheRunnynose"}
+{"in":"鼻水が止まらない！頭も痛い！学校休みたいよ！","out":"Headache Runnynose"}
 {"in":"風邪のため、今は気分、最悪だ。","out":"Cold"}
 {"in":"痰にひどい血が混じっている。","out":"Cough"}
 {"in":"昨年ネパールに旅行したときは、知らずに水道水を直接飲んだせいでめっちゃ下痢になったな。今思い出すと笑いがこみ上げてくる。","out":"Nothing"}
@@ -1239,7 +1239,7 @@
 {"in":"頭痛ひどいから今日こそ早く帰る！","out":"Headache"}
 {"in":"おたふく風邪まだやってないけど、大丈夫なのかな？","out":"Nothing"}
 {"in":"風邪引いたからブログお休みします。","out":"Cold"}
-{"in":"鼻水がすごいんだけど、早くも花粉症かも。","out":"HayfeverRunnynose"}
+{"in":"鼻水がすごいんだけど、早くも花粉症かも。","out":"Hayfever Runnynose"}
 {"in":"犬が風邪ひいたみたいで鼻水垂らしてる・・・","out":"Nothing"}
 {"in":"まさか中国で花粉症になるとは思わなかったな。","out":"Nothing"}
 {"in":"風邪を治すのに役立つブログってどれですか。","out":"Cold"}
@@ -1251,26 +1251,26 @@
 {"in":"花粉症への効果ってあるのかな。","out":"Nothing"}
 {"in":"娘が熱出して、見事私ももらってしまいました。","out":"Fever"}
 {"in":"マジだるい、頭痛するし今日はもう帰る。やだやだ","out":"Headache"}
-{"in":"弟が熱あるらしくてずっと鼻水すすってる。うるせー。","out":"FeverRunnynose"}
+{"in":"弟が熱あるらしくてずっと鼻水すすってる。うるせー。","out":"Fever Runnynose"}
 {"in":"熱が出たので娘の幼稚園を休ませる。","out":"Fever"}
-{"in":"兄がインフルエンザにかかってしまった。","out":"InfluenzaFever"}
-{"in":"花粉症で一週間休むなんて久し振りだ。","out":"HayfeverRunnynose"}
+{"in":"兄がインフルエンザにかかってしまった。","out":"Influenza Fever"}
+{"in":"花粉症で一週間休むなんて久し振りだ。","out":"Hayfever Runnynose"}
 {"in":"咳のしすぎで腹筋が鍛えられそう。","out":"Cough"}
 {"in":"頭痛の相手は間違いなく元カレ","out":"Nothing"}
 {"in":"鼻水止まらん、無理だわこれ","out":"Runnynose"}
 {"in":"娘の熱が下がらないから、今日のバーベキューは行けるか微妙","out":"Fever"}
 {"in":"いつの間にかインフルエンザが流行する季節になってしまった。すっかりワクチンを打つのを忘れてた。","out":"Nothing"}
 {"in":"咳が出るからエチケットのためマスク着用。","out":"Cough"}
-{"in":"鼻水が奥にたまって頭が痛くなってきた。","out":"HeadacheRunnynose"}
-{"in":"今年から花粉症になってしまった・・・まさか私が花粉症にかかるなんて・・・ショック！","out":"HayfeverRunnynose"}
+{"in":"鼻水が奥にたまって頭が痛くなってきた。","out":"Headache Runnynose"}
+{"in":"今年から花粉症になってしまった・・・まさか私が花粉症にかかるなんて・・・ショック！","out":"Hayfever Runnynose"}
 {"in":"テレビのニュース見た所によると今年の風邪は熱がまず出るらしいので皆も注意してね。","out":"Nothing"}
-{"in":"インフルになった途端にのどが渇く。","out":"InfluenzaFever"}
+{"in":"インフルになった途端にのどが渇く。","out":"Influenza Fever"}
 {"in":"インフルエンザのワクチンって高くない？もっと安く打てる保険体制にしてよ。","out":"Nothing"}
 {"in":"生まれてこのかたおたふく風邪になったことがないから怖い。","out":"Nothing"}
-{"in":"頭痛はひどいし、鼻水は止まらないし、今日は最悪の一日だわ。","out":"HeadacheRunnynose"}
+{"in":"頭痛はひどいし、鼻水は止まらないし、今日は最悪の一日だわ。","out":"Headache Runnynose"}
 {"in":"頭痛、苦痛で衝突交通事故おきちゃったよ。","out":"Headache"}
 {"in":"最近寒いから朝早くお腹痛くて起きちゃうんだけど、今日下痢がひどくてもはや仕事休みたい。","out":"Diarrhea"}
-{"in":"インフルで外出禁止になっちゃった","out":"InfluenzaFever"}
+{"in":"インフルで外出禁止になっちゃった","out":"Influenza Fever"}
 {"in":"丼の大食い大会、次の日下痢した","out":"Nothing"}
 {"in":"来春は花粉症が和らぐといいなあ。","out":"Nothing"}
 {"in":"鼻づまり解消ブログ書いたから読んでくれると嬉しい","out":"Nothing"}
@@ -1281,26 +1281,26 @@
 {"in":"だるいし、頭痛だし、早く帰宅したい。","out":"Headache"}
 {"in":"咳の対策にはうがいが必要だよね。","out":"Nothing"}
 {"in":"頭痛で医師から薬をもらう。","out":"Headache"}
-{"in":"花粉症に効果があると言うものは、全部試したけど。","out":"HayfeverRunnynose"}
+{"in":"花粉症に効果があると言うものは、全部試したけど。","out":"Hayfever Runnynose"}
 {"in":"嫁が熱を出したから仕事休む！","out":"Fever"}
 {"in":"最悪だ、完璧に風邪ひいた。頭ぼーっとしてる。","out":"Cold"}
-{"in":"インフルかかったよし部活サボれる","out":"InfluenzaFever"}
+{"in":"インフルかかったよし部活サボれる","out":"Influenza Fever"}
 {"in":"翻訳の仕事のためヘッドホンを装着して音楽を聴いてたら頭痛がひどい。","out":"Nothing"}
 {"in":"三日くらい放置した肉丼食べたら下痢起こした","out":"Diarrhea"}
 {"in":"スペイン風邪ってどんなの？","out":"Nothing"}
 {"in":"最近、やばい、下痢なんだけど・・・。","out":"Diarrhea"}
 {"in":"鼻づまりがひどくて原稿読むの無理だな・・・","out":"Runnynose"}
 {"in":"風邪で頭がぼーっとして、テスト微妙","out":"Cold"}
-{"in":"熱だけでなく鼻水も出てきたよ","out":"FeverRunnynose"}
+{"in":"熱だけでなく鼻水も出てきたよ","out":"Fever Runnynose"}
 {"in":"犬の鼻水写真なんて、大好きすぎて耐えるの無理だ。","out":"Nothing"}
 {"in":"毒性の強い魚を食べてひどく下痢をした。","out":"Diarrhea"}
-{"in":"最近平気だったんだけど今年は花粉症再発してる。擦って目が痛くなるまでひどいの久し振りだー。","out":"HayfeverRunnynose"}
+{"in":"最近平気だったんだけど今年は花粉症再発してる。擦って目が痛くなるまでひどいの久し振りだー。","out":"Hayfever Runnynose"}
 {"in":"集団食中毒で下痢になったー。","out":"Diarrhea"}
 {"in":"お腹を冷やして下痢になった。","out":"Diarrhea"}
 {"in":"さっき頭痛がしたので帰ることにします。","out":"Headache"}
-{"in":"インフルで部活休み。","out":"InfluenzaFever"}
+{"in":"インフルで部活休み。","out":"Influenza Fever"}
 {"in":"長引く頭痛は苦痛以外の何ものでもない","out":"Headache"}
-{"in":"熱と鼻水が出ると完全に風邪になったと思う。","out":"FeverRunnynoseCold"}
+{"in":"熱と鼻水が出ると完全に風邪になったと思う。","out":"Fever Runnynose Cold"}
 {"in":"来春こそ、花粉症対策のために病院で注射をしてもらわなければ。","out":"Nothing"}
 {"in":"病院行って診てもらったら、痰はむしろちゃんと吐いた方がいいっぽい。俺いままでずっと飲んでた・・・","out":"Cough"}
 {"in":"鼻水はさすがにブログにアップできないだろう。","out":"Runnynose"}
@@ -1314,13 +1314,13 @@
 {"in":"今回の風邪、熱出るの遅いな。","out":"Cold"}
 {"in":"兄がインフルエンザになったっぽくて部活休んでるんだけど、昨日は背中痛いって言ってたのに今日は回復して超元気そうー。","out":"Nothing"}
 {"in":"熱があるのに仕事に行かなきゃいけない社畜は辛い。取り敢えず今日を乗り越えたらゆっくり眠れるし、頑張ろう。","out":"Fever"}
-{"in":"インフルっぽい症状だから検査したらばっちりインフルだった。","out":"InfluenzaFever"}
+{"in":"インフルっぽい症状だから検査したらばっちりインフルだった。","out":"Influenza Fever"}
 {"in":"経験したことのない下痢でもう笑うしかない。何か変なもの食べたかな。","out":"Diarrhea"}
-{"in":"高熱のあと、咳が続いて辛さの極み。ついでに血混じりの痰が出る。","out":"CoughFever"}
+{"in":"高熱のあと、咳が続いて辛さの極み。ついでに血混じりの痰が出る。","out":"Cough Fever"}
 {"in":"今年は花粉症患者が例年より少ない気がする。","out":"Nothing"}
 {"in":"ただの下痢だと思ってたら違うみたい。","out":"Diarrhea"}
 {"in":"熱だけど、特に問題なし","out":"Fever"}
-{"in":"咳、のど、風邪に症状！そして、高熱","out":"CoughFeverCold"}
+{"in":"咳、のど、風邪に症状！そして、高熱","out":"Cough Fever Cold"}
 {"in":"ネパールのサッカー選手が下痢の症状を訴えた。","out":"Nothing"}
 {"in":"咳込みすぎて胸が痛い","out":"Cough"}
 {"in":"インフルエンザ予防接種は、事故があるというよ。","out":"Nothing"}
@@ -1330,49 +1330,49 @@
 {"in":"最近疲れると咳がとまらないし、胸も痛い。大丈夫かな？","out":"Cough"}
 {"in":"科学の力で今の俺のわたしの風邪を誰かに移せる技術が開発されないかなあ。","out":"Cold"}
 {"in":"娘の熱が下がらない、リンパも腫れてるし明日も学校休むかな。","out":"Fever"}
-{"in":"花粉症つらすぎ。来春は檜花粉は少ないっていうけど対策はしないと。","out":"HayfeverRunnynose"}
+{"in":"花粉症つらすぎ。来春は檜花粉は少ないっていうけど対策はしないと。","out":"Hayfever Runnynose"}
 {"in":"ネパール人て下痢なる？","out":"Nothing"}
 {"in":"今風邪ひいたら大変だー。","out":"Nothing"}
 {"in":"翻訳してたけど、頭痛をうまく訳せなーい。","out":"Nothing"}
 {"in":"だるい。頭痛する。また寝る。","out":"Headache"}
-{"in":"花粉症再発、こんなつらいの久し振りだ","out":"HayfeverRunnynose"}
+{"in":"花粉症再発、こんなつらいの久し振りだ","out":"Hayfever Runnynose"}
 {"in":"嫁が熱のため今日のお弁当無しです。残念だな","out":"Fever"}
-{"in":"お兄ちゃんがインフルエンザになっちゃった。爆笑。","out":"InfluenzaFever"}
+{"in":"お兄ちゃんがインフルエンザになっちゃった。爆笑。","out":"Influenza Fever"}
 {"in":"風邪でだるいし、今日行けるか微妙だな。","out":"Cold"}
 {"in":"おたふく風邪って相当痛いらしいね。","out":"Nothing"}
 {"in":"からだだるい。本格的に風邪だ。ぼっーとするからあまりツイートできなくてごめんね。","out":"Cold"}
 {"in":"体調が今一だ。これだけ風邪が治らないと参るなあ。病院いくかな。","out":"Cold"}
 {"in":"今日も下痢です仕事行きたくないです","out":"Diarrhea"}
-{"in":"昨晩からインフルで寝込んでる","out":"InfluenzaFever"}
+{"in":"昨晩からインフルで寝込んでる","out":"Influenza Fever"}
 {"in":"昨日から咳が止まらない。","out":"Cough"}
 {"in":"来春は檜の花粉少ないらしいから花粉症も楽かなと思って対策全然してない。","out":"Nothing"}
 {"in":"なぜかクラシックを聴くと頭痛が和らぐんだけど俺だけ？","out":"Headache"}
 {"in":"風邪の時、解熱剤を飲んでよいのか？","out":"Cold"}
 {"in":"犬がでてくる物語が好きすぎて、どうしても感動してしまう。このシーンとか無理だ、鼻水がとまらないよ。","out":"Nothing"}
-{"in":"昨晩熱をはかったときは３６度だったが、今日はかったら３８度で、まだインフル治ってないっぽい。","out":"InfluenzaFever"}
+{"in":"昨晩熱をはかったときは３６度だったが、今日はかったら３８度で、まだインフル治ってないっぽい。","out":"Influenza Fever"}
 {"in":"やばい、鼻水が止まらない。","out":"Runnynose"}
 {"in":"集団で下痢だってさ、怖いわ","out":"Nothing"}
 {"in":"頭痛の症状軽いから大会出ようかな。","out":"Headache"}
 {"in":"大変だ、この強い関節の痛みと怠さは尋常じゃないって言うもんだから、病院に付き添いで行ったらただの風邪だったらしい。君の気まずそうな顔見ると笑っちゃいそう。","out":"Cold"}
 {"in":"だるいし寒気がするし風邪っぽいー","out":"Cold"}
 {"in":"祖母の家で食べた丼が当たって下痢。","out":"Diarrhea"}
-{"in":"まさか私も花粉症デビュー・・・","out":"HayfeverRunnynose"}
+{"in":"まさか私も花粉症デビュー・・・","out":"Hayfever Runnynose"}
 {"in":"君がスペイン行ってる間、俺は風邪ひいてたけどな！","out":"Nothing"}
 {"in":"咳をし過ぎると胸と腹筋の辺りにひどい痛みが出るっぽい。","out":"Cough"}
 {"in":"朝から鼻水が止まる気配がなくて困る。","out":"Runnynose"}
 {"in":"鼻づまり解消する薬求む。","out":"Runnynose"}
 {"in":"英語で下痢ってなんて言うんだろ","out":"Nothing"}
-{"in":"妻が花粉症らしいが、まさか微熱が出る事もあるとは思わなかった。体が過剰反応して疲れてしまうらしい。","out":"HayfeverFeverRunnynose"}
+{"in":"妻が花粉症らしいが、まさか微熱が出る事もあるとは思わなかった。体が過剰反応して疲れてしまうらしい。","out":"Hayfever Fever Runnynose"}
 {"in":"鼻水の問題を何とか解消せねば。","out":"Runnynose"}
 {"in":"風邪でだるいしぼーっとするし最悪","out":"Cold"}
-{"in":"部活でインフルエンザ流行ってるから気をつけなきゃ。","out":"InfluenzaFever"}
-{"in":"くしゃみが止まらない。まさかこれが花粉症？","out":"HayfeverRunnynose"}
+{"in":"部活でインフルエンザ流行ってるから気をつけなきゃ。","out":"Influenza Fever"}
+{"in":"くしゃみが止まらない。まさかこれが花粉症？","out":"Hayfever Runnynose"}
 {"in":"このタイミングで風邪かよー、マジ最悪だな","out":"Cold"}
 {"in":"下痢になっていたことを思い出した。","out":"Nothing"}
 {"in":"こんな激しい頭痛は久し振りだぜ","out":"Headache"}
 {"in":"スペイン風邪とおたふくって、どっちもウイルスが原因らしい。特にスペイン風邪って、強い猛威を奮った病気らしいから、流行したら大変だろうな。","out":"Nothing"}
 {"in":"花粉症対策何がオススメ？","out":"Nothing"}
-{"in":"花粉症の薬を処方してもらった！！","out":"HayfeverRunnynose"}
+{"in":"花粉症の薬を処方してもらった！！","out":"Hayfever Runnynose"}
 {"in":"来春は花粉が少ないみたいだから、花粉症の患者さんは助かるね。","out":"Nothing"}
 {"in":"鼻水垂れてる姿を見られて、嬉しい人はいないだろう","out":"Runnynose"}
 {"in":"朝から頭痛で今日はもうだめです。","out":"Headache"}
@@ -1380,34 +1380,34 @@
 {"in":"咳がひどすぎて頭がぼーっとする。","out":"Cough"}
 {"in":"ずっとお腹がいたいから下痢かもしれない。","out":"Diarrhea"}
 {"in":"やばい、頭痛、早く帰宅して、寝るべし。","out":"Headache"}
-{"in":"妻が風邪っぽいって言ってた心配して病院行ったら花粉症だった、ついに夫婦揃って花粉症デビューか。","out":"HayfeverRunnynoseCold"}
-{"in":"遂に花粉症が再発しちゃったよ。かなり久し振りだなあ。","out":"HayfeverRunnynose"}
+{"in":"妻が風邪っぽいって言ってた心配して病院行ったら花粉症だった、ついに夫婦揃って花粉症デビューか。","out":"Hayfever Runnynose Cold"}
+{"in":"遂に花粉症が再発しちゃったよ。かなり久し振りだなあ。","out":"Hayfever Runnynose"}
 {"in":"熱は下がったけど、咳が止まる気配が一向に無い。","out":"Cough"}
 {"in":"下痢と言えば思い出すエピソードがあるよ。","out":"Nothing"}
 {"in":"直ぐに治る風邪薬、誰か開発して。","out":"Cold"}
 {"in":"犬が鼻水垂らしてて吹いた","out":"Nothing"}
-{"in":"弟のお腹が微妙な熱を持っており、謎すぎる。","out":"DiarrheaFever"}
+{"in":"弟のお腹が微妙な熱を持っており、謎すぎる。","out":"Diarrhea Fever"}
 {"in":"下痢でサッカー休むなんてださいね。","out":"Diarrhea"}
-{"in":"熱もまだ残ってるし鼻水も出続ける。今日も仕事を休むしかないか。","out":"FeverRunnynose"}
-{"in":"僕はいつも咳の症状が出てから高熱が出る","out":"CoughFever"}
+{"in":"熱もまだ残ってるし鼻水も出続ける。今日も仕事を休むしかないか。","out":"Fever Runnynose"}
+{"in":"僕はいつも咳の症状が出てから高熱が出る","out":"Cough Fever"}
 {"in":"風邪のせいで頭がぼーっとしている。","out":"Cold"}
 {"in":"スペイン旅行で風邪をもらってきたっぽい","out":"Cold"}
 {"in":"東京のアスファルトから上がる熱は耐えられない。","out":"Nothing"}
 {"in":"咳がいつ止まるのか不安。","out":"Cough"}
-{"in":"花粉症に悩まされるのも久し振りだ。","out":"HayfeverRunnynose"}
+{"in":"花粉症に悩まされるのも久し振りだ。","out":"Hayfever Runnynose"}
 {"in":"普通咳止め薬を飲むと咳は止まる。でも今回は酷い咳なので、効くかどうかはちょっと微妙だ。","out":"Cough"}
 {"in":"鼻水夜になってやっと止まったよ。","out":"Runnynose"}
 {"in":"風邪の症状も引き、鼻水も止んだ。なんか、いい感じだな。","out":"Nothing"}
 {"in":"今日は涼しいのに、熱のせいか体がめっちゃ熱い。","out":"Fever"}
 {"in":"風邪で頭がぼーっとする。","out":"Cold"}
-{"in":"インフルエンザになって部活が休みになったよー。","out":"InfluenzaFever"}
-{"in":"一番効果がある花粉症対策教えて！","out":"HayfeverRunnynose"}
+{"in":"インフルエンザになって部活が休みになったよー。","out":"Influenza Fever"}
+{"in":"一番効果がある花粉症対策教えて！","out":"Hayfever Runnynose"}
 {"in":"下痢になって去年ネパール行ったの思い出した","out":"Diarrhea"}
 {"in":"咳するときは手でおさえるのがエチケットでしょう。","out":"Cough"}
 {"in":"この熱って感染と関係ないといいけど。","out":"Fever"}
 {"in":"熱が出てるけど、コンペあるからまだ休むわけにはいかない。","out":"Fever"}
 {"in":"ちょっと下痢気味だけど大丈夫だよね？","out":"Diarrhea"}
-{"in":"頭痛もするし、寒気もするし。どうやら風邪ひいたみたい。","out":"HeadacheCold"}
+{"in":"頭痛もするし、寒気もするし。どうやら風邪ひいたみたい。","out":"Headache Cold"}
 {"in":"咳がひどいので疲れる。","out":"Cough"}
 {"in":"ところで頭痛がひどいんですけど誰か助けて","out":"Headache"}
 {"in":"風邪ひいてて解熱剤飲んだんだけど効かねー。","out":"Cold"}
@@ -1416,11 +1416,11 @@
 {"in":"アトピーの療法は花粉症にも効果あるらしいよ","out":"Nothing"}
 {"in":"風邪のひき始めっぽいから休めるうちに休んどこう。","out":"Cold"}
 {"in":"いくら美人でも鼻水とか体液は生理的に無理だ","out":"Nothing"}
-{"in":"熱は下がったけどなかなか咳が治らない。","out":"CoughFever"}
+{"in":"熱は下がったけどなかなか咳が治らない。","out":"Cough Fever"}
 {"in":"携帯使いすぎて熱帯びすぎ・・・やけどしそう。","out":"Nothing"}
 {"in":"ニュースで見たデング熱、怖すぎる","out":"Nothing"}
-{"in":"握手した人がインフルになったんだけど、移るのかな？","out":"InfluenzaFever"}
-{"in":"花粉症で微熱？まじか？","out":"HayfeverFeverRunnynose"}
+{"in":"握手した人がインフルになったんだけど、移るのかな？","out":"Influenza Fever"}
+{"in":"花粉症で微熱？まじか？","out":"Hayfever Fever Runnynose"}
 {"in":"知ってる人少ないかもだけど、秋にも花粉症あるから！","out":"Nothing"}
 {"in":"咳がひどすぎて何もできない。","out":"Cough"}
 {"in":"鳥インフルエンザって、海外から来るらしいよ。","out":"Nothing"}
@@ -1428,12 +1428,12 @@
 {"in":"皆の花粉症対策教えてください。","out":"Nothing"}
 {"in":"この季節、中国では鳥インフルエンザが流行しているらしいね・・・","out":"Nothing"}
 {"in":"大事な会議を控えているのに朝から頭痛だ。","out":"Headache"}
-{"in":"妻が花粉症でつらそう。","out":"HayfeverRunnynose"}
-{"in":"弟から風邪うつされた、熱が出てリンパも腫れた。","out":"FeverCold"}
+{"in":"妻が花粉症でつらそう。","out":"Hayfever Runnynose"}
+{"in":"弟から風邪うつされた、熱が出てリンパも腫れた。","out":"Fever Cold"}
 {"in":"インフルエンザのワクチンなら打ってきた。","out":"Nothing"}
-{"in":"インフルエンザの多さに危機感を感じます。","out":"InfluenzaFever"}
-{"in":"熱でてお腹も痛い。休むわ","out":"DiarrheaFever"}
-{"in":"皆さん、花粉症対策って何をしてます？","out":"HayfeverRunnynose"}
+{"in":"インフルエンザの多さに危機感を感じます。","out":"Influenza Fever"}
+{"in":"熱でてお腹も痛い。休むわ","out":"Diarrhea Fever"}
+{"in":"皆さん、花粉症対策って何をしてます？","out":"Hayfever Runnynose"}
 {"in":"熱が出て首の辺りが腫れてる。","out":"Fever"}
 {"in":"熱あるけどまだ休むかは微妙だ。","out":"Fever"}
 {"in":"インフルが治ってやっと外出できる！","out":"Nothing"}
@@ -1442,20 +1442,20 @@
 {"in":"頭痛のときに仕事をするのはきついから、早めに対策を取っておくことが必要だ。","out":"Headache"}
 {"in":"犬と戯れると毎回鼻づまりになるのをなんとかしたい。","out":"Runnynose"}
 {"in":"道端で痰を吐き出す人が多いけど、ちゃんとエチケットを守って欲しい。","out":"Cough"}
-{"in":"風邪で高熱が出てて咳が止まらん。辛い。","out":"CoughFeverCold"}
-{"in":"花粉症に効果ある酒とかないですかね","out":"HayfeverRunnynose"}
+{"in":"風邪で高熱が出てて咳が止まらん。辛い。","out":"Cough Fever Cold"}
+{"in":"花粉症に効果ある酒とかないですかね","out":"Hayfever Runnynose"}
 {"in":"アトピーの人って花粉症もあるって人が多いらしいね。私は秋もつらいよ。","out":"Nothing"}
 {"in":"祖母が作ったそぼろ丼のせいで下痢になってしまった。","out":"Diarrhea"}
 {"in":"朝起きると頭痛がするし、体がだるい。そのうち激しい節々の痛みが出てきた。これはもしかしたらインフル？結構やばいかも。","out":"Headache"}
 {"in":"下痢の医学用語を教えてください！至急！","out":"Nothing"}
-{"in":"今日は風邪気味や。鼻水止まらん。","out":"RunnynoseCold"}
+{"in":"今日は風邪気味や。鼻水止まらん。","out":"Runnynose Cold"}
 {"in":"寒気すると思ったら完全に風邪ひいたわ。","out":"Cold"}
 {"in":"ニュースで涼しい季節は感染症にかかりやすいって言ってた。いきなり高い熱がでるのがサインらしい。","out":"Nothing"}
 {"in":"こんなに遅い時間なのに、地面が熱を持っている。","out":"Nothing"}
 {"in":"明後日スペイン旅行なのに風邪引いた。やばい！","out":"Cold"}
 {"in":"少ない熱であれば問題ないという勝手な自己判断が正しいのか。","out":"Fever"}
 {"in":"頭痛以外の症状はありません。","out":"Headache"}
-{"in":"誰か花粉症対策を教えて！","out":"HayfeverRunnynose"}
+{"in":"誰か花粉症対策を教えて！","out":"Hayfever Runnynose"}
 {"in":"頭痛がしてたから相手の話ちゃんと聞いてなかった・・・。","out":"Headache"}
 {"in":"一日中涼しい通り越して寒い場所にいたら熱が上がった。","out":"Fever"}
 {"in":"鼻づまりやばい。今日中になんとかならないかな","out":"Runnynose"}
@@ -1466,44 +1466,44 @@
 {"in":"３歳の娘が風邪だが、おたふくじゃないかと不安。","out":"Cold"}
 {"in":"難しい宇宙の話を聞くと頭痛がする。分かりやすい言葉に翻訳してほしい・・・","out":"Nothing"}
 {"in":"鼻水かみすぎて中耳炎だ。","out":"Runnynose"}
-{"in":"今年からまさかの花粉症の仲間入り、よろしくない","out":"HayfeverRunnynose"}
+{"in":"今年からまさかの花粉症の仲間入り、よろしくない","out":"Hayfever Runnynose"}
 {"in":"どうやら鳥インフルエンザが流行っているらしい。","out":"Nothing"}
-{"in":"鼻風邪くらいなら薬いらねー","out":"RunnynoseCold"}
+{"in":"鼻風邪くらいなら薬いらねー","out":"Runnynose Cold"}
 {"in":"朝頭痛がしてやばかった","out":"Headache"}
 {"in":"わざとらしい咳をしないでほしいな。","out":"Cough"}
 {"in":"咳き込み過ぎて腹筋痛い。","out":"Cough"}
 {"in":"相手が話が通じない人で同じこと３回くらい繰り返しても全然理解してくれないし、本当に頭痛がした。あんな宇宙人みたいな人いるんだね","out":"Nothing"}
-{"in":"花粉症対策、マスクと眼鏡だけは必ずやってる。","out":"HayfeverRunnynose"}
+{"in":"花粉症対策、マスクと眼鏡だけは必ずやってる。","out":"Hayfever Runnynose"}
 {"in":"すごくだるくて頭がぼーっとするのだけれど、風邪だろうか？","out":"Cold"}
-{"in":"風邪だと思ってたら、まさかの花粉症の診断。","out":"HayfeverRunnynoseCold"}
+{"in":"風邪だと思ってたら、まさかの花粉症の診断。","out":"Hayfever Runnynose Cold"}
 {"in":"頭痛がひどいのに大音量で音楽なんて聴くんじゃなかった。","out":"Headache"}
 {"in":"風邪気味なのでとりあえず解熱剤を飲んだ。","out":"Cold"}
-{"in":"だるいし熱っぽい。でも風邪だったら会社休めるかも。","out":"FeverCold"}
+{"in":"だるいし熱っぽい。でも風邪だったら会社休めるかも。","out":"Fever Cold"}
 {"in":"熱が出て会えないから携帯で話そうか？","out":"Fever"}
 {"in":"ちょっと最近下痢気味なんですけど。","out":"Diarrhea"}
 {"in":"熱あるみたいなので涼しいところへ行こう","out":"Fever"}
 {"in":"定期的にくる頭痛。ほんとに苦痛なんだが","out":"Headache"}
-{"in":"あまりにも咳がひどくてわざとらしい咳だと言われたがこちらは高熱で大変なのです。","out":"CoughFever"}
-{"in":"ひどい咳は治まったがまだ頭が痛い。","out":"CoughHeadache"}
+{"in":"あまりにも咳がひどくてわざとらしい咳だと言われたがこちらは高熱で大変なのです。","out":"Cough Fever"}
+{"in":"ひどい咳は治まったがまだ頭が痛い。","out":"Cough Headache"}
 {"in":"頭痛以外は体調いいんだけどなー","out":"Headache"}
-{"in":"秋なのに花粉症がひどいんだけど・・・。","out":"HayfeverRunnynose"}
+{"in":"秋なのに花粉症がひどいんだけど・・・。","out":"Hayfever Runnynose"}
 {"in":"寒気がするのは風邪の初期症状っぽい。","out":"Cold"}
-{"in":"鼻づまりはなんか風邪みたいで頭痛もしてきた。","out":"HeadacheRunnynoseCold"}
+{"in":"鼻づまりはなんか風邪みたいで頭痛もしてきた。","out":"Headache Runnynose Cold"}
 {"in":"以外と頭痛が痛いぞー","out":"Headache"}
 {"in":"熱が４０度まであがってきた。今思うとどこで感染したんだろう？","out":"Fever"}
-{"in":"風邪ひいて頭痛・鼻水・咳をすべて発症した。","out":"CoughHeadacheRunnynoseCold"}
-{"in":"鼻づまりがひどすぎて頭痛がする。","out":"HeadacheRunnynose"}
+{"in":"風邪ひいて頭痛・鼻水・咳をすべて発症した。","out":"Cough Headache Runnynose Cold"}
+{"in":"鼻づまりがひどすぎて頭痛がする。","out":"Headache Runnynose"}
 {"in":"ようやく鼻づまりが解消して嬉しい。","out":"Nothing"}
 {"in":"風邪ひいちゃったから、行けるかどうか微妙だな。","out":"Cold"}
 {"in":"中国ではまだ鳥インフルエンザが猛威を奮ってるらしいし、今が季節だしより一層気をつけないとね。","out":"Nothing"}
 {"in":"風邪は、すべての病気の原因です。","out":"Nothing"}
 {"in":"痰がからみやすいからエチケットとしてティッシュを持ち歩いてるんだけど、消費量が最近多い。","out":"Cough"}
-{"in":"最悪だ。風邪ひいた。寒気と頭痛、だるいし。ぼーっとするし。明日休めるかな。","out":"HeadacheCold"}
+{"in":"最悪だ。風邪ひいた。寒気と頭痛、だるいし。ぼーっとするし。明日休めるかな。","out":"Headache Cold"}
 {"in":"まだ花粉症じゃないけど、いつなるか分からないし対策だけはしておこう。","out":"Nothing"}
 {"in":"最悪だ。まさか今日に限って風邪を引くなんて。","out":"Cold"}
 {"in":"痰がひどいからって薬飲み過ぎるなよ","out":"Cough"}
 {"in":"犬も鼻づまりになるのかな。","out":"Nothing"}
-{"in":"兄ちゃんのせいでインフルうつった。","out":"InfluenzaFever"}
+{"in":"兄ちゃんのせいでインフルうつった。","out":"Influenza Fever"}
 {"in":"花粉症対策の薬や治療法が増えてるけど本当に効くのかな？","out":"Nothing"}
 {"in":"頭痛以外はどこも具合悪いところないのにな。","out":"Headache"}
 {"in":"朝起きるとやばいくらいの激しい頭痛がして、身体もだるい。こんなの久し振りだよ。","out":"Headache"}
@@ -1518,10 +1518,10 @@
 {"in":"昨日見た洋画で出てきた東京のシーン、描写がめちゃくちゃで思わず鼻水吹きだした。あれはさすがに笑いをこらえるのは無理だわ。","out":"Nothing"}
 {"in":"インフルの季節は気をつけねば","out":"Nothing"}
 {"in":"巫女さんを見るとテンションが上がりすぎて熱がでる。","out":"Nothing"}
-{"in":"風邪は治ったはずなのに、鼻水だけまだ出続けてる。これって花粉症？","out":"HayfeverRunnynose"}
+{"in":"風邪は治ったはずなのに、鼻水だけまだ出続けてる。これって花粉症？","out":"Hayfever Runnynose"}
 {"in":"今年はインフルやばいらしいから、ワクチンはしっかりやっとけよー","out":"Nothing"}
 {"in":"まだ熱が下がりません！","out":"Fever"}
-{"in":"病院行ったらインフルエンザだった。咳しすぎて背中が痛いよ。","out":"InfluenzaCoughFever"}
+{"in":"病院行ったらインフルエンザだった。咳しすぎて背中が痛いよ。","out":"Influenza Cough Fever"}
 {"in":"朝から頭痛がやばいから帰宅するわ","out":"Headache"}
 {"in":"昨日から頭痛が酷くなってきている。早退して今夜は早めに寝るか。","out":"Headache"}
 {"in":"熱あるけど夫の弁当つくんなきゃ","out":"Fever"}
@@ -1533,7 +1533,7 @@
 {"in":"下痢が止まらなすぎて爆笑してる。","out":"Diarrhea"}
 {"in":"携帯はケースに入れると熱をもってしまうらしいよ。","out":"Nothing"}
 {"in":"頭痛は突発的に起こるから対策が取りづらくてよりキツイんだよね。","out":"Headache"}
-{"in":"あー昨晩から体調悪いと思ってたらインフルだった、、","out":"InfluenzaFever"}
+{"in":"あー昨晩から体調悪いと思ってたらインフルだった、、","out":"Influenza Fever"}
 {"in":"鼻水が止まる薬がほしい。","out":"Runnynose"}
 {"in":"最近、インフルが流行っているようだ。危機管理をしっかりしよう。","out":"Nothing"}
 {"in":"ニュースで今年は熱を出す人が多いと言ってたね。","out":"Nothing"}
@@ -1543,17 +1543,17 @@
 {"in":"今年一番のひどい咳・痰だなー","out":"Cough"}
 {"in":"君は昨日風邪だと言っていたけど、元気そうな姿をブログにアップしていたよね。","out":"Cold"}
 {"in":"田中君が風邪をひいて何日も学校を休んでいる。普段病気に強い彼なのに珍しいな。","out":"Cold"}
-{"in":"鼻風邪引いた。家に引きこもって本読むわ。","out":"RunnynoseCold"}
+{"in":"鼻風邪引いた。家に引きこもって本読むわ。","out":"Runnynose Cold"}
 {"in":"来春の花粉症はあまりひどくないらしい。","out":"Nothing"}
 {"in":"朝から頭痛がやばいから風呂に入って寝る事にする。","out":"Headache"}
 {"in":"起きると下痢がやばいと思って駆け出したよ、、","out":"Diarrhea"}
-{"in":"咳をしすぎると疲れるし、頭も痛くなってきたっぽいんだよね。全然治まらないし、最悪。","out":"CoughHeadache"}
+{"in":"咳をしすぎると疲れるし、頭も痛くなってきたっぽいんだよね。全然治まらないし、最悪。","out":"Cough Headache"}
 {"in":"インフルにかかるとかなり喉が渇くって言ってた","out":"Nothing"}
 {"in":"ゆとりは咳するときのエチケットも知らないからゆとりだ","out":"Cough"}
 {"in":"だるいし、疲れたし、頭痛もしてて仕事行きたくない。","out":"Headache"}
 {"in":"インフルエンザで手術になることとかあるの？","out":"Nothing"}
 {"in":"朝から頭痛ひどかったのにお風呂はいったら寒気してきた。やばい、寝る。","out":"Headache"}
-{"in":"風邪引いて鼻水止まらん。今日一日のティッシュ使用量まじやばい。","out":"RunnynoseCold"}
+{"in":"風邪引いて鼻水止まらん。今日一日のティッシュ使用量まじやばい。","out":"Runnynose Cold"}
 {"in":"インフルエンザって鳥から感染するのかよ","out":"Nothing"}
 {"in":"この薬は、花粉症に効果があります。","out":"Nothing"}
 {"in":"やたらと咳が出るのは大事だよね。","out":"Cough"}
@@ -1563,9 +1563,9 @@
 {"in":"昨日いっぱい薬飲んだのに、今日も鼻水とまんねえええええ","out":"Runnynose"}
 {"in":"昨日食べた丼に入っていたカキにあたったらしく、祖母が下痢で大変そうです。","out":"Diarrhea"}
 {"in":"軽い頭痛がするので今日は早く寝ます。","out":"Headache"}
-{"in":"遂にわたしも花粉症になってしまった。","out":"HayfeverRunnynose"}
+{"in":"遂にわたしも花粉症になってしまった。","out":"Hayfever Runnynose"}
 {"in":"サッカーの試合中に下痢の症状でたことあったけな。","out":"Nothing"}
-{"in":"妻が花粉症らしくひっきりなしに鼻をかんでいるが、微熱もあるようで風邪だろと諭すも、まさか、と一言。相変わらず強がりだな。","out":"HayfeverFeverRunnynoseCold"}
+{"in":"妻が花粉症らしくひっきりなしに鼻をかんでいるが、微熱もあるようで風邪だろと諭すも、まさか、と一言。相変わらず強がりだな。","out":"Hayfever Fever Runnynose Cold"}
 {"in":"熱出たから今日は休むー","out":"Fever"}
 {"in":"寒いからか最近下痢が酷すぎる。","out":"Diarrhea"}
 {"in":"夜遅くなってだんだん熱上がってきた。","out":"Fever"}
@@ -1573,7 +1573,7 @@
 {"in":"頭痛で本当に仕事するのが苦痛じゃー。","out":"Headache"}
 {"in":"花粉症に来春には植物に近づかないようにしよう。","out":"Nothing"}
 {"in":"まだ熱が下がらないから今日も仕事休むわ。","out":"Fever"}
-{"in":"早くも花粉症シーズンかあ、頼む、過ぎ去れー","out":"HayfeverRunnynose"}
+{"in":"早くも花粉症シーズンかあ、頼む、過ぎ去れー","out":"Hayfever Runnynose"}
 {"in":"花粉症って秋の方がつらい気がする。","out":"Nothing"}
 {"in":"仕事中もずっと下痢で、ちょっとのつもりが十分以上もトイレに篭っちゃったし。","out":"Diarrhea"}
 {"in":"おたふく風邪って大変なの？大人がかかった場合。どうぞどなたか教えてください。","out":"Nothing"}
@@ -1585,48 +1585,48 @@
 {"in":"インフルのワクチン打ったよ","out":"Nothing"}
 {"in":"遂に花粉症の季節がやってきた","out":"Nothing"}
 {"in":"ただの風邪かと思っていたらおたふくだった！","out":"Nothing"}
-{"in":"鼻水が止まらなくてお腹も調子が悪い。これで熱も出てきたら週末の旅行は行けるのか微妙だ。","out":"DiarrheaRunnynose"}
+{"in":"鼻水が止まらなくてお腹も調子が悪い。これで熱も出てきたら週末の旅行は行けるのか微妙だ。","out":"Diarrhea Runnynose"}
 {"in":"咳のしすぎで腹筋割れそう。疲れる。","out":"Cough"}
 {"in":"頭痛対策にちゃんと薬飲もう。","out":"Headache"}
-{"in":"早くも花粉症の症状が！","out":"HayfeverRunnynose"}
-{"in":"弟が、鼻水ひどくて熱出てお腹痛いっていうから風邪かと思ったら、発疹が出てきた。謎だ。","out":"DiarrheaFeverRunnynoseCold"}
+{"in":"早くも花粉症の症状が！","out":"Hayfever Runnynose"}
+{"in":"弟が、鼻水ひどくて熱出てお腹痛いっていうから風邪かと思ったら、発疹が出てきた。謎だ。","out":"Diarrhea Fever Runnynose Cold"}
 {"in":"頭痛かなりやばい。とりあえず寝るおやすみ。","out":"Headache"}
 {"in":"感動的な犬ブログを読んでしまい、涙と鼻水が止まらない。","out":"Nothing"}
 {"in":"ブログに鼻水ひどいって書いてあった。","out":"Nothing"}
-{"in":"インフルにかかった奴にお土産渡す","out":"InfluenzaFever"}
+{"in":"インフルにかかった奴にお土産渡す","out":"Influenza Fever"}
 {"in":"携帯を触ったらびっくりするほど熱もってて、焦った。","out":"Nothing"}
-{"in":"弟は、鼻水に熱。嫁は熱とお腹くだし。最悪だ！","out":"DiarrheaFeverRunnynose"}
+{"in":"弟は、鼻水に熱。嫁は熱とお腹くだし。最悪だ！","out":"Diarrhea Fever Runnynose"}
 {"in":"一日中頭痛がひどくてきつい","out":"Headache"}
-{"in":"早くも花粉症にやられて本当に疲れる。","out":"HayfeverRunnynose"}
+{"in":"早くも花粉症にやられて本当に疲れる。","out":"Hayfever Runnynose"}
 {"in":"犬と戯れてたら鼻水が出てきたぜ","out":"Runnynose"}
 {"in":"友達はワクチン注射をしたのにインフルエンザにかかったらしい。","out":"Fever"}
 {"in":"朝起きるとお腹痛くてトイレ行ったら下痢だった","out":"Diarrhea"}
 {"in":"来春は檜花粉が多いらしい。花粉症には辛いなー。","out":"Nothing"}
 {"in":"やばいお腹痛い、下痢かも。","out":"Diarrhea"}
-{"in":"今年は早くも花粉症勃発","out":"HayfeverRunnynose"}
+{"in":"今年は早くも花粉症勃発","out":"Hayfever Runnynose"}
 {"in":"隣のやつの咳がわざとらしくてイライラする","out":"Cough"}
-{"in":"インフルで学級閉鎖の危機！テンション上がるわ！","out":"InfluenzaFever"}
-{"in":"花粉症対策でマスク愛用してます。","out":"HayfeverRunnynose"}
+{"in":"インフルで学級閉鎖の危機！テンション上がるわ！","out":"Influenza Fever"}
+{"in":"花粉症対策でマスク愛用してます。","out":"Hayfever Runnynose"}
 {"in":"咳がひど過ぎて腹筋やばい","out":"Cough"}
 {"in":"みんな下痢って、まさか集団食中毒？？","out":"Nothing"}
 {"in":"風邪引いたし会社休めるって発想やばいよな","out":"Cold"}
-{"in":"まさか自分が花粉症になるとは。鼻かみ過ぎて手が疲れる。","out":"HayfeverRunnynose"}
-{"in":"鼻風邪はいまいち治りにくくて長引くからやばい","out":"RunnynoseCold"}
+{"in":"まさか自分が花粉症になるとは。鼻かみ過ぎて手が疲れる。","out":"Hayfever Runnynose"}
+{"in":"鼻風邪はいまいち治りにくくて長引くからやばい","out":"Runnynose Cold"}
 {"in":"風邪の季節だ。強い体で頑張ろう","out":"Nothing"}
-{"in":"部活のメンバー全員で握手会に行く予定だけど、インフルが絶賛蔓延中だから不安だよ。","out":"InfluenzaFever"}
+{"in":"部活のメンバー全員で握手会に行く予定だけど、インフルが絶賛蔓延中だから不安だよ。","out":"Influenza Fever"}
 {"in":"やばい鼻水が止まらない、今日は休む","out":"Runnynose"}
 {"in":"今日は一段と鼻づまりが酷くて息苦しい。ごはんの味がしなくて萎える。","out":"Runnynose"}
 {"in":"またインフルの季節がきた","out":"Nothing"}
 {"in":"鳥インフルってどうなったの？","out":"Nothing"}
-{"in":"風邪を引いたのは今年最初だ。強い解熱ができる薬ないかなぁ。","out":"FeverCold"}
+{"in":"風邪を引いたのは今年最初だ。強い解熱ができる薬ないかなぁ。","out":"Fever Cold"}
 {"in":"軽い頭痛だから、大丈夫っしょ。","out":"Headache"}
-{"in":"鼻風邪によく効く薬って何かありますか。","out":"RunnynoseCold"}
-{"in":"隣に住むゆとり世代の女性が、ブログに咳をして高熱でうなされてる写真を投稿してるよ。","out":"CoughFever"}
+{"in":"鼻風邪によく効く薬って何かありますか。","out":"Runnynose Cold"}
+{"in":"隣に住むゆとり世代の女性が、ブログに咳をして高熱でうなされてる写真を投稿してるよ。","out":"Cough Fever"}
 {"in":"頭痛が一番怖くて、めったにならないので対策を教えてください。","out":"Nothing"}
 {"in":"やばい、お腹が痛いと思ったら下痢だ。","out":"Diarrhea"}
 {"in":"今日は大事な会議なのに風邪とか最悪だ。","out":"Cold"}
 {"in":"掃除したら鼻づまりの薬を飲もう","out":"Runnynose"}
-{"in":"まさか花粉症にかかるとは思わなかったが、耳鼻科で花粉症と診断された。","out":"HayfeverRunnynose"}
+{"in":"まさか花粉症にかかるとは思わなかったが、耳鼻科で花粉症と診断された。","out":"Hayfever Runnynose"}
 {"in":"鼻づまりに苦しんでいる人にとって犬は癒される。","out":"Runnynose"}
 {"in":"嫁は熱があるから弁当を作ってくれない。自分で作るのも微妙だから今日は外食にしようかな。","out":"Fever"}
 {"in":"小説を翻訳してたら頭痛してきた。","out":"Nothing"}
@@ -1634,21 +1634,21 @@
 {"in":"鳥インフルエンザの検査って何分くらいかかるんだろ。","out":"Nothing"}
 {"in":"下痢って英語でなんて言うんだっけ？","out":"Nothing"}
 {"in":"頭痛もちなので対策として薬を持ち歩いている。","out":"Nothing"}
-{"in":"本日病院。久し振りだ。そして落ち込んだ花粉症の診断の結果が出ました。","out":"HayfeverRunnynose"}
+{"in":"本日病院。久し振りだ。そして落ち込んだ花粉症の診断の結果が出ました。","out":"Hayfever Runnynose"}
 {"in":"風邪が治る薬を開発して欲しいよ。","out":"Cold"}
-{"in":"花粉症のお薬処方してもらってきた。飲んだら楽になりますように！","out":"HayfeverRunnynose"}
+{"in":"花粉症のお薬処方してもらってきた。飲んだら楽になりますように！","out":"Hayfever Runnynose"}
 {"in":"鼻づまりがようやく治ってきて嬉しい。","out":"Runnynose"}
 {"in":"朝から下痢。昨日のカツ丼のせいか？","out":"Diarrhea"}
-{"in":"鼻風邪をひいて気分が悪かったが友達から犬の写真付きメールが着信されて嬉しい気分になれた。","out":"RunnynoseCold"}
-{"in":"部活の人インフルエンザ多すぎだよー","out":"InfluenzaFever"}
+{"in":"鼻風邪をひいて気分が悪かったが友達から犬の写真付きメールが着信されて嬉しい気分になれた。","out":"Runnynose Cold"}
+{"in":"部活の人インフルエンザ多すぎだよー","out":"Influenza Fever"}
 {"in":"風邪をひいたけど、これでゆっくり休めるね。","out":"Cold"}
 {"in":"わざとらしい咳する人うるさいからやめてほしいわ","out":"Cough"}
-{"in":"熱と鼻水のダブルパンチでフラフラですー。","out":"FeverRunnynose"}
-{"in":"花粉症に効果のあるお茶とかないかな。","out":"HayfeverRunnynose"}
+{"in":"熱と鼻水のダブルパンチでフラフラですー。","out":"Fever Runnynose"}
+{"in":"花粉症に効果のあるお茶とかないかな。","out":"Hayfever Runnynose"}
 {"in":"朝起きたら下痢だったつらい。","out":"Diarrhea"}
-{"in":"病院でまさかの花粉症と告げられた！喉も痛むし、微熱も続くからただの風邪だと思っていたのに。まさか花粉症とは。","out":"HayfeverCoughFeverRunnynoseCold"}
+{"in":"病院でまさかの花粉症と告げられた！喉も痛むし、微熱も続くからただの風邪だと思っていたのに。まさか花粉症とは。","out":"Hayfever Cough Fever Runnynose Cold"}
 {"in":"鼻水止まらないんだけど薬のみたくないから気合いで頑張ってます。","out":"Runnynose"}
-{"in":"季節性の風邪で熱が引かなくて神社のバイトに行けなくなっちゃった。巫女さんの服着たかった・・・","out":"FeverCold"}
+{"in":"季節性の風邪で熱が引かなくて神社のバイトに行けなくなっちゃった。巫女さんの服着たかった・・・","out":"Fever Cold"}
 {"in":"英語で下痢を何ていうか、考えるだけで笑う。","out":"Nothing"}
 {"in":"雑誌で鼻づまり解消法の記事読んでやってみたけど全然効かなくて吹いた。","out":"Runnynose"}
 {"in":"止まることない鼻水なんか気にしないぜ。","out":"Runnynose"}
@@ -1659,12 +1659,12 @@
 {"in":"わざとらしい咳をする上司って最悪。","out":"Cough"}
 {"in":"感染経路が不明ってニュースでやってたけど怖いなあ。初期は熱だけだそうだ。","out":"Nothing"}
 {"in":"マスクしないでゲホゲホするやつなんなん？咳エチケット守れや。","out":"Cough"}
-{"in":"病院で貰った花粉症処方箋効果ないんだけど","out":"HayfeverRunnynose"}
+{"in":"病院で貰った花粉症処方箋効果ないんだけど","out":"Hayfever Runnynose"}
 {"in":"鼻づまりから解消されてきて徐々に嗅覚が戻ってきた。すっごく嬉しい。","out":"Runnynose"}
-{"in":"インフルワクチン注射したのに","out":"InfluenzaFever"}
-{"in":"風邪つらい。熱が上がってきてるよ。解熱剤が欲しい。","out":"FeverCold"}
+{"in":"インフルワクチン注射したのに","out":"Influenza Fever"}
+{"in":"風邪つらい。熱が上がってきてるよ。解熱剤が欲しい。","out":"Fever Cold"}
 {"in":"来春からは完璧に花粉症対策とるつもり！","out":"Nothing"}
-{"in":"君も私も風邪。解熱剤もない。明日は開発所の会議。病院行きたいけど、科学が発達しても一瞬で治る薬はないからなあ。","out":"FeverCold"}
+{"in":"君も私も風邪。解熱剤もない。明日は開発所の会議。病院行きたいけど、科学が発達しても一瞬で治る薬はないからなあ。","out":"Fever Cold"}
 {"in":"最近のゆとりは咳のエチケットすら知らんのか","out":"Cough"}
 {"in":"咳がひどくて腹筋が痛い。","out":"Cough"}
 {"in":"今日寒い中ずっと外を歩いていたからお腹が冷えて下痢してしまった。","out":"Diarrhea"}
@@ -1674,26 +1674,26 @@
 {"in":"こんなに激しい頭痛は久し振りだ。早く帰りたい。","out":"Headache"}
 {"in":"咳しすぎると疲れるっぽいね。","out":"Cough"}
 {"in":"鼻水やばし。止まる気配なし。","out":"Runnynose"}
-{"in":"風邪のせいで冬なのに花粉症と同じ状態","out":"RunnynoseCold"}
+{"in":"風邪のせいで冬なのに花粉症と同じ状態","out":"Runnynose Cold"}
 {"in":"なんか今日はすごく鼻水がやばい。","out":"Runnynose"}
-{"in":"ここまで花粉症の症状がヒドいのは久し振りだ。","out":"HayfeverRunnynose"}
-{"in":"仕事で謎の着ぐるみ着せられて、熱出るわ、鼻水出るわ、もう最悪。休みたい。","out":"FeverRunnynose"}
+{"in":"ここまで花粉症の症状がヒドいのは久し振りだ。","out":"Hayfever Runnynose"}
+{"in":"仕事で謎の着ぐるみ着せられて、熱出るわ、鼻水出るわ、もう最悪。休みたい。","out":"Fever Runnynose"}
 {"in":"花粉症って対策法たくさんでてるけど結局何が一番効果的なの？","out":"Nothing"}
 {"in":"笑っちゃいけないところで笑ってしまって、咳でごまかしたらわざとらしいと言われた。","out":"Nothing"}
 {"in":"季節の変わり目は毎年熱出してる気がする。","out":"Fever"}
 {"in":"旅先のネパールで下痢になった。","out":"Nothing"}
-{"in":"下手に解熱剤使うと風邪長引くらしいよ","out":"FeverCold"}
+{"in":"下手に解熱剤使うと風邪長引くらしいよ","out":"Fever Cold"}
 {"in":"鼻づまりは写真に写らんしな","out":"Runnynose"}
 {"in":"花粉症対策はしていない、私はまだ花粉症未満。","out":"Nothing"}
-{"in":"間違った花粉症対策してた。","out":"HayfeverRunnynose"}
+{"in":"間違った花粉症対策してた。","out":"Hayfever Runnynose"}
 {"in":"東京に来てから鼻づまりが治った。","out":"Nothing"}
 {"in":"体だるい。バイトの面接前に風邪とは最悪だ。こりゃ参った。","out":"Cold"}
 {"in":"頭痛って頭をきついもので締め付けられる感覚だよね。","out":"Headache"}
 {"in":"鼻づまりによく効く薬知らない？","out":"Runnynose"}
-{"in":"風邪ひいたかな、鼻水が止まらない","out":"RunnynoseCold"}
+{"in":"風邪ひいたかな、鼻水が止まらない","out":"Runnynose Cold"}
 {"in":"インフルエンザの季節だから、体調管理には気をつけないと。","out":"Nothing"}
 {"in":"熱が出て、こりゃインフル感染か。","out":"Fever"}
-{"in":"まさかこの微熱が花粉症のせいだったなんて。","out":"HayfeverFeverRunnynose"}
+{"in":"まさかこの微熱が花粉症のせいだったなんて。","out":"Hayfever Fever Runnynose"}
 {"in":"風邪って病気に入らないよね。","out":"Nothing"}
 {"in":"携帯が熱持ってる。やばいかもしれない。","out":"Nothing"}
 {"in":"熱が出てきたんだけど、もしかしてあの病気に感染したのかな。","out":"Fever"}
@@ -1706,10 +1706,10 @@
 {"in":"弟が熱出してるって聞いて弁当買って見舞いに来てるんだけど、普通にお腹空いたってがっついてて本当に病気だったのか微妙だ。","out":"Fever"}
 {"in":"鼻水が止まらないから本を読むのは一旦やめよう。","out":"Runnynose"}
 {"in":"花粉症対策早くしてくれー","out":"Nothing"}
-{"in":"花粉症とアトピーで辛い。対策考えないと。","out":"HayfeverRunnynose"}
-{"in":"インフルエンザになっちゃった。回復するまで外出できず。","out":"InfluenzaFever"}
+{"in":"花粉症とアトピーで辛い。対策考えないと。","out":"Hayfever Runnynose"}
+{"in":"インフルエンザになっちゃった。回復するまで外出できず。","out":"Influenza Fever"}
 {"in":"激しい頭痛に襲われてやばいからさっき帰宅した。寝る。","out":"Headache"}
-{"in":"花粉症は久し振りだって、ホントかなー","out":"HayfeverRunnynose"}
+{"in":"花粉症は久し振りだって、ホントかなー","out":"Hayfever Runnynose"}
 {"in":"体調管理しなくてもインフル１０年くらいかかってないわ","out":"Nothing"}
 {"in":"本格的に風邪ひいた。","out":"Cold"}
 {"in":"咳や痰が出る時マスクをする事は最低限のエチケットだよね。","out":"Cough"}
@@ -1717,8 +1717,8 @@
 {"in":"いつもと違う牛乳を飲んだら下痢したー","out":"Diarrhea"}
 {"in":"熱があるから眠れるか微妙だ","out":"Fever"}
 {"in":"何時も下痢気味だ。寒いよー","out":"Diarrhea"}
-{"in":"鼻風邪で鼻づまり！誰か解消法教えてくれ。","out":"RunnynoseCold"}
-{"in":"兄が昨晩手術だったのに、インフルで外出できなかったから、手土産の一つも持っていけなかったよ。","out":"InfluenzaFever"}
+{"in":"鼻風邪で鼻づまり！誰か解消法教えてくれ。","out":"Runnynose Cold"}
+{"in":"兄が昨晩手術だったのに、インフルで外出できなかったから、手土産の一つも持っていけなかったよ。","out":"Influenza Fever"}
 {"in":"鳥インフルエンザってこわっ。","out":"Nothing"}
 {"in":"下痢って英語で何て言うの、って祖母に聞いたら爆笑された","out":"Nothing"}
 {"in":"やばい、下痢、トイレはどこ？","out":"Diarrhea"}
@@ -1729,8 +1729,8 @@
 {"in":"もうインフルの季節か。","out":"Nothing"}
 {"in":"こんな激しい頭痛久し振りで、だるいしさっき帰ってきた。","out":"Headache"}
 {"in":"ひどい下痢、毒でも盛られたに違いない","out":"Diarrhea"}
-{"in":"インフルにかかったせいか、やたらと喉が渇く。","out":"InfluenzaFever"}
-{"in":"花粉症に効果があるという療法を試してみる。","out":"HayfeverRunnynose"}
+{"in":"インフルにかかったせいか、やたらと喉が渇く。","out":"Influenza Fever"}
+{"in":"花粉症に効果があるという療法を試してみる。","out":"Hayfever Runnynose"}
 {"in":"インフルエンザ怖いからワクチンうってきたよ。","out":"Nothing"}
 {"in":"鼻づまりが止まる気配なし！やばい。","out":"Runnynose"}
 {"in":"アトピー持ちだけど花粉症ではない、私","out":"Nothing"}
@@ -1741,17 +1741,17 @@
 {"in":"最近下痢で腹が痛い。","out":"Diarrhea"}
 {"in":"下痢って、英語でなんだっけ","out":"Nothing"}
 {"in":"集団で下痢になったことを思い出す。怖い。","out":"Nothing"}
-{"in":"最近平気だった花粉症が再発して、つらい。こんなに症状がキツイのは久し振り。","out":"HayfeverRunnynose"}
+{"in":"最近平気だった花粉症が再発して、つらい。こんなに症状がキツイのは久し振り。","out":"Hayfever Runnynose"}
 {"in":"わざとらしい咳払いして来るおばさんキライー","out":"Cough"}
 {"in":"スペインで風邪が流行っているみたい。","out":"Nothing"}
 {"in":"せっかくの旅行だってのに風邪をひくなんて最悪だ。","out":"Cold"}
 {"in":"インフルエンザが流行る前にワクチンを打ってきた。","out":"Nothing"}
 {"in":"娘が熱出して、仕事に行けない","out":"Fever"}
-{"in":"微熱なんだけど花粉症か風邪か判別し難い。","out":"HayfeverFeverRunnynoseCold"}
-{"in":"あとからわかったけどインフルだった友達と握手しちまった。","out":"InfluenzaFever"}
+{"in":"微熱なんだけど花粉症か風邪か判別し難い。","out":"Hayfever Fever Runnynose Cold"}
+{"in":"あとからわかったけどインフルだった友達と握手しちまった。","out":"Influenza Fever"}
 {"in":"テレビでは感染しても熱はでないって言ってたけど。","out":"Nothing"}
 {"in":"最近お腹が痛くて下痢が続いてる。","out":"Diarrhea"}
-{"in":"なんか鼻風邪ひいたっぽい","out":"RunnynoseCold"}
+{"in":"なんか鼻風邪ひいたっぽい","out":"Runnynose Cold"}
 {"in":"こんな悲しいシーン見て泣かないなんて無理。鼻水止まらない。","out":"Nothing"}
 {"in":"娘が熱を出してリンパも腫れてるとかで、朝から嫁が病院に連れてってるらしい。今日は仕事さっさと終わらせよう。","out":"Fever"}
 {"in":"最近毎朝下痢気味で仕事行く気なし。","out":"Diarrhea"}
@@ -1767,21 +1767,21 @@
 {"in":"朝は頭痛がやばかったけど帰宅して寝たら頭が軽くなったかも・・・","out":"Headache"}
 {"in":"あの子の鼻づまりの声が大好きだ。","out":"Nothing"}
 {"in":"花粉症対策ってあんまり効果ないみたいね。","out":"Nothing"}
-{"in":"医者に処方してもらった薬を飲んだら、花粉症の症状が治まった。","out":"HayfeverRunnynose"}
+{"in":"医者に処方してもらった薬を飲んだら、花粉症の症状が治まった。","out":"Hayfever Runnynose"}
 {"in":"月曜は何時も下痢だわ","out":"Diarrhea"}
 {"in":"眠い、眠い、眠い、眠い、眠い、眠い、眠い、眠い、風邪ひいたことにしようかな","out":"Nothing"}
 {"in":"友人に、風邪ひいて大変だな、って言われたから、クラスで最初にひいたの君じゃないの？、って言ったら逃げられた。笑","out":"Cold"}
 {"in":"鳥インフル、ホントこえぇ","out":"Nothing"}
-{"in":"インフルから回復したら部活復帰しますね。","out":"InfluenzaFever"}
+{"in":"インフルから回復したら部活復帰しますね。","out":"Influenza Fever"}
 {"in":"熱っぽいけど仕事休めない。","out":"Fever"}
 {"in":"なんか鼻づまりで、息が苦しい。","out":"Runnynose"}
 {"in":"痰が止まらないなあ。","out":"Cough"}
 {"in":"人に向かって咳するとかエチケットの観念ないの","out":"Cough"}
 {"in":"熱があるので布団に潜ってずっと携帯みてる。飽きてきた。","out":"Fever"}
-{"in":"花粉症で鼻水がつらい。微熱もあるし。","out":"HayfeverFeverRunnynose"}
+{"in":"花粉症で鼻水がつらい。微熱もあるし。","out":"Hayfever Fever Runnynose"}
 {"in":"腹筋すれば咳は止まるよ。","out":"Cough"}
 {"in":"頭痛がひどすぎてきつい。","out":"Headache"}
-{"in":"風邪で鼻づまりがひどい。","out":"RunnynoseCold"}
+{"in":"風邪で鼻づまりがひどい。","out":"Runnynose Cold"}
 {"in":"祖母が下痢だって言ってトイレから出てこない。トイレ行きたいよ〜","out":"Diarrhea"}
 {"in":"咳や痰が出て、風邪薬で対処していたものの、高熱が出始めたので病院に行ってみたら、全く違う病気と診断された女性のブログを読みました。","out":"Nothing"}
 {"in":"熱下がったけど咳が止まることはなかった。","out":"Cough"}
@@ -1790,25 +1790,25 @@
 {"in":"テストの日に風邪を引いた。最悪だー。","out":"Cold"}
 {"in":"風邪で頭がぼーっとして参った","out":"Cold"}
 {"in":"電車で咳してる人居たんだけど、頑張って抑えるとか、せめて手で口押さえるのがエチケットじゃない？最悪。","out":"Cough"}
-{"in":"インフルが流行って、部活が中止になって、暇だ。","out":"InfluenzaFever"}
+{"in":"インフルが流行って、部活が中止になって、暇だ。","out":"Influenza Fever"}
 {"in":"今年は花粉症の人は少ないようだ。","out":"Nothing"}
 {"in":"ニュースで熱が流行る季節がきたってやってたよ","out":"Nothing"}
 {"in":"風邪は病気に入るの？","out":"Nothing"}
-{"in":"熱もあるし鼻水も出るしつらい。","out":"FeverRunnynose"}
+{"in":"熱もあるし鼻水も出るしつらい。","out":"Fever Runnynose"}
 {"in":"朝、頭痛がしてやばいと思った。","out":"Headache"}
-{"in":"風邪で薬のんだけど、なんか鼻水だけ止まらない。","out":"RunnynoseCold"}
+{"in":"風邪で薬のんだけど、なんか鼻水だけ止まらない。","out":"Runnynose Cold"}
 {"in":"携帯アプリのゲーム熱はどの世代にも起きている。","out":"Nothing"}
-{"in":"最近、体調が今一だとは思ってたんだが、寒気するわだるいわ頭痛いわでこりゃ本格的に風邪だな。","out":"HeadacheCold"}
+{"in":"最近、体調が今一だとは思ってたんだが、寒気するわだるいわ頭痛いわでこりゃ本格的に風邪だな。","out":"Headache Cold"}
 {"in":"鼻づまりがやばすぎて、薬に頼ってしまったよ","out":"Runnynose"}
 {"in":"鼻づまりがひどくてやばい。なんかやんなってきた。","out":"Runnynose"}
 {"in":"頭痛のときはマジきついよ。","out":"Headache"}
-{"in":"インフルエンザの土産はいらないよ","out":"InfluenzaFever"}
+{"in":"インフルエンザの土産はいらないよ","out":"Influenza Fever"}
 {"in":"この季節はインフルの予防接種めんどうだけど行かなきゃ","out":"Nothing"}
 {"in":"今年も鳥インフルエンザがあったのか。","out":"Nothing"}
 {"in":"頭痛対策はおいしいグルメ巡りで解決。","out":"Headache"}
 {"in":"下痢やばい学校間に合わん","out":"Diarrhea"}
 {"in":"今日学校でスペイン風邪のこと習った。","out":"Nothing"}
-{"in":"花粉症、マジ疲れる。鼻かみすぎて痛む。中国の黄砂も来てるんじゃねぇの？","out":"HayfeverRunnynose"}
+{"in":"花粉症、マジ疲れる。鼻かみすぎて痛む。中国の黄砂も来てるんじゃねぇの？","out":"Hayfever Runnynose"}
 {"in":"今年もインフルエンザが流行りだす前にワクチンを打とう。","out":"Nothing"}
 {"in":"最近、寒いとすぐ下痢する。","out":"Diarrhea"}
 {"in":"季節の変わり目には熱が出やすい。","out":"Nothing"}
@@ -1817,10 +1817,10 @@
 {"in":"今日は鼻水がやばいから休むわ。","out":"Runnynose"}
 {"in":"下痢の時にサッカーするとやばい。","out":"Diarrhea"}
 {"in":"頭痛の種は契約が更新してもらえるかどうかだな","out":"Nothing"}
-{"in":"昨日から頭痛でだるいなとおもっていたら、案の定今日風邪をひいた。","out":"HeadacheCold"}
+{"in":"昨日から頭痛でだるいなとおもっていたら、案の定今日風邪をひいた。","out":"Headache Cold"}
 {"in":"熱が出ているうちは、まだ仕事休んだらいいのに","out":"Fever"}
-{"in":"インフルにかかった。爆笑。","out":"InfluenzaFever"}
-{"in":"病院で花粉症に効果がある薬を処方してもらった。","out":"HayfeverRunnynose"}
+{"in":"インフルにかかった。爆笑。","out":"Influenza Fever"}
+{"in":"病院で花粉症に効果がある薬を処方してもらった。","out":"Hayfever Runnynose"}
 {"in":"鼻水止まらない、仕事無理だ。","out":"Runnynose"}
 {"in":"来春の花粉症少ない見通しだって！助かる！","out":"Nothing"}
 {"in":"痰が止まるとすっごい楽になる。","out":"Nothing"}
@@ -1829,23 +1829,23 @@
 {"in":"英語で下痢って何ていうんだっけ。誰か言ってた気がするんだけど思い出せない。","out":"Nothing"}
 {"in":"インフルの季節だね〜、ワクチン打たなきゃ","out":"Nothing"}
 {"in":"花粉症は大量のティッシュを使う","out":"Nothing"}
-{"in":"風邪引いて病院行こうと思ったけど、時間ないから、解熱剤飲んで様子見る。","out":"FeverCold"}
-{"in":"微熱が続くから病院行ったら、ただの花粉症しかないって言われた","out":"HayfeverFeverRunnynose"}
+{"in":"風邪引いて病院行こうと思ったけど、時間ないから、解熱剤飲んで様子見る。","out":"Fever Cold"}
+{"in":"微熱が続くから病院行ったら、ただの花粉症しかないって言われた","out":"Hayfever Fever Runnynose"}
 {"in":"インフルのワクチン打ってきた！","out":"Nothing"}
-{"in":"インフル蔓延しすぎてるから今日は部活お休みだって〜。不満。","out":"InfluenzaFever"}
+{"in":"インフル蔓延しすぎてるから今日は部活お休みだって〜。不満。","out":"Influenza Fever"}
 {"in":"旅先で祖母に下痢の症状があり、薬局で英語が通じなかったのもいい思い出だ。","out":"Nothing"}
 {"in":"高熱出てうなされていた昨夜。咳も止まらないよ。","out":"Cough"}
 {"in":"せっかく東京に来たんだが鼻水がひどくてふらふらする、無念。","out":"Runnynose"}
 {"in":"熱こじらせた。さっきテレビのニュースで厚労省が言ってたやばいウイルスに感染したかも。","out":"Fever"}
-{"in":"鼻風邪は犬も食わないってさ。","out":"RunnynoseCold"}
+{"in":"鼻風邪は犬も食わないってさ。","out":"Runnynose Cold"}
 {"in":"弁当の熱がだいぶありびっくりしたよ。","out":"Nothing"}
 {"in":"鼻水とか鼻血とか他人の体液に触れるのは生理的に無理だな。","out":"Nothing"}
 {"in":"今日は鼻水に加え鼻づまりにもなった。どうしても口呼吸になって口が乾いてやばい。明日は大切な会議があって休むわけにはいかない。やばい、やばい。","out":"Runnynose"}
-{"in":"頭痛がするし熱っぽいしだるいし風邪をひいたらしい。","out":"HeadacheFeverCold"}
-{"in":"咳がひどいけど熱が下がったっぽくてよかった。","out":"CoughFever"}
+{"in":"頭痛がするし熱っぽいしだるいし風邪をひいたらしい。","out":"Headache Fever Cold"}
+{"in":"咳がひどいけど熱が下がったっぽくてよかった。","out":"Cough Fever"}
 {"in":"ところで契約書の翻訳作業はどうなったんだろう。きついスケジュールだから頭痛が酷いらしい。相手に聞いてみるわ。","out":"Headache"}
 {"in":"この寒気、本格的に風邪だ","out":"Cold"}
-{"in":"花粉症のせいで常にしんどい。ぼーっとして先輩の名前を間違えるという失態を犯してしまった。","out":"HayfeverRunnynose"}
+{"in":"花粉症のせいで常にしんどい。ぼーっとして先輩の名前を間違えるという失態を犯してしまった。","out":"Hayfever Runnynose"}
 {"in":"鼻水が出すぎて、止まるのかどうか不安になるよ。","out":"Runnynose"}
 {"in":"下痢だが体力をつけるために食う。","out":"Diarrhea"}
 {"in":"何時も元気なのに朝から下痢でお腹痛いし具合悪い。","out":"Diarrhea"}
@@ -1854,7 +1854,7 @@
 {"in":"水の様な鼻水が止まらない。やばい学校休む。","out":"Runnynose"}
 {"in":"咳が止まらないので、手洗いをわざとらしいくらいにやってみた。","out":"Cough"}
 {"in":"牛丼食べてから下痢が止まらん。","out":"Diarrhea"}
-{"in":"熱は下がったけど咳が止まらない。","out":"CoughFever"}
+{"in":"熱は下がったけど咳が止まらない。","out":"Cough Fever"}
 {"in":"鎮痛剤も効かないレベルの頭痛に悩まされている。きつい・・・。","out":"Headache"}
 {"in":"熱が出たからインフルに感染してるかも","out":"Fever"}
 {"in":"咳がやっと止まってきたよー。よかった","out":"Cough"}
@@ -1863,7 +1863,7 @@
 {"in":"中国で鳥インフルエンザが確認されたとさっきテレビで言ってたよ。","out":"Nothing"}
 {"in":"ところで頭痛に効く何か良薬知ってる？","out":"Headache"}
 {"in":"ちょっとお腹痛いとおもったら、やっぱり下痢になった。","out":"Diarrhea"}
-{"in":"熱があるみたい。鼻水も止まらない。","out":"FeverRunnynose"}
+{"in":"熱があるみたい。鼻水も止まらない。","out":"Fever Runnynose"}
 {"in":"花粉症患者にはつらい季節がやって参りました","out":"Nothing"}
 {"in":"絶対使わない英語１００選、みたいな本で下痢が書かれてたんだけど、なんて言うんだか忘れてめっちゃ気になる！","out":"Nothing"}
 {"in":"朝から問題発生しています。娘が熱あるけどまだあきらめないよ、お母さんは。","out":"Fever"}
@@ -1871,20 +1871,20 @@
 {"in":"最悪だ！だるいし寒気するし風邪引いたっぽい。","out":"Cold"}
 {"in":"朝から頭痛がしてやばい。もう少し、寝る。","out":"Headache"}
 {"in":"鼻水が止まるのが先か電車が運転再開するのが先か。","out":"Runnynose"}
-{"in":"妻が微熱と花粉症でぐったり気味。","out":"HayfeverFeverRunnynose"}
+{"in":"妻が微熱と花粉症でぐったり気味。","out":"Hayfever Fever Runnynose"}
 {"in":"スペイン風邪のような感染症が再来したら大変だよね。","out":"Nothing"}
-{"in":"まさかの花粉症再発。","out":"HayfeverRunnynose"}
+{"in":"まさかの花粉症再発。","out":"Hayfever Runnynose"}
 {"in":"今年は花粉症の対策をしないぞ","out":"Nothing"}
 {"in":"やばい、朝から下痢。お腹痛い。","out":"Diarrhea"}
 {"in":"本格的に風邪を引いたようなので、身体を休めます","out":"Cold"}
-{"in":"鼻風邪が酷すぎるから今日は会社休む。","out":"RunnynoseCold"}
-{"in":"インフルエンザっていつ回復すんの？","out":"InfluenzaFever"}
+{"in":"鼻風邪が酷すぎるから今日は会社休む。","out":"Runnynose Cold"}
+{"in":"インフルエンザっていつ回復すんの？","out":"Influenza Fever"}
 {"in":"ネパールに旅行した時の下痢の酷さは未だに思い出す。","out":"Nothing"}
 {"in":"熱くらいで休むとみんなになんか言われるからなあ。","out":"Fever"}
-{"in":"喉の炎症は薬でなんとかなったけど、まだ鼻水が止まらないし、頭も痛いから今日も休むわ","out":"CoughHeadacheRunnynose"}
+{"in":"喉の炎症は薬でなんとかなったけど、まだ鼻水が止まらないし、頭も痛いから今日も休むわ","out":"Cough Headache Runnynose"}
 {"in":"インフルエンザが流行る季節が来た","out":"Nothing"}
-{"in":"最悪だよ、すごい頭痛だよ、完璧に本格的な風邪だなこりゃ。","out":"HeadacheCold"}
-{"in":"くしゃみ、鼻水、鼻づまり、目の痒み、まさか花粉症じゃないよね？","out":"HayfeverRunnynose"}
+{"in":"最悪だよ、すごい頭痛だよ、完璧に本格的な風邪だなこりゃ。","out":"Headache Cold"}
+{"in":"くしゃみ、鼻水、鼻づまり、目の痒み、まさか花粉症じゃないよね？","out":"Hayfever Runnynose"}
 {"in":"喉が異常に渇くと思ったらインフルエンザにかかっていた件。早めに病院行ってよかった。","out":"Fever"}
 {"in":"ネパールに旅行に行った時、水が合わなかったのか一晩下痢が続いて大変だった。","out":"Nothing"}
 {"in":"花粉症対策にはマスクが一番です。","out":"Nothing"}
@@ -1893,7 +1893,7 @@
 {"in":"下痢だしお腹痛いけど仕事に行けるかなあ。","out":"Diarrhea"}
 {"in":"鼻水を止める薬を飲んだら眠くてやばい。","out":"Runnynose"}
 {"in":"この前会社で集団下痢事件があったんだけど。怖すぎ。","out":"Nothing"}
-{"in":"誰か鼻風邪の薬持ってない？","out":"RunnynoseCold"}
+{"in":"誰か鼻風邪の薬持ってない？","out":"Runnynose Cold"}
 {"in":"頭痛対策まだわからない！","out":"Headache"}
 {"in":"咳をするとき口元を抑えるのはエチケットだよね。","out":"Cough"}
 {"in":"頭痛が激しいから、今日はもう帰ることにした。","out":"Headache"}
@@ -1909,7 +1909,7 @@
 {"in":"もう既にインフルエンザワクチンが不足してるらしい。","out":"Nothing"}
 {"in":"電車で隣に座ってる人、手で抑えず痰が絡むような咳をしてる。迷惑。","out":"Cough"}
 {"in":"英語で下痢は何て言うか知ってる？","out":"Nothing"}
-{"in":"花粉症で鼻水が止まらなくて鼻かみすぎて鼻が痛い。","out":"HayfeverRunnynose"}
+{"in":"花粉症で鼻水が止まらなくて鼻かみすぎて鼻が痛い。","out":"Hayfever Runnynose"}
 {"in":"寒気がすごいんだけどこれって風邪ですかね？","out":"Cold"}
 {"in":"女性が痰をはいている姿は見たくないなあ。","out":"Cough"}
 {"in":"まとめブログ読んでたけど、犬も鼻風邪引くんだな。写真載ってた。","out":"Nothing"}
